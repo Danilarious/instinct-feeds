@@ -31,3 +31,11 @@ The hub is a curated snapshot. It does not fetch news automatically, run trading
 - Resources: deeper project references, JSON archive and RSS.
 
 Direct links: `#feed`, `#projects`, `#timeline`, `#resources`.
+
+## Chapter 02: AI & The Creator Economy
+
+`creators.html` is the chapter's page, linked from the original hub. `creators.json` holds its notes, repository snapshots, video features and source directory. This keeps the chapter-01 feed and project filters unchanged. The build includes both chapters' dated notes in RSS. Undated videos stay outside chronological RSS rather than inventing dates.
+
+For creator updates, preserve stable IDs and archive older entries. Use the source publication date, not today's check date, for dated notes. Identify opinion, vendor claims, reporting and historical material. Repository star and push values come from GitHub metadata and must retain a checked date; they are not a live trend ranking. Software licenses do not establish model, dataset or output rights. Do not install integrations or connect studio assets as part of editorial updates. Run tests/build and inspect desktop and phone before publishing.
+
+This first edition is a curated snapshot. The watchlist names editorial threads, not an automatic monitoring service.
