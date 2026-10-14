@@ -258,6 +258,12 @@
       "lens": "Primary rights source",
       "note": "Follow the actual report status. Official analysis is not the same thing as a final court decision.",
       "url": "https://www.copyright.gov/ai/"
+    },
+    {
+      "name": "Dan Olson / Folding Ideas",
+      "lens": "Critical filmmaker / video",
+      "note": "Long-form criticism of NFTs, digital scarcity and the business narratives surrounding creative technology.",
+      "url": "https://youtu.be/YQ_xWvX1n9g"
     }
   ],
   "features": [
@@ -266,7 +272,16 @@
       "title": "Siddharth Ahuja: Blender MCP and the future of creative tools",
       "summary": "The plugin maker demonstrates agent-controlled 3D scenes and discusses linking Blender, assets and music tools. An excited builder case for lower barriers, with his own warnings about tool confusion and weak 3D understanding.",
       "detail": "Video transcript checked. Publication date not confirmed, so it is not filed as fresh news. Demo speed and quality claims are the speaker's, not independent benchmarks.",
-      "url": "https://www.youtube.com/watch?v=nnktgWtfJHE"
+      "url": "https://www.youtube.com/watch?v=nnktgWtfJHE",
+      "lens": "Creative agents"
+    },
+    {
+      "kind": "Watch / critical opinion / archive",
+      "title": "Dan Olson / Folding Ideas: Line Goes Up - The Problem With NFTs",
+      "summary": "A filmmaker's sustained critique of NFTs, digital ownership and the speculative systems around them. A strong negative blockchain perspective alongside the hub's existing crypto coverage.",
+      "detail": "Video transcript checked. This is an older essay, not a new release or a neutral technical reference. Olson's political and economic conclusions are his argument; inclusion is not endorsement. Exact publication date was not verified in this check.",
+      "url": "https://youtu.be/YQ_xWvX1n9g",
+      "lens": "Rights & labor"
     }
   ]
 }
