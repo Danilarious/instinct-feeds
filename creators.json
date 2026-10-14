@@ -1,0 +1,272 @@
+{
+  "updated": "2026-10-13",
+  "editorial": "A checked collection, not a live trend chart. Dates on notes are publication dates when known; repository metrics are snapshots. Older essays are marked as archive. Inclusion is not endorsement.",
+  "entries": [
+    {
+      "id": "flow-plugins",
+      "date": "2026-10-06",
+      "kind": "Platform update",
+      "lens": "Music & sound",
+      "title": "From a prompt to a DAW plugin",
+      "summary": "Google says Flow Music Spaces can now export custom instruments and effects as VST3/AU plugins. Its example is producer Khris Riddick-Tynes building a tool called No Chaser.",
+      "detail": "Primary vendor announcement, not an independent performance test. This is a useful watch for musicians who want to shape their own tools, not proof that generated plugins are safe or production-ready. Check plugin compatibility, rights and project backups before using client material.",
+      "sources": [
+        {
+          "label": "Google announcement",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/"
+        }
+      ]
+    },
+    {
+      "id": "firefly-audio",
+      "date": "2026-08-20",
+      "kind": "Platform update",
+      "lens": "Music & sound",
+      "title": "Firefly brings music, speech and sound effects into one studio",
+      "summary": "Adobe says its audio tools are broadly available. The creator use case is soundtrack and voice work for short films, brand videos and social content, without moving between several services.",
+      "detail": "Adobe describes the music as universally licensed and commercially safe. Those are vendor claims, not a blanket legal guarantee from this notebook. Read current terms for your actual model, plan, territory and client job. Tubefilter revisited the rollout on October 2; that coverage is not a second launch.",
+      "sources": [
+        {
+          "label": "Adobe announcement",
+          "url": "https://blog.adobe.com/en/publish/2026/08/20/adobe-firefly-expands-its-creative-ai-studio-generate-music-speech-and-sound-effects-in-one-place"
+        },
+        {
+          "label": "Tubefilter follow-up, Oct 2",
+          "url": "https://www.tubefilter.com/2026/10/02/adobe-firefly-ai-sound-features/"
+        }
+      ]
+    },
+    {
+      "id": "crabapple-heist",
+      "date": "2026-04-12",
+      "kind": "Opinion / critical",
+      "lens": "Art & image",
+      "title": "Molly Crabapple: AI as an art heist, not creative liberation",
+      "summary": "The artist and writer argues that generative AI takes from creative labor while concentrating power in technology companies. Her objection is economic, political and artistic, not simply a complaint about image quality.",
+      "detail": "Strongly negative opinion, attributed to Crabapple. The essay's rhetoric and contested claims are not adopted here as settled facts. Read beside the pro-experimentation work below rather than reducing this disagreement to a score for or against AI.",
+      "sources": [
+        {
+          "label": "Crabapple essay, The Guardian",
+          "url": "https://www.theguardian.com/books/2026/apr/12/is-ai-the-greatest-art-heist-in-history"
+        }
+      ]
+    },
+    {
+      "id": "crabapple-organizing",
+      "date": "2025-09-17",
+      "kind": "Reporting / archive",
+      "lens": "Rights & labor",
+      "title": "Artists against the slop machine: the labor argument",
+      "summary": "Hyperallergic reports on Molly Crabapple and Edward Ongweso Jr's workshop about resisting AI adoption. It connects style imitation to lost work, institutional rules and collective action.",
+      "detail": "This is a dated 2025 report, not a newly announced campaign. Statements about the industry's intentions are the speakers' arguments. It supplies the organizing and working-artist perspective that tool launches tend to leave out.",
+      "sources": [
+        {
+          "label": "Aaron Short, Hyperallergic",
+          "url": "https://hyperallergic.com/can-artists-stop-the-ai-slop-machine/"
+        }
+      ]
+    },
+    {
+      "id": "copyright-human",
+      "date": "2025-01-29",
+      "kind": "Official guidance / archive",
+      "lens": "Rights & labor",
+      "title": "Human authorship remains the copyright hinge",
+      "summary": "The U.S. Copyright Office says AI assistance does not automatically bar copyright. Human-authored expression, including creative selection, arrangement or modification, can qualify; prompts alone do not supply sufficient control.",
+      "detail": "U.S. guidance, not advice for every jurisdiction or every work. Copyrightability of an output is separate from permission to train a model or imitate a voice. The Office's current hub lists digital replicas, copyrightability, and a pre-publication training report; do not mistake that last report for a court ruling.",
+      "sources": [
+        {
+          "label": "Copyright Office Part 2 release",
+          "url": "https://copyright.gov/newsnet/2025/1060.html"
+        },
+        {
+          "label": "Current report hub and status",
+          "url": "https://www.copyright.gov/ai/"
+        }
+      ]
+    },
+    {
+      "id": "the-call",
+      "date": "2024-10-04",
+      "kind": "Artist practice / archive",
+      "lens": "Art & image",
+      "title": "Holly Herndon & Mat Dryhurst: build the system as part of the art",
+      "summary": "The Call at Serpentine combined choral work, AI and new ways to think about data and collective governance. It is an artist-led alternative to treating AI as only a prompt-to-image vending machine.",
+      "detail": "Historical exhibition, October 2024 to February 2025, not an event currently open to visit. Herndon and Dryhurst are engaged with the medium while asking who controls the systems and permissions. Their optimism is not blanket approval of every model or business practice.",
+      "sources": [
+        {
+          "label": "Serpentine exhibition record",
+          "url": "https://www.serpentinegalleries.org/whats-on/holly-herndon-mat-dryhurst-the-call/"
+        },
+        {
+          "label": "Artist interview, AnOther",
+          "url": "https://www.anothermag.com/art-photography/15858/art-in-the-age-of-ai-holly-herndon-mat-dryhurst-with-hans-ulrich-obrist"
+        },
+        {
+          "label": "Watch: Serpentine film",
+          "url": "https://www.serpentinegalleries.org/watch/holly-herndon-and-mat-dryhurst-the-call/"
+        }
+      ]
+    },
+    {
+      "id": "nick-cave",
+      "date": "2023-01-16",
+      "kind": "Opinion / critical / archive",
+      "lens": "Music & sound",
+      "title": "Nick Cave: mimicry is not the creative struggle",
+      "summary": "In Red Hand Files #218, Cave rejects a ChatGPT song written in his style. His argument centers on lived experience, vulnerability and the human work of making a song.",
+      "detail": "A foundational 2023 artist response, not a new interview or a technical benchmark. Cave's fierce objection belongs in the record in its own right, not as a token disclaimer beneath a tool recommendation.",
+      "sources": [
+        {
+          "label": "Nick Cave, Red Hand Files #218",
+          "url": "https://www.theredhandfiles.com/chat-gpt-what-do-you-think/"
+        }
+      ]
+    }
+  ],
+  "repos": [
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "stars": 137375,
+      "pushed": "2026-10-14",
+      "checked": "2026-10-13",
+      "license": "GPL-3.0",
+      "lens": "Art & image",
+      "summary": "Reusable image, video and audio workflows built as node graphs. Useful for artists who want repeatable pipelines rather than one-off prompts.",
+      "caveat": "Technical setup and model storage can be substantial. Custom nodes execute third-party code. The code license does not settle model or training-data rights.",
+      "api": "https://api.github.com/repos/Comfy-Org/ComfyUI"
+    },
+    {
+      "name": "invoke-ai/InvokeAI",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "stars": 28622,
+      "pushed": "2026-10-13",
+      "checked": "2026-10-13",
+      "license": "Apache-2.0",
+      "lens": "Art & image",
+      "summary": "A visual-media creative engine with a web interface, canvas and workflows for generating and editing images.",
+      "caveat": "Compare local open-source features with the separate commercial product. Model licenses, hardware and client-data handling need their own review.",
+      "api": "https://api.github.com/repos/invoke-ai/InvokeAI"
+    },
+    {
+      "name": "Acly/krita-ai-diffusion",
+      "url": "https://github.com/Acly/krita-ai-diffusion",
+      "stars": 10713,
+      "pushed": "2026-10-03",
+      "checked": "2026-10-13",
+      "license": "GPL-3.0",
+      "lens": "Art & image",
+      "summary": "AI generation, inpainting and outpainting inside Krita, keeping the painting canvas central to the workflow.",
+      "caveat": "A community plugin, not a promise that every model is cleared for a client brief. Check server configuration and GPU requirements.",
+      "api": "https://api.github.com/repos/Acly/krita-ai-diffusion"
+    },
+    {
+      "name": "ahujasid/mcp-for-blender",
+      "url": "https://github.com/ahujasid/mcp-for-blender",
+      "stars": 30705,
+      "pushed": "2026-10-06",
+      "checked": "2026-10-13",
+      "license": "MIT",
+      "lens": "Creative agents",
+      "summary": "A community MCP bridge that lets an LLM client control Blender, work with scenes and call asset services. Not an official Blender Foundation integration.",
+      "caveat": "Can execute code in Blender. Use a separate test scene and trusted configuration; do not expose private assets or run unfamiliar agent commands blindly.",
+      "api": "https://api.github.com/repos/ahujasid/mcp-for-blender"
+    },
+    {
+      "name": "Stability-AI/stable-audio-tools",
+      "url": "https://github.com/Stability-AI/stable-audio-tools",
+      "stars": 3883,
+      "pushed": "2026-10-09",
+      "checked": "2026-10-13",
+      "license": "MIT",
+      "lens": "Music & sound",
+      "summary": "Code for training and running conditional audio-generation models. A technical starting point for musicians and audio researchers.",
+      "caveat": "MIT applies to this code, not automatically to pretrained weights, datasets or generated recordings. Training and inference are not a no-setup music app.",
+      "api": "https://api.github.com/repos/Stability-AI/stable-audio-tools"
+    },
+    {
+      "name": "9001/copyparty",
+      "url": "https://github.com/9001/copyparty",
+      "stars": 47011,
+      "pushed": "2026-10-09",
+      "checked": "2026-10-13",
+      "license": "MIT",
+      "lens": "Studio systems",
+      "summary": "A portable file server with resumable uploads, media indexing, thumbnails and several file-access protocols. Useful for moving large studio assets.",
+      "caveat": "Not an artist-specific DAM or a backup strategy. Review authentication, exposed folders and network access before putting any client files on it.",
+      "api": "https://api.github.com/repos/9001/copyparty"
+    },
+    {
+      "name": "musescore/MuseScore",
+      "url": "https://github.com/musescore/MuseScore",
+      "stars": 15236,
+      "pushed": "2026-10-13",
+      "checked": "2026-10-13",
+      "license": "NOASSERTION",
+      "lens": "Music & sound",
+      "summary": "Free, open-source music notation software for writing, editing and playing scores. A useful non-generative counterweight in a creator-tech collection.",
+      "caveat": "This is the desktop notation project, not a promise about the terms of the separate score-sharing service. GitHub did not return one simple SPDX license; consult the repository license files.",
+      "api": "https://api.github.com/repos/musescore/MuseScore"
+    }
+  ],
+  "voices": [
+    {
+      "name": "Nick Cave / The Red Hand Files",
+      "lens": "Critical artist voice",
+      "note": "Songwriting, humanity and the limits of imitation. Start with the direct artist response.",
+      "url": "https://www.theredhandfiles.com/chat-gpt-what-do-you-think/"
+    },
+    {
+      "name": "Molly Crabapple",
+      "lens": "Critical artist voice",
+      "note": "Illustration, ownership and creative labor. Her 2026 essay makes the opposition explicit.",
+      "url": "https://www.theguardian.com/books/2026/apr/12/is-ai-the-greatest-art-heist-in-history"
+    },
+    {
+      "name": "Holly Herndon & Mat Dryhurst",
+      "lens": "Artist-led experimentation",
+      "note": "AI as an artistic medium, with permission, collective data and governance inside the work.",
+      "url": "https://www.anothermag.com/art-photography/15858/art-in-the-age-of-ai-holly-herndon-mat-dryhurst-with-hans-ulrich-obrist"
+    },
+    {
+      "name": "Siddharth Ahuja",
+      "lens": "Builder / video",
+      "note": "Creative agent integrations, scene-making and the practical limits of agent tool use.",
+      "url": "https://www.youtube.com/watch?v=nnktgWtfJHE"
+    },
+    {
+      "name": "Hyperallergic",
+      "lens": "Arts reporting",
+      "note": "A place to follow artists, institutions and the labor conflict around creative technology.",
+      "url": "https://hyperallergic.com/can-artists-stop-the-ai-slop-machine/"
+    },
+    {
+      "name": "Tubefilter",
+      "lens": "Creator-platform reporting",
+      "note": "Creator workflows and platform rollouts. Distinguish reported features from vendor promises.",
+      "url": "https://www.tubefilter.com/2026/10/02/adobe-firefly-ai-sound-features/"
+    },
+    {
+      "name": "Serpentine Arts Technologies",
+      "lens": "Institution / film",
+      "note": "Artist-led projects and films that connect technology with cultural and legal questions.",
+      "url": "https://www.serpentinegalleries.org/watch/holly-herndon-and-mat-dryhurst-the-call/"
+    },
+    {
+      "name": "U.S. Copyright Office",
+      "lens": "Primary rights source",
+      "note": "Follow the actual report status. Official analysis is not the same thing as a final court decision.",
+      "url": "https://www.copyright.gov/ai/"
+    }
+  ],
+  "features": [
+    {
+      "kind": "Watch / builder perspective",
+      "title": "Siddharth Ahuja: Blender MCP and the future of creative tools",
+      "summary": "The plugin maker demonstrates agent-controlled 3D scenes and discusses linking Blender, assets and music tools. An excited builder case for lower barriers, with his own warnings about tool confusion and weak 3D understanding.",
+      "detail": "Video transcript checked. Publication date not confirmed, so it is not filed as fresh news. Demo speed and quality claims are the speaker's, not independent benchmarks.",
+      "url": "https://www.youtube.com/watch?v=nnktgWtfJHE"
+    }
+  ]
+}
