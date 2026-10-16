@@ -14,3 +14,7 @@ for(const e of m.entries){assert(!ids.has(e.id),'duplicate chapter id');ids.add(
 for(const page of ['index.html','creators.html','multi-agent.html','agent-town.html']){const h=fs.readFileSync(page,'utf8');assert(h.includes('multi-agent.html'));assert(h.includes('creators.html'));assert(h.includes('index.html'));}
 assert(fs.readFileSync('agent-town.html','utf8').includes('10. Open questions and gaps'));
 console.log('Multi-agent archive schema, chapter navigation and research page pass.');
+
+for(const chapter of [c,m]){assert(Array.isArray(chapter.repoPicks));for(const r of chapter.repoPicks){assert(!ids.has(r.id),'duplicate repo-pick id');ids.add(r.id);for(const f of ['name','summary','why','url'])assert(r[f]);for(const f of ['date','checked'])assert(/^\d{4}-\d{2}-\d{2}$/.test(r[f]));assert(Number.isInteger(r.stars)&&r.stars>=0);assert.equal(new URL(r.url).hostname,'github.com');assert.equal(new URL(r.url).protocol,'https:');}}
+for(const page of ['creators.html','multi-agent.html']){const h=fs.readFileSync(page,'utf8');assert(h.includes('id="open-source"'));assert(h.includes('repo-archive.js'));assert(h.includes('repo-archive.css'));}
+console.log('Dated repo-pick archives and section hooks pass.');
