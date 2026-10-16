@@ -39,3 +39,11 @@ Direct links: `#feed`, `#projects`, `#timeline`, `#resources`.
 For creator updates, preserve stable IDs and archive older entries. Use the source publication date, not today's check date, for dated notes. Identify opinion, vendor claims, reporting and historical material. Repository star and push values come from GitHub metadata and must retain a checked date; they are not a live trend ranking. Software licenses do not establish model, dataset or output rights. Do not install integrations or connect studio assets as part of editorial updates. Run tests/build and inspect desktop and phone before publishing.
 
 This first edition is a curated snapshot. The watchlist names editorial threads, not an automatic monitoring service.
+
+## Chapter 03: Multi-Agent Systems
+
+`multi-agent.html` is the broad chapter landing page. `agent-town.html` is the full reading edition of the October 15, 2026 consolidated Agent Town research report. The report is a dated archive: keep its verification labels, cost assumptions and conflict notes. Its recommendations are not claims that a project has been built. It includes project-specific context at the owner's request.
+
+`multi-agent.json` is the weekly update archive. It starts with no weekly entries, rather than presenting the report's older references as fresh news. Append source-linked records to `entries`; keep stable IDs and history. Each record has `id`, `date` (source publication date), `type` (News, Paper, Repository, Release, Video or Research), `status`, `title`, `summary`, `detail`, and `sources` (`label` plus HTTPS `url`). Set `updated` to the check date. Keep vendor claims, tested results and commentary distinct. Unknown dates are not invented; put undated references into the research archive instead of chronological news. Repository metrics remain dated snapshots, not a trend ranking. Date-sorted updates render automatically and join the combined RSS on build.
+
+Run `npm test && npm run build`, inspect desktop and phone, commit main, then verify the Netlify deployment. Preserve the three chapter links on every page. The hub is static; editorial collection and publication run outside the page. No connected-agent telemetry, private transcripts or live controls are exposed here.
