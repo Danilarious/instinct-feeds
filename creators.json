@@ -1,7 +1,86 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-16",
   "editorial": "A checked collection, not a live trend chart. Dates on notes are publication dates when known; repository metrics are snapshots. Older essays are marked as archive. Inclusion is not endorsement.",
   "entries": [
+    {
+      "id": "bynum-oracle-engine-20261016",
+      "date": "2026-10-16",
+      "kind": "Artist practice / interview",
+      "lens": "Art & image",
+      "title": "Drury Bynum: use your own archive to find the next painting",
+      "summary": "In a BmoreArt interview, painter Drury Bynum describes feeding his older paintings into Midjourney, iterating on recurring figures, and bringing those discoveries back into acrylic painting and collage.",
+      "detail": "A positive, artist-led account of AI as part of a longer studio practice, not a claim that a model replaces painting. His experience and the writer's assessment are attributed, not an independent evaluation of the tool or its training rights. The story contains conflicting dates for a restaurant closure; this note does not rely on that chronology.",
+      "sources": [
+        {
+          "label": "Elizabeth Hazen, BmoreArt interview",
+          "url": "https://bmoreart.com/2026/10/oracle-engine-drury-bynum.html"
+        }
+      ]
+    },
+    {
+      "id": "eleven-instant-soundtracks-20261015",
+      "date": "2026-10-15",
+      "kind": "Platform update / vendor announcement",
+      "lens": "Music & sound",
+      "title": "ElevenLabs adds a soundtrack and separate sound-effect layers to video",
+      "summary": "ElevenLabs says Instant Soundtracks can analyze an uploaded video, generate music and timed sound effects, and leave the effects on separate layers for editing. Existing audio can guide the new score.",
+      "detail": "Announced October 15 for ElevenCreative, ElevenMusic and the Studio API. Useful for short films and social edits where timing still needs human review. Availability and alignment quality are vendor claims, not a hands-on test. No price or blanket commercial-rights claim is made here; check the actual plan, source footage, audio permissions and current terms before uploading client work.",
+      "sources": [
+        {
+          "label": "ElevenLabs launch announcement",
+          "url": "https://elevenlabs.io/blog/introducing-instant-soundtracks"
+        }
+      ]
+    },
+    {
+      "id": "joan-mitchell-ai-statement-20261015",
+      "date": "2026-10-15",
+      "kind": "Official rights-holder statement",
+      "lens": "Rights & labor",
+      "title": "Joan Mitchell Foundation draws a line around artwork, voice and likeness",
+      "summary": "The Foundation says it will not license AI animation or manipulation of Joan Mitchell's artwork or likeness, or AI data mining of her works, name and image. It separately supports artists using AI in their own creative practice.",
+      "detail": "A rights-holder policy, not a new law or court ruling. Its statement includes an express EU text-and-data-mining opt-out. The Foundation's legal assertions are its position, not a finding that every listed use is unlawful in every jurisdiction. The distinction matters for studios: permission to experiment with a tool does not imply permission to animate an artist's archive or clone a voice.",
+      "sources": [
+        {
+          "label": "Foundation statement and opt-out",
+          "url": "https://www.joanmitchellfoundation.org/journal/statement-on-the-use-of-ai"
+        }
+      ]
+    },
+    {
+      "id": "deezer-ai-toggle-announcement-20261013",
+      "date": "2026-10-13",
+      "kind": "Platform update / announced target",
+      "lens": "Music & sound",
+      "title": "Deezer plans a switch to exclude fully AI-generated music from search",
+      "summary": "Deezer announced an optional toggle that would remove fully AI-generated tracks, albums and related artists from search results. The company targets global availability before the end of 2026.",
+      "detail": "An announced feature, not verified as live. Deezer distinguishes fully generated music from limited AI assistance in a human creative process. Its existing recommendation exclusions and tagging are separate from this planned search setting. Detection accuracy was not independently tested here; the announcement is not evidence of a universal ban on AI-assisted musicians.",
+      "sources": [
+        {
+          "label": "Deezer announcement, October 13",
+          "url": "https://newsroom-deezer.com/2026/10/deezer-ai-music-toggle/"
+        },
+        {
+          "label": "TechCrunch reporting, October 14",
+          "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
+        }
+      ]
+    },
+    {
+      "id": "young-guru-creative-ai-20261010",
+      "date": "2026-10-10",
+      "kind": "Opinion / critical / interview",
+      "lens": "Music & sound",
+      "title": "Young Guru: assistive tools are different from making the art for you",
+      "summary": "In an AllHipHop interview, engineer Young Guru rejects creative AI while saying he is not opposed to assistive uses. He connects his criticism to privacy, control, environmental effects and the need for informed regulation.",
+      "detail": "A current, strongly critical creator view, attributed to Guru. His broad claims about intelligence and addiction are opinion, not technical or medical conclusions adopted by this chapter. His distinction between assistance and generation is more useful than treating the interview as opposition to all software.",
+      "sources": [
+        {
+          "label": "Chuck Creekmur, AllHipHop interview",
+          "url": "https://allhiphop.com/features/young-guru-says-creative-ai-has-no-place-in-hip-hop-talks-jay-z-erykah-badu-and-comic-book-culture/"
+        }
+      ]
+    },
     {
       "id": "flow-plugins",
       "date": "2026-10-06",
@@ -128,9 +207,9 @@
     {
       "name": "Comfy-Org/ComfyUI",
       "url": "https://github.com/Comfy-Org/ComfyUI",
-      "stars": 137375,
-      "pushed": "2026-10-14",
-      "checked": "2026-10-13",
+      "stars": 137901,
+      "pushed": "2026-10-16",
+      "checked": "2026-10-16",
       "license": "GPL-3.0",
       "lens": "Art & image",
       "summary": "Reusable image, video and audio workflows built as node graphs. Useful for artists who want repeatable pipelines rather than one-off prompts.",
@@ -140,9 +219,9 @@
     {
       "name": "invoke-ai/InvokeAI",
       "url": "https://github.com/invoke-ai/InvokeAI",
-      "stars": 28622,
-      "pushed": "2026-10-13",
-      "checked": "2026-10-13",
+      "stars": 28688,
+      "pushed": "2026-10-16",
+      "checked": "2026-10-16",
       "license": "Apache-2.0",
       "lens": "Art & image",
       "summary": "A visual-media creative engine with a web interface, canvas and workflows for generating and editing images.",
@@ -152,9 +231,9 @@
     {
       "name": "Acly/krita-ai-diffusion",
       "url": "https://github.com/Acly/krita-ai-diffusion",
-      "stars": 10713,
+      "stars": 10727,
       "pushed": "2026-10-03",
-      "checked": "2026-10-13",
+      "checked": "2026-10-16",
       "license": "GPL-3.0",
       "lens": "Art & image",
       "summary": "AI generation, inpainting and outpainting inside Krita, keeping the painting canvas central to the workflow.",
@@ -164,9 +243,9 @@
     {
       "name": "ahujasid/mcp-for-blender",
       "url": "https://github.com/ahujasid/mcp-for-blender",
-      "stars": 30705,
+      "stars": 31163,
       "pushed": "2026-10-06",
-      "checked": "2026-10-13",
+      "checked": "2026-10-16",
       "license": "MIT",
       "lens": "Creative agents",
       "summary": "A community MCP bridge that lets an LLM client control Blender, work with scenes and call asset services. Not an official Blender Foundation integration.",
@@ -176,9 +255,9 @@
     {
       "name": "Stability-AI/stable-audio-tools",
       "url": "https://github.com/Stability-AI/stable-audio-tools",
-      "stars": 3883,
+      "stars": 3887,
       "pushed": "2026-10-09",
-      "checked": "2026-10-13",
+      "checked": "2026-10-16",
       "license": "MIT",
       "lens": "Music & sound",
       "summary": "Code for training and running conditional audio-generation models. A technical starting point for musicians and audio researchers.",
@@ -188,9 +267,9 @@
     {
       "name": "9001/copyparty",
       "url": "https://github.com/9001/copyparty",
-      "stars": 47011,
-      "pushed": "2026-10-09",
-      "checked": "2026-10-13",
+      "stars": 47055,
+      "pushed": "2026-10-14",
+      "checked": "2026-10-16",
       "license": "MIT",
       "lens": "Studio systems",
       "summary": "A portable file server with resumable uploads, media indexing, thumbnails and several file-access protocols. Useful for moving large studio assets.",
@@ -200,9 +279,9 @@
     {
       "name": "musescore/MuseScore",
       "url": "https://github.com/musescore/MuseScore",
-      "stars": 15236,
-      "pushed": "2026-10-13",
-      "checked": "2026-10-13",
+      "stars": 15254,
+      "pushed": "2026-10-16",
+      "checked": "2026-10-16",
       "license": "NOASSERTION",
       "lens": "Music & sound",
       "summary": "Free, open-source music notation software for writing, editing and playing scores. A useful non-generative counterweight in a creator-tech collection.",
@@ -284,5 +363,42 @@
       "lens": "Rights & labor"
     }
   ],
-  "repoPicks": []
+  "repoPicks": [
+    {
+      "id": "creator-repo-openmontage-20261016",
+      "date": "2026-10-16",
+      "name": "calesthio/OpenMontage",
+      "summary": "An agent-driven video-production toolkit for scripts, narration, footage, captions and rendering.",
+      "stars": 68864,
+      "checked": "2026-10-16",
+      "why": "A reference for connecting the many steps of a short-video workflow, rather than treating video generation as one prompt.",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "label": "Editorial pick / active project, not a new-launch claim",
+      "caveat": "AGPL-3.0 code. Third-party renderers, models, stock media and hosted APIs have separate terms and possible costs. Agents can run code; review in a test workspace."
+    },
+    {
+      "id": "creator-repo-opencreator-20261016",
+      "date": "2026-10-16",
+      "name": "krillinai/OpenCreator",
+      "summary": "A Codex-powered creator workspace for video translation, dubbing, images, video and editing.",
+      "stars": 13449,
+      "checked": "2026-10-16",
+      "why": "Puts visual tools and agent conversation around shared projects, useful for seeing how creative agents can fit an editable workspace.",
+      "url": "https://github.com/krillinai/OpenCreator",
+      "label": "Editorial pick / active project, not a new-launch claim",
+      "caveat": "Apache-2.0 code. Local workspace storage does not mean every configured model runs locally; review provider uploads, API costs and media rights."
+    },
+    {
+      "id": "creator-repo-hyperframes-20261016",
+      "date": "2026-10-16",
+      "name": "heygen-com/hyperframes",
+      "summary": "An HTML/CSS and animation framework that renders compositions into MP4 video.",
+      "stars": 65160,
+      "checked": "2026-10-16",
+      "why": "A code-first route to repeatable titles, motion graphics and product videos that an agent can draft and a creator can inspect.",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "label": "Editorial pick / active project, not a new-launch claim",
+      "caveat": "Apache-2.0 code. Not a generative-video model or a guarantee of finished production quality. Check fonts, music, footage and any connected services separately."
+    }
+  ]
 }
