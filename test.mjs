@@ -7,3 +7,10 @@ assert(c.entries.length>=7);assert(c.repos.length>=7);assert(c.voices.length>=8)
 for(const e of c.entries){assert(!ids.has(e.id));ids.add(e.id);assert(/^\d{4}-\d{2}-\d{2}$/.test(e.date));assert(e.kind&&e.lens&&e.summary&&e.detail);for(const s of e.sources)assert.equal(new URL(s.url).protocol,'https:');}
 for(const r of c.repos){assert(r.stars>1000);assert(r.pushed>='2026-10-01');assert(r.caveat&&r.license);assert.equal(new URL(r.url).hostname,'github.com');}
 console.log('Creator notes, active repositories and source records pass.');
+
+const m=JSON.parse(fs.readFileSync('multi-agent.json','utf8'));
+assert(/^\d{4}-\d{2}-\d{2}$/.test(m.updated));assert(Array.isArray(m.entries));
+for(const e of m.entries){assert(!ids.has(e.id),'duplicate chapter id');ids.add(e.id);assert(/^\d{4}-\d{2}-\d{2}$/.test(e.date));for(const f of ['type','status','title','summary','detail'])assert(e[f]);assert(e.sources.length);for(const s of e.sources)assert.equal(new URL(s.url).protocol,'https:');}
+for(const page of ['index.html','creators.html','multi-agent.html','agent-town.html']){const h=fs.readFileSync(page,'utf8');assert(h.includes('multi-agent.html'));assert(h.includes('creators.html'));assert(h.includes('index.html'));}
+assert(fs.readFileSync('agent-town.html','utf8').includes('10. Open questions and gaps'));
+console.log('Multi-agent archive schema, chapter navigation and research page pass.');
