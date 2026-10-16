@@ -1,5 +1,159 @@
 {
   "updated": "2026-10-15",
   "editorial": "Dated research and source-linked updates on multi-agent systems. Publication dates belong to the source; repository metrics are checked snapshots, not live trending ranks.",
-  "entries": []
+  "entries": [
+    {
+      "id": "mas-seahaven-2026-10-08",
+      "date": "2026-10-08",
+      "type": "Release",
+      "status": "Vendor announcement / open-source framework",
+      "title": "Seahaven: synthetic worlds for agent evaluation",
+      "summary": "Kiln introduces a Python framework for stateful, resettable, parallel environments where agents can use realistic tools without touching production.",
+      "detail": "The vendor describes isolated SQLite-backed worlds, reproducible fixtures and state-change grading for evaluation and reinforcement learning. This is evaluation infrastructure, not a graphical agent town. Its realism and performance claims are not independent test results here.",
+      "sources": [
+        {
+          "label": "Kiln announcement",
+          "url": "https://kiln.tech/blog/introducing_seahaven"
+        },
+        {
+          "label": "Source repository",
+          "url": "https://github.com/Kiln-AI/Seahaven"
+        }
+      ]
+    },
+    {
+      "id": "mas-polarization-2026-10-08",
+      "date": "2026-10-08",
+      "type": "Paper",
+      "status": "Peer-reviewed research / simulation",
+      "title": "LLM social networks can polarize without being told to",
+      "summary": "A Nature Communications paper studies how thousands of language-model agents form social networks and develop polarization through interaction.",
+      "detail": "The study concerns simulated agents under specified models and conditions. It is relevant to social-simulation worlds, but is not proof that these worlds predict human behavior. Read the paper for setup, measurements and limitations.",
+      "sources": [
+        {
+          "label": "Nature Communications paper",
+          "url": "https://www.nature.com/articles/s41467-026-78228-y"
+        }
+      ]
+    },
+    {
+      "id": "mas-agent-canary-2026-10-14",
+      "date": "2026-10-14",
+      "type": "Paper",
+      "status": "Preprint / protocol-risk evaluation",
+      "title": "Agent-Canary-Mas follows protocol risk across long handoffs",
+      "summary": "The preprint evaluates five risk classes across A2A, ANP and BCS using 975 matched malicious-benign task pairs.",
+      "detail": "The authors distinguish local protocol events from downstream effects on tasks and users. Identity, capabilities, routing, content authority and retained-object validity are separate risk classes. Findings apply to the tested implementations and configurations, not every trusted network or agent product.",
+      "sources": [
+        {
+          "label": "arXiv paper",
+          "url": "https://arxiv.org/abs/2610.15529"
+        }
+      ]
+    },
+    {
+      "id": "mas-aip-draft-2026-10-10",
+      "date": "2026-10-10",
+      "type": "Research",
+      "status": "Individual Internet-Draft / not a standard",
+      "title": "AIP proposes verifiable delegation for agent systems",
+      "summary": "Revision 02 of the Agent Identity Protocol draft proposes an identity and delegation layer for AI agent systems.",
+      "detail": "This is an individual Internet-Draft, not an IETF-endorsed protocol or adopted standard. The datatracker explicitly says it has no formal standing in the IETF standards process. It is a proposal to follow, not a deployed interoperability guarantee.",
+      "sources": [
+        {
+          "label": "IETF datatracker and draft",
+          "url": "https://datatracker.ietf.org/doc/draft-prakash-aip/"
+        }
+      ]
+    },
+    {
+      "id": "mas-scion-nightly-2026-10-15",
+      "date": "2026-10-15",
+      "type": "Release",
+      "status": "Nightly pre-release / repository changelog",
+      "title": "Scion keeps shipping agent-team infrastructure",
+      "summary": "Scion's October 15 nightly notes include target-side conduit stream authorization deadlines among continuing agent-orchestration and hub changes.",
+      "detail": "The source is the GoogleCloudPlatform repository release log. Nightly pre-releases are development snapshots, not a stability or production-readiness claim. Inspect the exact release notes and permission model before connecting agents or workspaces.",
+      "sources": [
+        {
+          "label": "Scion releases",
+          "url": "https://github.com/GoogleCloudPlatform/scion/releases"
+        }
+      ]
+    }
+  ],
+  "repoPicks": [
+    {
+      "id": "agent-office-2026-10-15",
+      "date": "2026-10-15",
+      "name": "AgentSystemLabs/agent-office",
+      "summary": "A cartoon 3D shared office for agent workers, live terminals and GitHub issues and pull requests.",
+      "stars": 753,
+      "checked": "2026-10-15",
+      "why": "A direct bridge between the agent-office interface genre and coordinated software work.",
+      "url": "https://github.com/AgentSystemLabs/agent-office",
+      "caveat": "MIT. Created September 26, 2026. A young project; listing it is not a security or reliability review.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "scion-2026-10-15",
+      "date": "2026-10-15",
+      "name": "GoogleCloudPlatform/scion",
+      "summary": "Orchestration for agent teams, with delegation, identity, separate workspaces and a CLI and web interface.",
+      "stars": 1907,
+      "checked": "2026-10-15",
+      "why": "A multi-agent orchestration project in the GoogleCloudPlatform organization, with frequent nightly development releases.",
+      "url": "https://github.com/GoogleCloudPlatform/scion",
+      "caveat": "Apache-2.0. Nightly pre-releases need their own stability and permission checks.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "mirofish-2026-10-15",
+      "date": "2026-10-15",
+      "name": "666ghj/MiroFish",
+      "summary": "A self-described swarm-intelligence engine using multi-agent social simulation for forecasting.",
+      "stars": 79539,
+      "checked": "2026-10-15",
+      "why": "A widely starred example of the prediction-simulation genre. Its claims make evaluation evidence worth following.",
+      "url": "https://github.com/666ghj/MiroFish",
+      "caveat": "AGPL-3.0. Popularity does not demonstrate forecasting accuracy. Predictions and marketing claims are not validated here.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "cubicle-2026-10-15",
+      "date": "2026-10-15",
+      "name": "caglarutkuguler/cubicle",
+      "summary": "A read-only live pixel-art office for agents, with a KPI board and Telegram alerts.",
+      "stars": 39,
+      "checked": "2026-10-15",
+      "why": "A small project squarely in the agent-office genre, including Paperclip, Claude Code, Codex and Gemini CLI integrations.",
+      "url": "https://github.com/caglarutkuguler/cubicle",
+      "caveat": "MIT. Created September 27, 2026. The README describes zero dependencies and read-only behavior; those are project claims, not a code audit.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "paracosm-2026-10-15",
+      "date": "2026-10-15",
+      "name": "framerslab/paracosm",
+      "summary": "Agent swarm simulation for structured world modeling with language models.",
+      "stars": 35,
+      "checked": "2026-10-15",
+      "why": "A world-modeling take on multi-agent simulation, distinct from a dashboard of coding workers.",
+      "url": "https://github.com/framerslab/paracosm",
+      "caveat": "Apache-2.0. Canonical repository now resolves under framerslab; earlier references use framersai. Simulation output is not validated forecasting.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "seahaven-2026-10-15",
+      "date": "2026-10-15",
+      "name": "Kiln-AI/Seahaven",
+      "summary": "Synthetic, stateful worlds for agent evaluation and reinforcement learning.",
+      "stars": 61,
+      "checked": "2026-10-15",
+      "why": "The new Kiln framework brings repeatable test environments to the broader multi-agent research watchlist.",
+      "url": "https://github.com/Kiln-AI/Seahaven",
+      "caveat": "MIT. Created September 11, 2026. Early evaluation infrastructure, not a graphical agent town or independently benchmarked result here.",
+      "label": "Notable open-source / editorial pick"
+    }
+  ]
 }
