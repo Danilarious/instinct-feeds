@@ -18,3 +18,10 @@ console.log('Multi-agent archive schema, chapter navigation and research page pa
 for(const chapter of [c,m]){assert(Array.isArray(chapter.repoPicks));for(const r of chapter.repoPicks){assert(!ids.has(r.id),'duplicate repo-pick id');ids.add(r.id);for(const f of ['name','summary','why','url'])assert(r[f]);for(const f of ['date','checked'])assert(/^\d{4}-\d{2}-\d{2}$/.test(r[f]));assert(Number.isInteger(r.stars)&&r.stars>=0);assert.equal(new URL(r.url).hostname,'github.com');assert.equal(new URL(r.url).protocol,'https:');}}
 for(const page of ['creators.html','multi-agent.html']){const h=fs.readFileSync(page,'utf8');assert(h.includes('id="open-source"'));assert(h.includes('repo-archive.js'));assert(h.includes('repo-archive.css'));}
 console.log('Dated repo-pick archives and section hooks pass.');
+
+const indexNavHtml = fs.readFileSync('index.html', 'utf8');
+assert.equal((indexNavHtml.match(/aria-label="Chapters"/g) || []).length, 1);
+assert.match(indexNavHtml, /<main class="page">\s*<nav class="chapter-links" aria-label="Chapters">/);
+assert.match(indexNavHtml, /\.chapter-links a\{[^}]*border:1px solid/);
+assert.match(indexNavHtml, /<a href="index.html" aria-current="page">01 \/ Blockchain &amp; Crypto<\/a>/);
+console.log('Chapter 01 top navigation placement and button styling pass.');
