@@ -25,3 +25,10 @@ assert.match(indexNavHtml, /<main class="page">\s*<nav class="chapter-links" ari
 assert.match(indexNavHtml, /\.chapter-links a\{[^}]*border:1px solid/);
 assert.match(indexNavHtml, /<a href="index.html" aria-current="page">01 \/ Blockchain &amp; Crypto<\/a>/);
 console.log('Chapter 01 top navigation placement and button styling pass.');
+
+const methodPage=fs.readFileSync('graph-engineering.html','utf8');
+assert(fs.readFileSync('multi-agent.html','utf8').includes('id="methods"'));
+assert(fs.readFileSync('multi-agent.html','utf8').includes('href="graph-engineering.html"'));
+for(const term of ['Count expected results','Read next','Use it when / skip it when'])assert(methodPage.includes(term));
+assert(!methodPage.includes('EDITORIAL PREVIEW'));
+console.log('Methods catalog links and guide sections pass.');
