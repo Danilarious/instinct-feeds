@@ -388,10 +388,10 @@
       "topic": "blockchain",
       "project": "zcash",
       "type": "Upgrade",
-      "status": "Proposed",
-      "title": "NU7 mainnet height proposed: block 3,543,405 (~Nov 5)",
-      "summary": "ZIP editors agreed a mainnet height; not yet merged into ZIP 259 or node software.",
-      "detail": "NU7 cuts target block spacing from 75 to 25 seconds and temporarily removes 60% of block fees from circulation under the Network Sustainability Mechanism, with reissuance to miners starting around February 2031. The upgrade bans version 4 transactions, which shuts down Sprout and makes any funds left there unspendable at activation. The proposed height still has to be merged into ZIP 259 and shipped in node software before activation can take effect.",
+      "status": "Merged into ZIP 259 / node software pending",
+      "title": "NU7 mainnet height merged into ZIP 259: block 3,543,405 (~Nov 5)",
+      "summary": "ZIP 259 now lists mainnet activation height 3,543,405; node software releases and ZFND/ECC announcements are not yet verified. Activation remains estimated around November 5.",
+      "detail": "NU7 cuts target block spacing from 75 to 25 seconds and temporarily removes 60% of block fees from circulation under the Network Sustainability Mechanism, with reissuance to miners starting at mainnet height 8,939,664 (around February 2031). The upgrade bans version 4 transactions, which shuts down Sprout and makes any funds left there unspendable at activation. The mainnet height is now merged into the deployment spec; node software releases and a ZFND/ECC announcement were not yet verified in this October 21 check, so the November 5 timing remains an estimate.",
       "sources": [
         {
           "label": "CoinDesk reporting",
@@ -430,8 +430,8 @@
       "date": "2026-10-20",
       "project": "zcash",
       "title": "NU7 mainnet decision",
-      "status": "Height proposed / not yet merged",
-      "description": "ZIP editors agreed mainnet height 3,543,405. The height still has to be merged into ZIP 259 and shipped in node software.",
+      "status": "Merged into ZIP 259",
+      "description": "ZIP editors agreed mainnet height 3,543,405, now merged into the deployment spec. Node software releases and ZFND/ECC announcements are not yet verified.",
       "url": "https://zips.z.cash/zip-0259"
     },
     {
@@ -439,7 +439,7 @@
       "project": "zcash",
       "title": "NU7 planned mainnet activation",
       "status": "Planned / not confirmed",
-      "description": "Target in the developer timeline. ZIP editors proposed block 3,543,405; activation is not confirmed until the height is merged into ZIP 259 and node software.",
+      "description": "Target in the developer timeline. Block 3,543,405 is now in ZIP 259; activation is not confirmed until supporting node software ships.",
       "url": "https://forum.zcashcommunity.com/t/nu7-timeline/57655"
     },
     {
