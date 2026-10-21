@@ -402,6 +402,27 @@
           "url": "https://zips.z.cash/zip-0259"
         }
       ]
+    },
+    {
+      "id": "night-nightmode-tron-2026-10-21",
+      "date": "2026-10-21",
+      "topic": "blockchain",
+      "project": "cardano",
+      "type": "Partnership",
+      "status": "Announced",
+      "title": "SIG Network says Nightmode will bring Midnight privacy to TRON in December",
+      "summary": "Announced by SIG Network CEO; not live; NIGHT +8.4% on the day.",
+      "detail": "Nightmode connects Midnight to public chains through MPC vault contracts and issues shielded balances inside a multi-chain shielded pool, so native assets stay on their origin chain. SIG states Ethereum support already exists and targets TRON for December 2026. The TRON plan is a SIG Network announcement: it is not confirmed by Midnight or TRON, and Midnight's own Nightmode explainer does not mention TRON or a date. Treat December as a vendor target, not a launch commitment.",
+      "sources": [
+        {
+          "label": "The Crypto Basic reporting",
+          "url": "https://thecryptobasic.com/2026/10/21/cardano-founder-welcomes-tron-to-midnight/"
+        },
+        {
+          "label": "Midnight blog: how Nightmode works",
+          "url": "https://midnight.network/blog/nightmode-enables-cross-chain-privacy"
+        }
+      ]
     }
   ],
   "timeline": [
@@ -409,8 +430,8 @@
       "date": "2026-10-20",
       "project": "zcash",
       "title": "NU7 mainnet decision",
-      "status": "Scheduled decision",
-      "description": "Set the activation height after testnet review. Not the activation itself.",
+      "status": "Height proposed / not yet merged",
+      "description": "ZIP editors agreed mainnet height 3,543,405. The height still has to be merged into ZIP 259 and shipped in node software.",
       "url": "https://zips.z.cash/zip-0259"
     },
     {
@@ -418,7 +439,7 @@
       "project": "zcash",
       "title": "NU7 planned mainnet activation",
       "status": "Planned / not confirmed",
-      "description": "Target in the developer timeline; contingent on the October 20 decision.",
+      "description": "Target in the developer timeline. ZIP editors proposed block 3,543,405; activation is not confirmed until the height is merged into ZIP 259 and node software.",
       "url": "https://forum.zcashcommunity.com/t/nu7-timeline/57655"
     },
     {
