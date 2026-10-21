@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "topics": [
     {
       "id": "blockchain",
@@ -379,6 +379,27 @@
         {
           "label": "BEST BEFORE project",
           "url": "https://bestbefore.gallery/"
+        }
+      ]
+    },
+    {
+      "id": "zec-nu7-height-2026-10-21",
+      "date": "2026-10-21",
+      "topic": "blockchain",
+      "project": "zcash",
+      "type": "Upgrade",
+      "status": "Proposed",
+      "title": "NU7 mainnet height proposed: block 3,543,405 (~Nov 5)",
+      "summary": "ZIP editors agreed a mainnet height; not yet merged into ZIP 259 or node software.",
+      "detail": "NU7 cuts target block spacing from 75 to 25 seconds and temporarily removes 60% of block fees from circulation under the Network Sustainability Mechanism, with reissuance to miners starting around February 2031. The upgrade bans version 4 transactions, which shuts down Sprout and makes any funds left there unspendable at activation. The proposed height still has to be merged into ZIP 259 and shipped in node software before activation can take effect.",
+      "sources": [
+        {
+          "label": "CoinDesk reporting",
+          "url": "https://www.coindesk.com/markets/2026/10/21/zcash-developers-confirm-november-date-for-upgrade-that-triples-payment-speed"
+        },
+        {
+          "label": "ZIP 259 deployment spec",
+          "url": "https://zips.z.cash/zip-0259"
         }
       ]
     }
