@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "topics": [
     {
       "id": "blockchain",
@@ -389,10 +389,14 @@
       "project": "zcash",
       "type": "Upgrade",
       "status": "Shipped in node software / activation pending",
-      "title": "Zakura 1.7.0 ships NU7 mainnet activation: block 3,543,405 (~Nov 5 PT)",
-      "summary": "Zakura 1.7.0 ships NU7 mainnet activation at height 3,543,405, expected about 00:50 UTC November 6 (about 4:50pm PT November 5). Every mainnet node must update; standalone zcashd processes need v1.3.0.",
-      "detail": "NU7 cuts target block spacing from 75 to 25 seconds and temporarily removes 60% of block fees from circulation under the Network Sustainability Mechanism, with reissuance to miners starting at mainnet height 8,939,664 (around February 2031). The upgrade bans version 4 transactions, which shuts down Sprout and makes any funds left there unspendable at activation. The height is in ZIP 259 and activation now ships in Zakura 1.7.0: earlier Zakura releases halt in the days before activation, and standalone zcashd processes need the v1.3.0 release. The November 5 timing is an estimate derived from the block height, not a scheduled timestamp.",
+      "title": "Zakura 1.7.0 and Zebra 7.0.0 ship NU7 mainnet activation: block 3,543,405 (~Nov 5 PT)",
+      "summary": "Zakura 1.7.0 and Zebra 7.0.0 both ship NU7 mainnet support at height 3,543,405, expected about 00:50 UTC November 6 (about 4:50pm PT November 5); the Zebra announcement rounds the calendar date to around November 5. Every mainnet node must update; standalone zcashd processes need v1.3.0.",
+      "detail": "NU7 cuts target block spacing from 75 to 25 seconds and temporarily removes 60% of block fees from circulation under the Network Sustainability Mechanism, with reissuance to miners starting at mainnet height 8,939,664 (around February 2031). The upgrade bans version 4 transactions, which shuts down Sprout and makes any funds left there unspendable at activation. The height is in ZIP 259 and activation now ships in both node implementations: Zakura 1.7.0 (earlier releases halt in the days before activation; standalone zcashd processes need the v1.3.0 release) and Zebra 7.0.0, the first stable Zebra release with mainnet NU7 support, which also fixes seven security advisories. Nodes that have not upgraded follow a different chain after activation. The November 5 timing is an estimate derived from the block height, not a scheduled timestamp.",
       "sources": [
+        {
+          "label": "Zebra 7.0.0 release announcement",
+          "url": "https://zfnd.org/zebra-7-0-0-release/"
+        },
         {
           "label": "Zakura 1.7.0 release announcement",
           "url": "https://zakura.com/announcements/zakura-1-7-0/"
@@ -435,15 +439,15 @@
       "project": "zcash",
       "title": "NU7 mainnet decision",
       "status": "Merged into ZIP 259",
-      "description": "ZIP editors agreed mainnet height 3,543,405, merged into the deployment spec and shipped in Zakura 1.7.0 on October 22.",
+      "description": "ZIP editors agreed mainnet height 3,543,405, merged into the deployment spec and shipped in Zakura 1.7.0 and Zebra 7.0.0 on October 22.",
       "url": "https://zips.z.cash/zip-0259"
     },
     {
       "date": "2026-11-05",
       "project": "zcash",
       "title": "NU7 planned mainnet activation",
-      "status": "Ships in Zakura 1.7.0 / timing estimated",
-      "description": "Zakura 1.7.0 activates NU7 at block 3,543,405, expected about 00:50 UTC November 6 (about 4:50pm PT November 5). The timing is an estimate from the block height, not a confirmed timestamp.",
+      "status": "Ships in Zakura & Zebra / timing estimated",
+      "description": "Zakura 1.7.0 and Zebra 7.0.0 activate NU7 at block 3,543,405, expected about 00:50 UTC November 6 (about 4:50pm PT November 5; Zebra says around November 5). The timing is an estimate from the block height, not a confirmed timestamp.",
       "url": "https://forum.zcashcommunity.com/t/nu7-timeline/57655"
     },
     {
