@@ -1,7 +1,90 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-23",
   "editorial": "A checked collection, not a live trend chart. Dates on notes are publication dates when known; repository metrics are snapshots. Older essays are marked as archive. Inclusion is not endorsement.",
   "entries": [
+    {
+      "id": "spotify-slop-purge-20261020",
+      "date": "2026-10-20",
+      "kind": "Platform update",
+      "lens": "Music & sound",
+      "title": "Spotify says it pulled 50 million AI slop and spam tracks from recommendations",
+      "summary": "One year into its AI policy, Spotify reports taking more than 50 million slop and spam tracks out of recommendations this year and 75 million spammy tracks off the platform altogether, alongside AI Credits, AI Persona badges and a beta that lets artists review releases delivered under their name.",
+      "detail": "Company-reported figures, not independently audited. Spotify is not anti-AI: it excludes labeled AI Personas from recommendations by default but does not require per-song AI labels, and it has announced licensed AI remix and cover tools with Believe. Deezer's stricter planned exclusion of fully AI-generated music appears elsewhere in this chapter.",
+      "sources": [
+        {
+          "label": "Spotify newsroom",
+          "url": "https://newsroom.spotify.com/2026-10-20/prioritizing-human-artistry/"
+        },
+        {
+          "label": "The Verge reporting",
+          "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed"
+        }
+      ]
+    },
+    {
+      "id": "gema-suno-ruling-20261020",
+      "date": "2026-10-20",
+      "kind": "Legal ruling / reported analysis",
+      "lens": "Rights & labor",
+      "title": "GEMA v. Suno: Munich court says training on protected songs infringed copyright",
+      "summary": "A Legal 500 analysis walks through the Munich Regional Court's July 31 judgment that Suno trained its model on GEMA's repertoire without authorization and must stop those uses and disclose usage and revenue data. The court rejected US fair-use and EU text-and-data-mining defenses; Suno is appealing.",
+      "detail": "The judgment (42 O 763/25) is a first-instance decision under appeal, not final. The analysis describes a chain reaction since the ruling: BMG and Warner announced licenses with Suno, Sony sued Anthropic over Claude's use of protected music, and the US administration filed a Statement of Interest in the SDNY OpenAI case arguing training is fair use. European and US approaches are openly diverging, so outcomes may differ by jurisdiction.",
+      "sources": [
+        {
+          "label": "Luca Guidobaldi, Legal 500",
+          "url": "https://www.legal500.com/intelligence/germany/intellectual-property/gema-v-suno-a-new-european-precedent-on-the-relationship-between-generative-ai-and-copyright"
+        }
+      ]
+    },
+    {
+      "id": "guardian-fans-reject-ai-20261021",
+      "date": "2026-10-21",
+      "kind": "Opinion / critical",
+      "lens": "Music & sound",
+      "title": "The Guardian: fans are voting against AI music, and even boosters are drawing lines",
+      "summary": "Blake Montgomery reports that AI-enthusiast musicians are setting personal limits: Grimes calls her new album AI-inspired but not AI-generated, A$AP Rocky says he prefers to make music practically, and Kelly Clarkson wants AI artists on a separate chart, while analogue-leaning albums dominate the Billboard top 10.",
+      "detail": "Opinionated reporting, not a market study: the chart argument rests on a one-week snapshot and the slop verdict is the author's. Worth reading as a snapshot of audience mood, with the artists' quoted positions more nuanced than the headline.",
+      "sources": [
+        {
+          "label": "Blake Montgomery, The Guardian",
+          "url": "https://www.theguardian.com/music/2026/oct/21/artificial-intelligence-music-grimes-asap-rocky"
+        }
+      ]
+    },
+    {
+      "id": "rubin-model-behavior-20261022",
+      "date": "2026-10-22",
+      "kind": "Artist practice / interview",
+      "lens": "Music & sound",
+      "title": "Rick Rubin: curious about AI, but it has no point of view",
+      "summary": "In Substack's Model Behavior series, Rick Rubin tells Chris Best he is not afraid of AI as an instrument but does not use it for writing or music, and a Suno demo was not to his taste: a model can sound like something else, but it cannot supply an artist's point of view.",
+      "detail": "The interview also covers Substack's Pangram AI-detection integration, which Rubin accepts only as a reader-controlled option rather than a default rating on every article. A measured middle position from an influential producer: open to the tool, unconvinced by current results. Transcript published by Substack; the views are the speakers' own.",
+      "sources": [
+        {
+          "label": "Rick Rubin and Chris Best, On Substack",
+          "url": "https://on.substack.com/p/model-behavior-rick-rubin"
+        }
+      ]
+    },
+    {
+      "id": "canva-craft-image-model-20261022",
+      "date": "2026-10-22",
+      "kind": "Platform update / vendor announcement",
+      "lens": "Art & image",
+      "title": "Canva launches Craft, its first in-house image model",
+      "summary": "Canva's in-house research lab released Craft, an image model built for design work: 2K output across more than 30 aspect ratios, a plan-then-render architecture aimed at accurate layout and text, and access both inside Canva and through a public API.",
+      "detail": "Vendor announcement: the 'world's second most advanced AI lab for image generation' claim is Canva's own, based on DesignArena crowd rankings, not an independent benchmark. The model's training leans on Canva's template content library, which is exactly the kind of training-data rights question this chapter tracks; the announcement does not detail licensing terms for that data.",
+      "sources": [
+        {
+          "label": "Canva newsroom",
+          "url": "https://www.canva.com/newsroom/news/canva-craft/"
+        },
+        {
+          "label": "The Decoder reporting",
+          "url": "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/"
+        }
+      ]
+    },
     {
       "id": "bynum-oracle-engine-20261016",
       "date": "2026-10-16",
@@ -364,6 +447,18 @@
     }
   ],
   "repoPicks": [
+    {
+      "id": "creator-repo-kandinsky6-20261023",
+      "date": "2026-10-23",
+      "name": "kandinskylab/kandinsky-6",
+      "summary": "Kandinsky 6.0 Video: foundation models for synchronized video and audio generation, released under the MIT license.",
+      "stars": 371,
+      "checked": "2026-10-23",
+      "why": "A rare MIT-licensed video model with synchronized sound and lip-sync. Young and small, but actively pushed this week, and a useful open counterweight to closed video tools.",
+      "url": "https://github.com/kandinskylab/kandinsky-6",
+      "label": "Editorial pick / active project, not a new-launch claim",
+      "caveat": "MIT code license; model weights and demo data may carry separate terms. A 16 GB GPU path is documented, but local video generation remains hardware-hungry. Star count is a snapshot, not a trend rank."
+    },
     {
       "id": "creator-repo-openmontage-20261016",
       "date": "2026-10-16",
