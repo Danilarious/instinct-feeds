@@ -1,7 +1,86 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-23",
   "editorial": "Dated research and source-linked updates on multi-agent systems. Publication dates belong to the source; repository metrics are checked snapshots, not live trending ranks.",
   "entries": [
+    {
+      "id": "mas-s2mas-2026-10-20",
+      "date": "2026-10-20",
+      "type": "Research",
+      "status": "arXiv preprint / not peer-reviewed",
+      "title": "S2-MAS: society-scale simulation with 500 million household persona agents",
+      "summary": "arXiv 2610.27746 (HKU et al.) describes a multi-agent simulation framework for economic-response experiments at society scale.",
+      "detail": "Abstract page checked October 21. The scale and validity claims are the paper's own, not independently verified.",
+      "sources": [
+        {
+          "label": "arXiv abstract",
+          "url": "https://arxiv.org/abs/2610.27746"
+        }
+      ]
+    },
+    {
+      "id": "mas-pixel-agents-v1-5-2026-10-17",
+      "date": "2026-10-17",
+      "type": "Release",
+      "status": "Open-source release / repository changelog",
+      "title": "Pixel Agents v1.5.0 adds an embedded browser terminal",
+      "summary": "Pixel Agents v1.5.0, the first release since v1.4.1 in August, adds an embedded browser terminal for launching, watching and typing into Claude Code agents from the office view without VS Code, plus a mobile home-screen web app. It is still the latest release as of October 23.",
+      "detail": "Source is the project's GitHub releases page. Feature descriptions are the project's own; this listing is not a security or reliability review of an agent terminal.",
+      "sources": [
+        {
+          "label": "Pixel Agents releases",
+          "url": "https://github.com/pixel-agents-hq/pixel-agents/releases"
+        }
+      ]
+    },
+    {
+      "id": "mas-swecraft-2026-10-16",
+      "date": "2026-10-16",
+      "type": "Research",
+      "status": "arXiv preprint / not peer-reviewed",
+      "title": "World of SWECraft: simulated software worlds for studying agent teams",
+      "summary": "arXiv 2610.24061 (Shen, Choi, Zettlemoyer, Koh, Sontag et al.) uses simulated software worlds to study what makes large agent teams collaborate effectively.",
+      "detail": "Abstract page checked October 21. Findings are the authors' own; a preprint is not peer review.",
+      "sources": [
+        {
+          "label": "arXiv abstract",
+          "url": "https://arxiv.org/abs/2610.24061"
+        }
+      ]
+    },
+    {
+      "id": "mas-a2a-crypto-2026-10-16",
+      "date": "2026-10-16",
+      "type": "Research",
+      "status": "arXiv preprint / not peer-reviewed",
+      "title": "Cryptographically secure agent-to-agent communication",
+      "summary": "arXiv 2610.23078 (Orange Innovation Poland) catalogs impersonation, interception, prompt injection and data exfiltration between agents, and proposes cryptographic countermeasures for agent-to-agent channels.",
+      "detail": "Abstract page checked October 21. Directly relevant to trusted-network-style agent messaging; a preprint is not peer review.",
+      "sources": [
+        {
+          "label": "arXiv abstract",
+          "url": "https://arxiv.org/abs/2610.23078"
+        }
+      ]
+    },
+    {
+      "id": "mas-t3code-v0-1-2026-10-15",
+      "date": "2026-10-15",
+      "type": "Release",
+      "status": "Open-source release / repository changelog",
+      "title": "T3 Code v0.1.0: first stable Orchestrator V2 with cross-provider child agents",
+      "summary": "T3 Code v0.1.0 (MIT) is the first stable Orchestrator V2 release: delegate_task lets an agent start child agents on any provider or model and wait for results, alongside thread forking, mid-thread provider switches with caveats, and support for Pi, Muse Code and OpenCode 2.",
+      "detail": "Release notes are on the project's GitHub releases page and mirrored at newreleases.io. The October 15 publication date comes from the secondary site Open Orchestrators; the exact GitHub timestamp was not confirmed, so treat the date as mid-October. Features are vendor-described, not independently tested. Nightlies continue past v0.1.0.",
+      "sources": [
+        {
+          "label": "T3 Code releases",
+          "url": "https://github.com/pingdotgg/t3code/releases"
+        },
+        {
+          "label": "v0.1.0 release notes mirror",
+          "url": "https://newreleases.io/project/github/pingdotgg/t3code/release/v0.1.0"
+        }
+      ]
+    },
     {
       "id": "mas-seahaven-2026-10-08",
       "date": "2026-10-08",
@@ -84,12 +163,48 @@
   ],
   "repoPicks": [
     {
+      "id": "t3code-2026-10-23",
+      "date": "2026-10-23",
+      "name": "pingdotgg/t3code",
+      "summary": "T3 Code Orchestrator V2: cross-provider agent delegation, thread forking and multi-harness support.",
+      "stars": 29631,
+      "checked": "2026-10-23",
+      "why": "delegate_task is a concrete, shipped take on cross-harness child agents rather than a design sketch.",
+      "url": "https://github.com/pingdotgg/t3code",
+      "caveat": "MIT. v0.1.0 is a first stable and nightlies continue. Features are vendor-described; star count is a snapshot, not a trend rank.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "pixel-agents-2026-10-23",
+      "date": "2026-10-23",
+      "name": "pixel-agents-hq/pixel-agents",
+      "summary": "An agent-office interface for coordinating Claude Code workers, with an embedded browser terminal as of v1.5.0.",
+      "stars": 9865,
+      "checked": "2026-10-23",
+      "why": "The agent-office genre's most visibly shipping project this month; v1.5.0 details are in the notes above.",
+      "url": "https://github.com/pixel-agents-hq/pixel-agents",
+      "caveat": "MIT. Feature claims are the project's own; an agent terminal warrants the same caution as any agent runner.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "open-multi-agent-2026-10-23",
+      "date": "2026-10-23",
+      "name": "open-multi-agent/open-multi-agent",
+      "summary": "A self-hosted TypeScript multi-agent runtime with durable approvals and verifiable run records.",
+      "stars": 7019,
+      "checked": "2026-10-23",
+      "why": "Durable approvals and verifiable run records match how supervised agent work should be audited.",
+      "url": "https://github.com/open-multi-agent/open-multi-agent",
+      "caveat": "MIT. Created March 31, 2026. Fork count is unusually high versus stars, so treat the popularity signal cautiously.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
       "id": "agent-office-2026-10-15",
       "date": "2026-10-15",
       "name": "AgentSystemLabs/agent-office",
       "summary": "A cartoon 3D shared office for agent workers, live terminals and GitHub issues and pull requests.",
-      "stars": 753,
-      "checked": "2026-10-15",
+      "stars": 792,
+      "checked": "2026-10-23",
       "why": "A direct bridge between the agent-office interface genre and coordinated software work.",
       "url": "https://github.com/AgentSystemLabs/agent-office",
       "caveat": "MIT. Created September 26, 2026. A young project; listing it is not a security or reliability review.",
@@ -100,8 +215,8 @@
       "date": "2026-10-15",
       "name": "GoogleCloudPlatform/scion",
       "summary": "Orchestration for agent teams, with delegation, identity, separate workspaces and a CLI and web interface.",
-      "stars": 1907,
-      "checked": "2026-10-15",
+      "stars": 2018,
+      "checked": "2026-10-23",
       "why": "A multi-agent orchestration project in the GoogleCloudPlatform organization, with frequent nightly development releases.",
       "url": "https://github.com/GoogleCloudPlatform/scion",
       "caveat": "Apache-2.0. Nightly pre-releases need their own stability and permission checks.",
@@ -112,8 +227,8 @@
       "date": "2026-10-15",
       "name": "666ghj/MiroFish",
       "summary": "A self-described swarm-intelligence engine using multi-agent social simulation for forecasting.",
-      "stars": 79539,
-      "checked": "2026-10-15",
+      "stars": 81488,
+      "checked": "2026-10-23",
       "why": "A widely starred example of the prediction-simulation genre. Its claims make evaluation evidence worth following.",
       "url": "https://github.com/666ghj/MiroFish",
       "caveat": "AGPL-3.0. Popularity does not demonstrate forecasting accuracy. Predictions and marketing claims are not validated here.",
