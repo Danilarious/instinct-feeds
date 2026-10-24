@@ -27,5 +27,21 @@ const resources=[{title:'Bitcoin & Ordinals',description:'The deeper art guide a
 $('#resources-list').innerHTML=resources.map(r=>`<article class="resource-card"><h3>${esc(r.title)}</h3><p>${esc(r.description)}</p>${r.links.map(([label,url])=>external(url,label)).join('')}</article>`).join('');
 document.addEventListener('click',e=>{const tab=e.target.closest('[data-view]');if(tab)showView(tab.dataset.view);const f=e.target.closest('[data-project]');if(f){activeProject=f.dataset.project;renderFeed()}const p=e.target.closest('[data-open-project]');if(p){activeProject=p.dataset.openProject;$('#search').value='';$('#evidence').value='all';showView('feed');renderFeed();$('.view-tabs').scrollIntoView({behavior:'smooth',block:'start'})}});
 $('#search').addEventListener('input',renderFeed);$('#evidence').addEventListener('change',renderFeed);$('#reset').addEventListener('click',()=>{activeProject='all';$('#search').value='';$('#evidence').value='all';renderFeed()});
-window.addEventListener('hashchange',()=>{const v=location.hash.slice(1);showView(['feed','projects','timeline','resources'].includes(v)?v:'feed',false)});
-renderFeed();showView(['feed','projects','timeline','resources'].includes(location.hash.slice(1))?location.hash.slice(1):'feed',false);
+window.addEventListener('hashchange',()=>{const v=location.hash.slice(1);showView(['feed','projects','timeline','resources','agentic'].includes(v)?v:'feed',false)});
+
+let atData=null,atRequested=false;
+function renderAgentic(){
+ if(!document.querySelector('#at-stack'))return;
+ if(!atData){
+  if(!atRequested){atRequested=true;fetch('data/agentic-trading.json').then(r=>{if(!r.ok)throw Error();return r.json()}).then(d=>{atData=d;renderAgentic()}).catch(()=>{document.querySelector('#at-count').textContent='Agentic trading archive unavailable';});}
+  return;
+ }
+ const ACC='#A8D5BA';
+ document.querySelector('#at-stack').innerHTML=atData.stack.map(t=>`<article class="at-tool" style="--accent:${ACC}"><span class="at-role">${esc(t.role.toUpperCase())}</span><h4><a href="${esc(t.url)}" target="_blank" rel="noopener noreferrer">${esc(t.name)} ↗</a></h4><p>${esc(t.note)}</p><p class="muted">${esc(t.latest)} · ${esc(t.latestDate)} · ${Number(t.stars).toLocaleString()} stars · checked ${date(t.checked)}</p></article>`).join('');
+ const notes=[...atData.entries].sort((a,b)=>b.date.localeCompare(a.date));
+ document.querySelector('#at-count').textContent=`${notes.length} ${notes.length===1?'note':'notes'} / edition checked ${date(atData.updated)}`;
+ document.querySelector('#at-empty').hidden=!!notes.length;
+ document.querySelector('#at-list').innerHTML=notes.map(e=>`<article class="note" id="${esc(e.id)}" style="--accent:${ACC}"><div class="note-top"><span>AGENTIC TRADING / ${esc(e.type.toUpperCase())}</span><time datetime="${e.date}">${date(e.date)}</time></div><div class="note-body"><span class="status">${esc(e.status)}</span><h3>${esc(e.title)}</h3><p>${esc(e.summary)}</p><details><summary>Context & caveats</summary><p>${esc(e.detail)}</p></details></div><div class="note-links">${e.sources.map(s=>external(s.url,s.label)).join('')}</div></article>`).join('');
+}
+renderAgentic();
+renderFeed();showView(['feed','projects','timeline','resources','agentic'].includes(location.hash.slice(1))?location.hash.slice(1):'feed',false);
