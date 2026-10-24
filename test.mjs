@@ -32,3 +32,14 @@ assert(fs.readFileSync('multi-agent.html','utf8').includes('href="graph-engineer
 for(const term of ['Count expected results','Read next','Use it when / skip it when'])assert(methodPage.includes(term));
 assert(!methodPage.includes('EDITORIAL PREVIEW'));
 console.log('Methods catalog links and guide sections pass.');
+
+const a=JSON.parse(fs.readFileSync('agentic-trading.json','utf8'));
+assert(/^\d{4}-\d{2}-\d{2}$/.test(a.updated));assert(Array.isArray(a.entries)&&a.entries.length);assert(Array.isArray(a.stack)&&a.stack.length);assert(Array.isArray(a.repoPicks));
+for(const e of a.entries){assert(!ids.has(e.id),'duplicate agentic id');ids.add(e.id);assert(/^\d{4}-\d{2}-\d{2}$/.test(e.date));for(const f of ['type','status','title','summary','detail'])assert(e[f]);assert(e.sources.length);for(const s of e.sources)assert.equal(new URL(s.url).protocol,'https:');}
+for(const s of a.stack){for(const f of ['id','name','role','note','latest','latestDate','url'])assert(s[f],'stack field');assert(/^\d{4}-\d{2}-\d{2}$/.test(s.checked));assert(Number.isInteger(s.stars)&&s.stars>=0);assert.equal(new URL(s.url).protocol,'https:');}
+for(const r of a.repoPicks){assert(!ids.has(r.id),'duplicate agentic repo-pick id');ids.add(r.id);for(const f of ['name','summary','why','url','label'])assert(r[f]);for(const f of ['date','checked'])assert(/^\d{4}-\d{2}-\d{2}$/.test(r[f]));assert(Number.isInteger(r.stars)&&r.stars>=0);assert.equal(new URL(r.url).hostname,'github.com');assert.equal(new URL(r.url).protocol,'https:');}
+const indexAgenticHtml=fs.readFileSync('index.html','utf8');
+assert(indexAgenticHtml.includes('data-view="agentic"'));assert(indexAgenticHtml.includes('id="agentic-view"'));assert(indexAgenticHtml.includes('data/agentic-trading.json'));assert(indexAgenticHtml.includes('repo-archive.js'));assert(indexAgenticHtml.includes('repo-archive.css'));
+const appJs=fs.readFileSync('app.js','utf8');
+assert(appJs.includes("'agentic'"));assert(appJs.includes('data/agentic-trading.json'));
+console.log('Agentic trading lane schema, stack snapshots, repo picks and chapter 01 hooks pass.');
