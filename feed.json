@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "topics": [
     {
       "id": "blockchain",
@@ -429,6 +429,35 @@
         {
           "label": "Midnight blog: how Nightmode works",
           "url": "https://midnight.network/blog/nightmode-enables-cross-chain-privacy"
+        }
+      ]
+    },
+    {
+      "id": "mkt-night-support-break-2026-10-24",
+      "date": "2026-10-24",
+      "topic": "blockchain",
+      "project": "ecosystem",
+      "type": "Market structure",
+      "status": "Price alert / live API snapshot",
+      "title": "NIGHT breaks $0.0378 support as bitcoin closes under its 50-day average",
+      "summary": "Saturday-morning risk-off across the board: NIGHT traded at $0.03648 (-6.43% 24h), through the $0.0378 support level the watch had named and about 3.2% under the last alerted low, with the next named support near $0.0325 on thin volume. ZEC fell 8.14% to $1,124.11 as the NU7 rally unwound, BTC dropped under $80K to $79,404 (-2.48%) after its first daily close below the 50-day moving average since August, and ADA fell 6.13%. No coin-specific cause was identified.",
+      "detail": "Snapshot taken about 8:20am PT on October 24 from the CoinGecko and Kraken APIs; prices move fast and this note is a record of the alert, not live data. Macro context from the linked reports: roughly $496M of liquidations in 24 hours (Coinglass via Bitcoin.com News), more than $635M of single-day net outflows from US spot bitcoin ETFs on Thursday per SoSoValue (via Yahoo Finance), the FOMC decision on October 28 and the PCE print on October 29 ahead, and oil climbing with Brent settling near $117 on Friday. Named support levels are the watch's own markers, not guarantees.",
+      "sources": [
+        {
+          "label": "Bitcoin.com News: 50-day MA break and liquidations",
+          "url": "https://news.bitcoin.com/finance/bitcoin-price-50-day-moving-average-trump-iran-liquidations/"
+        },
+        {
+          "label": "Yahoo Finance: $635M ETF outflows",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-see-635m-outflow-123947288.html"
+        },
+        {
+          "label": "CoinGecko price API",
+          "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,zcash,cardano,midnight-3&vs_currencies=usd"
+        },
+        {
+          "label": "Kraken ticker API",
+          "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD,ZECUSD,XBTUSD,ADAUSD"
         }
       ]
     }
