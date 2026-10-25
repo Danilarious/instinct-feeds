@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "topics": [
     {
       "id": "blockchain",
@@ -458,6 +458,44 @@
         {
           "label": "Kraken ticker API",
           "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD,ZECUSD,XBTUSD,ADAUSD"
+        }
+      ]
+    },
+    {
+      "id": "hydra-v2-glacier-rerun-2026-10-22",
+      "date": "2026-10-22",
+      "topic": "blockchain",
+      "project": "cardano",
+      "type": "Benchmark",
+      "status": "Benchmark / published test",
+      "title": "Hydra v2 replays the Glacier Drop claim workload 1.9x faster",
+      "summary": "IOG reran the 2025 Glacier Drop claim workload on current Hydra versus the 0.22.4 release: 24,576 real Midnight claim transactions replayed at 79 claims per second versus 42, per-claim settlement down from 9.9s to 4.4s, and 43% less time end to end (339.1s vs 590.4s).",
+      "detail": "Same team and same host as the 2025 head, three alternating runs per version, no run more than 3% from its version's median; the per-claim distributions form two separate humps, so the typical claim really is faster, not just the average. The post also documents the v2 lifecycle (Init straight to Open), deposits and decommits, partial fanout, and two serious 2025 bugs since fixed. This is a benchmark of current Hydra against its own prior release, not a live-network event, and the numbers are IOG's own published test.",
+      "sources": [
+        {
+          "label": "IOG: Hydra v2 Glacier Drop rerun",
+          "url": "https://www.iog.io/news/hydra-v2-glacier-drop-rerun"
+        }
+      ]
+    },
+    {
+      "id": "sec-volatility-shares-3x-2026-10-02",
+      "date": "2026-10-02",
+      "topic": "blockchain",
+      "project": "ecosystem",
+      "type": "Market structure",
+      "status": "Announced",
+      "title": "SEC clears Cboe listing for the first 3x leveraged bitcoin and ether ETFs",
+      "summary": "SEC Release 34-106577 (October 2) approves Cboe BZX listing for Volatility Shares' 3x Bitcoin (BITH) and 3x Ether (ETHK) futures ETFs - reported as the first US triple-leverage crypto products. Trading is not live: each fund still needs its S-1 declared effective, with no timeline set.",
+      "detail": "The order grants listing only; until the registration statements are declared effective the funds are approved for a listing they cannot yet use. The approval covers a six-product slate (gold, silver, bitcoin, ether, crude oil, natural gas) under the VS Trust. Both crypto funds track futures benchmarks at three times daily performance - they hold no spot BTC or ETH - and sit under the Securities Act of 1933 rather than the 1940 Act, which is how a 3x structure is possible at all, per CryptoBriefing's analysis. \"First US triple-leverage crypto ETPs\" is the reported framing, not our independent verification.",
+      "sources": [
+        {
+          "label": "SEC Release 34-106577 (PDF)",
+          "url": "https://www.sec.gov/files/rules/sro/cboebzx/2026/34-106577.pdf"
+        },
+        {
+          "label": "CryptoBriefing report",
+          "url": "https://cryptobriefing.com/sec-volatility-shares-3x-bitcoin-ether-etfs/"
         }
       ]
     }
