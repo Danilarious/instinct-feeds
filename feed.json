@@ -519,6 +519,23 @@
           "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD"
         }
       ]
+    },
+    {
+      "id": "occ-genius-final-rule-2026-10-21",
+      "date": "2026-10-21",
+      "topic": "blockchain",
+      "project": "ecosystem",
+      "type": "Policy",
+      "status": "Final rule / effective January 18, 2027",
+      "title": "OCC finalizes the GENIUS Act stablecoin framework",
+      "summary": "Policy catch-up dated October 21, not new news: the OCC published its final GENIUS Act rules for payment stablecoin issuers under its jurisdiction. The framework takes effect January 18, 2027 - published, not yet in force.",
+      "detail": "The bulk of the rules land in a new 12 CFR 15: reserve assets, redemption, custody, risk management, audits and supervision, issuer applications and registrations, capital and operational backstops, state issuers transitioning to the federal framework, and examination of foreign issuers. The GENIUS Act itself was enacted July 18, 2025 and generally bars anyone other than a permitted payment stablecoin issuer from issuing payment stablecoins in the US. Bank Secrecy Act, AML and OFAC sanctions rules are explicitly excluded from this package - they come in a separate rulemaking coordinated with Treasury. Details from OCC Bulletin 2026-50, checked October 26.",
+      "sources": [
+        {
+          "label": "OCC Bulletin 2026-50: GENIUS Act Regulations, Final Rule",
+          "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html"
+        }
+      ]
     }
   ],
   "timeline": [
