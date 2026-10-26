@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "topics": [
     {
       "id": "blockchain",
@@ -496,6 +496,27 @@
         {
           "label": "CryptoBriefing report",
           "url": "https://cryptobriefing.com/sec-volatility-shares-3x-bitcoin-ether-etfs/"
+        }
+      ]
+    },
+    {
+      "id": "mkt-night-btc-relative-strength-2026-10-26",
+      "date": "2026-10-26",
+      "topic": "blockchain",
+      "project": "cardano",
+      "type": "Market structure",
+      "status": "Price alert / live API snapshot",
+      "title": "NIGHT outruns bitcoin: NIGHT/BTC crosses the +5% relative-strength threshold",
+      "summary": "Monday-morning threshold cross at about 7:43am PT: NIGHT/BTC up 5.32% over 24h (0.000000482517 BTC), a fresh +5% relative-strength alert. NIGHT traded at $0.03849 (+4.68%), back above the ~$0.0378 level it lost Friday; BTC sat at $79,889 (-0.57%). This is the +5% relative-strength trigger, not the +15% USD trigger.",
+      "detail": "Snapshot taken about 7:43am PT on October 26 from the CoinGecko and Kraken APIs (Kraken NIGHT $0.03854); prices move fast and this note is a record of the alert, not live data. The cross means NIGHT outperformed bitcoin over the window, not that everything rose - BTC was slightly down on the day. The reclaim of ~$0.0378 follows Friday's break and same-day recovery; named levels remain the watch's own markers, not guarantees. No new partnership news was confirmed behind the move; a recycled Dynamic/Midnight headline made the rounds and was ignored.",
+      "sources": [
+        {
+          "label": "CoinGecko price API",
+          "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+        },
+        {
+          "label": "Kraken ticker API",
+          "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD"
         }
       ]
     }
