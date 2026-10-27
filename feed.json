@@ -557,6 +557,35 @@
           "url": "https://forum.zcashcommunity.com/t/end-zcg-and-send-its-funds-to-the-nsm/58515/11"
         }
       ]
+    },
+    {
+      "id": "ordinals-field-guide-2026-10-27",
+      "date": "2026-10-27",
+      "topic": "blockchain",
+      "project": "bitcoin",
+      "type": "Weekly field guide",
+      "status": "Published edition / source-linked research",
+      "title": "Ordinals field guide: OrdFellaz mint, Tiny Vikings in Marfa, fewer venues",
+      "summary": "The October 27 edition covers the OrdFellaz 2,000-piece mint on ORD.NET, the Tiny Vikings Marfa reveal, a small Ordinals10K secondary sale and the trading-venue picture after Magic Eden's Bitcoin exit.",
+      "detail": "OrdFellaz mint terms come from social posts relayed by KuCoin; the ORD.NET page shows supply, owners and listings, not a sellout. The Tiny Vikings reveal is a pre-event report with no verified outcome. The OpenSea Ordinals push is a community campaign with no announced launch, and the 127.7 million inscription count measures records, not demand. No market-wide ranking was verified. The separate field guide preserves the September 29 to October 20 editions and all original cards.",
+      "sources": [
+        {
+          "label": "October 27 field guide and archive",
+          "url": "https://danilarious-ordinals-field-guide.netlify.app/"
+        },
+        {
+          "label": "OrdFellaz on ORD.NET",
+          "url": "https://ord.net/collection/ordfellaz"
+        },
+        {
+          "label": "Tiny Vikings Marfa report",
+          "url": "https://nordiccrypto.no/stories/tiny-viking-marfa/"
+        },
+        {
+          "label": "OpenSea Ordinals push (crypto.news)",
+          "url": "https://crypto.news/opensea-bitcoin-ordinals-runes-trading-support/"
+        }
+      ]
     }
   ],
   "timeline": [
