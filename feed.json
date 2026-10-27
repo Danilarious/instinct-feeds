@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "topics": [
     {
       "id": "blockchain",
@@ -534,6 +534,27 @@
         {
           "label": "OCC Bulletin 2026-50: GENIUS Act Regulations, Final Rule",
           "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html"
+        }
+      ]
+    },
+    {
+      "id": "zcash-dev-fund-retirement-debate-2026-10-27",
+      "date": "2026-10-27",
+      "topic": "blockchain",
+      "project": "zcash",
+      "type": "Governance",
+      "status": "Draft discussion / nothing adopted",
+      "title": "Draft ZIPs would retire Zcash development-fund streams; nothing adopted",
+      "summary": "Competing draft proposals on the Zcash forum would end the ZCG funding stream. @ebfull submitted a draft ZIP shutting down ZCG's future funding stream, kept separate from the existing treasury; the @maxdesalle thread proposes moving ZCG's 8% block-reward share to the Network Sustainability Mechanism at NU8 and winding down the ZCG treasury; @joshs describes a broader draft retiring both the ZCG and 12% coinholder streams with a one-time legal-defense endowment for developers.",
+      "detail": "All three are drafts under discussion: nothing is adopted, there is no verified activation height, and none of it is scheduled for NU7. The full submitted ZIP text was not retrieved, so the mechanics above are the authors' own forum summaries, not checked against the ZIP itself. @ebfull explicitly argues treasury questions should be separate proposals. Forum thread and post checked October 27.",
+      "sources": [
+        {
+          "label": "Forum thread: End ZCG and send its funds to the NSM",
+          "url": "https://forum.zcashcommunity.com/t/end-zcg-and-send-its-funds-to-the-nsm/58515.md"
+        },
+        {
+          "label": "@ebfull post: draft ZIP submitted",
+          "url": "https://forum.zcashcommunity.com/t/end-zcg-and-send-its-funds-to-the-nsm/58515/11"
         }
       ]
     }
