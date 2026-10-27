@@ -1,617 +1,667 @@
 {
-  "updated": "2026-10-27",
-  "topics": [
+ "updated": "2026-10-27",
+ "topics": [
+  {
+   "id": "blockchain",
+   "name": "Blockchain & Crypto",
+   "description": "Protocol changes, ecosystem news, art and the policy around it."
+  }
+ ],
+ "projects": [
+  {
+   "id": "bitcoin",
+   "name": "Bitcoin",
+   "symbol": "BTC",
+   "color": "#F38A2A",
+   "description": "The base layer, its culture and what gets built on top."
+  },
+  {
+   "id": "zcash",
+   "name": "Zcash",
+   "symbol": "ZEC",
+   "color": "#F5C800",
+   "description": "Privacy, payments, upgrades and the road toward shielded assets."
+  },
+  {
+   "id": "cardano",
+   "name": "Cardano & Midnight",
+   "symbol": "ADA / NIGHT",
+   "color": "#B4C8C0",
+   "description": "Network developments and the privacy-focused Midnight ecosystem."
+  },
+  {
+   "id": "ecosystem",
+   "name": "Across the ecosystem",
+   "symbol": "MACRO",
+   "color": "#D2CBEB",
+   "description": "Policy, infrastructure and tools with cross-chain impact."
+  }
+ ],
+ "entries": [
+  {
+   "id": "thorchain-zec-halt-oct15",
+   "date": "2026-10-15",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Live API snapshot / controls can change",
+   "title": "THORChain's ZEC pool exists, but trading and signing are paused",
+   "summary": "At approximately 8:49pm PT October 15, THORNode reports ZEC trading halted and Mimir sets both ZEC trading and outbound signing halt controls to 1.",
+   "detail": "Midgard lists ZEC.ZEC with about $53.5k total pool depth and zero rolling-24h volume, but its generic available status must not be read as usable trading. The current halt reason was not established. Earlier integration announcements do not prove present availability. This is a point-in-time operational check, not evidence of a new exploit; recheck the live controls before relying on any route or withdrawal.",
+   "sources": [
     {
-      "id": "blockchain",
-      "name": "Blockchain & Crypto",
-      "description": "Protocol changes, ecosystem news, art and the policy around it."
+     "label": "THORNode pool state",
+     "url": "https://gateway.liquify.com/chain/thorchain_api/thorchain/pools"
+    },
+    {
+     "label": "Live Mimir controls",
+     "url": "https://gateway.liquify.com/chain/thorchain_api/thorchain/mimir"
+    },
+    {
+     "label": "Midgard pool statistics",
+     "url": "https://gateway.liquify.com/chain/thorchain_midgard/v2/pools"
+    },
+    {
+     "label": "Midgard sync health",
+     "url": "https://gateway.liquify.com/chain/thorchain_midgard/v2/health"
     }
-  ],
-  "projects": [
+   ]
+  },
+  {
+   "id": "zcash-names-early-access-oct15",
+   "date": "2026-10-15",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Ecosystem",
+   "status": "Early Access announced / issuer verified",
+   "title": "Zcash Names opens Early Access for reserved users",
+   "summary": "The naming project's own press page and October 15 release say Early Access opens for reserved participants, with open registration targeted for October 30 or after all reserved participants have had an opportunity to register, whichever is later.",
+   "detail": "Human-readable names resolve to Zcash addresses in participating apps. This is an application-layer naming system, not native smart contracts or ZSA activation. Names, destination addresses and registry history are public; shielded payment activity remains shielded. A single Mint registrar authorizes changes under a TEE trust model. Mainnet claims and wallet integrations were not independently tested. Pricing is omitted because the press material and homepage FAQ conflict on renewal terms.",
+   "sources": [
     {
-      "id": "bitcoin",
-      "name": "Bitcoin",
-      "symbol": "BTC",
-      "color": "#F38A2A",
-      "description": "The base layer, its culture and what gets built on top."
+     "label": "Project press and architecture details",
+     "url": "https://www.zcashnames.com/press"
     },
     {
-      "id": "zcash",
-      "name": "Zcash",
-      "symbol": "ZEC",
-      "color": "#F5C800",
-      "description": "Privacy, payments, upgrades and the road toward shielded assets."
+     "label": "October 15 launch release",
+     "url": "https://www.globenewswire.com/news-release/2026/10/15/3382072/0/en/zcash-names-make-private-payments-easier-to-send.html"
     },
     {
-      "id": "cardano",
-      "name": "Cardano & Midnight",
-      "symbol": "ADA / NIGHT",
-      "color": "#B4C8C0",
-      "description": "Network developments and the privacy-focused Midnight ecosystem."
-    },
-    {
-      "id": "ecosystem",
-      "name": "Across the ecosystem",
-      "symbol": "MACRO",
-      "color": "#D2CBEB",
-      "description": "Policy, infrastructure and tools with cross-chain impact."
+     "label": "Homepage FAQ / conflicting renewal terms",
+     "url": "https://www.zcashnames.com"
     }
-  ],
-  "entries": [
+   ]
+  },
+  {
+   "id": "midnight-roadmap-q4-2026-q1-2027",
+   "date": "2026-10-14",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Roadmap",
+   "status": "Official targets / not live",
+   "title": "Midnight roadmap places NIGHT staking in Q1 2027",
+   "summary": "The official roadmap targets private lending, swaps, EVM NightMode and Passport SDK v1 in Q4 2026. NIGHT staking and community block production by Cardano SPOs are targeted for Q1 2027.",
+   "detail": "These are quarterly plans, not deployment confirmations. The roadmap also places initial block-production rewards and staged BABE migration in Q4, followed by the start of BABE mainnet migration in Q1. Staking reward rates and operator participation requirements were not established by this check. Official roadmap read October 15; October 14 publication timing is reported by SIPO.",
+   "sources": [
     {
-      "id": "thorchain-zec-halt-oct15",
-      "date": "2026-10-15",
-      "topic": "blockchain",
-      "project": "zcash",
-      "type": "Market structure",
-      "status": "Live API snapshot / controls can change",
-      "title": "THORChain's ZEC pool exists, but trading and signing are paused",
-      "summary": "At approximately 8:49pm PT October 15, THORNode reports ZEC trading halted and Mimir sets both ZEC trading and outbound signing halt controls to 1.",
-      "detail": "Midgard lists ZEC.ZEC with about $53.5k total pool depth and zero rolling-24h volume, but its generic available status must not be read as usable trading. The current halt reason was not established. Earlier integration announcements do not prove present availability. This is a point-in-time operational check, not evidence of a new exploit; recheck the live controls before relying on any route or withdrawal.",
-      "sources": [
-        {
-          "label": "THORNode pool state",
-          "url": "https://gateway.liquify.com/chain/thorchain_api/thorchain/pools"
-        },
-        {
-          "label": "Live Mimir controls",
-          "url": "https://gateway.liquify.com/chain/thorchain_api/thorchain/mimir"
-        },
-        {
-          "label": "Midgard pool statistics",
-          "url": "https://gateway.liquify.com/chain/thorchain_midgard/v2/pools"
-        },
-        {
-          "label": "Midgard sync health",
-          "url": "https://gateway.liquify.com/chain/thorchain_midgard/v2/health"
-        }
-      ]
+     "label": "Official Midnight roadmap",
+     "url": "https://midnight.network/roadmap"
     },
     {
-      "id": "zcash-names-early-access-oct15",
-      "date": "2026-10-15",
-      "topic": "blockchain",
-      "project": "zcash",
-      "type": "Ecosystem",
-      "status": "Early Access announced / issuer verified",
-      "title": "Zcash Names opens Early Access for reserved users",
-      "summary": "The naming project's own press page and October 15 release say Early Access opens for reserved participants, with open registration targeted for October 30 or after all reserved participants have had an opportunity to register, whichever is later.",
-      "detail": "Human-readable names resolve to Zcash addresses in participating apps. This is an application-layer naming system, not native smart contracts or ZSA activation. Names, destination addresses and registry history are public; shielded payment activity remains shielded. A single Mint registrar authorizes changes under a TEE trust model. Mainnet claims and wallet integrations were not independently tested. Pricing is omitted because the press material and homepage FAQ conflict on renewal terms.",
-      "sources": [
-        {
-          "label": "Project press and architecture details",
-          "url": "https://www.zcashnames.com/press"
-        },
-        {
-          "label": "October 15 launch release",
-          "url": "https://www.globenewswire.com/news-release/2026/10/15/3382072/0/en/zcash-names-make-private-payments-easier-to-send.html"
-        },
-        {
-          "label": "Homepage FAQ / conflicting renewal terms",
-          "url": "https://www.zcashnames.com"
-        }
-      ]
-    },
-    {
-      "id": "midnight-roadmap-q4-2026-q1-2027",
-      "date": "2026-10-14",
-      "topic": "blockchain",
-      "project": "cardano",
-      "type": "Roadmap",
-      "status": "Official targets / not live",
-      "title": "Midnight roadmap places NIGHT staking in Q1 2027",
-      "summary": "The official roadmap targets private lending, swaps, EVM NightMode and Passport SDK v1 in Q4 2026. NIGHT staking and community block production by Cardano SPOs are targeted for Q1 2027.",
-      "detail": "These are quarterly plans, not deployment confirmations. The roadmap also places initial block-production rewards and staged BABE migration in Q4, followed by the start of BABE mainnet migration in Q1. Staking reward rates and operator participation requirements were not established by this check. Official roadmap read October 15; October 14 publication timing is reported by SIPO.",
-      "sources": [
-        {
-          "label": "Official Midnight roadmap",
-          "url": "https://midnight.network/roadmap"
-        },
-        {
-          "label": "October 14 roadmap coverage",
-          "url": "https://sipo.tokyo/signal-20261014-f9aadbba/"
-        }
-      ]
-    },
-    {
-      "id": "ledger-agent-intent-oct15",
-      "date": "2026-10-15",
-      "topic": "blockchain",
-      "project": "ecosystem",
-      "type": "Tools",
-      "status": "Official launch / not independently tested",
-      "title": "Ledger introduces an approval queue for AI agents",
-      "summary": "Ledger announced Agent Intent, a single interface for asynchronous approval requests from agents, with signing keys retained on a Ledger signer.",
-      "detail": "Ledger invites developers to try Agent Stack and Agent Intent today and explicitly names Hermes among compatible agent harnesses. Availability, compatibility and policy behavior are vendor claims, not independently tested here. This is not confirmation of turnkey Bitcoin DCA support. Ledger Atom is a separate hardware reservation product shipping in 2027.",
-      "sources": [
-        {
-          "label": "Ledger official announcement",
-          "url": "https://www.ledger.com/blog-introducing-ledger-agent-intent"
-        }
-      ]
-    },
-    {
-      "id": "btc-etf-outflows-2026-10-14",
-      "date": "2026-10-14",
-      "topic": "blockchain",
-      "project": "bitcoin",
-      "type": "Market structure",
-      "status": "Verified data / Farside",
-      "title": "Bitcoin ETF flows reverse to $261.4M of outflows",
-      "summary": "Farside's October 14 table records $261.4 million of net outflows, reversing the prior session's $175.7 million inflow.",
-      "detail": "FBTC lost $152.7 million and IBIT $110.9 million, offset by $2.2 million into BITB. Rounded aggregator data checked October 15; revisions remain possible. This supersedes smaller preliminary totals reported overnight, without implying a single-session flow proves a lasting trend.",
-      "sources": [
-        {
-          "label": "Farside daily flow table",
-          "url": "https://farside.co.uk/btc/"
-        }
-      ]
-    },
-    {
-      "id": "btc-etf-flows-2026-10-13",
-      "date": "2026-10-13",
-      "topic": "blockchain",
-      "project": "bitcoin",
-      "type": "Market structure",
-      "status": "Verified data / Farside",
-      "title": "Bitcoin ETF flows return to inflows on October 13",
-      "summary": "Farside records $175.7 million of net inflows into US spot Bitcoin ETFs for October 13, following $65.4 million of outflows October 12.",
-      "detail": "Fidelity FBTC contributed $103.1 million, BlackRock IBIT $65.9 million and Morgan Stanley MSBT $6.7 million. These are rounded aggregator figures, not issuer attestations. A single positive session does not establish a lasting reversal. Figures checked October 14; later revisions are possible.",
-      "sources": [
-        {
-          "label": "Farside daily Bitcoin ETF flow table",
-          "url": "https://farside.co.uk/btc/"
-        },
-        {
-          "label": "Independent reporting",
-          "url": "https://news.bitcoin.com/bitcoin-etf/fidelity-blackrock-lead-176m-bitcoin-etf-rebound/"
-        }
-      ]
-    },
-    {
-      "id": "zcash-programmability",
-      "date": "2026-10-13",
-      "topic": "blockchain",
-      "project": "zcash",
-      "type": "Research",
-      "status": "No confirmed date",
-      "title": "Smart contracts: separate the idea from the roadmap",
-      "summary": "No official Zcash L1 smart-contract activation plan or date was found in the sources checked. Shielded assets are real protocol work, but issuing assets is not the same as deploying general-purpose smart contracts.",
-      "detail": "NU7 changes block timing, action limits and fee recycling. Its deployment spec says it introduces no new transaction format. Faster blocks improve confirmation latency; they do not by themselves add programmability. This is a research finding, not proof that no future proposal can exist.",
-      "sources": [
-        {
-          "label": "NU7 deployment spec",
-          "url": "https://zips.z.cash/zip-0259"
-        },
-        {
-          "label": "Shielded asset issuance draft",
-          "url": "https://zips.z.cash/zip-0227"
-        }
-      ]
-    },
-    {
-      "id": "nu7-decision",
-      "date": "2026-10-13",
-      "topic": "blockchain",
-      "project": "zcash",
-      "type": "Protocol",
-      "status": "Decision pending",
-      "title": "NU7: 25-second blocks, with an October 20 decision",
-      "summary": "The mainnet activation height is due to be set October 20 after testnet review. November 5 is the planned activation, not a confirmed mainnet launch. Testnet activation was scheduled for October 6 and the deployment spec assigns its height.",
-      "detail": "NU7 reduces target block spacing from 75 to 25 seconds, introduces shielded action limits and deploys the Network Sustainability Mechanism. It disables version 4 transactions, making remaining Sprout funds unspendable after activation. This is a protocol upgrade, not a smart-contract release.",
-      "sources": [
-        {
-          "label": "ZIP 259",
-          "url": "https://zips.z.cash/zip-0259"
-        },
-        {
-          "label": "Developer timeline",
-          "url": "https://forum.zcashcommunity.com/t/nu7-timeline/57655"
-        }
-      ]
-    },
-    {
-      "id": "zsa-status",
-      "date": "2026-10-13",
-      "topic": "blockchain",
-      "project": "zcash",
-      "type": "Protocol",
-      "status": "Draft / unresolved timing",
-      "title": "Shielded assets are in development, not confirmed live",
-      "summary": "ZIPs 226 and 227 propose user-defined shielded assets. Both are drafts. No mainnet activation date was confirmed in this check; do not read this as native tokens already running on Zcash.",
-      "detail": "The source documents disagree on timing: ZIP 226 still assumes deployment in NU7, while the current NU7 deployment spec lists a narrower scope without ZSAs. Until an explicit deployment decision resolves this, the honest status is draft with no confirmed activation date. Assets also do not imply a general smart-contract VM.",
-      "sources": [
-        {
-          "label": "ZIP 226: transfer & burn",
-          "url": "https://zips.z.cash/zip-0226"
-        },
-        {
-          "label": "ZIP 227: issuance",
-          "url": "https://zips.z.cash/zip-0227"
-        },
-        {
-          "label": "Current NU7 scope",
-          "url": "https://zips.z.cash/zip-0259"
-        }
-      ]
-    },
-    {
-      "id": "okj-night",
-      "date": "2026-10-13",
-      "topic": "blockchain",
-      "project": "cardano",
-      "type": "Ecosystem",
-      "status": "Live / API verified",
-      "title": "NIGHT-JPY is live on OKJ",
-      "summary": "OKJ's public instrument API marks NIGHT-JPY spot as live. The announced launch was October 13 at 17:00 JST, with Cardano-chain deposits and withdrawals.",
-      "detail": "A listing is a distribution and liquidity development, not evidence of adoption or a forecast for price. Availability and service rules depend on OKJ's account requirements. The launch announcement was also covered by Japanese crypto media.",
-      "sources": [
-        {
-          "label": "OKJ instrument status",
-          "url": "https://api.okj.com/api/v5/public/instruments?instType=SPOT&instId=NIGHT-JPY"
-        },
-        {
-          "label": "Announcement coverage",
-          "url": "https://sipo.tokyo/signal-20261011-759770ef/"
-        }
-      ]
-    },
-    {
-      "id": "cftc-comments",
-      "date": "2026-10-13",
-      "topic": "blockchain",
-      "project": "ecosystem",
-      "type": "Policy",
-      "status": "Public comment open",
-      "title": "CFTC crypto-market rulemaking enters the comment phase",
-      "summary": "The advance notice on crypto asset transactions and markets was published in the Federal Register October 13. Comments must be received by December 14, 2026.",
-      "detail": "This is an advance notice seeking input on rules under Commodity Exchange Act section 2(c)(2)(D). It is not a final rule and does not mean the proposed framework is already in force.",
-      "sources": [
-        {
-          "label": "Federal Register notice",
-          "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets"
-        },
-        {
-          "label": "Published full text",
-          "url": "https://www.federalregister.gov/documents/full_text/text/2026/10/13/2026-20888.txt"
-        }
-      ]
-    },
-    {
-      "id": "ordinals-oct13",
-      "date": "2026-10-13",
-      "topic": "blockchain",
-      "project": "bitcoin",
-      "type": "Art & culture",
-      "status": "Weekly field guide",
-      "title": "Ordinals has a home inside Bitcoin",
-      "summary": "The Ordinals field guide keeps its own weekly editions, art cards, creator context and release archive. This hub is the front door, not a replacement for that deeper page.",
-      "detail": "The October 13 edition covers Bitcoin Browser Create Alpha with beta, signing and mainnet caveats, fresh inscriptions, and a clearly labeled Event Horizon retrospective. Open the guide for the full source-linked edition and past weeks.",
-      "sources": [
-        {
-          "label": "Open the Ordinals field guide",
-          "url": "https://danilarious-ordinals-field-guide.netlify.app/"
-        }
-      ]
-    },
-    {
-      "id": "binance-ai",
-      "date": "2026-10-12",
-      "topic": "blockchain",
-      "project": "ecosystem",
-      "type": "Tools",
-      "status": "Reported rollout",
-      "title": "Binance AI expands to English-language users",
-      "summary": "The Block reports a global English-language rollout of Binance AI, the free personalized trading interface, after a roughly 150,000-user beta.",
-      "detail": "This is coverage of the retail interface. It does not establish that Binance AI Pro or Agent OS has the same availability, and it is not a fresh developer-platform launch. Rollout details here are attributed to The Block rather than independently tested in a Binance account.",
-      "sources": [
-        {
-          "label": "The Block reporting",
-          "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349"
-        }
-      ]
-    },
-    {
-      "id": "tachyon-direction",
-      "date": "2026-09-28",
-      "topic": "blockchain",
-      "project": "zcash",
-      "type": "Protocol",
-      "status": "Development / no launch date",
-      "title": "Tachyon is a scaling direction, not a contract launch",
-      "summary": "Project Tachyon's roadmap centers on shielded scalability, recursive proofs and wallet synchronization. Its roadmap makes mainnet activation conditional on community consensus and the ZIP process, without a launch date.",
-      "detail": "The September 28 development update describes integrating Tachyon's recursive proofs into Zakura Common. This is an engineering milestone, not a testnet or mainnet availability announcement. Reviewed again October 13.",
-      "sources": [
-        {
-          "label": "Tachyon roadmap",
-          "url": "https://tachyon.z.cash/roadmap/"
-        },
-        {
-          "label": "Engineering update",
-          "url": "https://tachyon.z.cash/blog/integrating-tachyon-with-zakura-common/"
-        }
-      ]
-    },
-    {
-      "id": "zrc20-reality-check",
-      "date": "2026-09-21",
-      "topic": "blockchain",
-      "project": "zcash",
-      "type": "Reality check",
-      "status": "Unofficial / caution",
-      "title": "ZRC-20 / $CASH: a memo-and-indexer project",
-      "summary": "The project's own documentation describes JSON in shielded memos, with balances reconstructed by off-chain indexers. It explicitly says no consensus change and no smart contracts. It is not native Zcash token support.",
-      "detail": "September 21 reporting quotes the Zcash Foundation saying it had no prior knowledge of ZRC-20 or $CASH and that this is a private project, not an official Zcash standard or protocol feature. The Foundation quotation is verified through reporting, not the original social post. These links are evidence, not an endorsement or a recommendation to mint or connect a wallet. Reviewed October 13.",
-      "sources": [
-        {
-          "label": "Project's own documentation (unofficial)",
-          "url": "https://docs.zrc20.io/"
-        },
-        {
-          "label": "Foundation statement as reported",
-          "url": "https://www.cryptopolitan.com/zcash-foundation-disowns-zrc-20-cash-token/"
-        }
-      ]
-    },
-    {
-      "id": "ordinals-field-guide-2026-10-20",
-      "date": "2026-10-20",
-      "topic": "blockchain",
-      "project": "bitcoin",
-      "type": "Weekly field guide",
-      "status": "Published edition / source-linked research",
-      "title": "Ordinals field guide: on-chain darkroom, Lucid Dream and living art",
-      "summary": "The October 20 edition covers Costo Bravo's In Development public-sale terms, Zoe Louise's Born in a Lucid Dream release and new coverage of BEST BEFORE's older 2025 collection.",
-      "detail": "Artist pages, collection records and dated reporting support the release leads. Listed prices are not completed sales; no market-wide weekly ranking or sellout comparison was verified. BEST BEFORE's fetched status display is an October 11 snapshot, not a current count. The separate field guide preserves September 29, October 6 and October 13 editions and all original cards.",
-      "sources": [
-        {
-          "label": "October 20 field guide and archive",
-          "url": "https://danilarious-ordinals-field-guide.netlify.app/"
-        },
-        {
-          "label": "Costo Bravo artist release and process",
-          "url": "https://costobravo.com/in-development/"
-        },
-        {
-          "label": "Born in a Lucid Dream portfolio",
-          "url": "https://www.melzieq.com/collection/born-in-a-lucid-dream"
-        },
-        {
-          "label": "BEST BEFORE project",
-          "url": "https://bestbefore.gallery/"
-        }
-      ]
-    },
-    {
-      "id": "zec-nu7-height-2026-10-21",
-      "date": "2026-10-22",
-      "topic": "blockchain",
-      "project": "zcash",
-      "type": "Upgrade",
-      "status": "Shipped in node software / activation pending",
-      "title": "Zakura 1.7.0 and Zebra 7.0.0 ship NU7 mainnet activation: block 3,543,405 (~Nov 5 PT)",
-      "summary": "Zakura 1.7.0 and Zebra 7.0.0 both ship NU7 mainnet support at height 3,543,405, expected about 00:50 UTC November 6 (about 4:50pm PT November 5); the Zebra announcement rounds the calendar date to around November 5. Every mainnet node must update; standalone zcashd processes need v1.3.0.",
-      "detail": "NU7 cuts target block spacing from 75 to 25 seconds and temporarily removes 60% of block fees from circulation under the Network Sustainability Mechanism, with reissuance to miners starting at mainnet height 8,939,664 (around February 2031). The upgrade bans version 4 transactions, which shuts down Sprout and makes any funds left there unspendable at activation. The height is in ZIP 259 and activation now ships in both node implementations: Zakura 1.7.0 (earlier releases halt in the days before activation; standalone zcashd processes need the v1.3.0 release) and Zebra 7.0.0, the first stable Zebra release with mainnet NU7 support, which also fixes seven security advisories. Nodes that have not upgraded follow a different chain after activation. The November 5 timing is an estimate derived from the block height, not a scheduled timestamp.",
-      "sources": [
-        {
-          "label": "Zebra 7.0.0 release announcement",
-          "url": "https://zfnd.org/zebra-7-0-0-release/"
-        },
-        {
-          "label": "Zakura 1.7.0 release announcement",
-          "url": "https://zakura.com/announcements/zakura-1-7-0/"
-        },
-        {
-          "label": "CoinDesk reporting",
-          "url": "https://www.coindesk.com/markets/2026/10/21/zcash-developers-confirm-november-date-for-upgrade-that-triples-payment-speed"
-        },
-        {
-          "label": "ZIP 259 deployment spec",
-          "url": "https://zips.z.cash/zip-0259"
-        }
-      ]
-    },
-    {
-      "id": "night-nightmode-tron-2026-10-21",
-      "date": "2026-10-21",
-      "topic": "blockchain",
-      "project": "cardano",
-      "type": "Partnership",
-      "status": "Announced",
-      "title": "SIG Network says Nightmode will bring Midnight privacy to TRON in December",
-      "summary": "Announced by SIG Network CEO; not live; NIGHT +8.4% on the day.",
-      "detail": "Nightmode connects Midnight to public chains through MPC vault contracts and issues shielded balances inside a multi-chain shielded pool, so native assets stay on their origin chain. SIG states Ethereum support already exists and targets TRON for December 2026. The TRON plan is a SIG Network announcement: it is not confirmed by Midnight or TRON, and Midnight's own Nightmode explainer does not mention TRON or a date. Treat December as a vendor target, not a launch commitment.",
-      "sources": [
-        {
-          "label": "The Crypto Basic reporting",
-          "url": "https://thecryptobasic.com/2026/10/21/cardano-founder-welcomes-tron-to-midnight/"
-        },
-        {
-          "label": "Midnight blog: how Nightmode works",
-          "url": "https://midnight.network/blog/nightmode-enables-cross-chain-privacy"
-        }
-      ]
-    },
-    {
-      "id": "mkt-night-support-break-2026-10-24",
-      "date": "2026-10-24",
-      "topic": "blockchain",
-      "project": "ecosystem",
-      "type": "Market structure",
-      "status": "Price alert / live API snapshot",
-      "title": "NIGHT breaks $0.0378 support as bitcoin closes under its 50-day average",
-      "summary": "Saturday-morning risk-off across the board: NIGHT traded at $0.03648 (-6.43% 24h), through the $0.0378 support level the watch had named and about 3.2% under the last alerted low, with the next named support near $0.0325 on thin volume. ZEC fell 8.14% to $1,124.11 as the NU7 rally unwound, BTC dropped under $80K to $79,404 (-2.48%) after its first daily close below the 50-day moving average since August, and ADA fell 6.13%. No coin-specific cause was identified.",
-      "detail": "Snapshot taken about 8:20am PT on October 24 from the CoinGecko and Kraken APIs; prices move fast and this note is a record of the alert, not live data. Macro context from the linked reports: roughly $496M of liquidations in 24 hours (Coinglass via Bitcoin.com News), more than $635M of single-day net outflows from US spot bitcoin ETFs on Thursday per SoSoValue (via Yahoo Finance), the FOMC decision on October 28 and the PCE print on October 29 ahead, and oil climbing with Brent settling near $117 on Friday. Named support levels are the watch's own markers, not guarantees. Same-day update (4:41pm PT October 24): NIGHT bounced back to $0.03843 (-0.45% 24h), reclaiming the ~$0.0378 level it broke in the morning, and ZEC bounced +2.69% to $1,207.26; BTC recovered to about $80,800. The snapshot above stays as the record of the alert - the support break happened and was later reclaimed, which is not the same as the break never happening.",
-      "sources": [
-        {
-          "label": "Bitcoin.com News: 50-day MA break and liquidations",
-          "url": "https://news.bitcoin.com/finance/bitcoin-price-50-day-moving-average-trump-iran-liquidations/"
-        },
-        {
-          "label": "Yahoo Finance: $635M ETF outflows",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-see-635m-outflow-123947288.html"
-        },
-        {
-          "label": "CoinGecko price API",
-          "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,zcash,cardano,midnight-3&vs_currencies=usd"
-        },
-        {
-          "label": "Kraken ticker API",
-          "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD,ZECUSD,XBTUSD,ADAUSD"
-        }
-      ]
-    },
-    {
-      "id": "hydra-v2-glacier-rerun-2026-10-22",
-      "date": "2026-10-22",
-      "topic": "blockchain",
-      "project": "cardano",
-      "type": "Benchmark",
-      "status": "Benchmark / published test",
-      "title": "Hydra v2 replays the Glacier Drop claim workload 1.9x faster",
-      "summary": "IOG reran the 2025 Glacier Drop claim workload on current Hydra versus the 0.22.4 release: 24,576 real Midnight claim transactions replayed at 79 claims per second versus 42, per-claim settlement down from 9.9s to 4.4s, and 43% less time end to end (339.1s vs 590.4s).",
-      "detail": "Same team and same host as the 2025 head, three alternating runs per version, no run more than 3% from its version's median; the per-claim distributions form two separate humps, so the typical claim really is faster, not just the average. The post also documents the v2 lifecycle (Init straight to Open), deposits and decommits, partial fanout, and two serious 2025 bugs since fixed. This is a benchmark of current Hydra against its own prior release, not a live-network event, and the numbers are IOG's own published test.",
-      "sources": [
-        {
-          "label": "IOG: Hydra v2 Glacier Drop rerun",
-          "url": "https://www.iog.io/news/hydra-v2-glacier-drop-rerun"
-        }
-      ]
-    },
-    {
-      "id": "sec-volatility-shares-3x-2026-10-02",
-      "date": "2026-10-02",
-      "topic": "blockchain",
-      "project": "ecosystem",
-      "type": "Market structure",
-      "status": "Announced",
-      "title": "SEC clears Cboe listing for the first 3x leveraged bitcoin and ether ETFs",
-      "summary": "SEC Release 34-106577 (October 2) approves Cboe BZX listing for Volatility Shares' 3x Bitcoin (BITH) and 3x Ether (ETHK) futures ETFs - reported as the first US triple-leverage crypto products. Trading is not live: each fund still needs its S-1 declared effective, with no timeline set.",
-      "detail": "The order grants listing only; until the registration statements are declared effective the funds are approved for a listing they cannot yet use. The approval covers a six-product slate (gold, silver, bitcoin, ether, crude oil, natural gas) under the VS Trust. Both crypto funds track futures benchmarks at three times daily performance - they hold no spot BTC or ETH - and sit under the Securities Act of 1933 rather than the 1940 Act, which is how a 3x structure is possible at all, per CryptoBriefing's analysis. \"First US triple-leverage crypto ETPs\" is the reported framing, not our independent verification.",
-      "sources": [
-        {
-          "label": "SEC Release 34-106577 (PDF)",
-          "url": "https://www.sec.gov/files/rules/sro/cboebzx/2026/34-106577.pdf"
-        },
-        {
-          "label": "CryptoBriefing report",
-          "url": "https://cryptobriefing.com/sec-volatility-shares-3x-bitcoin-ether-etfs/"
-        }
-      ]
-    },
-    {
-      "id": "mkt-night-btc-relative-strength-2026-10-26",
-      "date": "2026-10-26",
-      "topic": "blockchain",
-      "project": "cardano",
-      "type": "Market structure",
-      "status": "Price alert / live API snapshot",
-      "title": "NIGHT outruns bitcoin: NIGHT/BTC crosses the +5% relative-strength threshold",
-      "summary": "Monday-morning threshold cross at about 7:43am PT: NIGHT/BTC up 5.32% over 24h (0.000000482517 BTC), a fresh +5% relative-strength alert. NIGHT traded at $0.03849 (+4.68%), back above the ~$0.0378 level it lost Friday; BTC sat at $79,889 (-0.57%). This is the +5% relative-strength trigger, not the +15% USD trigger.",
-      "detail": "Snapshot taken about 7:43am PT on October 26 from the CoinGecko and Kraken APIs (Kraken NIGHT $0.03854); prices move fast and this note is a record of the alert, not live data. The cross means NIGHT outperformed bitcoin over the window, not that everything rose - BTC was slightly down on the day. The reclaim of ~$0.0378 follows Friday's break and same-day recovery; named levels remain the watch's own markers, not guarantees. No new partnership news was confirmed behind the move; a recycled Dynamic/Midnight headline made the rounds and was ignored.",
-      "sources": [
-        {
-          "label": "CoinGecko price API",
-          "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
-        },
-        {
-          "label": "Kraken ticker API",
-          "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD"
-        }
-      ]
-    },
-    {
-      "id": "occ-genius-final-rule-2026-10-21",
-      "date": "2026-10-21",
-      "topic": "blockchain",
-      "project": "ecosystem",
-      "type": "Policy",
-      "status": "Final rule / effective January 18, 2027",
-      "title": "OCC finalizes the GENIUS Act stablecoin framework",
-      "summary": "Policy catch-up dated October 21, not new news: the OCC published its final GENIUS Act rules for payment stablecoin issuers under its jurisdiction. The framework takes effect January 18, 2027 - published, not yet in force.",
-      "detail": "The bulk of the rules land in a new 12 CFR 15: reserve assets, redemption, custody, risk management, audits and supervision, issuer applications and registrations, capital and operational backstops, state issuers transitioning to the federal framework, and examination of foreign issuers. The GENIUS Act itself was enacted July 18, 2025 and generally bars anyone other than a permitted payment stablecoin issuer from issuing payment stablecoins in the US. Bank Secrecy Act, AML and OFAC sanctions rules are explicitly excluded from this package - they come in a separate rulemaking coordinated with Treasury. Details from OCC Bulletin 2026-50, checked October 26.",
-      "sources": [
-        {
-          "label": "OCC Bulletin 2026-50: GENIUS Act Regulations, Final Rule",
-          "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html"
-        }
-      ]
-    },
-    {
-      "id": "zcash-dev-fund-retirement-debate-2026-10-27",
-      "date": "2026-10-27",
-      "topic": "blockchain",
-      "project": "zcash",
-      "type": "Governance",
-      "status": "Draft discussion / nothing adopted",
-      "title": "Draft ZIPs would retire Zcash development-fund streams; nothing adopted",
-      "summary": "Competing draft proposals on the Zcash forum would end the ZCG funding stream. @ebfull submitted a draft ZIP shutting down ZCG's future funding stream, kept separate from the existing treasury; the @maxdesalle thread proposes moving ZCG's 8% block-reward share to the Network Sustainability Mechanism at NU8 and winding down the ZCG treasury; @joshs describes a broader draft retiring both the ZCG and 12% coinholder streams with a one-time legal-defense endowment for developers.",
-      "detail": "All three are drafts under discussion: nothing is adopted, there is no verified activation height, and none of it is scheduled for NU7. The full submitted ZIP text was not retrieved, so the mechanics above are the authors' own forum summaries, not checked against the ZIP itself. @ebfull explicitly argues treasury questions should be separate proposals. Forum thread and post checked October 27.",
-      "sources": [
-        {
-          "label": "Forum thread: End ZCG and send its funds to the NSM",
-          "url": "https://forum.zcashcommunity.com/t/end-zcg-and-send-its-funds-to-the-nsm/58515.md"
-        },
-        {
-          "label": "@ebfull post: draft ZIP submitted",
-          "url": "https://forum.zcashcommunity.com/t/end-zcg-and-send-its-funds-to-the-nsm/58515/11"
-        }
-      ]
-    },
-    {
-      "id": "ordinals-field-guide-2026-10-27",
-      "date": "2026-10-27",
-      "topic": "blockchain",
-      "project": "bitcoin",
-      "type": "Weekly field guide",
-      "status": "Published edition / source-linked research",
-      "title": "Ordinals field guide: OrdFellaz mint, Tiny Vikings in Marfa, fewer venues",
-      "summary": "The October 27 edition covers the OrdFellaz 2,000-piece mint on ORD.NET, the Tiny Vikings Marfa reveal, a small Ordinals10K secondary sale and the trading-venue picture after Magic Eden's Bitcoin exit.",
-      "detail": "OrdFellaz mint terms come from social posts relayed by KuCoin; the ORD.NET page shows supply, owners and listings, not a sellout. The Tiny Vikings reveal is a pre-event report with no verified outcome. The OpenSea Ordinals push is a community campaign with no announced launch, and the 127.7 million inscription count measures records, not demand. No market-wide ranking was verified. The separate field guide preserves the September 29 to October 20 editions and all original cards.",
-      "sources": [
-        {
-          "label": "October 27 field guide and archive",
-          "url": "https://danilarious-ordinals-field-guide.netlify.app/"
-        },
-        {
-          "label": "OrdFellaz on ORD.NET",
-          "url": "https://ord.net/collection/ordfellaz"
-        },
-        {
-          "label": "Tiny Vikings Marfa report",
-          "url": "https://nordiccrypto.no/stories/tiny-viking-marfa/"
-        },
-        {
-          "label": "OpenSea Ordinals push (crypto.news)",
-          "url": "https://crypto.news/opensea-bitcoin-ordinals-runes-trading-support/"
-        }
-      ]
+     "label": "October 14 roadmap coverage",
+     "url": "https://sipo.tokyo/signal-20261014-f9aadbba/"
     }
-  ],
-  "timeline": [
+   ]
+  },
+  {
+   "id": "ledger-agent-intent-oct15",
+   "date": "2026-10-15",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Tools",
+   "status": "Official launch / not independently tested",
+   "title": "Ledger introduces an approval queue for AI agents",
+   "summary": "Ledger announced Agent Intent, a single interface for asynchronous approval requests from agents, with signing keys retained on a Ledger signer.",
+   "detail": "Ledger invites developers to try Agent Stack and Agent Intent today and explicitly names Hermes among compatible agent harnesses. Availability, compatibility and policy behavior are vendor claims, not independently tested here. This is not confirmation of turnkey Bitcoin DCA support. Ledger Atom is a separate hardware reservation product shipping in 2027.",
+   "sources": [
     {
-      "date": "2026-10-20",
-      "project": "zcash",
-      "title": "NU7 mainnet decision",
-      "status": "Merged into ZIP 259",
-      "description": "ZIP editors agreed mainnet height 3,543,405, merged into the deployment spec and shipped in Zakura 1.7.0 and Zebra 7.0.0 on October 22.",
-      "url": "https://zips.z.cash/zip-0259"
-    },
-    {
-      "date": "2026-11-05",
-      "project": "zcash",
-      "title": "NU7 planned mainnet activation",
-      "status": "Ships in Zakura & Zebra / timing estimated",
-      "description": "Zakura 1.7.0 and Zebra 7.0.0 activate NU7 at block 3,543,405, expected about 00:50 UTC November 6 (about 4:50pm PT November 5; Zebra says around November 5). The timing is an estimate from the block height, not a confirmed timestamp.",
-      "url": "https://forum.zcashcommunity.com/t/nu7-timeline/57655"
-    },
-    {
-      "date": "2026-12-14",
-      "project": "ecosystem",
-      "title": "CFTC comment deadline",
-      "status": "Published deadline",
-      "description": "Comments on the advance notice must be received by this date.",
-      "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets"
+     "label": "Ledger official announcement",
+     "url": "https://www.ledger.com/blog-introducing-ledger-agent-intent"
     }
-  ]
+   ]
+  },
+  {
+   "id": "btc-etf-outflows-2026-10-14",
+   "date": "2026-10-14",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Market structure",
+   "status": "Verified data / Farside",
+   "title": "Bitcoin ETF flows reverse to $261.4M of outflows",
+   "summary": "Farside's October 14 table records $261.4 million of net outflows, reversing the prior session's $175.7 million inflow.",
+   "detail": "FBTC lost $152.7 million and IBIT $110.9 million, offset by $2.2 million into BITB. Rounded aggregator data checked October 15; revisions remain possible. This supersedes smaller preliminary totals reported overnight, without implying a single-session flow proves a lasting trend.",
+   "sources": [
+    {
+     "label": "Farside daily flow table",
+     "url": "https://farside.co.uk/btc/"
+    }
+   ]
+  },
+  {
+   "id": "btc-etf-flows-2026-10-13",
+   "date": "2026-10-13",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Market structure",
+   "status": "Verified data / Farside",
+   "title": "Bitcoin ETF flows return to inflows on October 13",
+   "summary": "Farside records $175.7 million of net inflows into US spot Bitcoin ETFs for October 13, following $65.4 million of outflows October 12.",
+   "detail": "Fidelity FBTC contributed $103.1 million, BlackRock IBIT $65.9 million and Morgan Stanley MSBT $6.7 million. These are rounded aggregator figures, not issuer attestations. A single positive session does not establish a lasting reversal. Figures checked October 14; later revisions are possible.",
+   "sources": [
+    {
+     "label": "Farside daily Bitcoin ETF flow table",
+     "url": "https://farside.co.uk/btc/"
+    },
+    {
+     "label": "Independent reporting",
+     "url": "https://news.bitcoin.com/bitcoin-etf/fidelity-blackrock-lead-176m-bitcoin-etf-rebound/"
+    }
+   ]
+  },
+  {
+   "id": "zcash-programmability",
+   "date": "2026-10-13",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Research",
+   "status": "No confirmed date",
+   "title": "Smart contracts: separate the idea from the roadmap",
+   "summary": "No official Zcash L1 smart-contract activation plan or date was found in the sources checked. Shielded assets are real protocol work, but issuing assets is not the same as deploying general-purpose smart contracts.",
+   "detail": "NU7 changes block timing, action limits and fee recycling. Its deployment spec says it introduces no new transaction format. Faster blocks improve confirmation latency; they do not by themselves add programmability. This is a research finding, not proof that no future proposal can exist.",
+   "sources": [
+    {
+     "label": "NU7 deployment spec",
+     "url": "https://zips.z.cash/zip-0259"
+    },
+    {
+     "label": "Shielded asset issuance draft",
+     "url": "https://zips.z.cash/zip-0227"
+    }
+   ]
+  },
+  {
+   "id": "nu7-decision",
+   "date": "2026-10-13",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Protocol",
+   "status": "Decision pending",
+   "title": "NU7: 25-second blocks, with an October 20 decision",
+   "summary": "The mainnet activation height is due to be set October 20 after testnet review. November 5 is the planned activation, not a confirmed mainnet launch. Testnet activation was scheduled for October 6 and the deployment spec assigns its height.",
+   "detail": "NU7 reduces target block spacing from 75 to 25 seconds, introduces shielded action limits and deploys the Network Sustainability Mechanism. It disables version 4 transactions, making remaining Sprout funds unspendable after activation. This is a protocol upgrade, not a smart-contract release.",
+   "sources": [
+    {
+     "label": "ZIP 259",
+     "url": "https://zips.z.cash/zip-0259"
+    },
+    {
+     "label": "Developer timeline",
+     "url": "https://forum.zcashcommunity.com/t/nu7-timeline/57655"
+    }
+   ]
+  },
+  {
+   "id": "zsa-status",
+   "date": "2026-10-13",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Protocol",
+   "status": "Draft / unresolved timing",
+   "title": "Shielded assets are in development, not confirmed live",
+   "summary": "ZIPs 226 and 227 propose user-defined shielded assets. Both are drafts. No mainnet activation date was confirmed in this check; do not read this as native tokens already running on Zcash.",
+   "detail": "The source documents disagree on timing: ZIP 226 still assumes deployment in NU7, while the current NU7 deployment spec lists a narrower scope without ZSAs. Until an explicit deployment decision resolves this, the honest status is draft with no confirmed activation date. Assets also do not imply a general smart-contract VM.",
+   "sources": [
+    {
+     "label": "ZIP 226: transfer & burn",
+     "url": "https://zips.z.cash/zip-0226"
+    },
+    {
+     "label": "ZIP 227: issuance",
+     "url": "https://zips.z.cash/zip-0227"
+    },
+    {
+     "label": "Current NU7 scope",
+     "url": "https://zips.z.cash/zip-0259"
+    }
+   ]
+  },
+  {
+   "id": "okj-night",
+   "date": "2026-10-13",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Ecosystem",
+   "status": "Live / API verified",
+   "title": "NIGHT-JPY is live on OKJ",
+   "summary": "OKJ's public instrument API marks NIGHT-JPY spot as live. The announced launch was October 13 at 17:00 JST, with Cardano-chain deposits and withdrawals.",
+   "detail": "A listing is a distribution and liquidity development, not evidence of adoption or a forecast for price. Availability and service rules depend on OKJ's account requirements. The launch announcement was also covered by Japanese crypto media.",
+   "sources": [
+    {
+     "label": "OKJ instrument status",
+     "url": "https://api.okj.com/api/v5/public/instruments?instType=SPOT&instId=NIGHT-JPY"
+    },
+    {
+     "label": "Announcement coverage",
+     "url": "https://sipo.tokyo/signal-20261011-759770ef/"
+    }
+   ]
+  },
+  {
+   "id": "cftc-comments",
+   "date": "2026-10-13",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Policy",
+   "status": "Public comment open",
+   "title": "CFTC crypto-market rulemaking enters the comment phase",
+   "summary": "The advance notice on crypto asset transactions and markets was published in the Federal Register October 13. Comments must be received by December 14, 2026.",
+   "detail": "This is an advance notice seeking input on rules under Commodity Exchange Act section 2(c)(2)(D). It is not a final rule and does not mean the proposed framework is already in force.",
+   "sources": [
+    {
+     "label": "Federal Register notice",
+     "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets"
+    },
+    {
+     "label": "Published full text",
+     "url": "https://www.federalregister.gov/documents/full_text/text/2026/10/13/2026-20888.txt"
+    }
+   ]
+  },
+  {
+   "id": "ordinals-oct13",
+   "date": "2026-10-13",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Art & culture",
+   "status": "Weekly field guide",
+   "title": "Ordinals has a home inside Bitcoin",
+   "summary": "The Ordinals field guide keeps its own weekly editions, art cards, creator context and release archive. This hub is the front door, not a replacement for that deeper page.",
+   "detail": "The October 13 edition covers Bitcoin Browser Create Alpha with beta, signing and mainnet caveats, fresh inscriptions, and a clearly labeled Event Horizon retrospective. Open the guide for the full source-linked edition and past weeks.",
+   "sources": [
+    {
+     "label": "Open the Ordinals field guide",
+     "url": "https://danilarious-ordinals-field-guide.netlify.app/"
+    }
+   ]
+  },
+  {
+   "id": "binance-ai",
+   "date": "2026-10-12",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Tools",
+   "status": "Reported rollout",
+   "title": "Binance AI expands to English-language users",
+   "summary": "The Block reports a global English-language rollout of Binance AI, the free personalized trading interface, after a roughly 150,000-user beta.",
+   "detail": "This is coverage of the retail interface. It does not establish that Binance AI Pro or Agent OS has the same availability, and it is not a fresh developer-platform launch. Rollout details here are attributed to The Block rather than independently tested in a Binance account.",
+   "sources": [
+    {
+     "label": "The Block reporting",
+     "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349"
+    }
+   ]
+  },
+  {
+   "id": "tachyon-direction",
+   "date": "2026-09-28",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Protocol",
+   "status": "Development / no launch date",
+   "title": "Tachyon is a scaling direction, not a contract launch",
+   "summary": "Project Tachyon's roadmap centers on shielded scalability, recursive proofs and wallet synchronization. Its roadmap makes mainnet activation conditional on community consensus and the ZIP process, without a launch date.",
+   "detail": "The September 28 development update describes integrating Tachyon's recursive proofs into Zakura Common. This is an engineering milestone, not a testnet or mainnet availability announcement. Reviewed again October 13.",
+   "sources": [
+    {
+     "label": "Tachyon roadmap",
+     "url": "https://tachyon.z.cash/roadmap/"
+    },
+    {
+     "label": "Engineering update",
+     "url": "https://tachyon.z.cash/blog/integrating-tachyon-with-zakura-common/"
+    }
+   ]
+  },
+  {
+   "id": "zrc20-reality-check",
+   "date": "2026-09-21",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Reality check",
+   "status": "Unofficial / caution",
+   "title": "ZRC-20 / $CASH: a memo-and-indexer project",
+   "summary": "The project's own documentation describes JSON in shielded memos, with balances reconstructed by off-chain indexers. It explicitly says no consensus change and no smart contracts. It is not native Zcash token support.",
+   "detail": "September 21 reporting quotes the Zcash Foundation saying it had no prior knowledge of ZRC-20 or $CASH and that this is a private project, not an official Zcash standard or protocol feature. The Foundation quotation is verified through reporting, not the original social post. These links are evidence, not an endorsement or a recommendation to mint or connect a wallet. Reviewed October 13.",
+   "sources": [
+    {
+     "label": "Project's own documentation (unofficial)",
+     "url": "https://docs.zrc20.io/"
+    },
+    {
+     "label": "Foundation statement as reported",
+     "url": "https://www.cryptopolitan.com/zcash-foundation-disowns-zrc-20-cash-token/"
+    }
+   ]
+  },
+  {
+   "id": "ordinals-field-guide-2026-10-20",
+   "date": "2026-10-20",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Weekly field guide",
+   "status": "Published edition / source-linked research",
+   "title": "Ordinals field guide: on-chain darkroom, Lucid Dream and living art",
+   "summary": "The October 20 edition covers Costo Bravo's In Development public-sale terms, Zoe Louise's Born in a Lucid Dream release and new coverage of BEST BEFORE's older 2025 collection.",
+   "detail": "Artist pages, collection records and dated reporting support the release leads. Listed prices are not completed sales; no market-wide weekly ranking or sellout comparison was verified. BEST BEFORE's fetched status display is an October 11 snapshot, not a current count. The separate field guide preserves September 29, October 6 and October 13 editions and all original cards.",
+   "sources": [
+    {
+     "label": "October 20 field guide and archive",
+     "url": "https://danilarious-ordinals-field-guide.netlify.app/"
+    },
+    {
+     "label": "Costo Bravo artist release and process",
+     "url": "https://costobravo.com/in-development/"
+    },
+    {
+     "label": "Born in a Lucid Dream portfolio",
+     "url": "https://www.melzieq.com/collection/born-in-a-lucid-dream"
+    },
+    {
+     "label": "BEST BEFORE project",
+     "url": "https://bestbefore.gallery/"
+    }
+   ]
+  },
+  {
+   "id": "zec-nu7-height-2026-10-21",
+   "date": "2026-10-22",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Upgrade",
+   "status": "Shipped in node software / activation pending",
+   "title": "Zakura 1.7.0 and Zebra 7.0.0 ship NU7 mainnet activation: block 3,543,405 (~Nov 5 PT)",
+   "summary": "Zakura 1.7.0 and Zebra 7.0.0 both ship NU7 mainnet support at height 3,543,405, expected about 00:50 UTC November 6 (about 4:50pm PT November 5); the Zebra announcement rounds the calendar date to around November 5. Every mainnet node must update; standalone zcashd processes need v1.3.0.",
+   "detail": "NU7 cuts target block spacing from 75 to 25 seconds and temporarily removes 60% of block fees from circulation under the Network Sustainability Mechanism, with reissuance to miners starting at mainnet height 8,939,664 (around February 2031). The upgrade bans version 4 transactions, which shuts down Sprout and makes any funds left there unspendable at activation. The height is in ZIP 259 and activation now ships in both node implementations: Zakura 1.7.0 (earlier releases halt in the days before activation; standalone zcashd processes need the v1.3.0 release) and Zebra 7.0.0, the first stable Zebra release with mainnet NU7 support, which also fixes seven security advisories. Nodes that have not upgraded follow a different chain after activation. The November 5 timing is an estimate derived from the block height, not a scheduled timestamp.",
+   "sources": [
+    {
+     "label": "Zebra 7.0.0 release announcement",
+     "url": "https://zfnd.org/zebra-7-0-0-release/"
+    },
+    {
+     "label": "Zakura 1.7.0 release announcement",
+     "url": "https://zakura.com/announcements/zakura-1-7-0/"
+    },
+    {
+     "label": "CoinDesk reporting",
+     "url": "https://www.coindesk.com/markets/2026/10/21/zcash-developers-confirm-november-date-for-upgrade-that-triples-payment-speed"
+    },
+    {
+     "label": "ZIP 259 deployment spec",
+     "url": "https://zips.z.cash/zip-0259"
+    }
+   ]
+  },
+  {
+   "id": "night-nightmode-tron-2026-10-21",
+   "date": "2026-10-21",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Partnership",
+   "status": "Announced",
+   "title": "SIG Network says Nightmode will bring Midnight privacy to TRON in December",
+   "summary": "Announced by SIG Network CEO; not live; NIGHT +8.4% on the day.",
+   "detail": "Nightmode connects Midnight to public chains through MPC vault contracts and issues shielded balances inside a multi-chain shielded pool, so native assets stay on their origin chain. SIG states Ethereum support already exists and targets TRON for December 2026. The TRON plan is a SIG Network announcement: it is not confirmed by Midnight or TRON, and Midnight's own Nightmode explainer does not mention TRON or a date. Treat December as a vendor target, not a launch commitment.",
+   "sources": [
+    {
+     "label": "The Crypto Basic reporting",
+     "url": "https://thecryptobasic.com/2026/10/21/cardano-founder-welcomes-tron-to-midnight/"
+    },
+    {
+     "label": "Midnight blog: how Nightmode works",
+     "url": "https://midnight.network/blog/nightmode-enables-cross-chain-privacy"
+    }
+   ]
+  },
+  {
+   "id": "mkt-night-support-break-2026-10-24",
+   "date": "2026-10-24",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "NIGHT breaks $0.0378 support as bitcoin closes under its 50-day average",
+   "summary": "Saturday-morning risk-off across the board: NIGHT traded at $0.03648 (-6.43% 24h), through the $0.0378 support level the watch had named and about 3.2% under the last alerted low, with the next named support near $0.0325 on thin volume. ZEC fell 8.14% to $1,124.11 as the NU7 rally unwound, BTC dropped under $80K to $79,404 (-2.48%) after its first daily close below the 50-day moving average since August, and ADA fell 6.13%. No coin-specific cause was identified.",
+   "detail": "Snapshot taken about 8:20am PT on October 24 from the CoinGecko and Kraken APIs; prices move fast and this note is a record of the alert, not live data. Macro context from the linked reports: roughly $496M of liquidations in 24 hours (Coinglass via Bitcoin.com News), more than $635M of single-day net outflows from US spot bitcoin ETFs on Thursday per SoSoValue (via Yahoo Finance), the FOMC decision on October 28 and the PCE print on October 29 ahead, and oil climbing with Brent settling near $117 on Friday. Named support levels are the watch's own markers, not guarantees. Same-day update (4:41pm PT October 24): NIGHT bounced back to $0.03843 (-0.45% 24h), reclaiming the ~$0.0378 level it broke in the morning, and ZEC bounced +2.69% to $1,207.26; BTC recovered to about $80,800. The snapshot above stays as the record of the alert - the support break happened and was later reclaimed, which is not the same as the break never happening.",
+   "sources": [
+    {
+     "label": "Bitcoin.com News: 50-day MA break and liquidations",
+     "url": "https://news.bitcoin.com/finance/bitcoin-price-50-day-moving-average-trump-iran-liquidations/"
+    },
+    {
+     "label": "Yahoo Finance: $635M ETF outflows",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-see-635m-outflow-123947288.html"
+    },
+    {
+     "label": "CoinGecko price API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,zcash,cardano,midnight-3&vs_currencies=usd"
+    },
+    {
+     "label": "Kraken ticker API",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD,ZECUSD,XBTUSD,ADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "hydra-v2-glacier-rerun-2026-10-22",
+   "date": "2026-10-22",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Benchmark",
+   "status": "Benchmark / published test",
+   "title": "Hydra v2 replays the Glacier Drop claim workload 1.9x faster",
+   "summary": "IOG reran the 2025 Glacier Drop claim workload on current Hydra versus the 0.22.4 release: 24,576 real Midnight claim transactions replayed at 79 claims per second versus 42, per-claim settlement down from 9.9s to 4.4s, and 43% less time end to end (339.1s vs 590.4s).",
+   "detail": "Same team and same host as the 2025 head, three alternating runs per version, no run more than 3% from its version's median; the per-claim distributions form two separate humps, so the typical claim really is faster, not just the average. The post also documents the v2 lifecycle (Init straight to Open), deposits and decommits, partial fanout, and two serious 2025 bugs since fixed. This is a benchmark of current Hydra against its own prior release, not a live-network event, and the numbers are IOG's own published test.",
+   "sources": [
+    {
+     "label": "IOG: Hydra v2 Glacier Drop rerun",
+     "url": "https://www.iog.io/news/hydra-v2-glacier-drop-rerun"
+    }
+   ]
+  },
+  {
+   "id": "sec-volatility-shares-3x-2026-10-02",
+   "date": "2026-10-02",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Announced",
+   "title": "SEC clears Cboe listing for the first 3x leveraged bitcoin and ether ETFs",
+   "summary": "SEC Release 34-106577 (October 2) approves Cboe BZX listing for Volatility Shares' 3x Bitcoin (BITH) and 3x Ether (ETHK) futures ETFs - reported as the first US triple-leverage crypto products. Trading is not live: each fund still needs its S-1 declared effective, with no timeline set.",
+   "detail": "The order grants listing only; until the registration statements are declared effective the funds are approved for a listing they cannot yet use. The approval covers a six-product slate (gold, silver, bitcoin, ether, crude oil, natural gas) under the VS Trust. Both crypto funds track futures benchmarks at three times daily performance - they hold no spot BTC or ETH - and sit under the Securities Act of 1933 rather than the 1940 Act, which is how a 3x structure is possible at all, per CryptoBriefing's analysis. \"First US triple-leverage crypto ETPs\" is the reported framing, not our independent verification.",
+   "sources": [
+    {
+     "label": "SEC Release 34-106577 (PDF)",
+     "url": "https://www.sec.gov/files/rules/sro/cboebzx/2026/34-106577.pdf"
+    },
+    {
+     "label": "CryptoBriefing report",
+     "url": "https://cryptobriefing.com/sec-volatility-shares-3x-bitcoin-ether-etfs/"
+    }
+   ]
+  },
+  {
+   "id": "mkt-night-btc-relative-strength-2026-10-26",
+   "date": "2026-10-26",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "NIGHT outruns bitcoin: NIGHT/BTC crosses the +5% relative-strength threshold",
+   "summary": "Monday-morning threshold cross at about 7:43am PT: NIGHT/BTC up 5.32% over 24h (0.000000482517 BTC), a fresh +5% relative-strength alert. NIGHT traded at $0.03849 (+4.68%), back above the ~$0.0378 level it lost Friday; BTC sat at $79,889 (-0.57%). This is the +5% relative-strength trigger, not the +15% USD trigger.",
+   "detail": "Snapshot taken about 7:43am PT on October 26 from the CoinGecko and Kraken APIs (Kraken NIGHT $0.03854); prices move fast and this note is a record of the alert, not live data. The cross means NIGHT outperformed bitcoin over the window, not that everything rose - BTC was slightly down on the day. The reclaim of ~$0.0378 follows Friday's break and same-day recovery; named levels remain the watch's own markers, not guarantees. No new partnership news was confirmed behind the move; a recycled Dynamic/Midnight headline made the rounds and was ignored.",
+   "sources": [
+    {
+     "label": "CoinGecko price API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker API",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD"
+    }
+   ]
+  },
+  {
+   "id": "occ-genius-final-rule-2026-10-21",
+   "date": "2026-10-21",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Policy",
+   "status": "Final rule / effective January 18, 2027",
+   "title": "OCC finalizes the GENIUS Act stablecoin framework",
+   "summary": "Policy catch-up dated October 21, not new news: the OCC published its final GENIUS Act rules for payment stablecoin issuers under its jurisdiction. The framework takes effect January 18, 2027 - published, not yet in force.",
+   "detail": "The bulk of the rules land in a new 12 CFR 15: reserve assets, redemption, custody, risk management, audits and supervision, issuer applications and registrations, capital and operational backstops, state issuers transitioning to the federal framework, and examination of foreign issuers. The GENIUS Act itself was enacted July 18, 2025 and generally bars anyone other than a permitted payment stablecoin issuer from issuing payment stablecoins in the US. Bank Secrecy Act, AML and OFAC sanctions rules are explicitly excluded from this package - they come in a separate rulemaking coordinated with Treasury. Details from OCC Bulletin 2026-50, checked October 26.",
+   "sources": [
+    {
+     "label": "OCC Bulletin 2026-50: GENIUS Act Regulations, Final Rule",
+     "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html"
+    }
+   ]
+  },
+  {
+   "id": "zcash-dev-fund-retirement-debate-2026-10-27",
+   "date": "2026-10-27",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Governance",
+   "status": "Draft discussion / nothing adopted",
+   "title": "Draft ZIPs would retire Zcash development-fund streams; nothing adopted",
+   "summary": "Verified against the submitted draft: @ebfull's PR #1414 would redirect ZCG's remaining 8% block-reward share to the Network Sustainability Mechanism through the stream's existing expiry, while ZCG keeps its existing treasury and grant-making role and the 12% coinholder stream is preserved. Two wider forum proposals (winding down the ZCG treasury at NU8; retiring both streams with a developer legal-defense endowment) remain separate discussion threads.",
+   "detail": "Mechanics checked against the draft ZIP text, not just forum summaries: the NSM credit is an accounting designation, not an immediate payment to miners; the miner-share formula, cap and transaction formats are unchanged; and the change applies to future allocations only. The PR is open and unmerged, with no activation height and no reference implementation, and none of this is scheduled for NU7. Refinement note: this entry's first version relied on the authors' forum summaries; the mechanics above are now verified against the submitted draft.",
+   "sources": [
+    {
+     "label": "Forum thread: End ZCG and send its funds to the NSM",
+     "url": "https://forum.zcashcommunity.com/t/end-zcg-and-send-its-funds-to-the-nsm/58515.md"
+    },
+    {
+     "label": "@ebfull post: draft ZIP submitted",
+     "url": "https://forum.zcashcommunity.com/t/end-zcg-and-send-its-funds-to-the-nsm/58515/11"
+    },
+    {
+     "label": "Draft ZIP pull request #1414",
+     "url": "https://github.com/zcash/zips/pull/1414"
+    },
+    {
+     "label": "Submitted draft text (draft-bowe-end-zcg-stream)",
+     "url": "https://github.com/zcash/zips/raw/683f4b694f2ea37e092dd6c96f46ec32a6a197ff/zips%2Fdraft-bowe-end-zcg-stream.md"
+    }
+   ]
+  },
+  {
+   "id": "ordinals-field-guide-2026-10-27",
+   "date": "2026-10-27",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Weekly field guide",
+   "status": "Published edition / source-linked research",
+   "title": "Ordinals field guide: OrdFellaz mint, Tiny Vikings in Marfa, fewer venues",
+   "summary": "The October 27 edition covers the OrdFellaz 2,000-piece mint on ORD.NET, plans for a Tiny Vikings Marfa reveal (outcome unverified), a small Ordinals10K secondary sale and the trading-venue picture after Magic Eden's Bitcoin exit.",
+   "detail": "OrdFellaz mint terms come from social posts relayed by KuCoin; the ORD.NET page shows supply, owners and listings, not a sellout. The Tiny Vikings reveal is a pre-event report with no verified outcome. The OpenSea Ordinals push is a community campaign with no announced launch, and the 127.7 million inscription count measures records, not demand. No market-wide ranking was verified. The separate field guide preserves the September 29 to October 20 editions and all original cards.",
+   "sources": [
+    {
+     "label": "October 27 field guide and archive",
+     "url": "https://danilarious-ordinals-field-guide.netlify.app/"
+    },
+    {
+     "label": "OrdFellaz on ORD.NET",
+     "url": "https://ord.net/collection/ordfellaz"
+    },
+    {
+     "label": "Tiny Vikings Marfa report",
+     "url": "https://nordiccrypto.no/stories/tiny-viking-marfa/"
+    },
+    {
+     "label": "OpenSea Ordinals push (crypto.news)",
+     "url": "https://crypto.news/opensea-bitcoin-ordinals-runes-trading-support/"
+    }
+   ]
+  },
+  {
+   "id": "midnight-node-1-0-400-2026-10-27",
+   "date": "2026-10-27",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Security",
+   "status": "Deployed / issuer-confirmed",
+   "title": "Midnight confirms mainnet validators on Node 1.0.400, a critical security patch from October 6",
+   "summary": "Midnight's October state-of-the-network post confirms all mainnet validators now run Node 1.0.400, a critical security patch first released October 6 (ledger 8.1.2 to 8.1.3, fixing GHSA-wr7g-rr4v-jmj8). Runtime stays 1.0.300, the upgrade is binary-only with no chain resync, and ordinary users and NIGHT holders need to do nothing.",
+   "detail": "The important caveat sits with contract maintainers, not holders: the patch rejects new non-canonical calls but does not repair state written before the fix. Any contract that gates payouts, withdrawals or mints with sets or maps keyed by Field should read the advisory and inspect its on-chain state. The release notes also cover a block-1788979 sync fix. Issuer blog and release notes checked October 27; the code and advisory were not independently inspected.",
+   "sources": [
+    {
+     "label": "Midnight state of the network, October 2026",
+     "url": "https://midnight.network/blog/state-of-the-network-october-2026"
+    },
+    {
+     "label": "Node 1.0.400 release notes",
+     "url": "https://docs.midnight.network/relnotes/node/node-1-0-400"
+    }
+   ]
+  },
+  {
+   "id": "mkt-zec-5pct-2026-10-27",
+   "date": "2026-10-27",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "ZEC crosses +5% again: $1,306 with the BTC pair up 4.6%",
+   "summary": "Late-morning threshold cross at about 10:44am PT: ZEC traded at $1,306.08, up 5.02% over 24h (Kraken spot $1,306.45), a fresh +5% leg after the prior one cooled. ZEC/BTC rose 4.60% to 0.01620665 - below the +5% relative-strength trigger - while BTC sat at $80,592 (+0.53%). No verified catalyst.",
+   "detail": "Snapshot taken about 10:44am PT on October 27 from the CoinGecko and Kraken APIs; prices move fast and this note is a record of the alert, not live data. The ZEC/BTC gain under the +5% pair trigger means most of the move was ZEC-specific strength rather than bitcoin weakness, but no news catalyst was verified at alert time. Not investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko simple price API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker API",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD"
+    }
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2026-10-20",
+   "project": "zcash",
+   "title": "NU7 mainnet decision",
+   "status": "Merged into ZIP 259",
+   "description": "ZIP editors agreed mainnet height 3,543,405, merged into the deployment spec and shipped in Zakura 1.7.0 and Zebra 7.0.0 on October 22.",
+   "url": "https://zips.z.cash/zip-0259"
+  },
+  {
+   "date": "2026-11-05",
+   "project": "zcash",
+   "title": "NU7 planned mainnet activation",
+   "status": "Ships in Zakura & Zebra / timing estimated",
+   "description": "Zakura 1.7.0 and Zebra 7.0.0 activate NU7 at block 3,543,405, expected about 00:50 UTC November 6 (about 4:50pm PT November 5; Zebra says around November 5). The timing is an estimate from the block height, not a confirmed timestamp.",
+   "url": "https://forum.zcashcommunity.com/t/nu7-timeline/57655"
+  },
+  {
+   "date": "2026-12-14",
+   "project": "ecosystem",
+   "title": "CFTC comment deadline",
+   "status": "Published deadline",
+   "description": "Comments on the advance notice must be received by this date.",
+   "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets"
+  }
+ ]
 }
