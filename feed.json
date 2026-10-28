@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "topics": [
   {
    "id": "blockchain",
@@ -634,6 +634,23 @@
     {
      "label": "Kraken ticker API",
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD"
+    }
+   ]
+  },
+  {
+   "id": "coinshares-zcash-etp-2026-10-28",
+   "date": "2026-10-28",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Launch announced / issuer statement",
+   "title": "CoinShares lists a physically backed Zcash ETP on Euronext Paris",
+   "summary": "CoinShares announced the CoinShares Zcash ETP (ticker ZCSH, ISIN GB00BNRRG954): 100% physically backed by ZEC, trading in EUR on Euronext Paris with a 1.50% annual management fee. The issuer says trading begins October 28; first-day executions were not independently checked at publish time. A European ETP, not a US ETF - the same ZCSH ticker in the US belongs to a different Grayscale product.",
+   "detail": "Announced from Jersey on October 28, 2026. Per the issuer, ZCSH gives exchange-traded exposure to ZEC without wallets, private keys or direct custody, and joins the CoinShares Physical range. All product facts here are issuer statements from the launch announcement; actual day-one trading on Euronext Paris had not been independently verified when this note was published. Not investment advice.",
+   "sources": [
+    {
+     "label": "CoinShares launch announcement",
+     "url": "https://coinshares.com/news/coinshares-adds-zcash-to-its-physical-etp-range/"
     }
    ]
   }
