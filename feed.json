@@ -665,6 +665,29 @@
      "url": "https://www.borsaitaliana.it/borsa/etc-etn/scheda/GB00BNRRG954-XPAR.html?lang=en"
     }
    ]
+  },
+  {
+   "id": "shield-zec-usdcx-2026-10-28",
+   "date": "2026-10-28",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Live per vendor / early access",
+   "title": "Shield announces confidential ZEC/USDCx trading on Aleo",
+   "summary": "Shield says ZEC/USDCx trading and liquidity provision are live in its concentrated-liquidity AMM on Aleo, open to eligible early-access participants. Wallet records, portfolio composition and links between trades stay confidential while pool reserves, prices, trade sizes and fees remain public. This is an Aleo venue, not native Zcash smart contracts or ZSA activation.",
+   "detail": [
+    "Vendor announcement dated October 28, read same day; not transaction-tested and actual pool liquidity not checked. Shield calls it the first confidential onchain trading pair for ZEC - a vendor claim, not independently established. Per the announcement, Shield covers Aleo network fees for swaps and the liquidity-provider fee is included in the quote; the wallet is non-custodial and now supports ZEC. Shield's general funding docs describe bridging from EVM chains or Solana into Aleo token records (shielding), but the ZEC-specific bridge, custody and redemption mechanics were not verified, so this is not a description of native trustless ZEC swaps and not a recommendation to move funds."
+   ],
+   "sources": [
+    {
+     "label": "Shield launch announcement",
+     "url": "https://shield.fi/blog/confidential-zec-trading-goes-live"
+    },
+    {
+     "label": "Shield funding and bridging docs",
+     "url": "https://shield.fi/docs/trading/fund-and-bridge"
+    }
+   ]
   }
  ],
  "timeline": [
