@@ -28,7 +28,7 @@ assert.match(indexNavHtml, /<a href="index.html" aria-label="Instinct Feeds home
 console.log('Chapter 01 top navigation placement and button styling pass.');
 
 const tocHtml = fs.readFileSync('index.html', 'utf8');
-for (const term of ['aria-label="Site contents"','<details','location.replace("blockchain.html#"','info.sig','data-lane="blockchain"','data-lane="creators"','data-lane="multi-agent"','data-lane="agentic"','data-lane="guitar"','blockchain.html#agentic','menu-data.js','localStorage','acquisition-scout-docs-daily-driver.netlify.app','bxby-2-search.netlify.app','danilarious-ordinals-field-guide.netlify.app','SITE IN BUILD','if-toc-seen']) assert(tocHtml.includes(term), 'TOC index missing: ' + term);
+for (const term of ['aria-label="Site contents"','<details','location.replace("blockchain.html#"','info.sig','data-lane="blockchain"','data-lane="creators"','data-lane="multi-agent"','data-lane="agentic"','data-lane="guitar"','blockchain.html#agentic','menu-data.js','localStorage','acquisition-scout-docs-daily-driver.netlify.app','bxby-2-search.netlify.app','danilarious-ordinals-field-guide.netlify.app','little-guitar-search.netlify.app','if-toc-seen']) assert(tocHtml.includes(term), 'TOC index missing: ' + term);
 assert(!tocHtml.includes('href="index.html" aria-current="page">01 / Blockchain'));
 for (const lanePage of ['creators.html','multi-agent.html','agent-town.html','graph-engineering.html']) { const h = fs.readFileSync(lanePage, 'utf8'); assert(h.includes('href="blockchain.html">01 / Blockchain'), lanePage + ' chapter-01 link'); }
 assert(fs.readFileSync('build.mjs','utf8').includes('createHash'), 'lane sig must be a content hash');
