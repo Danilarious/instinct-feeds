@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "topics": [
   {
    "id": "blockchain",
@@ -643,30 +643,30 @@
    "topic": "blockchain",
    "project": "zcash",
    "type": "Market structure",
-   "status": "Trading / confirmed on Euronext quote page",
-   "title": "CoinShares Zcash ETP trades on Euronext Paris after a reported debut-day halt",
-   "summary": "Resolved October 29: Euronext's own quote page shows ZCSH in continuous trading with a live order book (best bid 6.837 / ask 6.885 at 14:44 CET) and a valuation close of 6.854 euros for October 28 at 17:55 CET, so the product did trade on its debut day. The morning of the launch, CryptoTimes had cited a Euronext notice suspending the ISIN from 09:00 CET over CSD settlement readiness; that notice never appeared on Euronext's public suspended-instruments pages and no resumption notice was published. Product facts per the issuer: 100% physically backed by ZEC, EUR on Euronext Paris, 1.50% annual management fee. A European ETP, not a US ETF - the same ZCSH ticker in the US belongs to a different Grayscale product.",
-   "detail": "Timeline: announced from Jersey on October 28, 2026 (issuer statement). 09:00 CET: suspension reported by CryptoTimes citing a Euronext corporate-event notice; an Euronext spokesperson told Unchained the halt would last until the CSD supported standard settlement and was not crypto-specific. CoinShares' press contact told Unchained trading resumed at noon CET, with no Euronext resumption notice found. October 28 checks: Euronext's public suspended lists showed no matching item (absence is not clearance) and a Borsa Italiana mirror page showed Continuous with zero trades. October 29, checked about 14:45 CET: Euronext's live quote page for GB00BNRRG954-XPAR shows CONTINUOUS TRADING, a valuation close of 6.854 euros for October 28 at 17:55 CET and a live central order book, confirming actual trading. The Borsa mirror still showed zero trades on October 29; the exchange page is primary. All product facts are issuer statements; the \"first\" phrasing in the launch post is a vendor claim. Not investment advice.",
+   "status": "Listed and quoting / no trades yet",
+   "title": "CoinShares Zcash ETP: exchange-noticed halt and same-day resumption, no trades yet",
+   "summary": "Euronext's own instrument page (checked October 29) settles the debut-day confusion: it lists both a Trading suspension and a Trading resumption notice dated October 28, shows ZCSH in continuous trading with a live central order book, and records zero volume for October 27-28 - the product is listed and quoting, with no exchange-recorded trades yet. Product facts per the issuer: 100% physically backed by ZEC, EUR on Euronext Paris, 1.50% annual management fee. A European ETP, not a US ETF - the same ZCSH ticker in the US belongs to a different Grayscale product.",
+   "detail": "Timeline: listed October 26 (Euronext CE - ETF Listing notice); announced October 28 from Jersey (issuer statement). October 28: Euronext published a CE - Trading suspension notice (effective 09:00 CET per CryptoTimes, which first reported it; an Euronext spokesperson told Unchained the halt was tied to CSD settlement support and was not crypto-specific) and a CE - Trading resumption notice the same day (CoinShares said noon CET). Both notices appear on Euronext's own notices list for GB00BNRRG954-XPAR. October 29, checked about 15:00 CET: the page shows CONTINUOUS TRADING with live quotes (best bid 6.84 / ask 6.885) and valuation closes of 6.496 euros (October 27) and 6.854 euros (October 28), but Euronext's historical data records zero volume on both days, so no executed trades are on the exchange record yet; a Borsa Italiana mirror page also shows zero trades. The \"first\" phrasing in the launch post is a vendor claim, not independently established. All product facts are issuer statements. Not investment advice.",
    "sources": [
     {
-     "label": "Euronext live quote page (primary)",
+     "label": "Euronext live quote page, GB00BNRRG954-XPAR (primary)",
      "url": "https://live.euronext.com/en/product/etfs/GB00BNRRG954-XPAR"
+    },
+    {
+     "label": "Euronext trading suspension notice, Oct 28 (PDF)",
+     "url": "https://live.euronext.com/en/listview/notice-download?id=2669089&type=PDF&attachmentId=6145027"
+    },
+    {
+     "label": "Euronext trading resumption notice, Oct 28 (PDF)",
+     "url": "https://live.euronext.com/en/listview/notice-download?id=2669264&type=PDF&attachmentId=6145218"
     },
     {
      "label": "CoinShares launch announcement",
      "url": "https://coinshares.com/news/coinshares-adds-zcash-to-its-physical-etp-range/"
     },
     {
-     "label": "CryptoTimes suspension report (secondary)",
+     "label": "CryptoTimes first suspension report (secondary)",
      "url": "https://www.cryptotimes.io/2026/10/28/euronext-suspends-coinshares-zcash-etp-on-debut-day-over-settlement-requirements/"
-    },
-    {
-     "label": "Unchained via Yahoo Finance: resumption claim and Euronext comment",
-     "url": "https://finance.yahoo.com/markets/crypto/articles/coinshares-says-zcash-product-trades-143237833.html"
-    },
-    {
-     "label": "Borsa Italiana quote page, GB00BNRRG954-XPAR",
-     "url": "https://www.borsaitaliana.it/borsa/etc-etn/scheda/GB00BNRRG954-XPAR.html?lang=en"
     }
    ]
   },
