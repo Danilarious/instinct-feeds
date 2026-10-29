@@ -417,10 +417,10 @@
    "topic": "blockchain",
    "project": "cardano",
    "type": "Partnership",
-   "status": "Announced",
+   "status": "Announced / Ethereum leg live on stagenet",
    "title": "SIG Network says Nightmode will bring Midnight privacy to TRON in December",
    "summary": "Announced by SIG Network CEO; not live; NIGHT +8.4% on the day.",
-   "detail": "Nightmode connects Midnight to public chains through MPC vault contracts and issues shielded balances inside a multi-chain shielded pool, so native assets stay on their origin chain. SIG states Ethereum support already exists and targets TRON for December 2026. The TRON plan is a SIG Network announcement: it is not confirmed by Midnight or TRON, and Midnight's own Nightmode explainer does not mention TRON or a date. Treat December as a vendor target, not a launch commitment.",
+   "detail": "Nightmode connects Midnight to public chains through MPC vault contracts and issues shielded balances inside a multi-chain shielded pool, so native assets stay on their origin chain. Midnight's own October 28 post confirms the Sig Network partnership and clarifies the stage: Sig Network is live on Midnight stagenet - not a confirmed production-mainnet launch - supporting deposits, Uniswap swaps, Aave supply and withdrawals to any Ethereum address. Assets remain on Ethereum in an account the Midnight contract controls; a threshold of independent signers produces each Ethereum signature and no single signer can act alone; amounts and timing on the public Ethereum leg stay visible, while individual user records and balances remain shielded on Midnight. The TRON plan is a SIG Network announcement: it is not confirmed by Midnight or TRON, and Midnight's own Nightmode explainer does not mention TRON or a date. Treat December as a vendor target, not a launch commitment.",
    "sources": [
     {
      "label": "The Crypto Basic reporting",
@@ -429,6 +429,10 @@
     {
      "label": "Midnight blog: how Nightmode works",
      "url": "https://midnight.network/blog/nightmode-enables-cross-chain-privacy"
+    },
+    {
+     "label": "Midnight blog: Sig Network partnership and stagenet status",
+     "url": "https://midnight.network/blog/sig-network-partners-to-bring-privacy-to-applications-on-ethereum"
     }
    ]
   },
