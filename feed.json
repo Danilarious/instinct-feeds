@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "topics": [
   {
    "id": "blockchain",
@@ -694,6 +694,90 @@
     {
      "label": "Shield funding and bridging docs",
      "url": "https://shield.fi/docs/trading/fund-and-bridge"
+    }
+   ]
+  },
+  {
+   "id": "binance-security-incident-2026-10-30",
+   "date": "2026-10-30",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Security",
+   "status": "Confirmed by Binance / withdrawals paused, deposits normal",
+   "title": "Binance confirms a roughly $6.3 billion security incident; withdrawals paused, deposits unaffected",
+   "summary": "Binance's own incident update (published October 29, updated October 30) confirms the attack: an estimated $6.3 billion total impact, about $3 billion frozen on-chain so far, withdrawals temporarily suspended, and deposits explicitly unaffected. Binance pledges to cover all losses from the SAFU fund and company funds - a pledge, not completed reimbursement. The stated cause is preliminary and attribution is unconfirmed.",
+   "detail": "Per the official update: the initial investigation suggests a compromised DevOps engineer's laptop gave an attacker access to a service container to submit unauthorized withdrawal transactions; Binance says it found no evidence of a wallet private-key leak, revoked the affected address authorization, engaged law enforcement, and will publish a post-mortem and an updated Proof of Reserves. The BBC independently reports the same figures, that Binance.US says it was not affected, a Binance-stated target of resuming withdrawals within 45 hours, and unconfirmed analytics-firm suspicions of North Korean involvement that Binance has not confirmed. Treat the laptop account as preliminary: Binance itself says the facts are not fully verified. This official confirmation supersedes earlier suspected-only reporting.",
+   "sources": [
+    {
+     "label": "Binance official security incident update (primary)",
+     "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7"
+    },
+    {
+     "label": "BBC independent context",
+     "url": "https://www.bbc.com/news/articles/cm5yn8eqg3npo"
+    }
+   ]
+  },
+  {
+   "id": "lace-2-5-0-dust-2026-10-29",
+   "date": "2026-10-29",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Tools",
+   "status": "Stable release / wallet rollout untested here",
+   "title": "Lace 2.5.0 stable generates DUST from NIGHT in-wallet",
+   "summary": "IOG's Lace wallet shipped version 2.5.0 as a stable GitHub release on October 29 (not a draft or prerelease): users can designate NIGHT held in a Cardano account to a Midnight address and generate DUST without leaving the wallet. DUST is Midnight's shielded, non-transferable gas capacity resource - it is not a sellable yield asset. Browser-store rollout and the flow itself were not independently tested here.",
+   "detail": "Verified against the GitHub release API and notes: the headline addition is Generate DUST from NIGHT (choose a destination, review, confirm in-wallet), alongside smoother ADA sends that can draw on staking rewards and clearer DApp signing errors. Per Midnight's DUST architecture documentation, DUST accrues against an unspent NIGHT UTXO up to a cap of about 5 DUST per NIGHT (reached in about one week), decays to zero once the backing NIGHT is spent, cannot be transferred between users, and exists only to pay for network computation. Chrome-store availability and actual transaction behavior remain vendor-distributed, untested claims.",
+   "sources": [
+    {
+     "label": "Lace 2.5.0 GitHub release (primary)",
+     "url": "https://github.com/input-output-hk/lace/releases/tag/lace-extension%402.5.0"
+    },
+    {
+     "label": "Midnight DUST architecture documentation",
+     "url": "https://docs.midnight.network/concepts/dust-architecture"
+    }
+   ]
+  },
+  {
+   "id": "tria-agentic-trading-2026-10-30",
+   "date": "2026-10-30",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Tools",
+   "status": "Launched per vendor / MCP access in private beta",
+   "title": "Tria launches agentic trading: AI agents trade perps with trade-only keys",
+   "summary": "Tria announced Agentic Trading on October 30: AI tools (Claude, ChatGPT, Cursor and others) execute perpetual-futures strategies on Hyperliquid and Decibel through a user's existing Tria account, using trade-only keys that cannot withdraw funds. The launch is vendor material, and Tria's own documentation qualifies it: the MCP server is in access-restricted private beta, and both venues trade real mainnet markets with no testnet target. This is perp execution, not a verified native ZEC/ADA or spot bitcoin-DCA product.",
+   "detail": "Mechanics per Tria's documentation: users mint expiring, revocable trade-only keys (a Hyperliquid agent wallet and/or a Decibel delegate keypair) from the Tria app; agents can place, cancel and modify orders but cannot withdraw. Tria's own risk disclosure notes trade-only permissions do not prevent trading losses, including liquidation of collateral. The 600,000-user figure and named AI-tool support are vendor claims from the launch announcement, and usable availability is gated on private-beta npm access. Not investment advice.",
+   "sources": [
+    {
+     "label": "Tria API Trading documentation (primary mechanics)",
+     "url": "https://api-docs.tria.so/"
+    },
+    {
+     "label": "Tria MCP quickstart (private beta terms)",
+     "url": "https://api-docs.tria.so/mcp/quickstart"
+    },
+    {
+     "label": "Chainwire launch announcement (vendor)",
+     "url": "https://chainwire.org/2026/10/30/tria-launches-agentic-trading-allowing-ai-agents-to-execute-crypto-trades-without-giving-up-control-of-funds/"
+    }
+   ]
+  },
+  {
+   "id": "zcg-taper-nsm-proposal-2026-10-29",
+   "date": "2026-10-29",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Governance",
+   "status": "Proposal only / nothing adopted",
+   "title": "ZCG committee proposes tapering its own grants and moving ~98,000 ZEC to the NSM",
+   "summary": "In an October 29 forum post, the ZCG committee account outlines a preliminary proposal: move about 36,200 ZEC from its ~91,500 ZEC treasury to the Network Sustainability Mechanism, taper its remaining block-reward grants from about 109,000 to about 47,000 ZEC through the 2032 halving, and route the freed share - about 98,000 ZEC in total - into the NSM for future block rewards. This is a first-look proposal only: not adopted, not executed, and no governance decision has been taken.",
+   "detail": "Mechanics per the post: ZCG and Coinholder Grants would each shrink about 3% a month until the 2032 halving, after which the full 20% development-fund share enters the NSM; miners keep their 80% throughout. Reduced grants would run longer than the current 2028 cutoff, and the committee projects over 200,000 ZEC still in reserve for miners in 2040, versus 20,000-49,000 ZEC under send-it-all-now drafts - the committee's own projections. The post explicitly precedes a full write-up (\"we wanted to share the idea before we write it up in full\"). This is distinct from the @ebfull draft ZIP covered October 27 (PR #1414, an NSM redirect through the existing stream expiry); none of it is programmable-consensus progress.",
+   "sources": [
+    {
+     "label": "Zcash forum: ZCG committee proposal (primary)",
+     "url": "https://forum.zcashcommunity.com/t/zcg-gets-too-much-zec-heres-our-plan-to-fix-that/58566"
     }
    ]
   }
