@@ -1,7 +1,22 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-30",
  "editorial": "Dated research and source-linked updates on multi-agent systems. Publication dates belong to the source; repository metrics are checked snapshots, not live trending ranks.",
  "entries": [
+  {
+   "id": "mas-obrien-ai-village-2026-10-25",
+   "date": "2026-10-25",
+   "type": "Video demo",
+   "status": "Creator demo / sponsored, self-reported figures",
+   "title": "A personal AI village as a steering UI over Claude Code",
+   "summary": "Tristen O'Brien rebuilds his single-user \"AI village\" on camera: a 16-bit RPG-style town where a chief of staff, seven directors and their workers live in houses, walk paths, hold town-hall meetings and take tasks from a toolbar to-do list. Underneath sits Claude Code with MCP connectors - a Gmail-connected inbox director answers real email questions - and on top sits a spectator world that makes the agent hierarchy legible. Approval rules (emails stay drafts, no spending, no publishing) are written into the world's ground rules.",
+   "detail": "The value for this chapter's simulacra thread is the pattern, not the numbers: orchestration underneath, legible world on top, governance expressed as world rules - a consumer entry in the AI Town / pixel-agents lineage aimed at personal productivity rather than social-simulation research. Treat the specifics accordingly. The ~$47 cost (926 Higgsfield credits ~= $44 plus a sliver of a Claude Max plan) and the 3.5-hour build are author-reported for his own subscriptions and are not a reproducible total cost; Higgsfield sponsored the video and he discloses the affiliate link. \"67% more productive\" is his own informal tally of delegable tasks, not a benchmark. The approval gates are prompts describing intended behavior - the video does not demonstrate enforcement, so real trust still depends on the integration-level permissions, such as the Gmail connector's actual scopes. On-screen results rest on his narration (full auto-caption transcript reviewed; no independent visual verification), and exact model names come from auto-captions and are unverified. The shared prompts are starter text on his site, not a source repository. Title and channel verified against YouTube; the October 25 upload date is per a channel mirror, and the creator edits his titles.",
+   "sources": [
+    {
+     "label": "Claude Built a Working AI AGENT Village. (Steal My Prompts). - YouTube",
+     "url": "https://www.youtube.com/watch?v=-mb6buCbv8E"
+    }
+   ]
+  },
   {
    "id": "mas-omnigent-2026-10-28",
    "date": "2026-10-28",
