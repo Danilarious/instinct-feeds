@@ -1,499 +1,544 @@
 {
-  "updated": "2026-10-23",
-  "editorial": "A checked collection, not a live trend chart. Dates on notes are publication dates when known; repository metrics are snapshots. Older essays are marked as archive. Inclusion is not endorsement.",
-  "entries": [
+ "updated": "2026-10-30",
+ "editorial": "A checked collection, not a live trend chart. Dates on notes are publication dates when known; repository metrics are snapshots. Older essays are marked as archive. Inclusion is not endorsement.",
+ "entries": [
+  {
+   "id": "meta-commercial-terms-backlash-20261030",
+   "date": "2026-10-30",
+   "kind": "Platform update / announced target",
+   "lens": "Rights & labor",
+   "title": "Meta's commercial terms update draws an 'unconscionable' label and a court bar; rollout may slip again",
+   "summary": "The Copyright Alliance (members include the RIAA, NMPA and UMG) calls Meta's proposed business terms - which appear to authorize scraping commercial account content to train and ground AI products, with no opt-out - 'unconscionable.' An Oslo court temporarily barred implementation, and Meta says the November 20 effective date could slip pending industry consultation.",
+   "detail": "Timeline per Music Business Worldwide: the terms were first reported October 15, delayed from October 30 to November 20 on October 23 after publisher and advertiser complaints to EU and UK antitrust authorities; the current text drops the word 'train' but still permits scraping to 'provide, develop, improve, research, and maintain' advertising and business products. On October 28 an Oslo court issued an emergency order barring implementation pending a final ruling, and Meta's communications VP said consultation 'could extend beyond November 20,' which Reuters described as an indefinite delay. Senators Blackburn and Schiff have separately urged withdrawal; Meta says the updates do not override robots.txt preferences. The Alliance's characterization is an advocacy position, and the terms are not yet in force.",
+   "sources": [
     {
-      "id": "spotify-slop-purge-20261020",
-      "date": "2026-10-20",
-      "kind": "Platform update",
-      "lens": "Music & sound",
-      "title": "Spotify says it pulled 50 million AI slop and spam tracks from recommendations",
-      "summary": "One year into its AI policy, Spotify reports taking more than 50 million slop and spam tracks out of recommendations this year and 75 million spammy tracks off the platform altogether, alongside AI Credits, AI Persona badges and a beta that lets artists review releases delivered under their name.",
-      "detail": "Company-reported figures, not independently audited. Spotify is not anti-AI: it excludes labeled AI Personas from recommendations by default but does not require per-song AI labels, and it has announced licensed AI remix and cover tools with Believe. Deezer's stricter planned exclusion of fully AI-generated music appears elsewhere in this chapter.",
-      "sources": [
-        {
-          "label": "Spotify newsroom",
-          "url": "https://newsroom.spotify.com/2026-10-20/prioritizing-human-artistry/"
-        },
-        {
-          "label": "The Verge reporting",
-          "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed"
-        }
-      ]
-    },
-    {
-      "id": "gema-suno-ruling-20261020",
-      "date": "2026-10-20",
-      "kind": "Legal ruling / reported analysis",
-      "lens": "Rights & labor",
-      "title": "GEMA v. Suno: Munich court says training on protected songs infringed copyright",
-      "summary": "A Legal 500 analysis walks through the Munich Regional Court's July 31 judgment that Suno trained its model on GEMA's repertoire without authorization and must stop those uses and disclose usage and revenue data. The court rejected US fair-use and EU text-and-data-mining defenses; Suno is appealing.",
-      "detail": "The judgment (42 O 763/25) is a first-instance decision under appeal, not final. The analysis describes a chain reaction since the ruling: BMG and Warner announced licenses with Suno, Sony sued Anthropic over Claude's use of protected music, and the US administration filed a Statement of Interest in the SDNY OpenAI case arguing training is fair use. European and US approaches are openly diverging, so outcomes may differ by jurisdiction.",
-      "sources": [
-        {
-          "label": "Luca Guidobaldi, Legal 500",
-          "url": "https://www.legal500.com/intelligence/germany/intellectual-property/gema-v-suno-a-new-european-precedent-on-the-relationship-between-generative-ai-and-copyright"
-        }
-      ]
-    },
-    {
-      "id": "guardian-fans-reject-ai-20261021",
-      "date": "2026-10-21",
-      "kind": "Opinion / critical",
-      "lens": "Music & sound",
-      "title": "The Guardian: fans are voting against AI music, and even boosters are drawing lines",
-      "summary": "Blake Montgomery reports that AI-enthusiast musicians are setting personal limits: Grimes calls her new album AI-inspired but not AI-generated, A$AP Rocky says he prefers to make music practically, and Kelly Clarkson wants AI artists on a separate chart, while analogue-leaning albums dominate the Billboard top 10.",
-      "detail": "Opinionated reporting, not a market study: the chart argument rests on a one-week snapshot and the slop verdict is the author's. Worth reading as a snapshot of audience mood, with the artists' quoted positions more nuanced than the headline.",
-      "sources": [
-        {
-          "label": "Blake Montgomery, The Guardian",
-          "url": "https://www.theguardian.com/music/2026/oct/21/artificial-intelligence-music-grimes-asap-rocky"
-        }
-      ]
-    },
-    {
-      "id": "rubin-model-behavior-20261022",
-      "date": "2026-10-22",
-      "kind": "Artist practice / interview",
-      "lens": "Music & sound",
-      "title": "Rick Rubin: curious about AI, but it has no point of view",
-      "summary": "In Substack's Model Behavior series, Rick Rubin tells Chris Best he is not afraid of AI as an instrument but does not use it for writing or music, and a Suno demo was not to his taste: a model can sound like something else, but it cannot supply an artist's point of view.",
-      "detail": "The interview also covers Substack's Pangram AI-detection integration, which Rubin accepts only as a reader-controlled option rather than a default rating on every article. A measured middle position from an influential producer: open to the tool, unconvinced by current results. Transcript published by Substack; the views are the speakers' own.",
-      "sources": [
-        {
-          "label": "Rick Rubin and Chris Best, On Substack",
-          "url": "https://on.substack.com/p/model-behavior-rick-rubin"
-        }
-      ]
-    },
-    {
-      "id": "canva-craft-image-model-20261022",
-      "date": "2026-10-22",
-      "kind": "Platform update / vendor announcement",
-      "lens": "Art & image",
-      "title": "Canva launches Craft, its first in-house image model",
-      "summary": "Canva's in-house research lab released Craft, an image model built for design work: 2K output across more than 30 aspect ratios, a plan-then-render architecture aimed at accurate layout and text, and access both inside Canva and through a public API.",
-      "detail": "Vendor announcement: the 'world's second most advanced AI lab for image generation' claim is Canva's own, based on DesignArena crowd rankings, not an independent benchmark. The model's training leans on Canva's template content library, which is exactly the kind of training-data rights question this chapter tracks; the announcement does not detail licensing terms for that data.",
-      "sources": [
-        {
-          "label": "Canva newsroom",
-          "url": "https://www.canva.com/newsroom/news/canva-craft/"
-        },
-        {
-          "label": "The Decoder reporting",
-          "url": "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/"
-        }
-      ]
-    },
-    {
-      "id": "bynum-oracle-engine-20261016",
-      "date": "2026-10-16",
-      "kind": "Artist practice / interview",
-      "lens": "Art & image",
-      "title": "Drury Bynum: use your own archive to find the next painting",
-      "summary": "In a BmoreArt interview, painter Drury Bynum describes feeding his older paintings into Midjourney, iterating on recurring figures, and bringing those discoveries back into acrylic painting and collage.",
-      "detail": "A positive, artist-led account of AI as part of a longer studio practice, not a claim that a model replaces painting. His experience and the writer's assessment are attributed, not an independent evaluation of the tool or its training rights. The story contains conflicting dates for a restaurant closure; this note does not rely on that chronology.",
-      "sources": [
-        {
-          "label": "Elizabeth Hazen, BmoreArt interview",
-          "url": "https://bmoreart.com/2026/10/oracle-engine-drury-bynum.html"
-        }
-      ]
-    },
-    {
-      "id": "eleven-instant-soundtracks-20261015",
-      "date": "2026-10-15",
-      "kind": "Platform update / vendor announcement",
-      "lens": "Music & sound",
-      "title": "ElevenLabs adds a soundtrack and separate sound-effect layers to video",
-      "summary": "ElevenLabs says Instant Soundtracks can analyze an uploaded video, generate music and timed sound effects, and leave the effects on separate layers for editing. Existing audio can guide the new score.",
-      "detail": "Announced October 15 for ElevenCreative, ElevenMusic and the Studio API. Useful for short films and social edits where timing still needs human review. Availability and alignment quality are vendor claims, not a hands-on test. No price or blanket commercial-rights claim is made here; check the actual plan, source footage, audio permissions and current terms before uploading client work.",
-      "sources": [
-        {
-          "label": "ElevenLabs launch announcement",
-          "url": "https://elevenlabs.io/blog/introducing-instant-soundtracks"
-        }
-      ]
-    },
-    {
-      "id": "joan-mitchell-ai-statement-20261015",
-      "date": "2026-10-15",
-      "kind": "Official rights-holder statement",
-      "lens": "Rights & labor",
-      "title": "Joan Mitchell Foundation draws a line around artwork, voice and likeness",
-      "summary": "The Foundation says it will not license AI animation or manipulation of Joan Mitchell's artwork or likeness, or AI data mining of her works, name and image. It separately supports artists using AI in their own creative practice.",
-      "detail": "A rights-holder policy, not a new law or court ruling. Its statement includes an express EU text-and-data-mining opt-out. The Foundation's legal assertions are its position, not a finding that every listed use is unlawful in every jurisdiction. The distinction matters for studios: permission to experiment with a tool does not imply permission to animate an artist's archive or clone a voice.",
-      "sources": [
-        {
-          "label": "Foundation statement and opt-out",
-          "url": "https://www.joanmitchellfoundation.org/journal/statement-on-the-use-of-ai"
-        }
-      ]
-    },
-    {
-      "id": "deezer-ai-toggle-announcement-20261013",
-      "date": "2026-10-13",
-      "kind": "Platform update / announced target",
-      "lens": "Music & sound",
-      "title": "Deezer plans a switch to exclude fully AI-generated music from search",
-      "summary": "Deezer announced an optional toggle that would remove fully AI-generated tracks, albums and related artists from search results. The company targets global availability before the end of 2026.",
-      "detail": "An announced feature, not verified as live. Deezer distinguishes fully generated music from limited AI assistance in a human creative process. Its existing recommendation exclusions and tagging are separate from this planned search setting. Detection accuracy was not independently tested here; the announcement is not evidence of a universal ban on AI-assisted musicians.",
-      "sources": [
-        {
-          "label": "Deezer announcement, October 13",
-          "url": "https://newsroom-deezer.com/2026/10/deezer-ai-music-toggle/"
-        },
-        {
-          "label": "TechCrunch reporting, October 14",
-          "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
-        }
-      ]
-    },
-    {
-      "id": "young-guru-creative-ai-20261010",
-      "date": "2026-10-10",
-      "kind": "Opinion / critical / interview",
-      "lens": "Music & sound",
-      "title": "Young Guru: assistive tools are different from making the art for you",
-      "summary": "In an AllHipHop interview, engineer Young Guru rejects creative AI while saying he is not opposed to assistive uses. He connects his criticism to privacy, control, environmental effects and the need for informed regulation.",
-      "detail": "A current, strongly critical creator view, attributed to Guru. His broad claims about intelligence and addiction are opinion, not technical or medical conclusions adopted by this chapter. His distinction between assistance and generation is more useful than treating the interview as opposition to all software.",
-      "sources": [
-        {
-          "label": "Chuck Creekmur, AllHipHop interview",
-          "url": "https://allhiphop.com/features/young-guru-says-creative-ai-has-no-place-in-hip-hop-talks-jay-z-erykah-badu-and-comic-book-culture/"
-        }
-      ]
-    },
-    {
-      "id": "flow-plugins",
-      "date": "2026-10-06",
-      "kind": "Platform update",
-      "lens": "Music & sound",
-      "title": "From a prompt to a DAW plugin",
-      "summary": "Google says Flow Music Spaces can now export custom instruments and effects as VST3/AU plugins. Its example is producer Khris Riddick-Tynes building a tool called No Chaser.",
-      "detail": "Primary vendor announcement, not an independent performance test. This is a useful watch for musicians who want to shape their own tools, not proof that generated plugins are safe or production-ready. Check plugin compatibility, rights and project backups before using client material.",
-      "sources": [
-        {
-          "label": "Google announcement",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/"
-        }
-      ]
-    },
-    {
-      "id": "firefly-audio",
-      "date": "2026-08-20",
-      "kind": "Platform update",
-      "lens": "Music & sound",
-      "title": "Firefly brings music, speech and sound effects into one studio",
-      "summary": "Adobe says its audio tools are broadly available. The creator use case is soundtrack and voice work for short films, brand videos and social content, without moving between several services.",
-      "detail": "Adobe describes the music as universally licensed and commercially safe. Those are vendor claims, not a blanket legal guarantee from this notebook. Read current terms for your actual model, plan, territory and client job. Tubefilter revisited the rollout on October 2; that coverage is not a second launch.",
-      "sources": [
-        {
-          "label": "Adobe announcement",
-          "url": "https://blog.adobe.com/en/publish/2026/08/20/adobe-firefly-expands-its-creative-ai-studio-generate-music-speech-and-sound-effects-in-one-place"
-        },
-        {
-          "label": "Tubefilter follow-up, Oct 2",
-          "url": "https://www.tubefilter.com/2026/10/02/adobe-firefly-ai-sound-features/"
-        }
-      ]
-    },
-    {
-      "id": "crabapple-heist",
-      "date": "2026-04-12",
-      "kind": "Opinion / critical",
-      "lens": "Art & image",
-      "title": "Molly Crabapple: AI as an art heist, not creative liberation",
-      "summary": "The artist and writer argues that generative AI takes from creative labor while concentrating power in technology companies. Her objection is economic, political and artistic, not simply a complaint about image quality.",
-      "detail": "Strongly negative opinion, attributed to Crabapple. The essay's rhetoric and contested claims are not adopted here as settled facts. Read beside the pro-experimentation work below rather than reducing this disagreement to a score for or against AI.",
-      "sources": [
-        {
-          "label": "Crabapple essay, The Guardian",
-          "url": "https://www.theguardian.com/books/2026/apr/12/is-ai-the-greatest-art-heist-in-history"
-        }
-      ]
-    },
-    {
-      "id": "crabapple-organizing",
-      "date": "2025-09-17",
-      "kind": "Reporting / archive",
-      "lens": "Rights & labor",
-      "title": "Artists against the slop machine: the labor argument",
-      "summary": "Hyperallergic reports on Molly Crabapple and Edward Ongweso Jr's workshop about resisting AI adoption. It connects style imitation to lost work, institutional rules and collective action.",
-      "detail": "This is a dated 2025 report, not a newly announced campaign. Statements about the industry's intentions are the speakers' arguments. It supplies the organizing and working-artist perspective that tool launches tend to leave out.",
-      "sources": [
-        {
-          "label": "Aaron Short, Hyperallergic",
-          "url": "https://hyperallergic.com/can-artists-stop-the-ai-slop-machine/"
-        }
-      ]
-    },
-    {
-      "id": "copyright-human",
-      "date": "2025-01-29",
-      "kind": "Official guidance / archive",
-      "lens": "Rights & labor",
-      "title": "Human authorship remains the copyright hinge",
-      "summary": "The U.S. Copyright Office says AI assistance does not automatically bar copyright. Human-authored expression, including creative selection, arrangement or modification, can qualify; prompts alone do not supply sufficient control.",
-      "detail": "U.S. guidance, not advice for every jurisdiction or every work. Copyrightability of an output is separate from permission to train a model or imitate a voice. The Office's current hub lists digital replicas, copyrightability, and a pre-publication training report; do not mistake that last report for a court ruling.",
-      "sources": [
-        {
-          "label": "Copyright Office Part 2 release",
-          "url": "https://copyright.gov/newsnet/2025/1060.html"
-        },
-        {
-          "label": "Current report hub and status",
-          "url": "https://www.copyright.gov/ai/"
-        }
-      ]
-    },
-    {
-      "id": "the-call",
-      "date": "2024-10-04",
-      "kind": "Artist practice / archive",
-      "lens": "Art & image",
-      "title": "Holly Herndon & Mat Dryhurst: build the system as part of the art",
-      "summary": "The Call at Serpentine combined choral work, AI and new ways to think about data and collective governance. It is an artist-led alternative to treating AI as only a prompt-to-image vending machine.",
-      "detail": "Historical exhibition, October 2024 to February 2025, not an event currently open to visit. Herndon and Dryhurst are engaged with the medium while asking who controls the systems and permissions. Their optimism is not blanket approval of every model or business practice.",
-      "sources": [
-        {
-          "label": "Serpentine exhibition record",
-          "url": "https://www.serpentinegalleries.org/whats-on/holly-herndon-mat-dryhurst-the-call/"
-        },
-        {
-          "label": "Artist interview, AnOther",
-          "url": "https://www.anothermag.com/art-photography/15858/art-in-the-age-of-ai-holly-herndon-mat-dryhurst-with-hans-ulrich-obrist"
-        },
-        {
-          "label": "Watch: Serpentine film",
-          "url": "https://www.serpentinegalleries.org/watch/holly-herndon-and-mat-dryhurst-the-call/"
-        }
-      ]
-    },
-    {
-      "id": "nick-cave",
-      "date": "2023-01-16",
-      "kind": "Opinion / critical / archive",
-      "lens": "Music & sound",
-      "title": "Nick Cave: mimicry is not the creative struggle",
-      "summary": "In Red Hand Files #218, Cave rejects a ChatGPT song written in his style. His argument centers on lived experience, vulnerability and the human work of making a song.",
-      "detail": "A foundational 2023 artist response, not a new interview or a technical benchmark. Cave's fierce objection belongs in the record in its own right, not as a token disclaimer beneath a tool recommendation.",
-      "sources": [
-        {
-          "label": "Nick Cave, Red Hand Files #218",
-          "url": "https://www.theredhandfiles.com/chat-gpt-what-do-you-think/"
-        }
-      ]
+     "label": "Music Business Worldwide reporting",
+     "url": "https://www.musicbusinessworldwide.com/copyright-alliance-whose-members-include-the-riaa-nmpa-and-umg-calls-metas-proposed-business-terms-unconscionable-now-meta-says-the-rollout-could-be-d/"
     }
-  ],
-  "repos": [
+   ]
+  },
+  {
+   "id": "spotify-ai-covers-remix-q1-2027",
+   "date": "2026-10-30",
+   "kind": "Platform update / announced target",
+   "lens": "Music & sound",
+   "title": "Report: Spotify targets Q1 2027 for its AI covers and remixes tool at $4-5 a month",
+   "summary": "The Financial Times reports Spotify plans to launch its opt-in AI covers and remixes tool in Q1 2027, possibly unveiled around the February 7 Grammy Awards, and is weighing a $4-5 monthly add-on price. Fan-made remixes would pay royalties to the original artists and credit their plays to the original tracks on Spotify's charts.",
+   "detail": "Reported only: the FT cites people familiar with the plans, Spotify declined to comment, and neither timing nor pricing is final. Licensing deals are signed with Universal Music Group, Merlin, Kobalt and Believe (Believe on October 20, covering TuneCore); Sony and Warner remain unsigned. Only artists who opt in can be covered or remixed. This extends the Spotify AI-policy entry dated October 20 elsewhere in this chapter.",
+   "sources": [
     {
-      "name": "Comfy-Org/ComfyUI",
-      "url": "https://github.com/Comfy-Org/ComfyUI",
-      "stars": 137901,
-      "pushed": "2026-10-16",
-      "checked": "2026-10-16",
-      "license": "GPL-3.0",
-      "lens": "Art & image",
-      "summary": "Reusable image, video and audio workflows built as node graphs. Useful for artists who want repeatable pipelines rather than one-off prompts.",
-      "caveat": "Technical setup and model storage can be substantial. Custom nodes execute third-party code. The code license does not settle model or training-data rights.",
-      "api": "https://api.github.com/repos/Comfy-Org/ComfyUI"
-    },
-    {
-      "name": "invoke-ai/InvokeAI",
-      "url": "https://github.com/invoke-ai/InvokeAI",
-      "stars": 28688,
-      "pushed": "2026-10-16",
-      "checked": "2026-10-16",
-      "license": "Apache-2.0",
-      "lens": "Art & image",
-      "summary": "A visual-media creative engine with a web interface, canvas and workflows for generating and editing images.",
-      "caveat": "Compare local open-source features with the separate commercial product. Model licenses, hardware and client-data handling need their own review.",
-      "api": "https://api.github.com/repos/invoke-ai/InvokeAI"
-    },
-    {
-      "name": "Acly/krita-ai-diffusion",
-      "url": "https://github.com/Acly/krita-ai-diffusion",
-      "stars": 10727,
-      "pushed": "2026-10-03",
-      "checked": "2026-10-16",
-      "license": "GPL-3.0",
-      "lens": "Art & image",
-      "summary": "AI generation, inpainting and outpainting inside Krita, keeping the painting canvas central to the workflow.",
-      "caveat": "A community plugin, not a promise that every model is cleared for a client brief. Check server configuration and GPU requirements.",
-      "api": "https://api.github.com/repos/Acly/krita-ai-diffusion"
-    },
-    {
-      "name": "ahujasid/mcp-for-blender",
-      "url": "https://github.com/ahujasid/mcp-for-blender",
-      "stars": 31163,
-      "pushed": "2026-10-06",
-      "checked": "2026-10-16",
-      "license": "MIT",
-      "lens": "Creative agents",
-      "summary": "A community MCP bridge that lets an LLM client control Blender, work with scenes and call asset services. Not an official Blender Foundation integration.",
-      "caveat": "Can execute code in Blender. Use a separate test scene and trusted configuration; do not expose private assets or run unfamiliar agent commands blindly.",
-      "api": "https://api.github.com/repos/ahujasid/mcp-for-blender"
-    },
-    {
-      "name": "Stability-AI/stable-audio-tools",
-      "url": "https://github.com/Stability-AI/stable-audio-tools",
-      "stars": 3887,
-      "pushed": "2026-10-09",
-      "checked": "2026-10-16",
-      "license": "MIT",
-      "lens": "Music & sound",
-      "summary": "Code for training and running conditional audio-generation models. A technical starting point for musicians and audio researchers.",
-      "caveat": "MIT applies to this code, not automatically to pretrained weights, datasets or generated recordings. Training and inference are not a no-setup music app.",
-      "api": "https://api.github.com/repos/Stability-AI/stable-audio-tools"
-    },
-    {
-      "name": "9001/copyparty",
-      "url": "https://github.com/9001/copyparty",
-      "stars": 47055,
-      "pushed": "2026-10-14",
-      "checked": "2026-10-16",
-      "license": "MIT",
-      "lens": "Studio systems",
-      "summary": "A portable file server with resumable uploads, media indexing, thumbnails and several file-access protocols. Useful for moving large studio assets.",
-      "caveat": "Not an artist-specific DAM or a backup strategy. Review authentication, exposed folders and network access before putting any client files on it.",
-      "api": "https://api.github.com/repos/9001/copyparty"
-    },
-    {
-      "name": "musescore/MuseScore",
-      "url": "https://github.com/musescore/MuseScore",
-      "stars": 15254,
-      "pushed": "2026-10-16",
-      "checked": "2026-10-16",
-      "license": "NOASSERTION",
-      "lens": "Music & sound",
-      "summary": "Free, open-source music notation software for writing, editing and playing scores. A useful non-generative counterweight in a creator-tech collection.",
-      "caveat": "This is the desktop notation project, not a promise about the terms of the separate score-sharing service. GitHub did not return one simple SPDX license; consult the repository license files.",
-      "api": "https://api.github.com/repos/musescore/MuseScore"
+     "label": "Music Business Worldwide on the FT report",
+     "url": "https://www.musicbusinessworldwide.com/spotify-plans-q1-2027-launch-for-ai-covers-and-remixes-tool-weighing-4-5-monthly-price-report/"
     }
-  ],
-  "voices": [
+   ]
+  },
+  {
+   "id": "guilds-amicus-openai-20261029",
+   "date": "2026-10-29",
+   "kind": "Official rights-holder statement",
+   "lens": "Rights & labor",
+   "title": "SAG-AFTRA, WGA and AFM ask the court to reject blanket fair use for AI training",
+   "summary": "The four unions filed a joint amicus brief in the consolidated New York copyright case against OpenAI, arguing that a categorical fair-use exemption for training would transfer value from working creators to corporations and moot the AI licensing terms they won at the bargaining table.",
+   "detail": "The 34-page brief, reported by Deadline, argues the training dispute is 'no more than an ordinary copyright case,' that fair use must remain case-by-case, and that 'the harms of unlicensed training fall not just on companies like the News Plaintiffs, but on the countless professionals behind the work.' It leans on the notice-and-bargaining rights the guilds secured in 2026 negotiations over third-party licenses of covered work for AI training. An amicus brief states a position to the court; the fair-use question has not been ruled on.",
+   "sources": [
     {
-      "name": "Nick Cave / The Red Hand Files",
-      "lens": "Critical artist voice",
-      "note": "Songwriting, humanity and the limits of imitation. Start with the direct artist response.",
-      "url": "https://www.theredhandfiles.com/chat-gpt-what-do-you-think/"
-    },
-    {
-      "name": "Molly Crabapple",
-      "lens": "Critical artist voice",
-      "note": "Illustration, ownership and creative labor. Her 2026 essay makes the opposition explicit.",
-      "url": "https://www.theguardian.com/books/2026/apr/12/is-ai-the-greatest-art-heist-in-history"
-    },
-    {
-      "name": "Holly Herndon & Mat Dryhurst",
-      "lens": "Artist-led experimentation",
-      "note": "AI as an artistic medium, with permission, collective data and governance inside the work.",
-      "url": "https://www.anothermag.com/art-photography/15858/art-in-the-age-of-ai-holly-herndon-mat-dryhurst-with-hans-ulrich-obrist"
-    },
-    {
-      "name": "Siddharth Ahuja",
-      "lens": "Builder / video",
-      "note": "Creative agent integrations, scene-making and the practical limits of agent tool use.",
-      "url": "https://www.youtube.com/watch?v=nnktgWtfJHE"
-    },
-    {
-      "name": "Hyperallergic",
-      "lens": "Arts reporting",
-      "note": "A place to follow artists, institutions and the labor conflict around creative technology.",
-      "url": "https://hyperallergic.com/can-artists-stop-the-ai-slop-machine/"
-    },
-    {
-      "name": "Tubefilter",
-      "lens": "Creator-platform reporting",
-      "note": "Creator workflows and platform rollouts. Distinguish reported features from vendor promises.",
-      "url": "https://www.tubefilter.com/2026/10/02/adobe-firefly-ai-sound-features/"
-    },
-    {
-      "name": "Serpentine Arts Technologies",
-      "lens": "Institution / film",
-      "note": "Artist-led projects and films that connect technology with cultural and legal questions.",
-      "url": "https://www.serpentinegalleries.org/watch/holly-herndon-and-mat-dryhurst-the-call/"
-    },
-    {
-      "name": "U.S. Copyright Office",
-      "lens": "Primary rights source",
-      "note": "Follow the actual report status. Official analysis is not the same thing as a final court decision.",
-      "url": "https://www.copyright.gov/ai/"
-    },
-    {
-      "name": "Dan Olson / Folding Ideas",
-      "lens": "Critical filmmaker / video",
-      "note": "Long-form criticism of NFTs, digital scarcity and the business narratives surrounding creative technology.",
-      "url": "https://youtu.be/YQ_xWvX1n9g"
+     "label": "Deadline reporting",
+     "url": "https://deadline.com/2026/10/sag-aftra-wga-afm-openai-copyright-court-battle-brief-1237209138/"
     }
-  ],
-  "features": [
+   ]
+  },
+  {
+   "id": "spotify-slop-purge-20261020",
+   "date": "2026-10-20",
+   "kind": "Platform update",
+   "lens": "Music & sound",
+   "title": "Spotify says it pulled 50 million AI slop and spam tracks from recommendations",
+   "summary": "One year into its AI policy, Spotify reports taking more than 50 million slop and spam tracks out of recommendations this year and 75 million spammy tracks off the platform altogether, alongside AI Credits, AI Persona badges and a beta that lets artists review releases delivered under their name.",
+   "detail": "Company-reported figures, not independently audited. Spotify is not anti-AI: it excludes labeled AI Personas from recommendations by default but does not require per-song AI labels, and it has announced licensed AI remix and cover tools with Believe. Deezer's stricter planned exclusion of fully AI-generated music appears elsewhere in this chapter.",
+   "sources": [
     {
-      "kind": "Watch / builder perspective",
-      "title": "Siddharth Ahuja: Blender MCP and the future of creative tools",
-      "summary": "The plugin maker demonstrates agent-controlled 3D scenes and discusses linking Blender, assets and music tools. An excited builder case for lower barriers, with his own warnings about tool confusion and weak 3D understanding.",
-      "detail": "Video transcript checked. Publication date not confirmed, so it is not filed as fresh news. Demo speed and quality claims are the speaker's, not independent benchmarks.",
-      "url": "https://www.youtube.com/watch?v=nnktgWtfJHE",
-      "lens": "Creative agents"
+     "label": "Spotify newsroom",
+     "url": "https://newsroom.spotify.com/2026-10-20/prioritizing-human-artistry/"
     },
     {
-      "kind": "Watch / critical opinion / archive",
-      "title": "Dan Olson / Folding Ideas: Line Goes Up - The Problem With NFTs",
-      "summary": "A filmmaker's sustained critique of NFTs, digital ownership and the speculative systems around them. A strong negative blockchain perspective alongside the hub's existing crypto coverage.",
-      "detail": "Video transcript checked. This is an older essay, not a new release or a neutral technical reference. Olson's political and economic conclusions are his argument; inclusion is not endorsement. Exact publication date was not verified in this check.",
-      "url": "https://youtu.be/YQ_xWvX1n9g",
-      "lens": "Rights & labor"
+     "label": "The Verge reporting",
+     "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed"
     }
-  ],
-  "repoPicks": [
+   ]
+  },
+  {
+   "id": "gema-suno-ruling-20261020",
+   "date": "2026-10-20",
+   "kind": "Legal ruling / reported analysis",
+   "lens": "Rights & labor",
+   "title": "GEMA v. Suno: Munich court says training on protected songs infringed copyright",
+   "summary": "A Legal 500 analysis walks through the Munich Regional Court's July 31 judgment that Suno trained its model on GEMA's repertoire without authorization and must stop those uses and disclose usage and revenue data. The court rejected US fair-use and EU text-and-data-mining defenses; Suno is appealing.",
+   "detail": "The judgment (42 O 763/25) is a first-instance decision under appeal, not final. The analysis describes a chain reaction since the ruling: BMG and Warner announced licenses with Suno, Sony sued Anthropic over Claude's use of protected music, and the US administration filed a Statement of Interest in the SDNY OpenAI case arguing training is fair use. European and US approaches are openly diverging, so outcomes may differ by jurisdiction.",
+   "sources": [
     {
-      "id": "creator-repo-kandinsky6-20261023",
-      "date": "2026-10-23",
-      "name": "kandinskylab/kandinsky-6",
-      "summary": "Kandinsky 6.0 Video: foundation models for synchronized video and audio generation, released under the MIT license.",
-      "stars": 371,
-      "checked": "2026-10-23",
-      "why": "A rare MIT-licensed video model with synchronized sound and lip-sync. Young and small, but actively pushed this week, and a useful open counterweight to closed video tools.",
-      "url": "https://github.com/kandinskylab/kandinsky-6",
-      "label": "Editorial pick / active project, not a new-launch claim",
-      "caveat": "MIT code license; model weights and demo data may carry separate terms. A 16 GB GPU path is documented, but local video generation remains hardware-hungry. Star count is a snapshot, not a trend rank."
-    },
-    {
-      "id": "creator-repo-openmontage-20261016",
-      "date": "2026-10-16",
-      "name": "calesthio/OpenMontage",
-      "summary": "An agent-driven video-production toolkit for scripts, narration, footage, captions and rendering.",
-      "stars": 68864,
-      "checked": "2026-10-16",
-      "why": "A reference for connecting the many steps of a short-video workflow, rather than treating video generation as one prompt.",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "label": "Editorial pick / active project, not a new-launch claim",
-      "caveat": "AGPL-3.0 code. Third-party renderers, models, stock media and hosted APIs have separate terms and possible costs. Agents can run code; review in a test workspace."
-    },
-    {
-      "id": "creator-repo-opencreator-20261016",
-      "date": "2026-10-16",
-      "name": "krillinai/OpenCreator",
-      "summary": "A Codex-powered creator workspace for video translation, dubbing, images, video and editing.",
-      "stars": 13449,
-      "checked": "2026-10-16",
-      "why": "Puts visual tools and agent conversation around shared projects, useful for seeing how creative agents can fit an editable workspace.",
-      "url": "https://github.com/krillinai/OpenCreator",
-      "label": "Editorial pick / active project, not a new-launch claim",
-      "caveat": "Apache-2.0 code. Local workspace storage does not mean every configured model runs locally; review provider uploads, API costs and media rights."
-    },
-    {
-      "id": "creator-repo-hyperframes-20261016",
-      "date": "2026-10-16",
-      "name": "heygen-com/hyperframes",
-      "summary": "An HTML/CSS and animation framework that renders compositions into MP4 video.",
-      "stars": 65160,
-      "checked": "2026-10-16",
-      "why": "A code-first route to repeatable titles, motion graphics and product videos that an agent can draft and a creator can inspect.",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "label": "Editorial pick / active project, not a new-launch claim",
-      "caveat": "Apache-2.0 code. Not a generative-video model or a guarantee of finished production quality. Check fonts, music, footage and any connected services separately."
+     "label": "Luca Guidobaldi, Legal 500",
+     "url": "https://www.legal500.com/intelligence/germany/intellectual-property/gema-v-suno-a-new-european-precedent-on-the-relationship-between-generative-ai-and-copyright"
     }
-  ]
+   ]
+  },
+  {
+   "id": "guardian-fans-reject-ai-20261021",
+   "date": "2026-10-21",
+   "kind": "Opinion / critical",
+   "lens": "Music & sound",
+   "title": "The Guardian: fans are voting against AI music, and even boosters are drawing lines",
+   "summary": "Blake Montgomery reports that AI-enthusiast musicians are setting personal limits: Grimes calls her new album AI-inspired but not AI-generated, A$AP Rocky says he prefers to make music practically, and Kelly Clarkson wants AI artists on a separate chart, while analogue-leaning albums dominate the Billboard top 10.",
+   "detail": "Opinionated reporting, not a market study: the chart argument rests on a one-week snapshot and the slop verdict is the author's. Worth reading as a snapshot of audience mood, with the artists' quoted positions more nuanced than the headline.",
+   "sources": [
+    {
+     "label": "Blake Montgomery, The Guardian",
+     "url": "https://www.theguardian.com/music/2026/oct/21/artificial-intelligence-music-grimes-asap-rocky"
+    }
+   ]
+  },
+  {
+   "id": "rubin-model-behavior-20261022",
+   "date": "2026-10-22",
+   "kind": "Artist practice / interview",
+   "lens": "Music & sound",
+   "title": "Rick Rubin: curious about AI, but it has no point of view",
+   "summary": "In Substack's Model Behavior series, Rick Rubin tells Chris Best he is not afraid of AI as an instrument but does not use it for writing or music, and a Suno demo was not to his taste: a model can sound like something else, but it cannot supply an artist's point of view.",
+   "detail": "The interview also covers Substack's Pangram AI-detection integration, which Rubin accepts only as a reader-controlled option rather than a default rating on every article. A measured middle position from an influential producer: open to the tool, unconvinced by current results. Transcript published by Substack; the views are the speakers' own.",
+   "sources": [
+    {
+     "label": "Rick Rubin and Chris Best, On Substack",
+     "url": "https://on.substack.com/p/model-behavior-rick-rubin"
+    }
+   ]
+  },
+  {
+   "id": "canva-craft-image-model-20261022",
+   "date": "2026-10-22",
+   "kind": "Platform update / vendor announcement",
+   "lens": "Art & image",
+   "title": "Canva launches Craft, its first in-house image model",
+   "summary": "Canva's in-house research lab released Craft, an image model built for design work: 2K output across more than 30 aspect ratios, a plan-then-render architecture aimed at accurate layout and text, and access both inside Canva and through a public API.",
+   "detail": "Vendor announcement: the 'world's second most advanced AI lab for image generation' claim is Canva's own, based on DesignArena crowd rankings, not an independent benchmark. The model's training leans on Canva's template content library, which is exactly the kind of training-data rights question this chapter tracks; the announcement does not detail licensing terms for that data.",
+   "sources": [
+    {
+     "label": "Canva newsroom",
+     "url": "https://www.canva.com/newsroom/news/canva-craft/"
+    },
+    {
+     "label": "The Decoder reporting",
+     "url": "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/"
+    }
+   ]
+  },
+  {
+   "id": "bynum-oracle-engine-20261016",
+   "date": "2026-10-16",
+   "kind": "Artist practice / interview",
+   "lens": "Art & image",
+   "title": "Drury Bynum: use your own archive to find the next painting",
+   "summary": "In a BmoreArt interview, painter Drury Bynum describes feeding his older paintings into Midjourney, iterating on recurring figures, and bringing those discoveries back into acrylic painting and collage.",
+   "detail": "A positive, artist-led account of AI as part of a longer studio practice, not a claim that a model replaces painting. His experience and the writer's assessment are attributed, not an independent evaluation of the tool or its training rights. The story contains conflicting dates for a restaurant closure; this note does not rely on that chronology.",
+   "sources": [
+    {
+     "label": "Elizabeth Hazen, BmoreArt interview",
+     "url": "https://bmoreart.com/2026/10/oracle-engine-drury-bynum.html"
+    }
+   ]
+  },
+  {
+   "id": "eleven-instant-soundtracks-20261015",
+   "date": "2026-10-15",
+   "kind": "Platform update / vendor announcement",
+   "lens": "Music & sound",
+   "title": "ElevenLabs adds a soundtrack and separate sound-effect layers to video",
+   "summary": "ElevenLabs says Instant Soundtracks can analyze an uploaded video, generate music and timed sound effects, and leave the effects on separate layers for editing. Existing audio can guide the new score.",
+   "detail": "Announced October 15 for ElevenCreative, ElevenMusic and the Studio API. Useful for short films and social edits where timing still needs human review. Availability and alignment quality are vendor claims, not a hands-on test. No price or blanket commercial-rights claim is made here; check the actual plan, source footage, audio permissions and current terms before uploading client work.",
+   "sources": [
+    {
+     "label": "ElevenLabs launch announcement",
+     "url": "https://elevenlabs.io/blog/introducing-instant-soundtracks"
+    }
+   ]
+  },
+  {
+   "id": "joan-mitchell-ai-statement-20261015",
+   "date": "2026-10-15",
+   "kind": "Official rights-holder statement",
+   "lens": "Rights & labor",
+   "title": "Joan Mitchell Foundation draws a line around artwork, voice and likeness",
+   "summary": "The Foundation says it will not license AI animation or manipulation of Joan Mitchell's artwork or likeness, or AI data mining of her works, name and image. It separately supports artists using AI in their own creative practice.",
+   "detail": "A rights-holder policy, not a new law or court ruling. Its statement includes an express EU text-and-data-mining opt-out. The Foundation's legal assertions are its position, not a finding that every listed use is unlawful in every jurisdiction. The distinction matters for studios: permission to experiment with a tool does not imply permission to animate an artist's archive or clone a voice.",
+   "sources": [
+    {
+     "label": "Foundation statement and opt-out",
+     "url": "https://www.joanmitchellfoundation.org/journal/statement-on-the-use-of-ai"
+    }
+   ]
+  },
+  {
+   "id": "deezer-ai-toggle-announcement-20261013",
+   "date": "2026-10-13",
+   "kind": "Platform update / announced target",
+   "lens": "Music & sound",
+   "title": "Deezer plans a switch to exclude fully AI-generated music from search",
+   "summary": "Deezer announced an optional toggle that would remove fully AI-generated tracks, albums and related artists from search results. The company targets global availability before the end of 2026.",
+   "detail": "An announced feature, not verified as live. Deezer distinguishes fully generated music from limited AI assistance in a human creative process. Its existing recommendation exclusions and tagging are separate from this planned search setting. Detection accuracy was not independently tested here; the announcement is not evidence of a universal ban on AI-assisted musicians.",
+   "sources": [
+    {
+     "label": "Deezer announcement, October 13",
+     "url": "https://newsroom-deezer.com/2026/10/deezer-ai-music-toggle/"
+    },
+    {
+     "label": "TechCrunch reporting, October 14",
+     "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
+    }
+   ]
+  },
+  {
+   "id": "young-guru-creative-ai-20261010",
+   "date": "2026-10-10",
+   "kind": "Opinion / critical / interview",
+   "lens": "Music & sound",
+   "title": "Young Guru: assistive tools are different from making the art for you",
+   "summary": "In an AllHipHop interview, engineer Young Guru rejects creative AI while saying he is not opposed to assistive uses. He connects his criticism to privacy, control, environmental effects and the need for informed regulation.",
+   "detail": "A current, strongly critical creator view, attributed to Guru. His broad claims about intelligence and addiction are opinion, not technical or medical conclusions adopted by this chapter. His distinction between assistance and generation is more useful than treating the interview as opposition to all software.",
+   "sources": [
+    {
+     "label": "Chuck Creekmur, AllHipHop interview",
+     "url": "https://allhiphop.com/features/young-guru-says-creative-ai-has-no-place-in-hip-hop-talks-jay-z-erykah-badu-and-comic-book-culture/"
+    }
+   ]
+  },
+  {
+   "id": "flow-plugins",
+   "date": "2026-10-06",
+   "kind": "Platform update",
+   "lens": "Music & sound",
+   "title": "From a prompt to a DAW plugin",
+   "summary": "Google says Flow Music Spaces can now export custom instruments and effects as VST3/AU plugins. Its example is producer Khris Riddick-Tynes building a tool called No Chaser.",
+   "detail": "Primary vendor announcement, not an independent performance test. This is a useful watch for musicians who want to shape their own tools, not proof that generated plugins are safe or production-ready. Check plugin compatibility, rights and project backups before using client material.",
+   "sources": [
+    {
+     "label": "Google announcement",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/"
+    }
+   ]
+  },
+  {
+   "id": "firefly-audio",
+   "date": "2026-08-20",
+   "kind": "Platform update",
+   "lens": "Music & sound",
+   "title": "Firefly brings music, speech and sound effects into one studio",
+   "summary": "Adobe says its audio tools are broadly available. The creator use case is soundtrack and voice work for short films, brand videos and social content, without moving between several services.",
+   "detail": "Adobe describes the music as universally licensed and commercially safe. Those are vendor claims, not a blanket legal guarantee from this notebook. Read current terms for your actual model, plan, territory and client job. Tubefilter revisited the rollout on October 2; that coverage is not a second launch.",
+   "sources": [
+    {
+     "label": "Adobe announcement",
+     "url": "https://blog.adobe.com/en/publish/2026/08/20/adobe-firefly-expands-its-creative-ai-studio-generate-music-speech-and-sound-effects-in-one-place"
+    },
+    {
+     "label": "Tubefilter follow-up, Oct 2",
+     "url": "https://www.tubefilter.com/2026/10/02/adobe-firefly-ai-sound-features/"
+    }
+   ]
+  },
+  {
+   "id": "crabapple-heist",
+   "date": "2026-04-12",
+   "kind": "Opinion / critical",
+   "lens": "Art & image",
+   "title": "Molly Crabapple: AI as an art heist, not creative liberation",
+   "summary": "The artist and writer argues that generative AI takes from creative labor while concentrating power in technology companies. Her objection is economic, political and artistic, not simply a complaint about image quality.",
+   "detail": "Strongly negative opinion, attributed to Crabapple. The essay's rhetoric and contested claims are not adopted here as settled facts. Read beside the pro-experimentation work below rather than reducing this disagreement to a score for or against AI.",
+   "sources": [
+    {
+     "label": "Crabapple essay, The Guardian",
+     "url": "https://www.theguardian.com/books/2026/apr/12/is-ai-the-greatest-art-heist-in-history"
+    }
+   ]
+  },
+  {
+   "id": "crabapple-organizing",
+   "date": "2025-09-17",
+   "kind": "Reporting / archive",
+   "lens": "Rights & labor",
+   "title": "Artists against the slop machine: the labor argument",
+   "summary": "Hyperallergic reports on Molly Crabapple and Edward Ongweso Jr's workshop about resisting AI adoption. It connects style imitation to lost work, institutional rules and collective action.",
+   "detail": "This is a dated 2025 report, not a newly announced campaign. Statements about the industry's intentions are the speakers' arguments. It supplies the organizing and working-artist perspective that tool launches tend to leave out.",
+   "sources": [
+    {
+     "label": "Aaron Short, Hyperallergic",
+     "url": "https://hyperallergic.com/can-artists-stop-the-ai-slop-machine/"
+    }
+   ]
+  },
+  {
+   "id": "copyright-human",
+   "date": "2025-01-29",
+   "kind": "Official guidance / archive",
+   "lens": "Rights & labor",
+   "title": "Human authorship remains the copyright hinge",
+   "summary": "The U.S. Copyright Office says AI assistance does not automatically bar copyright. Human-authored expression, including creative selection, arrangement or modification, can qualify; prompts alone do not supply sufficient control.",
+   "detail": "U.S. guidance, not advice for every jurisdiction or every work. Copyrightability of an output is separate from permission to train a model or imitate a voice. The Office's current hub lists digital replicas, copyrightability, and a pre-publication training report; do not mistake that last report for a court ruling.",
+   "sources": [
+    {
+     "label": "Copyright Office Part 2 release",
+     "url": "https://copyright.gov/newsnet/2025/1060.html"
+    },
+    {
+     "label": "Current report hub and status",
+     "url": "https://www.copyright.gov/ai/"
+    }
+   ]
+  },
+  {
+   "id": "the-call",
+   "date": "2024-10-04",
+   "kind": "Artist practice / archive",
+   "lens": "Art & image",
+   "title": "Holly Herndon & Mat Dryhurst: build the system as part of the art",
+   "summary": "The Call at Serpentine combined choral work, AI and new ways to think about data and collective governance. It is an artist-led alternative to treating AI as only a prompt-to-image vending machine.",
+   "detail": "Historical exhibition, October 2024 to February 2025, not an event currently open to visit. Herndon and Dryhurst are engaged with the medium while asking who controls the systems and permissions. Their optimism is not blanket approval of every model or business practice.",
+   "sources": [
+    {
+     "label": "Serpentine exhibition record",
+     "url": "https://www.serpentinegalleries.org/whats-on/holly-herndon-mat-dryhurst-the-call/"
+    },
+    {
+     "label": "Artist interview, AnOther",
+     "url": "https://www.anothermag.com/art-photography/15858/art-in-the-age-of-ai-holly-herndon-mat-dryhurst-with-hans-ulrich-obrist"
+    },
+    {
+     "label": "Watch: Serpentine film",
+     "url": "https://www.serpentinegalleries.org/watch/holly-herndon-and-mat-dryhurst-the-call/"
+    }
+   ]
+  },
+  {
+   "id": "nick-cave",
+   "date": "2023-01-16",
+   "kind": "Opinion / critical / archive",
+   "lens": "Music & sound",
+   "title": "Nick Cave: mimicry is not the creative struggle",
+   "summary": "In Red Hand Files #218, Cave rejects a ChatGPT song written in his style. His argument centers on lived experience, vulnerability and the human work of making a song.",
+   "detail": "A foundational 2023 artist response, not a new interview or a technical benchmark. Cave's fierce objection belongs in the record in its own right, not as a token disclaimer beneath a tool recommendation.",
+   "sources": [
+    {
+     "label": "Nick Cave, Red Hand Files #218",
+     "url": "https://www.theredhandfiles.com/chat-gpt-what-do-you-think/"
+    }
+   ]
+  }
+ ],
+ "repos": [
+  {
+   "name": "Comfy-Org/ComfyUI",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "stars": 137901,
+   "pushed": "2026-10-16",
+   "checked": "2026-10-16",
+   "license": "GPL-3.0",
+   "lens": "Art & image",
+   "summary": "Reusable image, video and audio workflows built as node graphs. Useful for artists who want repeatable pipelines rather than one-off prompts.",
+   "caveat": "Technical setup and model storage can be substantial. Custom nodes execute third-party code. The code license does not settle model or training-data rights.",
+   "api": "https://api.github.com/repos/Comfy-Org/ComfyUI"
+  },
+  {
+   "name": "invoke-ai/InvokeAI",
+   "url": "https://github.com/invoke-ai/InvokeAI",
+   "stars": 28688,
+   "pushed": "2026-10-16",
+   "checked": "2026-10-16",
+   "license": "Apache-2.0",
+   "lens": "Art & image",
+   "summary": "A visual-media creative engine with a web interface, canvas and workflows for generating and editing images.",
+   "caveat": "Compare local open-source features with the separate commercial product. Model licenses, hardware and client-data handling need their own review.",
+   "api": "https://api.github.com/repos/invoke-ai/InvokeAI"
+  },
+  {
+   "name": "Acly/krita-ai-diffusion",
+   "url": "https://github.com/Acly/krita-ai-diffusion",
+   "stars": 10727,
+   "pushed": "2026-10-03",
+   "checked": "2026-10-16",
+   "license": "GPL-3.0",
+   "lens": "Art & image",
+   "summary": "AI generation, inpainting and outpainting inside Krita, keeping the painting canvas central to the workflow.",
+   "caveat": "A community plugin, not a promise that every model is cleared for a client brief. Check server configuration and GPU requirements.",
+   "api": "https://api.github.com/repos/Acly/krita-ai-diffusion"
+  },
+  {
+   "name": "ahujasid/mcp-for-blender",
+   "url": "https://github.com/ahujasid/mcp-for-blender",
+   "stars": 31163,
+   "pushed": "2026-10-06",
+   "checked": "2026-10-16",
+   "license": "MIT",
+   "lens": "Creative agents",
+   "summary": "A community MCP bridge that lets an LLM client control Blender, work with scenes and call asset services. Not an official Blender Foundation integration.",
+   "caveat": "Can execute code in Blender. Use a separate test scene and trusted configuration; do not expose private assets or run unfamiliar agent commands blindly.",
+   "api": "https://api.github.com/repos/ahujasid/mcp-for-blender"
+  },
+  {
+   "name": "Stability-AI/stable-audio-tools",
+   "url": "https://github.com/Stability-AI/stable-audio-tools",
+   "stars": 3887,
+   "pushed": "2026-10-09",
+   "checked": "2026-10-16",
+   "license": "MIT",
+   "lens": "Music & sound",
+   "summary": "Code for training and running conditional audio-generation models. A technical starting point for musicians and audio researchers.",
+   "caveat": "MIT applies to this code, not automatically to pretrained weights, datasets or generated recordings. Training and inference are not a no-setup music app.",
+   "api": "https://api.github.com/repos/Stability-AI/stable-audio-tools"
+  },
+  {
+   "name": "9001/copyparty",
+   "url": "https://github.com/9001/copyparty",
+   "stars": 47055,
+   "pushed": "2026-10-14",
+   "checked": "2026-10-16",
+   "license": "MIT",
+   "lens": "Studio systems",
+   "summary": "A portable file server with resumable uploads, media indexing, thumbnails and several file-access protocols. Useful for moving large studio assets.",
+   "caveat": "Not an artist-specific DAM or a backup strategy. Review authentication, exposed folders and network access before putting any client files on it.",
+   "api": "https://api.github.com/repos/9001/copyparty"
+  },
+  {
+   "name": "musescore/MuseScore",
+   "url": "https://github.com/musescore/MuseScore",
+   "stars": 15254,
+   "pushed": "2026-10-16",
+   "checked": "2026-10-16",
+   "license": "NOASSERTION",
+   "lens": "Music & sound",
+   "summary": "Free, open-source music notation software for writing, editing and playing scores. A useful non-generative counterweight in a creator-tech collection.",
+   "caveat": "This is the desktop notation project, not a promise about the terms of the separate score-sharing service. GitHub did not return one simple SPDX license; consult the repository license files.",
+   "api": "https://api.github.com/repos/musescore/MuseScore"
+  }
+ ],
+ "voices": [
+  {
+   "name": "Nick Cave / The Red Hand Files",
+   "lens": "Critical artist voice",
+   "note": "Songwriting, humanity and the limits of imitation. Start with the direct artist response.",
+   "url": "https://www.theredhandfiles.com/chat-gpt-what-do-you-think/"
+  },
+  {
+   "name": "Molly Crabapple",
+   "lens": "Critical artist voice",
+   "note": "Illustration, ownership and creative labor. Her 2026 essay makes the opposition explicit.",
+   "url": "https://www.theguardian.com/books/2026/apr/12/is-ai-the-greatest-art-heist-in-history"
+  },
+  {
+   "name": "Holly Herndon & Mat Dryhurst",
+   "lens": "Artist-led experimentation",
+   "note": "AI as an artistic medium, with permission, collective data and governance inside the work.",
+   "url": "https://www.anothermag.com/art-photography/15858/art-in-the-age-of-ai-holly-herndon-mat-dryhurst-with-hans-ulrich-obrist"
+  },
+  {
+   "name": "Siddharth Ahuja",
+   "lens": "Builder / video",
+   "note": "Creative agent integrations, scene-making and the practical limits of agent tool use.",
+   "url": "https://www.youtube.com/watch?v=nnktgWtfJHE"
+  },
+  {
+   "name": "Hyperallergic",
+   "lens": "Arts reporting",
+   "note": "A place to follow artists, institutions and the labor conflict around creative technology.",
+   "url": "https://hyperallergic.com/can-artists-stop-the-ai-slop-machine/"
+  },
+  {
+   "name": "Tubefilter",
+   "lens": "Creator-platform reporting",
+   "note": "Creator workflows and platform rollouts. Distinguish reported features from vendor promises.",
+   "url": "https://www.tubefilter.com/2026/10/02/adobe-firefly-ai-sound-features/"
+  },
+  {
+   "name": "Serpentine Arts Technologies",
+   "lens": "Institution / film",
+   "note": "Artist-led projects and films that connect technology with cultural and legal questions.",
+   "url": "https://www.serpentinegalleries.org/watch/holly-herndon-and-mat-dryhurst-the-call/"
+  },
+  {
+   "name": "U.S. Copyright Office",
+   "lens": "Primary rights source",
+   "note": "Follow the actual report status. Official analysis is not the same thing as a final court decision.",
+   "url": "https://www.copyright.gov/ai/"
+  },
+  {
+   "name": "Dan Olson / Folding Ideas",
+   "lens": "Critical filmmaker / video",
+   "note": "Long-form criticism of NFTs, digital scarcity and the business narratives surrounding creative technology.",
+   "url": "https://youtu.be/YQ_xWvX1n9g"
+  }
+ ],
+ "features": [
+  {
+   "kind": "Watch / builder perspective",
+   "title": "Siddharth Ahuja: Blender MCP and the future of creative tools",
+   "summary": "The plugin maker demonstrates agent-controlled 3D scenes and discusses linking Blender, assets and music tools. An excited builder case for lower barriers, with his own warnings about tool confusion and weak 3D understanding.",
+   "detail": "Video transcript checked. Publication date not confirmed, so it is not filed as fresh news. Demo speed and quality claims are the speaker's, not independent benchmarks.",
+   "url": "https://www.youtube.com/watch?v=nnktgWtfJHE",
+   "lens": "Creative agents"
+  },
+  {
+   "kind": "Watch / critical opinion / archive",
+   "title": "Dan Olson / Folding Ideas: Line Goes Up - The Problem With NFTs",
+   "summary": "A filmmaker's sustained critique of NFTs, digital ownership and the speculative systems around them. A strong negative blockchain perspective alongside the hub's existing crypto coverage.",
+   "detail": "Video transcript checked. This is an older essay, not a new release or a neutral technical reference. Olson's political and economic conclusions are his argument; inclusion is not endorsement. Exact publication date was not verified in this check.",
+   "url": "https://youtu.be/YQ_xWvX1n9g",
+   "lens": "Rights & labor"
+  }
+ ],
+ "repoPicks": [
+  {
+   "id": "creator-repo-kandinsky6-20261023",
+   "date": "2026-10-23",
+   "name": "kandinskylab/kandinsky-6",
+   "summary": "Kandinsky 6.0 Video: foundation models for synchronized video and audio generation, released under the MIT license.",
+   "stars": 371,
+   "checked": "2026-10-23",
+   "why": "A rare MIT-licensed video model with synchronized sound and lip-sync. Young and small, but actively pushed this week, and a useful open counterweight to closed video tools.",
+   "url": "https://github.com/kandinskylab/kandinsky-6",
+   "label": "Editorial pick / active project, not a new-launch claim",
+   "caveat": "MIT code license; model weights and demo data may carry separate terms. A 16 GB GPU path is documented, but local video generation remains hardware-hungry. Star count is a snapshot, not a trend rank."
+  },
+  {
+   "id": "creator-repo-openmontage-20261016",
+   "date": "2026-10-16",
+   "name": "calesthio/OpenMontage",
+   "summary": "An agent-driven video-production toolkit for scripts, narration, footage, captions and rendering.",
+   "stars": 68864,
+   "checked": "2026-10-16",
+   "why": "A reference for connecting the many steps of a short-video workflow, rather than treating video generation as one prompt.",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "label": "Editorial pick / active project, not a new-launch claim",
+   "caveat": "AGPL-3.0 code. Third-party renderers, models, stock media and hosted APIs have separate terms and possible costs. Agents can run code; review in a test workspace."
+  },
+  {
+   "id": "creator-repo-opencreator-20261016",
+   "date": "2026-10-16",
+   "name": "krillinai/OpenCreator",
+   "summary": "A Codex-powered creator workspace for video translation, dubbing, images, video and editing.",
+   "stars": 13449,
+   "checked": "2026-10-16",
+   "why": "Puts visual tools and agent conversation around shared projects, useful for seeing how creative agents can fit an editable workspace.",
+   "url": "https://github.com/krillinai/OpenCreator",
+   "label": "Editorial pick / active project, not a new-launch claim",
+   "caveat": "Apache-2.0 code. Local workspace storage does not mean every configured model runs locally; review provider uploads, API costs and media rights."
+  },
+  {
+   "id": "creator-repo-hyperframes-20261016",
+   "date": "2026-10-16",
+   "name": "heygen-com/hyperframes",
+   "summary": "An HTML/CSS and animation framework that renders compositions into MP4 video.",
+   "stars": 65160,
+   "checked": "2026-10-16",
+   "why": "A code-first route to repeatable titles, motion graphics and product videos that an agent can draft and a creator can inspect.",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "label": "Editorial pick / active project, not a new-launch claim",
+   "caveat": "Apache-2.0 code. Not a generative-video model or a guarantee of finished production quality. Check fonts, music, footage and any connected services separately."
+  }
+ ]
 }
