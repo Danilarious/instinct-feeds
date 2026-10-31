@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "topics": [
   {
    "id": "blockchain",
@@ -799,6 +799,27 @@
     {
      "label": "Zcash Foundation: Zebra Andale post",
      "url": "https://zfnd.org/zebra-andale-the-fastest-zebra-yet/"
+    }
+   ]
+  },
+  {
+   "id": "binance-replenishment-90pct-2026-10-31",
+   "date": "2026-10-31",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Security",
+   "status": "Binance-stated / not independently verified",
+   "title": "Binance says 90% of stolen assets replenished; remaining 10% are less-liquid tokens",
+   "summary": "Reuters reports Binance's Saturday statement that it has covered 90% of the amount stolen in this week's roughly $6.3 billion incident. The outstanding 10% consists of less-liquid tokens that Binance says may take longer to source in the required amounts. The figure is Binance's own claim - it is not an independent reserves verification, and replenishment from the SAFU fund and company funds is not recovery of the stolen assets from the attackers.",
+   "detail": "Attribution stays precise: the 90% figure comes from a Binance statement reported by Reuters, not from on-chain proof or the updated Proof of Reserves Binance pledged in its October 30 incident update, which has not been published yet. Covering user losses from the SAFU fund and company funds is a separate matter from tracing or recovering the stolen funds; the roughly $3 billion frozen on-chain per the October 30 update is a different figure again. Binance's incident page still carries its October 30 state - withdrawals suspended as a precaution, deposits operating normally - and there is no new verified primary announcement of withdrawals resuming, so any restart timing remains unconfirmed until Binance posts it.",
+   "sources": [
+    {
+     "label": "Reuters via StreetInsider (October 31)",
+     "url": "https://www.streetinsider.com/Reuters/Binance+says+90%25+of+stolen+assets+replenished/27267522.html"
+    },
+    {
+     "label": "Binance official security incident update (primary, unchanged since October 30)",
+     "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7"
     }
    ]
   }
