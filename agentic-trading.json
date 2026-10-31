@@ -1,98 +1,361 @@
 {
-  "updated": "2026-10-24",
-  "editorial": "A weekly rundown of the agentic trading space: agents and LLMs managing deterministic trading systems and strategies, agent wallets, on-chain automation and native swaps. The SatStacker beat leads. Dates belong to the news; stars and versions are checked snapshots, not live ranks. Nothing here is investment advice.",
-  "stack": [
-    {"id":"hummingbot","name":"Hummingbot","role":"Execution framework","note":"Open-source market-making and arbitrage bot framework. The base layer Bx already follows.","latest":"v2.17.0","latestDate":"2026-09-22","stars":20671,"checked":"2026-10-24","url":"https://github.com/hummingbot/hummingbot"},
-    {"id":"condor","name":"Condor","role":"Agent harness","note":"The Hummingbot org's open-source harness for creating and managing AI trading agents. Actively pushed this week.","latest":"No tagged releases","latestDate":"2026-10-23","stars":239,"checked":"2026-10-24","url":"https://github.com/hummingbot/condor"},
-    {"id":"nautilus","name":"Nautilus Trader","role":"Execution engine","note":"Production-grade Rust-native engine with a deterministic event-driven architecture. Closest in spirit to the deterministic-core design.","latest":"v1.231.0","latestDate":"2026-08-02","stars":30713,"checked":"2026-10-24","url":"https://github.com/nautechsystems/nautilus_trader"},
-    {"id":"jesse","name":"Jesse","role":"Strategy research + live","note":"Python trading framework with a clean research-to-live path. 3.4.0 shipped October 16.","latest":"3.4.0","latestDate":"2026-10-16","stars":8695,"checked":"2026-10-24","url":"https://github.com/jesse-ai/jesse"},
-    {"id":"freqtrade","name":"Freqtrade + FreqAI","role":"Bot + ML loop","note":"The veteran open-source crypto bot; FreqAI adds a machine-learning module on top of a rule-based core.","latest":"2026.9","latestDate":"2026-09-29","stars":55855,"checked":"2026-10-24","url":"https://github.com/freqtrade/freqtrade"},
-    {"id":"wavelength","name":"Wavelength / Lightning agent tools","role":"Agent payments (BTC)","note":"Lightning Labs' agent payment rails: MCP wallet tools, L402 pay-per-request, receive-only credentials. Mainnet since October 23.","latest":"Mainnet alpha","latestDate":"2026-10-23","stars":61,"checked":"2026-10-24","url":"https://github.com/lightninglabs/lightning-agent-tools"},
-    {"id":"agentkit","name":"Coinbase AgentKit","role":"Agent wallets","note":"Coinbase's 'every AI agent deserves a wallet' toolkit; pairs with the exchange's new MCP trading access.","latest":"Active development","latestDate":"2026-10-14","stars":1335,"checked":"2026-10-24","url":"https://github.com/coinbase/agentkit"},
-    {"id":"turnkey","name":"Turnkey","role":"Wallet infrastructure","note":"Key infrastructure with a policy engine - ranked first in the agent-wallet research for a reason. SDK shipped v2026.10.4 on October 24.","latest":"v2026.10.4","latestDate":"2026-10-24","stars":102,"checked":"2026-10-24","url":"https://github.com/tkhq/sdk"}
-  ],
-  "entries": [
+ "updated": "2026-10-31",
+ "editorial": "A weekly rundown of the agentic trading space: agents and LLMs managing deterministic trading systems and strategies, agent wallets, on-chain automation and native swaps. The SatStacker beat leads. Dates belong to the news; stars and versions are checked snapshots, not live ranks. Nothing here is investment advice.",
+ "stack": [
+  {
+   "id": "hummingbot",
+   "name": "Hummingbot",
+   "role": "Execution framework",
+   "note": "Open-source market-making and arbitrage bot framework. The base layer Bx already follows.",
+   "latest": "v2.17.0",
+   "latestDate": "2026-09-22",
+   "stars": 20860,
+   "checked": "2026-10-31",
+   "url": "https://github.com/hummingbot/hummingbot"
+  },
+  {
+   "id": "condor",
+   "name": "Condor",
+   "role": "Agent harness",
+   "note": "The Hummingbot org's open-source harness for creating and managing AI trading agents. Actively pushed this week.",
+   "latest": "No tagged releases",
+   "latestDate": "2026-10-30",
+   "stars": 247,
+   "checked": "2026-10-31",
+   "url": "https://github.com/hummingbot/condor"
+  },
+  {
+   "id": "nautilus",
+   "name": "Nautilus Trader",
+   "role": "Execution engine",
+   "note": "Production-grade Rust-native engine with a deterministic event-driven architecture. Closest in spirit to the deterministic-core design.",
+   "latest": "v1.231.0",
+   "latestDate": "2026-08-02",
+   "stars": 31097,
+   "checked": "2026-10-31",
+   "url": "https://github.com/nautechsystems/nautilus_trader"
+  },
+  {
+   "id": "jesse",
+   "name": "Jesse",
+   "role": "Strategy research + live",
+   "note": "Python trading framework with a clean research-to-live path. 3.4.0 shipped October 16.",
+   "latest": "3.5.4",
+   "latestDate": "2026-10-30",
+   "stars": 8742,
+   "checked": "2026-10-31",
+   "url": "https://github.com/jesse-ai/jesse"
+  },
+  {
+   "id": "freqtrade",
+   "name": "Freqtrade + FreqAI",
+   "role": "Bot + ML loop",
+   "note": "The veteran open-source crypto bot; FreqAI adds a machine-learning module on top of a rule-based core.",
+   "latest": "2026.10",
+   "latestDate": "2026-10-30",
+   "stars": 56203,
+   "checked": "2026-10-31",
+   "url": "https://github.com/freqtrade/freqtrade"
+  },
+  {
+   "id": "wavelength",
+   "name": "Wavelength / Lightning agent tools",
+   "role": "Agent payments (BTC)",
+   "note": "Lightning Labs' agent payment rails: MCP wallet tools, L402 pay-per-request, receive-only credentials. Mainnet since October 23.",
+   "latest": "Mainnet alpha",
+   "latestDate": "2026-10-23",
+   "stars": 61,
+   "checked": "2026-10-31",
+   "url": "https://github.com/lightninglabs/lightning-agent-tools"
+  },
+  {
+   "id": "agentkit",
+   "name": "Coinbase AgentKit",
+   "role": "Agent wallets",
+   "note": "Coinbase's 'every AI agent deserves a wallet' toolkit; pairs with the exchange's new MCP trading access.",
+   "latest": "Active development",
+   "latestDate": "2026-10-14",
+   "stars": 1348,
+   "checked": "2026-10-31",
+   "url": "https://github.com/coinbase/agentkit"
+  },
+  {
+   "id": "turnkey",
+   "name": "Turnkey",
+   "role": "Wallet infrastructure",
+   "note": "Key infrastructure with a policy engine - ranked first in the agent-wallet research for a reason. SDK shipped v2026.10.4 on October 24.",
+   "latest": "v2026.10.4",
+   "latestDate": "2026-10-24",
+   "stars": 103,
+   "checked": "2026-10-31",
+   "url": "https://github.com/tkhq/sdk"
+  }
+ ],
+ "entries": [
+  {
+   "id": "at-wavelength-mainnet-2026-10-23",
+   "date": "2026-10-23",
+   "type": "Agent payments",
+   "status": "Live on mainnet / alpha",
+   "title": "Lightning Labs ships Wavelength on mainnet: bitcoin payments any agent can integrate",
+   "summary": "Wavelength, Lightning Labs' payments toolkit, opened to everyone on mainnet October 23. An agent can hold a balance and pay for API calls, data feeds or another agent's service in fractions of a cent over Lightning - no card, account, node or channels. wavecli mcp serve exposes the wallet as MCP tool calls; L402 handles pay-per-request APIs.",
+   "detail": "This is the closest shipping thing to the SatStacker payment lane. It is still alpha: accounts are capped at 300,000 sats (50,000 per VTXO), Lightning payments carry a 0.25% service fee plus routing fees, and stablecoins are only 'coming soon' per Lightning Labs. The custody shape is the interesting part: users hold their own keys with a unilateral exit back to the bitcoin chain, wallet unlock stays on the command line so seeds never cross the agent channel, and receive-only macaroon credentials let an agent get paid with no ability to sign or recover. Funds need a refresh roughly every two weeks, handled automatically while the wallet runs. Fee and cap figures are Lightning Labs' own documentation, checked October 24.",
+   "sources": [
     {
-      "id": "at-wavelength-mainnet-2026-10-23",
-      "date": "2026-10-23",
-      "type": "Agent payments",
-      "status": "Live on mainnet / alpha",
-      "title": "Lightning Labs ships Wavelength on mainnet: bitcoin payments any agent can integrate",
-      "summary": "Wavelength, Lightning Labs' payments toolkit, opened to everyone on mainnet October 23. An agent can hold a balance and pay for API calls, data feeds or another agent's service in fractions of a cent over Lightning - no card, account, node or channels. wavecli mcp serve exposes the wallet as MCP tool calls; L402 handles pay-per-request APIs.",
-      "detail": "This is the closest shipping thing to the SatStacker payment lane. It is still alpha: accounts are capped at 300,000 sats (50,000 per VTXO), Lightning payments carry a 0.25% service fee plus routing fees, and stablecoins are only 'coming soon' per Lightning Labs. The custody shape is the interesting part: users hold their own keys with a unilateral exit back to the bitcoin chain, wallet unlock stays on the command line so seeds never cross the agent channel, and receive-only macaroon credentials let an agent get paid with no ability to sign or recover. Funds need a refresh roughly every two weeks, handled automatically while the wallet runs. Fee and cap figures are Lightning Labs' own documentation, checked October 24.",
-      "sources": [
-        {"label": "Lightning Labs: Wavelength mainnet launch", "url": "https://lightning.engineering/posts/2026-10-23-wavelength-mainnet-launch/"}
-      ]
-    },
-    {
-      "id": "at-coinbase-agent-trading-2026-10-22",
-      "date": "2026-10-22",
-      "type": "Exchange agents",
-      "status": "Live feature / reported",
-      "title": "Coinbase opens customer accounts to AI agents over MCP",
-      "summary": "Coinbase announced 'Coinbase is open for AI agents' on October 22: users can connect approved assistants (ChatGPT, Claude, Grok, Codex CLI and others) through its MCP server to trade crypto, US stocks and derivatives. The user picks which portfolios the agent can access, previews orders before execution, and can disconnect at any time.",
-      "detail": "Reported by Yahoo Finance / 24/7 Wall St on October 23. The setup is agents.coinbase.com/mcp as a custom MCP server with an approval screen; a September update had already added stocks, ETFs and x402 payments that let agents buy market data from a user's USDC balance. Coinbase's own risk framing matches what this watch keeps repeating: fund only a separate, limited portfolio for agent trading, because the named failure modes are prompt injection, the agent misreading vague instructions, and over-broad permissions. Coinbase has reported no agent revenue so far and gave no usage numbers. Feature claims are Coinbase's; the risk framing is the article's.",
-      "sources": [
-        {"label": "Yahoo Finance / 24/7 Wall St report", "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-now-lets-ai-agents-175721525.html"}
-      ]
-    },
-    {
-      "id": "at-x402-sdk-flaw-2026-10-23",
-      "date": "2026-10-23",
-      "type": "Security",
-      "status": "Disclosed / fixed in the August 18 releases",
-      "title": "x402 SDK flaw let a malicious API ask an agent's wallet for its full token balance",
-      "summary": "Security firm V12 disclosed 25 flaws in the x402 payment SDKs, three critical: the default client set no spending limit (a hostile API could request the wallet's full token balance), the TypeScript Solana facilitator accepted token approvals as valid payments, and SIWx login messages were not checked against the site actually contacted. All three were fixed in the August 18 releases, which cap payments at $1 and recognized stablecoins by default.",
-      "detail": "The uncomfortable part is the disclosure gap: the x402 Foundation published no security advisories and the changelogs do not call the fixes security fixes, so npm audit and PyPI gave no warning to upgrade - teams on releases before 2.23.0 (TS) or 2.25.0 (Python) have to find out some other way. Neither V12 nor the foundation reports any real-world exploit. The design lesson is the SatStacker one: any agent that auto-signs payments needs explicit per-payment budgets, token allowlists and site verification, which is exactly what the fixed clients now ship. Technical claims are V12's as reported by The Hacker News, checked October 24.",
-      "sources": [
-        {"label": "The Hacker News on the V12 findings", "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html"},
-        {"label": "x402 protocol repository", "url": "https://github.com/x402-foundation/x402"}
-      ]
-    },
-    {
-      "id": "at-llm-vs-heuristic-2026-10-21",
-      "date": "2026-10-21",
-      "type": "Research",
-      "status": "Single-author experiment / backtest results",
-      "title": "An LLM agent searched for trading strategies; a simple heuristic beat it, and the harness was the real hero",
-      "summary": "Pavel Kazantsev gave DeepSeek V3 forty rounds to propose crypto strategies, scored by a walk-forward harness the model could not touch. A dumb heuristic proposer found +52% net first; the agent's early proposals lost money; its real value was surfacing three silent harness bugs; and its later +123.7% 'win' turned out to be parameter sensitivity, not edge.",
-      "detail": "The details matter more than the headline. The agent never touched scoring - it proposed, the same judge every hand-built strategy faced decided. Once the space was debugged it genuinely mapped a corner (factor-residual reversion, 40-80 day lookbacks), but the honest ensemble result was +75.8% in-sample with a t-stat around 1.4: not significant. His conclusions read like a checklist for the deterministic-core design: run a heuristic baseline first; the agent is only as honest as the thing that scores it; once a proposer can optimize it will, so watch breadth, not magnitude; average the plateau instead of picking the winner. A personal blog experiment with the author's own caveats, not peer-reviewed research - but unusually rigorous about its own search bias.",
-      "sources": [
-        {"label": "Pavel Kazantsev's full writeup", "url": "https://www.pkazantsev.com/writing/llm-agent-trading/"}
-      ]
-    },
-    {
-      "id": "at-binance-agent-id-2026-10-20",
-      "date": "2026-10-20",
-      "type": "Agent wallets",
-      "status": "Exchange feature / promo stage",
-      "title": "Binance pushes agent wallets with claimable '.ai' Agent ID names",
-      "summary": "Binance co-founder Yi He is promoting Agent ID - unique '.ai' names for Binance Wallet's agentic wallet, pitched as an alternative to long 0x addresses. It sits on the August Agent OS platform: MCP integration, isolated agent subaccounts for spot, margin and futures trading, and no external-withdrawal permission for agents.",
-      "detail": "Neither promo post shows an actual payment or trade completed through the names, so treat this as a naming launch on top of real plumbing. The plumbing is the part worth watching: a dedicated subaccount, isolated from the main account, where the agent can trade but cannot withdraw externally - the exchange-custodied version of the least-privilege pattern Wavelength ships self-custodied. Caveat for a California-based stack: Binance's global platform is not available to US residents, so this is a pattern to study rather than a tool to use. Reported by crypto.news October 20.",
-      "sources": [
-        {"label": "crypto.news report", "url": "https://crypto.news/binance-agent-id-ai-wallet-names/"}
-      ]
-    },
-    {
-      "id": "at-stack-releases-2026-10-24",
-      "date": "2026-10-24",
-      "type": "Stack update",
-      "status": "Checked snapshots / release records",
-      "title": "Stack watch: Jesse 3.4.0 and Turnkey SDK v2026.10.4 ship; Hummingbot, Nautilus and Freqtrade hold",
-      "summary": "Jesse published 3.4.0 to PyPI on October 16 and Turnkey's SDK shipped v2026.10.4 on October 24. Hummingbot's latest tagged release stays v2.17.0 (September 22), Nautilus Trader stays v1.231.0 (August 2) and Freqtrade stays 2026.9 (September 29). Condor has no tagged releases but was actively pushed this week.",
-      "detail": "Versions and dates from the PyPI records and the GitHub API, checked October 24. Jesse's GitHub repo does not publish GitHub releases, so PyPI is the source of truth there; release notes were not reviewed in this sweep. Turnkey's relevance is its policy engine - it ranked first in the agent-optimized wallet research. The full table lives in the stack watch above.",
-      "sources": [
-        {"label": "Jesse on PyPI", "url": "https://pypi.org/project/jesse/"},
-        {"label": "Turnkey SDK releases", "url": "https://github.com/tkhq/sdk/releases"},
-        {"label": "Hummingbot releases", "url": "https://github.com/hummingbot/hummingbot/releases"}
-      ]
+     "label": "Lightning Labs: Wavelength mainnet launch",
+     "url": "https://lightning.engineering/posts/2026-10-23-wavelength-mainnet-launch/"
     }
-  ],
-  "repoPicks": [
-    {"id":"x402-2026-10-24","date":"2026-10-24","name":"x402-foundation/x402","summary":"The open x402 payment standard and SDKs: pay-per-request over HTTP 402, with TypeScript, Python and Go clients and MCP support.","stars":6758,"checked":"2026-10-24","why":"The rail most of this week's agent-commerce news runs on. Read the security note in this week's edition before wiring an auto-signing client to it.","url":"https://github.com/x402-foundation/x402","caveat":"Apache-2.0. Default clients older than the August 18 releases (TS 2.23.0) lack spending limits - see this week's security note. Star count is a snapshot, not a trend rank.","label":"Notable open-source / editorial pick"},
-    {"id":"condor-2026-10-24","date":"2026-10-24","name":"hummingbot/condor","summary":"The Hummingbot org's open-source harness for creating and managing AI trading agents.","stars":239,"checked":"2026-10-24","why":"Small and early, but it is the dedicated agent layer on top of the execution framework already in the stack watch - and it was actively pushed this week.","url":"https://github.com/hummingbot/condor","caveat":"MIT. No tagged releases; treat as pre-release software. Star count is a snapshot, not a trend rank.","label":"Notable open-source / editorial pick"},
-    {"id":"openalice-2026-10-24","date":"2026-10-24","name":"TraderAlice/OpenAlice","summary":"'One-person Wall Street': a local workspace connecting coding agents (Claude Code, Codex, others) to market tools, research workspaces and trading accounts, with staged order proposals.","stars":7368,"checked":"2026-10-24","why":"The agent-stages-orders-human-approves pattern, shipped as a product-shaped workspace rather than a bot - close to the owner-signed pilot model in the wallet research.","url":"https://github.com/TraderAlice/OpenAlice","caveat":"AGPL-3.0. Feature claims are the README's; trading-account integrations not tested. Star count is a snapshot, not a trend rank.","label":"Notable open-source / editorial pick"},
-    {"id":"lumibot-2026-10-24","date":"2026-10-24","name":"Lumiwealth/lumibot","summary":"Python trading framework pitching 'AI agents that actually place the trade': backtests, paper and live trading across twelve broker integrations, plus a BotSpot MCP so coding agents get strategy-building skills.","stars":2161,"checked":"2026-10-24","why":"The MCP-for-strategy-building angle is the agentic pattern applied to the whole bot lifecycle, not just execution.","url":"https://github.com/Lumiwealth/lumibot","caveat":"GPL-3.0. Heavily promotes its managed BotSpot cloud; broker integrations not tested. Star count is a snapshot, not a trend rank.","label":"Notable open-source / editorial pick"},
-    {"id":"solana-pay-cli-2026-10-24","date":"2026-10-24","name":"solana-foundation/pay","summary":"Solana Foundation's CLI for agentic payments, speaking x402, MPP and AP2.","stars":1796,"checked":"2026-10-24","why":"Agent payment rails are converging on a few protocols; a foundation-backed CLI that speaks three of them is a cheap way to track that convergence.","url":"https://github.com/solana-foundation/pay","caveat":"MIT. Solana-side tooling; not a BTC rail. Star count is a snapshot, not a trend rank.","label":"Notable open-source / editorial pick"}
-  ]
+   ]
+  },
+  {
+   "id": "at-coinbase-agent-trading-2026-10-22",
+   "date": "2026-10-22",
+   "type": "Exchange agents",
+   "status": "Live feature / reported",
+   "title": "Coinbase opens customer accounts to AI agents over MCP",
+   "summary": "Coinbase announced 'Coinbase is open for AI agents' on October 22: users can connect approved assistants (ChatGPT, Claude, Grok, Codex CLI and others) through its MCP server to trade crypto, US stocks and derivatives. The user picks which portfolios the agent can access, previews orders before execution, and can disconnect at any time.",
+   "detail": "Reported by Yahoo Finance / 24/7 Wall St on October 23. The setup is agents.coinbase.com/mcp as a custom MCP server with an approval screen; a September update had already added stocks, ETFs and x402 payments that let agents buy market data from a user's USDC balance. Coinbase's own risk framing matches what this watch keeps repeating: fund only a separate, limited portfolio for agent trading, because the named failure modes are prompt injection, the agent misreading vague instructions, and over-broad permissions. Coinbase has reported no agent revenue so far and gave no usage numbers. Feature claims are Coinbase's; the risk framing is the article's.",
+   "sources": [
+    {
+     "label": "Yahoo Finance / 24/7 Wall St report",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-now-lets-ai-agents-175721525.html"
+    }
+   ]
+  },
+  {
+   "id": "at-x402-sdk-flaw-2026-10-23",
+   "date": "2026-10-23",
+   "type": "Security",
+   "status": "Disclosed / fixed in the August 18 releases",
+   "title": "x402 SDK flaw let a malicious API ask an agent's wallet for its full token balance",
+   "summary": "Security firm V12 disclosed 25 flaws in the x402 payment SDKs, three critical: the default client set no spending limit (a hostile API could request the wallet's full token balance), the TypeScript Solana facilitator accepted token approvals as valid payments, and SIWx login messages were not checked against the site actually contacted. All three were fixed in the August 18 releases, which cap payments at $1 and recognized stablecoins by default.",
+   "detail": "The uncomfortable part is the disclosure gap: the x402 Foundation published no security advisories and the changelogs do not call the fixes security fixes, so npm audit and PyPI gave no warning to upgrade - teams on releases before 2.23.0 (TS) or 2.25.0 (Python) have to find out some other way. Neither V12 nor the foundation reports any real-world exploit. The design lesson is the SatStacker one: any agent that auto-signs payments needs explicit per-payment budgets, token allowlists and site verification, which is exactly what the fixed clients now ship. Technical claims are V12's as reported by The Hacker News, checked October 24.",
+   "sources": [
+    {
+     "label": "The Hacker News on the V12 findings",
+     "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html"
+    },
+    {
+     "label": "x402 protocol repository",
+     "url": "https://github.com/x402-foundation/x402"
+    }
+   ]
+  },
+  {
+   "id": "at-llm-vs-heuristic-2026-10-21",
+   "date": "2026-10-21",
+   "type": "Research",
+   "status": "Single-author experiment / backtest results",
+   "title": "An LLM agent searched for trading strategies; a simple heuristic beat it, and the harness was the real hero",
+   "summary": "Pavel Kazantsev gave DeepSeek V3 forty rounds to propose crypto strategies, scored by a walk-forward harness the model could not touch. A dumb heuristic proposer found +52% net first; the agent's early proposals lost money; its real value was surfacing three silent harness bugs; and its later +123.7% 'win' turned out to be parameter sensitivity, not edge.",
+   "detail": "The details matter more than the headline. The agent never touched scoring - it proposed, the same judge every hand-built strategy faced decided. Once the space was debugged it genuinely mapped a corner (factor-residual reversion, 40-80 day lookbacks), but the honest ensemble result was +75.8% in-sample with a t-stat around 1.4: not significant. His conclusions read like a checklist for the deterministic-core design: run a heuristic baseline first; the agent is only as honest as the thing that scores it; once a proposer can optimize it will, so watch breadth, not magnitude; average the plateau instead of picking the winner. A personal blog experiment with the author's own caveats, not peer-reviewed research - but unusually rigorous about its own search bias.",
+   "sources": [
+    {
+     "label": "Pavel Kazantsev's full writeup",
+     "url": "https://www.pkazantsev.com/writing/llm-agent-trading/"
+    }
+   ]
+  },
+  {
+   "id": "at-binance-agent-id-2026-10-20",
+   "date": "2026-10-20",
+   "type": "Agent wallets",
+   "status": "Exchange feature / promo stage",
+   "title": "Binance pushes agent wallets with claimable '.ai' Agent ID names",
+   "summary": "Binance co-founder Yi He is promoting Agent ID - unique '.ai' names for Binance Wallet's agentic wallet, pitched as an alternative to long 0x addresses. It sits on the August Agent OS platform: MCP integration, isolated agent subaccounts for spot, margin and futures trading, and no external-withdrawal permission for agents.",
+   "detail": "Neither promo post shows an actual payment or trade completed through the names, so treat this as a naming launch on top of real plumbing. The plumbing is the part worth watching: a dedicated subaccount, isolated from the main account, where the agent can trade but cannot withdraw externally - the exchange-custodied version of the least-privilege pattern Wavelength ships self-custodied. Caveat for a California-based stack: Binance's global platform is not available to US residents, so this is a pattern to study rather than a tool to use. Reported by crypto.news October 20.",
+   "sources": [
+    {
+     "label": "crypto.news report",
+     "url": "https://crypto.news/binance-agent-id-ai-wallet-names/"
+    }
+   ]
+  },
+  {
+   "id": "at-stack-releases-2026-10-24",
+   "date": "2026-10-24",
+   "type": "Stack update",
+   "status": "Checked snapshots / release records",
+   "title": "Stack watch: Jesse 3.4.0 and Turnkey SDK v2026.10.4 ship; Hummingbot, Nautilus and Freqtrade hold",
+   "summary": "Jesse published 3.4.0 to PyPI on October 16 and Turnkey's SDK shipped v2026.10.4 on October 24. Hummingbot's latest tagged release stays v2.17.0 (September 22), Nautilus Trader stays v1.231.0 (August 2) and Freqtrade stays 2026.9 (September 29). Condor has no tagged releases but was actively pushed this week.",
+   "detail": "Versions and dates from the PyPI records and the GitHub API, checked October 24. Jesse's GitHub repo does not publish GitHub releases, so PyPI is the source of truth there; release notes were not reviewed in this sweep. Turnkey's relevance is its policy engine - it ranked first in the agent-optimized wallet research. The full table lives in the stack watch above.",
+   "sources": [
+    {
+     "label": "Jesse on PyPI",
+     "url": "https://pypi.org/project/jesse/"
+    },
+    {
+     "label": "Turnkey SDK releases",
+     "url": "https://github.com/tkhq/sdk/releases"
+    },
+    {
+     "label": "Hummingbot releases",
+     "url": "https://github.com/hummingbot/hummingbot/releases"
+    }
+   ]
+  },
+  {
+   "id": "at-metamask-agent-wallet-grok-2026-10-28",
+   "date": "2026-10-28",
+   "type": "Agent wallets",
+   "status": "Live in Grok Bot marketplace / vendor-described guardrails",
+   "title": "MetaMask Agent Wallet goes live on Grok Bot with wallet-layer guardrails",
+   "summary": "MetaMask's Agent Wallet is available as a Grok Bot marketplace plugin as of October 28: plain-language requests can check balances, swap and bridge tokens, trade Hyperliquid perps, take Polymarket positions and supply to yield vaults. MetaMask says the wallet is self-custodial with keys in a trusted execution environment, every supported transaction simulated and Blockaid-scanned, and Guard Mode enforcing allowlists plus a rolling 24-hour outflow limit you set, with two-factor approval for anything outside it.",
+   "detail": "The structurally important detail is where the checks fire: swaps are checked trade by trade, but perp positions are checked only at the Hyperliquid deposit - opening, sizing and closing positions are Hyperliquid-signed actions, so a position well past the outflow limit can open without a wallet-level check. Polymarket order placement is likewise off-chain and outside per-order Guard Mode evaluation. A 'Beast Mode' relaxes interruptions while keeping threat scanning, and eligible transactions carry Transaction Protection coverage up to $10,000 a month. The same mm CLI skill works in Claude Code, Codex, Cursor and other skill-supporting agents. All of this is MetaMask's own documentation, not independent testing. Not investment advice.",
+   "sources": [
+    {
+     "label": "MetaMask news: Agent Wallet live on Grok Bot (primary)",
+     "url": "https://metamask.com/news/metamask-agent-wallet-grok-bot"
+    }
+   ]
+  },
+  {
+   "id": "at-tria-agentic-trading-2026-10-30",
+   "date": "2026-10-30",
+   "type": "Exchange agents",
+   "status": "Launched per vendor / MCP private beta",
+   "title": "Tria launches agentic perp trading with trade-only keys",
+   "summary": "Tria announced Agentic Trading on October 30: AI tools including Claude, ChatGPT and Cursor execute Hyperliquid and Decibel perpetual-futures strategies through a user's existing Tria account, authorized through expiring, revocable trade-only keys that cannot withdraw funds. Tria's own documentation qualifies the launch: the MCP server is in access-restricted private beta, and both venues trade real mainnet markets with no testnet target. This is perp execution, not a verified native ZEC/ADA or spot bitcoin-DCA product.",
+   "detail": "Mechanics per the docs: users mint an HL agent wallet and/or a Decibel delegate keypair from the Tria app; agents place, cancel and modify orders but cannot withdraw. Tria's risk disclosure states trade-only permissions do not prevent trading losses, including liquidation of collateral. The 600,000-user figure and named AI-tool support are vendor claims, and usable availability is gated on private-beta npm access. Also covered in this hub's blockchain chapter. Not investment advice.",
+   "sources": [
+    {
+     "label": "Tria API Trading documentation (primary mechanics)",
+     "url": "https://api-docs.tria.so/"
+    },
+    {
+     "label": "Tria MCP quickstart (private beta terms)",
+     "url": "https://api-docs.tria.so/mcp/quickstart"
+    },
+    {
+     "label": "Chainwire launch announcement (vendor)",
+     "url": "https://chainwire.org/2026/10/30/tria-launches-agentic-trading-allowing-ai-agents-to-execute-crypto-trades-without-giving-up-control-of-funds/"
+    }
+   ]
+  },
+  {
+   "id": "at-stack-releases-2026-10-31",
+   "date": "2026-10-31",
+   "type": "Stack update",
+   "status": "Checked snapshots / release records",
+   "title": "Stack watch: Freqtrade 2026.10 and Jesse 3.5.4 ship the same day; the rest hold",
+   "summary": "Two stack releases landed October 30. Freqtrade 2026.10 adds orderbook websocket support, decouples the bot loop from RPC messaging for reliability, moves parameters to per-strategy-instance access, and drops Python 3.11. Jesse 3.5.4 is on PyPI (the repo tags without GitHub releases). Hummingbot stays v2.17.0, Nautilus Trader stays v1.231.0 despite active pushes, Condor still has no tagged releases, lightning-agent-tools has been quiet since May, AgentKit is active without tags, and Turnkey's SDK stays v2026.10.4.",
+   "detail": "Versions, dates and star counts from the GitHub and PyPI APIs, checked October 31; the full table with fresh snapshots lives in the stack watch above. Jesse release notes were not reviewed beyond the tag and PyPI record. Star counts are snapshots, not trend ranks.",
+   "sources": [
+    {
+     "label": "Freqtrade 2026.10 release notes",
+     "url": "https://github.com/freqtrade/freqtrade/releases/tag/2026.10"
+    },
+    {
+     "label": "Jesse on PyPI",
+     "url": "https://pypi.org/project/jesse/"
+    },
+    {
+     "label": "Nautilus Trader releases",
+     "url": "https://github.com/nautechsystems/nautilus_trader/releases"
+    },
+    {
+     "label": "Hummingbot releases",
+     "url": "https://github.com/hummingbot/hummingbot/releases"
+    }
+   ]
+  }
+ ],
+ "repoPicks": [
+  {
+   "id": "x402-2026-10-24",
+   "date": "2026-10-24",
+   "name": "x402-foundation/x402",
+   "summary": "The open x402 payment standard and SDKs: pay-per-request over HTTP 402, with TypeScript, Python and Go clients and MCP support.",
+   "stars": 6758,
+   "checked": "2026-10-24",
+   "why": "The rail most of this week's agent-commerce news runs on. Read the security note in this week's edition before wiring an auto-signing client to it.",
+   "url": "https://github.com/x402-foundation/x402",
+   "caveat": "Apache-2.0. Default clients older than the August 18 releases (TS 2.23.0) lack spending limits - see this week's security note. Star count is a snapshot, not a trend rank.",
+   "label": "Notable open-source / editorial pick"
+  },
+  {
+   "id": "condor-2026-10-24",
+   "date": "2026-10-24",
+   "name": "hummingbot/condor",
+   "summary": "The Hummingbot org's open-source harness for creating and managing AI trading agents.",
+   "stars": 239,
+   "checked": "2026-10-24",
+   "why": "Small and early, but it is the dedicated agent layer on top of the execution framework already in the stack watch - and it was actively pushed this week.",
+   "url": "https://github.com/hummingbot/condor",
+   "caveat": "MIT. No tagged releases; treat as pre-release software. Star count is a snapshot, not a trend rank.",
+   "label": "Notable open-source / editorial pick"
+  },
+  {
+   "id": "openalice-2026-10-24",
+   "date": "2026-10-24",
+   "name": "TraderAlice/OpenAlice",
+   "summary": "'One-person Wall Street': a local workspace connecting coding agents (Claude Code, Codex, others) to market tools, research workspaces and trading accounts, with staged order proposals.",
+   "stars": 7368,
+   "checked": "2026-10-24",
+   "why": "The agent-stages-orders-human-approves pattern, shipped as a product-shaped workspace rather than a bot - close to the owner-signed pilot model in the wallet research.",
+   "url": "https://github.com/TraderAlice/OpenAlice",
+   "caveat": "AGPL-3.0. Feature claims are the README's; trading-account integrations not tested. Star count is a snapshot, not a trend rank.",
+   "label": "Notable open-source / editorial pick"
+  },
+  {
+   "id": "lumibot-2026-10-24",
+   "date": "2026-10-24",
+   "name": "Lumiwealth/lumibot",
+   "summary": "Python trading framework pitching 'AI agents that actually place the trade': backtests, paper and live trading across twelve broker integrations, plus a BotSpot MCP so coding agents get strategy-building skills.",
+   "stars": 2161,
+   "checked": "2026-10-24",
+   "why": "The MCP-for-strategy-building angle is the agentic pattern applied to the whole bot lifecycle, not just execution.",
+   "url": "https://github.com/Lumiwealth/lumibot",
+   "caveat": "GPL-3.0. Heavily promotes its managed BotSpot cloud; broker integrations not tested. Star count is a snapshot, not a trend rank.",
+   "label": "Notable open-source / editorial pick"
+  },
+  {
+   "id": "solana-pay-cli-2026-10-24",
+   "date": "2026-10-24",
+   "name": "solana-foundation/pay",
+   "summary": "Solana Foundation's CLI for agentic payments, speaking x402, MPP and AP2.",
+   "stars": 1796,
+   "checked": "2026-10-24",
+   "why": "Agent payment rails are converging on a few protocols; a foundation-backed CLI that speaks three of them is a cheap way to track that convergence.",
+   "url": "https://github.com/solana-foundation/pay",
+   "caveat": "MIT. Solana-side tooling; not a BTC rail. Star count is a snapshot, not a trend rank.",
+   "label": "Notable open-source / editorial pick"
+  },
+  {
+   "id": "metamask-agent-skills-2026-10-31",
+   "date": "2026-10-31",
+   "name": "MetaMask/agent-skills",
+   "summary": "The official skills package that teaches agents (Grok Bot, Claude Code, Codex, Cursor) to drive MetaMask's mm Agent Wallet CLI - which commands to run and when to stop and ask the human first.",
+   "stars": 30,
+   "checked": "2026-10-31",
+   "why": "The code behind this week's headline: read the skill that defines the agent's guardrail behavior before trusting the marketing.",
+   "url": "https://github.com/MetaMask/agent-skills",
+   "caveat": "MIT, 30 stars checked October 31 - new and small; the wallet-layer enforcement lives in the closed mm CLI, not here. Star count is a snapshot, not a trend rank.",
+   "label": "Notable open-source / editorial pick"
+  },
+  {
+   "id": "eliza-2026-10-31",
+   "date": "2026-10-31",
+   "name": "elizaOS/eliza",
+   "summary": "The open-source agentic operating system: character-driven agents with plugins for chains, exchanges and messaging, the framework many trading bots are built on.",
+   "stars": 19743,
+   "checked": "2026-10-31",
+   "why": "The largest active framework in the agent-trading pile; its plugin ecosystem is where most 'agent trades X' demos start.",
+   "url": "https://github.com/elizaOS/eliza",
+   "caveat": "MIT, 19,743 stars checked October 31. Very active but sprawling; plugin quality varies and trading plugins are community code. Star count is a snapshot, not a trend rank.",
+   "label": "Notable open-source / editorial pick"
+  },
+  {
+   "id": "alby-hub-2026-10-31",
+   "date": "2026-10-31",
+   "name": "getAlby/hub",
+   "summary": "A self-hosted Lightning node with Nostr Wallet Connect, so agents can hold a budget and pay invoices over your own rails instead of a custodial API.",
+   "stars": 286,
+   "checked": "2026-10-31",
+   "why": "The self-custody counterweight to Wavelength's hosted agent payments - same payment lane, keys at home.",
+   "url": "https://github.com/getAlby/hub",
+   "caveat": "Apache-2.0, 286 stars checked October 31. Running your own node is operational work; NWC permissions need the same scoping discipline as any agent key. Star count is a snapshot, not a trend rank.",
+   "label": "Notable open-source / editorial pick"
+  }
+ ]
 }
