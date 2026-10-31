@@ -780,6 +780,27 @@
      "url": "https://forum.zcashcommunity.com/t/zcg-gets-too-much-zec-heres-our-plan-to-fix-that/58566"
     }
    ]
+  },
+  {
+   "id": "zebra-andale-7-1-0-alpha-2026-10-30",
+   "date": "2026-10-30",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Upgrade",
+   "status": "Alpha pre-release / for miner and pool testing",
+   "title": "Zebra 7.1.0-alpha.0 'Andale' speeds up the mining path; 7.0.0 stays the default",
+   "summary": "The Zcash Foundation released Zebra 7.1.0-alpha.0 on October 30, a mining-focused performance pre-release: block templates rebuild as transactions verify instead of on five-second timers, solved blocks are accepted and relayed faster, and pool software gets compatibility work (legacy JSON-RPC batches, optional ZMQ block notifications, preciousblock, mining metrics). It keeps 7.0.0's state format, so test nodes can switch back without resyncing. The Foundation's guidance: miners and pools should test it beside 7.0.0; other node operators stay on stable 7.0.0.",
+   "detail": "The release changes when work happens, not validation rules: every block is still fully validated, and a solved block matching a pre-validated proposal skips only repeated work. Opt-in compact-block relay can shrink a 2 MB block to about 20 KB between peers that already hold its transactions; the experimental relay is off by default and ZMQ needs a build feature. The headline figures - 9.6x faster than 7.0.0 on prepared mixed blocks, and a claimed 124x on timer-removal bursts - are the Foundation's own prepared-block benchmarks, not independent or live-network measurements; its public dashboard measures the unprepared case and will show different numbers. This is a node performance alpha: no consensus change, no NU7 mainnet activation, and no ZSA or smart-contract launch. The GitHub release landed October 30 at 23:10 UTC; the Foundation post is dated October 31 UTC.",
+   "sources": [
+    {
+     "label": "Zebra 7.1.0-alpha.0 release notes (primary)",
+     "url": "https://github.com/ZcashFoundation/zebra/releases/tag/v7.1.0-alpha.0"
+    },
+    {
+     "label": "Zcash Foundation: Zebra Andale post",
+     "url": "https://zfnd.org/zebra-andale-the-fastest-zebra-yet/"
+    }
+   ]
   }
  ],
  "timeline": [
