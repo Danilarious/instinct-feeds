@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "topics": [
   {
    "id": "blockchain",
@@ -820,6 +820,27 @@
     {
      "label": "Binance official security incident update (primary, unchanged since October 30)",
      "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7"
+    }
+   ]
+  },
+  {
+   "id": "binance-withdrawals-phased-restart-2026-11-01",
+   "date": "2026-11-01",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Security",
+   "status": "Phased restart begun / replenishment Binance-stated",
+   "title": "Binance begins phased withdrawal restart; says 95% of impact now covered from company funds",
+   "summary": "Binance's Recovery Update #4 opens phase-one withdrawals on November 1 (06:00-09:00 UTC) across 16 networks, with BTC and ZEC both in the first phase, and CoinDesk independently confirms the restart is live. Binance says it has now covered about 95% of the impacted amount, up from 90% a day earlier. That figure is company-reported replacement funding purchased through market and OTC channels - it is not stolen assets recovered from the attackers. Individual asset and network availability still varies during the rollout.",
+   "detail": "This supersedes the blanket withdrawal pause: the October 30 state no longer holds, but the restart is partial and phased, not full service. Each network and asset pair reopens only after its own security and stability checks, Binance warns of delays during the initial rollout, and users are told to confirm availability on the withdrawal page for their specific asset and network. Attribution stays precise: the 95% coverage, the claim that BTC, ETH, USDT, BNB, SOL, USDC, XRP, USD1, RLUSD and ZEC balances are fully backed, and the proof-of-reserves snapshot reference are all Binance's own statements - the full promised PoR report and the post-incident report have not been published. Replenishment from company resources is separate from the tracing and freezing work (about $3 billion frozen per the October 30 update) and from any recovery of the stolen funds themselves. The remaining 5% is less-liquid tokens outside the top ten. Recovery is unfinished until the post-mortem and full PoR land.",
+   "sources": [
+    {
+     "label": "Binance Recovery Update #4 (primary)",
+     "url": "https://www.binance.com/en/support/announcement/detail/73911fb819b240f88b88256bdd318eda"
+    },
+    {
+     "label": "CoinDesk independent confirmation of the restart",
+     "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack"
     }
    ]
   }
