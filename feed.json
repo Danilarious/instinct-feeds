@@ -877,6 +877,27 @@
      "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
     }
    ]
+  },
+  {
+   "id": "mkt-zec-5pct-downside-2026-11-02",
+   "date": "2026-11-02",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "ZEC downside alert: -6.2% over 24h to $1,143, with the BTC pair just short of its own -5% trigger",
+   "summary": "Early-afternoon threshold cross at about 12:51pm PT: ZEC traded at $1,143.06, down 6.20% over the trailing 24-hour window and through the -5% USD alert rule. That sits about 2.76% below the 9:51am reading and 8.11% below the morning snapshot, reversing the day's earlier gain. ZEC/BTC read 0.01489554, down 4.94% over 24h - close to but not through the -5% pair trigger, so no relative-strength crossing. Kraken printed $1,137.38, corroborating the level as a differing venue quote. No verified catalyst.",
+   "detail": "Snapshot taken about 12:51pm PT on November 2 from the CoinGecko and Kraken APIs; prices move fast and this note is a record of the alert, not live data. The two sources are different things: CoinGecko is an aggregated quote, Kraken is a single-venue last trade, and a direct pair cross-check between venues was not verified. Bitcoin sat at $76,877, down 1.23% over 24h. No catalyst was verified at alert time, and the drop is not attributed to the day's grant-proposal headlines. Not investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko simple price API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker API",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
   }
  ],
  "timeline": [
