@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "topics": [
   {
    "id": "blockchain",
@@ -841,6 +841,40 @@
     {
      "label": "CoinDesk independent confirmation of the restart",
      "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack"
+    }
+   ]
+  },
+  {
+   "id": "btcpay-hot-wallet-thefts-2026-11-02",
+   "date": "2026-11-02",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Security",
+   "status": "Confirmed by BTCPay / thefts on 2.4.1 and earlier",
+   "title": "BTCPay Server: BTC and LTC stolen from hot wallets on 2.4.1 and earlier; upgrading alone is not enough",
+   "summary": "BTCPay's own incident post (November 2) confirms Bitcoin and Litecoin thefts from server hot wallets on BTCPay Server 2.4.1 and earlier, via a different exploitation method of the vulnerability fixed in 2.4.2 (released August 7). For anyone who ran the affected versions, the project recommends a fresh server, a new wallet and replacement credentials even without an observed theft, because updating cannot remove access an attacker may already have gained. Servers already on 2.4.2 or later before the November 1 warning have no observed impact from these attacks, and wallets whose spending keys are held off the server, including hardware wallets, were unaffected by these thefts.",
+   "detail": "Timeline per the project: a wallet drain on November 1 at 13:46 UTC, first theft report at 20:56, community warning at 22:25, and hosting providers including LunaNode taking BTCPay instances offline as a precaution. BTCPay published the reported destination addresses but cautions their balances are not a confirmed loss total. Attribution is unestablished: the post mentions a general rise in automated attacks using AI but names no attacker for this incident, and there is no verified AI-attacker attribution. The recovery guidance matters more than the patch: sweep remaining funds to a new seed on a trusted device, take the old server offline preserving logs, provision a fresh VM with the latest release, and replace every credential the old server could reach (hosting, SSH, application, API, Lightning) without entering new credentials on the old machine. An unchanged wallet balance does not rule out an earlier attack.",
+   "sources": [
+    {
+     "label": "BTCPay Server incident post (primary)",
+     "url": "https://blog.btcpayserver.org/btcpay-server-security-incident-2-4-1-and-earlier/"
+    }
+   ]
+  },
+  {
+   "id": "mkt-night-5pct-downside-2026-11-02",
+   "date": "2026-11-02",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "NIGHT downside alert: -5.4% over 24h to $0.0399, with the BTC pair down 4.6%",
+   "summary": "Morning downside threshold cross at about 8:20am PT: NIGHT traded at $0.03993123, down 5.38% over the trailing 24-hour window, and NIGHT/BTC fell 4.63% - a 24h-window move, not a 5% intrahour fall. Bitcoin sat at $77,342, down 0.81% over the same window. No verified catalyst.",
+   "detail": "Snapshot taken about 8:20am PT on November 2 from the CoinGecko API; prices move fast and this note is a record of the alert, not live data. The NIGHT/BTC decline tracking close to the USD decline points to NIGHT-specific weakness rather than bitcoin strength over the window. Not investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko simple price API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
     }
    ]
   }
