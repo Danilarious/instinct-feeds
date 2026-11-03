@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "topics": [
   {
    "id": "blockchain",
@@ -896,6 +896,35 @@
     {
      "label": "Kraken ticker API",
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "ordinals-field-guide-2026-11-03",
+   "date": "2026-11-03",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Weekly field guide",
+   "status": "Published edition / source-linked research",
+   "title": "Ordinals field guide: Still Here skulls, Mosaic and a Bitmap sales claim",
+   "summary": "The November 3 edition covers Karmelo's 32-piece Still Here series inscribed in October, BitArt's evolving Mosaic work, new coverage of Artifishal's Fish Gospel (sold out in September) and an unverified Bitmap weekly sales claim.",
+   "detail": "Karmelo and Mosaic details come from CATALOGUE and Bitcoin Magazine coverage; no sale terms were verified for Still Here, and Mosaic scale figures are the artist's own. Fish Gospel is an older release. The Bitmap figure (739 sales) is a social post relayed by KuCoin, not checked against a sales dataset. No market-wide ranking was verified. The separate field guide preserves the September 29 to October 27 editions and all original cards.",
+   "sources": [
+    {
+     "label": "November 3 field guide and archive",
+     "url": "https://danilarious-ordinals-field-guide.netlify.app/"
+    },
+    {
+     "label": "Karmelo: Still Here (CATALOGUE)",
+     "url": "https://catalogue.gallery/blog/karmelo-still-here-skulls-inscribed-bitcoin/"
+    },
+    {
+     "label": "Mosaic by BitArt (coverage)",
+     "url": "https://undercurrent.capital/posts/mosaic-the-art-hidden-in-bitcoin-d68f43"
+    },
+    {
+     "label": "Artifishal: Fish Gospel (CATALOGUE)",
+     "url": "https://catalogue.gallery/blog/artifishal-fish-gospel-ordinals-23-chapters/"
     }
    ]
   }
