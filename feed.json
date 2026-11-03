@@ -948,6 +948,27 @@
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
     }
    ]
+  },
+  {
+   "id": "mkt-zec-5pct-upside-2026-11-03",
+   "date": "2026-11-03",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "ZEC upside alert: +7.2% over 24h to $1,221, with the BTC pair through its +5% trigger",
+   "summary": "Midday threshold cross at about 12:51pm PT: ZEC traded at $1,220.55, up 7.24% over the trailing 24-hour window, and ZEC/BTC read 0.01569932, up 6.02% - both through the +5% rules after reading +4.10% (USD) and +3.02% (pair) at 9:52am. Actual spot is down 0.47% and the pair value down 0.66% since that 9:52am reading, so this is the rolling 24h comparison crossing the thresholds, not a fresh midday rally. Kraken printed $1,220.22, corroborating the USD level as a differing venue quote. No verified catalyst.",
+   "detail": "Snapshot taken about 12:51pm PT on November 3 from the CoinGecko and Kraken APIs; prices move fast and this note is a record of the alert, not live data. The two sources are different things: CoinGecko is an aggregated quote, Kraken is a single-venue last trade, and a direct pair cross-check across venues was not verified. Trailing-24h returns compare against a changing price from 24 hours earlier, so these snapshots establish a changing comparison baseline, not the exact price path in between. Bitcoin sat at $77,764, up 1.25% over 24h. This follows yesterday's ZEC downside alerts; that history stays unchanged. Not investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko simple price API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker API",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
   }
  ],
  "timeline": [
