@@ -927,6 +927,27 @@
      "url": "https://catalogue.gallery/blog/artifishal-fish-gospel-ordinals-23-chapters/"
     }
    ]
+  },
+  {
+   "id": "mkt-night-5pct-upside-2026-11-03",
+   "date": "2026-11-03",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "NIGHT upside alert: +7.5% over 24h to $0.0429, with the BTC pair through its +5% trigger",
+   "summary": "Morning threshold cross at about 8:20am PT: NIGHT traded at $0.04292277, up 7.45% over the trailing 24-hour window, and NIGHT/BTC read 0.000000553787, up 7.18% - through the +5% relative-strength trigger. The pair crossing was first observed about 6:51am PT (reading +6.11% then) and the recovery back above -2% about 3:51am (reading -1.05% then). Spot is up a genuine 6.45% since 3:51am but nearly flat since 6:51am, so the quoted 24h move did not all happen since the crossing. Kraken printed $0.04288, corroborating the level as a differing venue quote. The +15% USD rule is not triggered. No verified catalyst.",
+   "detail": "Snapshot taken about 8:20am PT on November 3 from the CoinGecko and Kraken APIs; prices move fast and this note is a record of the alert, not live data. The two sources are different things: CoinGecko is an aggregated quote, Kraken is a single-venue last trade, and a direct pair cross-check across venues was not verified. Each earlier observation above carries its own timestamp and reading; trailing-24h returns compare against a changing price from 24 hours earlier, so the snapshots establish a changing comparison baseline, not the exact price path in between. Bitcoin sat at $77,449, up 0.13% over 24h. This follows yesterday's downside alerts and preserves their history unchanged. Not investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko simple price API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker API",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
   }
  ],
  "timeline": [
