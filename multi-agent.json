@@ -1,353 +1,440 @@
 {
- "updated": "2026-10-30",
- "editorial": "Dated research and source-linked updates on multi-agent systems. Publication dates belong to the source; repository metrics are checked snapshots, not live trending ranks.",
- "entries": [
-  {
-   "id": "mas-obrien-ai-village-2026-10-25",
-   "date": "2026-10-25",
-   "type": "Video demo",
-   "status": "Creator demo / sponsored, self-reported figures",
-   "title": "A personal AI village as a steering UI over Claude Code",
-   "summary": "Tristen O'Brien rebuilds his single-user \"AI village\" on camera: a 16-bit RPG-style town where a chief of staff, seven directors and their workers live in houses, walk paths, hold town-hall meetings and take tasks from a toolbar to-do list. Underneath sits Claude Code with MCP connectors - a Gmail-connected inbox director answers real email questions - and on top sits a spectator world that makes the agent hierarchy legible. Approval rules (emails stay drafts, no spending, no publishing) are written into the world's ground rules.",
-   "detail": "The value for this chapter's simulacra thread is the pattern, not the numbers: orchestration underneath, legible world on top, governance expressed as world rules - a consumer entry in the AI Town / pixel-agents lineage aimed at personal productivity rather than social-simulation research. Treat the specifics accordingly. The ~$47 cost (926 Higgsfield credits ~= $44 plus a sliver of a Claude Max plan) and the 3.5-hour build are author-reported for his own subscriptions and are not a reproducible total cost; Higgsfield sponsored the video and he discloses the affiliate link. \"67% more productive\" is his own informal tally of delegable tasks, not a benchmark. The approval gates are prompts describing intended behavior - the video does not demonstrate enforcement, so real trust still depends on the integration-level permissions, such as the Gmail connector's actual scopes. On-screen results rest on his narration (full auto-caption transcript reviewed; no independent visual verification), and exact model names come from auto-captions and are unverified. The shared prompts are starter text on his site, not a source repository. Title and channel verified against YouTube; the October 25 upload date is per a channel mirror, and the creator edits his titles.",
-   "sources": [
+  "updated": "2026-11-04",
+  "editorial": "Dated research and source-linked updates on multi-agent systems. Publication dates belong to the source; repository metrics are checked snapshots, not live trending ranks.",
+  "entries": [
     {
-     "label": "Claude Built a Working AI AGENT Village. (Steal My Prompts). - YouTube",
-     "url": "https://www.youtube.com/watch?v=-mb6buCbv8E"
-    }
-   ]
-  },
-  {
-   "id": "mas-omnigent-2026-10-28",
-   "date": "2026-10-28",
-   "type": "Research",
-   "status": "Open-source project / maturity unclear",
-   "title": "Omnigent: an open-source meta-harness that swaps agent harnesses without rewrites",
-   "summary": "omnigent-ai/omnigent runs Claude Code, Codex, Cursor, Pi and custom agents under shared policies, sandboxing and real-time collaboration. Apache-2.0, created June 11; 11,067 stars and 1,809 forks checked October 28.",
-   "detail": "New to this chapter from the weekly scan. Caveat: 2,437 open issues at check time, so maturity is unclear; stars and forks are popularity snapshots, not a quality score or a trend rank. Not installed or tested.",
-   "sources": [
-    {
-     "label": "GitHub repository",
-     "url": "https://github.com/omnigent-ai/omnigent"
-    }
-   ]
-  },
-  {
-   "id": "mas-serious-game-testbed-2026-10-27",
-   "date": "2026-10-27",
-   "type": "Paper",
-   "status": "arXiv preprint / not peer-reviewed",
-   "title": "A serious-game testbed for self-governing human-machine institutions",
-   "summary": "arXiv 2610.36989 (Berger, Pitt, Sarkadi) puts agents and humans inside a game testbed where they cooperate and govern themselves.",
-   "detail": "Abstract page checked October 28. The testbed design and governance claims are the authors’ own, not independently verified.",
-   "sources": [
-    {
-     "label": "arXiv abstract",
-     "url": "https://arxiv.org/abs/2610.36989"
-    }
-   ]
-  },
-  {
-   "id": "mas-oauth-attenuating-agent-tokens-2026-10-26",
-   "date": "2026-10-26",
-   "type": "Research",
-   "status": "Individual Internet-Draft / not a standard",
-   "title": "IETF draft: attenuating authorization tokens for task-scoped agent delegation",
-   "summary": "draft-niyikiza-oauth-attenuating-agent-tokens-02 proposes signed credentials for task-scoped delegation between agents: tokens constrained by tools and arguments, with narrower tokens derivable offline.",
-   "detail": "An individual Internet-Draft in the OAuth WG with Standards Track intent, not an adopted standard and carrying no IETF endorsement; expires April 29, 2027. Directly relevant to how agents hand each other scoped authority. Draft text checked October 28.",
-   "sources": [
-    {
-     "label": "IETF Datatracker draft text",
-     "url": "https://datatracker.ietf.org/doc/html/draft-niyikiza-oauth-attenuating-agent-tokens-02"
-    }
-   ]
-  },
-  {
-   "id": "mas-agensh-2026-10-24",
-   "date": "2026-10-24",
-   "type": "Release",
-   "status": "Open-source release / author-reported results",
-   "title": "Microsoft Research open-sources Agensh, a multi-agent harness with no central orchestrator",
-   "summary": "Agensh workers gather context, claim sub-tasks, act, verify and merge asynchronously through a shared Git workspace (Gitea), a message interface (Mattermost) and shared context. Author-reported ProgramBench results: mean final test-pass on the five hardest tasks rose from 19.31% with 1 agent to 28.78% with 128 agents; on the single pandoc task, 33.89% (1 agent) to 50.94% (128) to 55.06% (1,024).",
-   "detail": "Checked October 28 against the paper abstract and the repo README, which agree. Keep the limits visible: the 1,024-agent figure is one task (pandoc); the five-task figure stops at 128 agents; all results are self-reported by the authors and not independently reproduced; the repo ships a single-node Docker Compose setup, not the full 1,024-agent deployment; the harness builds on the Copilot per-agent loop. Repo: MIT license, created August 27, 64 stars at check time - a popularity snapshot, not a trend rank. Code released October 24; preprint September 22 (Zhan, Song, Dong, Huang, Lian, Xia, Wei).",
-   "sources": [
-    {
-     "label": "GitHub repository",
-     "url": "https://github.com/microsoft/agensh"
+      "id": "mas-t3code-v0-1-7-2026-11-04",
+      "date": "2026-11-04",
+      "type": "Release",
+      "status": "Stable release / vendor-described features",
+      "title": "T3 Code v0.1.7: child approvals, managed policies and one-time schedules",
+      "summary": "Version 0.1.7 (MIT) landed November 4 with 659 changes from 160 contributors: Kiro as an Early Access provider (beta), managed policies for central admin configuration (including Windows Group Policy), one-time schedules, child approvals - answering a delegated child agent's approval request directly from the parent conversation - shareable thread links, usage filters by provider and model, and a model switch history.",
+      "detail": "Child approvals is the on-theme feature for this chapter's delegation thread: an approval a child agent needs surfaces in the conversation that delegated the work, not on a separate surface. The same day's nightly v0.1.8-nightly.20261104.4179 adds \"secret requests\" - agents ask for logins, pairing codes and tokens through a dedicated request instead of chat - but that is a pre-release nightly, not in stable, so treat it as direction, not shipped capability. All features are vendor-described from the release notes; not installed or tested. Repo snapshot checked November 4: 46,065 stars, a popularity snapshot rather than a trend rank. T3 Code was this chapter's October 23 repo pick at its v0.1.0 first stable.",
+      "sources": [
+        {
+          "label": "T3 Code releases - GitHub",
+          "url": "https://github.com/pingdotgg/t3code/releases"
+        }
+      ]
     },
     {
-     "label": "arXiv preprint",
-     "url": "https://arxiv.org/abs/2609.26781"
-    }
-   ]
-  },
-  {
-   "id": "mas-s2mas-2026-10-20",
-   "date": "2026-10-20",
-   "type": "Research",
-   "status": "arXiv preprint / not peer-reviewed",
-   "title": "S2-MAS: society-scale simulation with 500 million household persona agents",
-   "summary": "arXiv 2610.27746 (HKU et al.) describes a multi-agent simulation framework for economic-response experiments at society scale.",
-   "detail": "Abstract page checked October 21. The scale and validity claims are the paper's own, not independently verified.",
-   "sources": [
-    {
-     "label": "arXiv abstract",
-     "url": "https://arxiv.org/abs/2610.27746"
-    }
-   ]
-  },
-  {
-   "id": "mas-pixel-agents-v1-5-2026-10-17",
-   "date": "2026-10-17",
-   "type": "Release",
-   "status": "Open-source release / repository changelog",
-   "title": "Pixel Agents v1.5.0 adds an embedded browser terminal",
-   "summary": "Pixel Agents v1.5.0, the first release since v1.4.1 in August, adds an embedded browser terminal for launching, watching and typing into Claude Code agents from the office view without VS Code, plus a mobile home-screen web app. It is still the latest release as of October 23.",
-   "detail": "Source is the project's GitHub releases page. Feature descriptions are the project's own; this listing is not a security or reliability review of an agent terminal.",
-   "sources": [
-    {
-     "label": "Pixel Agents releases",
-     "url": "https://github.com/pixel-agents-hq/pixel-agents/releases"
-    }
-   ]
-  },
-  {
-   "id": "mas-swecraft-2026-10-16",
-   "date": "2026-10-16",
-   "type": "Research",
-   "status": "arXiv preprint / not peer-reviewed",
-   "title": "World of SWECraft: simulated software worlds for studying agent teams",
-   "summary": "arXiv 2610.24061 (Shen, Choi, Zettlemoyer, Koh, Sontag et al.) uses simulated software worlds to study what makes large agent teams collaborate effectively.",
-   "detail": "Abstract page checked October 21. Findings are the authors' own; a preprint is not peer review.",
-   "sources": [
-    {
-     "label": "arXiv abstract",
-     "url": "https://arxiv.org/abs/2610.24061"
-    }
-   ]
-  },
-  {
-   "id": "mas-a2a-crypto-2026-10-16",
-   "date": "2026-10-16",
-   "type": "Research",
-   "status": "arXiv preprint / not peer-reviewed",
-   "title": "Cryptographically secure agent-to-agent communication",
-   "summary": "arXiv 2610.23078 (Orange Innovation Poland) catalogs impersonation, interception, prompt injection and data exfiltration between agents, and proposes cryptographic countermeasures for agent-to-agent channels.",
-   "detail": "Abstract page checked October 21. Directly relevant to trusted-network-style agent messaging; a preprint is not peer review.",
-   "sources": [
-    {
-     "label": "arXiv abstract",
-     "url": "https://arxiv.org/abs/2610.23078"
-    }
-   ]
-  },
-  {
-   "id": "mas-t3code-v0-1-2026-10-15",
-   "date": "2026-10-15",
-   "type": "Release",
-   "status": "Open-source release / repository changelog",
-   "title": "T3 Code v0.1.0: first stable Orchestrator V2 with cross-provider child agents",
-   "summary": "T3 Code v0.1.0 (MIT) is the first stable Orchestrator V2 release: delegate_task lets an agent start child agents on any provider or model and wait for results, alongside thread forking, mid-thread provider switches with caveats, and support for Pi, Muse Code and OpenCode 2.",
-   "detail": "Release notes are on the project's GitHub releases page and mirrored at newreleases.io. The October 15 publication date comes from the secondary site Open Orchestrators; the exact GitHub timestamp was not confirmed, so treat the date as mid-October. Features are vendor-described, not independently tested. Nightlies continue past v0.1.0.",
-   "sources": [
-    {
-     "label": "T3 Code releases",
-     "url": "https://github.com/pingdotgg/t3code/releases"
+      "id": "mas-mac-bench-2026-11-01",
+      "date": "2026-11-01",
+      "type": "Paper",
+      "status": "Preprint / author-reported results",
+      "title": "MAC-Bench: multi-agent systems resolve at most 6.25% of interconnected tasks",
+      "summary": "MAC-Bench argues task difficulty is not the same as interdependence: it mines reusable collaboration structures - local subtask interaction patterns plus global task structures - from existing benchmarks and recombines them into executable task graphs with automated partial-progress verification. The sobering headline: across the evaluated systems and two LLM backbones, no configuration resolves more than 6.25% of the 48 interconnected test tasks.",
+      "detail": "Xiamen University, ByteDance and Jilin University. The evaluation runs three multi-agent systems and a single-agent ReAct baseline across two LLM backbones, and partial progress and full resolution rank the systems differently - the paper's point about measuring collaboration rather than completion. Code (GitHub) and dataset (Hugging Face) are linked from the abstract page. Results are author-reported and not independently reproduced. Preprint posted November 1.",
+      "sources": [
+        {
+          "label": "arXiv:2611.01728",
+          "url": "https://arxiv.org/abs/2611.01728"
+        }
+      ]
     },
     {
-     "label": "v0.1.0 release notes mirror",
-     "url": "https://newreleases.io/project/github/pingdotgg/t3code/release/v0.1.0"
-    }
-   ]
-  },
-  {
-   "id": "mas-seahaven-2026-10-08",
-   "date": "2026-10-08",
-   "type": "Release",
-   "status": "Vendor announcement / open-source framework",
-   "title": "Seahaven: synthetic worlds for agent evaluation",
-   "summary": "Kiln introduces a Python framework for stateful, resettable, parallel environments where agents can use realistic tools without touching production.",
-   "detail": "The vendor describes isolated SQLite-backed worlds, reproducible fixtures and state-change grading for evaluation and reinforcement learning. This is evaluation infrastructure, not a graphical agent town. Its realism and performance claims are not independent test results here.",
-   "sources": [
-    {
-     "label": "Kiln announcement",
-     "url": "https://kiln.tech/blog/introducing_seahaven"
+      "id": "mas-agenticmobility-2026-11-01",
+      "date": "2026-11-01",
+      "type": "Paper",
+      "status": "Preprint / preliminary single-run demo",
+      "title": "AgenticMobility: LLM travelers and a manager coupled to a traffic simulator",
+      "summary": "An edge case for the simulation thread: AgenticMobility couples persistent LLM agents - travelers choosing routes and departure times, plus a manager periodically adjusting link charges - to the MATSim traffic simulator, with explicit interfaces for information access, admissible actions and decision schedules, and linked records tracing decisions to outcomes.",
+      "detail": "Author-reported preliminary demonstration: 100 simulated days in each of five configurations, one run per configuration with a shared simulation seed; in the joint traveler-manager run, all 1,179,300 finalized target decisions satisfied action constraints. The authors call the demo preliminary, and single runs with a shared seed characterize these configurations without establishing general behavior - read it as a testbed proof of life, not a result. Preprint posted November 1.",
+      "sources": [
+        {
+          "label": "arXiv:2611.01918",
+          "url": "https://arxiv.org/abs/2611.01918"
+        }
+      ]
     },
     {
-     "label": "Source repository",
-     "url": "https://github.com/Kiln-AI/Seahaven"
-    }
-   ]
-  },
-  {
-   "id": "mas-polarization-2026-10-08",
-   "date": "2026-10-08",
-   "type": "Paper",
-   "status": "Peer-reviewed research / simulation",
-   "title": "LLM social networks can polarize without being told to",
-   "summary": "A Nature Communications paper studies how thousands of language-model agents form social networks and develop polarization through interaction.",
-   "detail": "The study concerns simulated agents under specified models and conditions. It is relevant to social-simulation worlds, but is not proof that these worlds predict human behavior. Read the paper for setup, measurements and limitations.",
-   "sources": [
+      "id": "mas-terralingua-haunted-hollow-2026-10-29",
+      "date": "2026-10-29",
+      "type": "News",
+      "status": "Lab write-up / single-run observation",
+      "title": "Sixteen agents in a haunted village: Cognizant's TerraLingua trick-or-treat run",
+      "summary": "Cognizant AI Lab filled its open-source TerraLingua framework with monsters for Halloween: \"Haunted Hollow\", a village of 16 residents - monsters and house owners - each a Claude Haiku 4.5 agent with a persona and a short private memory, trick-or-treating under an energy-and-candy economy and able to leave public signs that anyone could read or rewrite.",
+      "detail": "The lab's reported observations land on this chapter's simulacra questions: reputations forming between agents, shared records being altered, and an unsupported belief spreading through the village. Keep the authors' own caveat attached: one run using one model, so the stories are observations to investigate, not conclusions about agents in general. TerraLingua itself (Apache-2.0) joins this chapter's repo picks this week. Company blog write-up published October 29; the account of the experiment is the lab's own.",
+      "sources": [
+        {
+          "label": "Cognizant AI Lab blog",
+          "url": "https://www.cognizant.com/us/en/ai-lab/blog/halloween-ai-agent-simulation-terralingua"
+        }
+      ]
+    },
     {
-     "label": "Nature Communications paper",
-     "url": "https://www.nature.com/articles/s41467-026-78228-y"
-    }
-   ]
-  },
-  {
-   "id": "mas-agent-canary-2026-10-14",
-   "date": "2026-10-14",
-   "type": "Paper",
-   "status": "Preprint / protocol-risk evaluation",
-   "title": "Agent-Canary-Mas follows protocol risk across long handoffs",
-   "summary": "The preprint evaluates five risk classes across A2A, ANP and BCS using 975 matched malicious-benign task pairs.",
-   "detail": "The authors distinguish local protocol events from downstream effects on tasks and users. Identity, capabilities, routing, content authority and retained-object validity are separate risk classes. Findings apply to the tested implementations and configurations, not every trusted network or agent product.",
-   "sources": [
+      "id": "mas-gad-long-horizon-2026-10-29",
+      "date": "2026-10-29",
+      "type": "Paper",
+      "status": "Preprint / author-reported results",
+      "title": "GAD: goal-aware dynamic collaboration for long-horizon agent tasks",
+      "summary": "GAD (Goal-Aware Dynamic multi-agent collaboration) attacks long-horizon drift. The authors' diagnosis: verification correlates most with success but happens late, duty-relevant context dilutes as records accumulate, and naively splitting duties across agents causes goal drift and repeated work. GAD keeps a growing execution graph, pins each agent's context to the original instruction plus its goal and acceptance conditions, and lets agents decompose and declare dependencies from execution evidence.",
+      "detail": "Michigan State University, Baidu and MIT. Author-reported results: improvements over evaluated baselines on Terminal-Bench 2.1 and SWE-bench Pro Hard-51 with Claude Sonnet 4.6 and Qwen3.7-Plus, plus lower token costs than multi-agent baselines on tasks both systems solved. These are the authors' claims on their own runs, with no independent replication. Preprint posted October 29.",
+      "sources": [
+        {
+          "label": "arXiv:2610.39193",
+          "url": "https://arxiv.org/abs/2610.39193"
+        }
+      ]
+    },
     {
-     "label": "arXiv paper",
-     "url": "https://arxiv.org/abs/2610.15529"
-    }
-   ]
-  },
-  {
-   "id": "mas-aip-draft-2026-10-10",
-   "date": "2026-10-10",
-   "type": "Research",
-   "status": "Individual Internet-Draft / not a standard",
-   "title": "AIP proposes verifiable delegation for agent systems",
-   "summary": "Revision 02 of the Agent Identity Protocol draft proposes an identity and delegation layer for AI agent systems.",
-   "detail": "This is an individual Internet-Draft, not an IETF-endorsed protocol or adopted standard. The datatracker explicitly says it has no formal standing in the IETF standards process. It is a proposal to follow, not a deployed interoperability guarantee.",
-   "sources": [
+      "id": "mas-obrien-ai-village-2026-10-25",
+      "date": "2026-10-25",
+      "type": "Video demo",
+      "status": "Creator demo / sponsored, self-reported figures",
+      "title": "A personal AI village as a steering UI over Claude Code",
+      "summary": "Tristen O'Brien rebuilds his single-user \"AI village\" on camera: a 16-bit RPG-style town where a chief of staff, seven directors and their workers live in houses, walk paths, hold town-hall meetings and take tasks from a toolbar to-do list. Underneath sits Claude Code with MCP connectors - a Gmail-connected inbox director answers real email questions - and on top sits a spectator world that makes the agent hierarchy legible. Approval rules (emails stay drafts, no spending, no publishing) are written into the world's ground rules.",
+      "detail": "The value for this chapter's simulacra thread is the pattern, not the numbers: orchestration underneath, legible world on top, governance expressed as world rules - a consumer entry in the AI Town / pixel-agents lineage aimed at personal productivity rather than social-simulation research. Treat the specifics accordingly. The ~$47 cost (926 Higgsfield credits ~= $44 plus a sliver of a Claude Max plan) and the 3.5-hour build are author-reported for his own subscriptions and are not a reproducible total cost; Higgsfield sponsored the video and he discloses the affiliate link. \"67% more productive\" is his own informal tally of delegable tasks, not a benchmark. The approval gates are prompts describing intended behavior - the video does not demonstrate enforcement, so real trust still depends on the integration-level permissions, such as the Gmail connector's actual scopes. On-screen results rest on his narration (full auto-caption transcript reviewed; no independent visual verification), and exact model names come from auto-captions and are unverified. The shared prompts are starter text on his site, not a source repository. Title and channel verified against YouTube; the October 25 upload date is per a channel mirror, and the creator edits his titles.",
+      "sources": [
+        {
+          "label": "Claude Built a Working AI AGENT Village. (Steal My Prompts). - YouTube",
+          "url": "https://www.youtube.com/watch?v=-mb6buCbv8E"
+        }
+      ]
+    },
     {
-     "label": "IETF datatracker and draft",
-     "url": "https://datatracker.ietf.org/doc/draft-prakash-aip/"
-    }
-   ]
-  },
-  {
-   "id": "mas-scion-nightly-2026-10-15",
-   "date": "2026-10-15",
-   "type": "Release",
-   "status": "Nightly pre-release / repository changelog",
-   "title": "Scion keeps shipping agent-team infrastructure",
-   "summary": "Scion's October 15 nightly notes include target-side conduit stream authorization deadlines among continuing agent-orchestration and hub changes.",
-   "detail": "The source is the GoogleCloudPlatform repository release log. Nightly pre-releases are development snapshots, not a stability or production-readiness claim. Inspect the exact release notes and permission model before connecting agents or workspaces.",
-   "sources": [
+      "id": "mas-omnigent-2026-10-28",
+      "date": "2026-10-28",
+      "type": "Research",
+      "status": "Open-source project / maturity unclear",
+      "title": "Omnigent: an open-source meta-harness that swaps agent harnesses without rewrites",
+      "summary": "omnigent-ai/omnigent runs Claude Code, Codex, Cursor, Pi and custom agents under shared policies, sandboxing and real-time collaboration. Apache-2.0, created June 11; 11,067 stars and 1,809 forks checked October 28.",
+      "detail": "New to this chapter from the weekly scan. Caveat: 2,437 open issues at check time, so maturity is unclear; stars and forks are popularity snapshots, not a quality score or a trend rank. Not installed or tested.",
+      "sources": [
+        {
+          "label": "GitHub repository",
+          "url": "https://github.com/omnigent-ai/omnigent"
+        }
+      ]
+    },
     {
-     "label": "Scion releases",
-     "url": "https://github.com/GoogleCloudPlatform/scion/releases"
+      "id": "mas-serious-game-testbed-2026-10-27",
+      "date": "2026-10-27",
+      "type": "Paper",
+      "status": "arXiv preprint / not peer-reviewed",
+      "title": "A serious-game testbed for self-governing human-machine institutions",
+      "summary": "arXiv 2610.36989 (Berger, Pitt, Sarkadi) puts agents and humans inside a game testbed where they cooperate and govern themselves.",
+      "detail": "Abstract page checked October 28. The testbed design and governance claims are the authors’ own, not independently verified.",
+      "sources": [
+        {
+          "label": "arXiv abstract",
+          "url": "https://arxiv.org/abs/2610.36989"
+        }
+      ]
+    },
+    {
+      "id": "mas-oauth-attenuating-agent-tokens-2026-10-26",
+      "date": "2026-10-26",
+      "type": "Research",
+      "status": "Individual Internet-Draft / not a standard",
+      "title": "IETF draft: attenuating authorization tokens for task-scoped agent delegation",
+      "summary": "draft-niyikiza-oauth-attenuating-agent-tokens-02 proposes signed credentials for task-scoped delegation between agents: tokens constrained by tools and arguments, with narrower tokens derivable offline.",
+      "detail": "An individual Internet-Draft in the OAuth WG with Standards Track intent, not an adopted standard and carrying no IETF endorsement; expires April 29, 2027. Directly relevant to how agents hand each other scoped authority. Draft text checked October 28.",
+      "sources": [
+        {
+          "label": "IETF Datatracker draft text",
+          "url": "https://datatracker.ietf.org/doc/html/draft-niyikiza-oauth-attenuating-agent-tokens-02"
+        }
+      ]
+    },
+    {
+      "id": "mas-agensh-2026-10-24",
+      "date": "2026-10-24",
+      "type": "Release",
+      "status": "Open-source release / author-reported results",
+      "title": "Microsoft Research open-sources Agensh, a multi-agent harness with no central orchestrator",
+      "summary": "Agensh workers gather context, claim sub-tasks, act, verify and merge asynchronously through a shared Git workspace (Gitea), a message interface (Mattermost) and shared context. Author-reported ProgramBench results: mean final test-pass on the five hardest tasks rose from 19.31% with 1 agent to 28.78% with 128 agents; on the single pandoc task, 33.89% (1 agent) to 50.94% (128) to 55.06% (1,024).",
+      "detail": "Checked October 28 against the paper abstract and the repo README, which agree. Keep the limits visible: the 1,024-agent figure is one task (pandoc); the five-task figure stops at 128 agents; all results are self-reported by the authors and not independently reproduced; the repo ships a single-node Docker Compose setup, not the full 1,024-agent deployment; the harness builds on the Copilot per-agent loop. Repo: MIT license, created August 27, 64 stars at check time - a popularity snapshot, not a trend rank. Code released October 24; preprint September 22 (Zhan, Song, Dong, Huang, Lian, Xia, Wei).",
+      "sources": [
+        {
+          "label": "GitHub repository",
+          "url": "https://github.com/microsoft/agensh"
+        },
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2609.26781"
+        }
+      ]
+    },
+    {
+      "id": "mas-s2mas-2026-10-20",
+      "date": "2026-10-20",
+      "type": "Research",
+      "status": "arXiv preprint / not peer-reviewed",
+      "title": "S2-MAS: society-scale simulation with 500 million household persona agents",
+      "summary": "arXiv 2610.27746 (HKU et al.) describes a multi-agent simulation framework for economic-response experiments at society scale.",
+      "detail": "Abstract page checked October 21. The scale and validity claims are the paper's own, not independently verified.",
+      "sources": [
+        {
+          "label": "arXiv abstract",
+          "url": "https://arxiv.org/abs/2610.27746"
+        }
+      ]
+    },
+    {
+      "id": "mas-pixel-agents-v1-5-2026-10-17",
+      "date": "2026-10-17",
+      "type": "Release",
+      "status": "Open-source release / repository changelog",
+      "title": "Pixel Agents v1.5.0 adds an embedded browser terminal",
+      "summary": "Pixel Agents v1.5.0, the first release since v1.4.1 in August, adds an embedded browser terminal for launching, watching and typing into Claude Code agents from the office view without VS Code, plus a mobile home-screen web app. It is still the latest release as of October 23.",
+      "detail": "Source is the project's GitHub releases page. Feature descriptions are the project's own; this listing is not a security or reliability review of an agent terminal.",
+      "sources": [
+        {
+          "label": "Pixel Agents releases",
+          "url": "https://github.com/pixel-agents-hq/pixel-agents/releases"
+        }
+      ]
+    },
+    {
+      "id": "mas-swecraft-2026-10-16",
+      "date": "2026-10-16",
+      "type": "Research",
+      "status": "arXiv preprint / not peer-reviewed",
+      "title": "World of SWECraft: simulated software worlds for studying agent teams",
+      "summary": "arXiv 2610.24061 (Shen, Choi, Zettlemoyer, Koh, Sontag et al.) uses simulated software worlds to study what makes large agent teams collaborate effectively.",
+      "detail": "Abstract page checked October 21. Findings are the authors' own; a preprint is not peer review.",
+      "sources": [
+        {
+          "label": "arXiv abstract",
+          "url": "https://arxiv.org/abs/2610.24061"
+        }
+      ]
+    },
+    {
+      "id": "mas-a2a-crypto-2026-10-16",
+      "date": "2026-10-16",
+      "type": "Research",
+      "status": "arXiv preprint / not peer-reviewed",
+      "title": "Cryptographically secure agent-to-agent communication",
+      "summary": "arXiv 2610.23078 (Orange Innovation Poland) catalogs impersonation, interception, prompt injection and data exfiltration between agents, and proposes cryptographic countermeasures for agent-to-agent channels.",
+      "detail": "Abstract page checked October 21. Directly relevant to trusted-network-style agent messaging; a preprint is not peer review.",
+      "sources": [
+        {
+          "label": "arXiv abstract",
+          "url": "https://arxiv.org/abs/2610.23078"
+        }
+      ]
+    },
+    {
+      "id": "mas-t3code-v0-1-2026-10-15",
+      "date": "2026-10-15",
+      "type": "Release",
+      "status": "Open-source release / repository changelog",
+      "title": "T3 Code v0.1.0: first stable Orchestrator V2 with cross-provider child agents",
+      "summary": "T3 Code v0.1.0 (MIT) is the first stable Orchestrator V2 release: delegate_task lets an agent start child agents on any provider or model and wait for results, alongside thread forking, mid-thread provider switches with caveats, and support for Pi, Muse Code and OpenCode 2.",
+      "detail": "Release notes are on the project's GitHub releases page and mirrored at newreleases.io. The October 15 publication date comes from the secondary site Open Orchestrators; the exact GitHub timestamp was not confirmed, so treat the date as mid-October. Features are vendor-described, not independently tested. Nightlies continue past v0.1.0.",
+      "sources": [
+        {
+          "label": "T3 Code releases",
+          "url": "https://github.com/pingdotgg/t3code/releases"
+        },
+        {
+          "label": "v0.1.0 release notes mirror",
+          "url": "https://newreleases.io/project/github/pingdotgg/t3code/release/v0.1.0"
+        }
+      ]
+    },
+    {
+      "id": "mas-seahaven-2026-10-08",
+      "date": "2026-10-08",
+      "type": "Release",
+      "status": "Vendor announcement / open-source framework",
+      "title": "Seahaven: synthetic worlds for agent evaluation",
+      "summary": "Kiln introduces a Python framework for stateful, resettable, parallel environments where agents can use realistic tools without touching production.",
+      "detail": "The vendor describes isolated SQLite-backed worlds, reproducible fixtures and state-change grading for evaluation and reinforcement learning. This is evaluation infrastructure, not a graphical agent town. Its realism and performance claims are not independent test results here.",
+      "sources": [
+        {
+          "label": "Kiln announcement",
+          "url": "https://kiln.tech/blog/introducing_seahaven"
+        },
+        {
+          "label": "Source repository",
+          "url": "https://github.com/Kiln-AI/Seahaven"
+        }
+      ]
+    },
+    {
+      "id": "mas-polarization-2026-10-08",
+      "date": "2026-10-08",
+      "type": "Paper",
+      "status": "Peer-reviewed research / simulation",
+      "title": "LLM social networks can polarize without being told to",
+      "summary": "A Nature Communications paper studies how thousands of language-model agents form social networks and develop polarization through interaction.",
+      "detail": "The study concerns simulated agents under specified models and conditions. It is relevant to social-simulation worlds, but is not proof that these worlds predict human behavior. Read the paper for setup, measurements and limitations.",
+      "sources": [
+        {
+          "label": "Nature Communications paper",
+          "url": "https://www.nature.com/articles/s41467-026-78228-y"
+        }
+      ]
+    },
+    {
+      "id": "mas-agent-canary-2026-10-14",
+      "date": "2026-10-14",
+      "type": "Paper",
+      "status": "Preprint / protocol-risk evaluation",
+      "title": "Agent-Canary-Mas follows protocol risk across long handoffs",
+      "summary": "The preprint evaluates five risk classes across A2A, ANP and BCS using 975 matched malicious-benign task pairs.",
+      "detail": "The authors distinguish local protocol events from downstream effects on tasks and users. Identity, capabilities, routing, content authority and retained-object validity are separate risk classes. Findings apply to the tested implementations and configurations, not every trusted network or agent product.",
+      "sources": [
+        {
+          "label": "arXiv paper",
+          "url": "https://arxiv.org/abs/2610.15529"
+        }
+      ]
+    },
+    {
+      "id": "mas-aip-draft-2026-10-10",
+      "date": "2026-10-10",
+      "type": "Research",
+      "status": "Individual Internet-Draft / not a standard",
+      "title": "AIP proposes verifiable delegation for agent systems",
+      "summary": "Revision 02 of the Agent Identity Protocol draft proposes an identity and delegation layer for AI agent systems.",
+      "detail": "This is an individual Internet-Draft, not an IETF-endorsed protocol or adopted standard. The datatracker explicitly says it has no formal standing in the IETF standards process. It is a proposal to follow, not a deployed interoperability guarantee.",
+      "sources": [
+        {
+          "label": "IETF datatracker and draft",
+          "url": "https://datatracker.ietf.org/doc/draft-prakash-aip/"
+        }
+      ]
+    },
+    {
+      "id": "mas-scion-nightly-2026-10-15",
+      "date": "2026-10-15",
+      "type": "Release",
+      "status": "Nightly pre-release / repository changelog",
+      "title": "Scion keeps shipping agent-team infrastructure",
+      "summary": "Scion's October 15 nightly notes include target-side conduit stream authorization deadlines among continuing agent-orchestration and hub changes.",
+      "detail": "The source is the GoogleCloudPlatform repository release log. Nightly pre-releases are development snapshots, not a stability or production-readiness claim. Inspect the exact release notes and permission model before connecting agents or workspaces.",
+      "sources": [
+        {
+          "label": "Scion releases",
+          "url": "https://github.com/GoogleCloudPlatform/scion/releases"
+        }
+      ]
     }
-   ]
-  }
- ],
- "repoPicks": [
-  {
-   "id": "t3code-2026-10-23",
-   "date": "2026-10-23",
-   "name": "pingdotgg/t3code",
-   "summary": "T3 Code Orchestrator V2: cross-provider agent delegation, thread forking and multi-harness support.",
-   "stars": 29631,
-   "checked": "2026-10-23",
-   "why": "delegate_task is a concrete, shipped take on cross-harness child agents rather than a design sketch.",
-   "url": "https://github.com/pingdotgg/t3code",
-   "caveat": "MIT. v0.1.0 is a first stable and nightlies continue. Features are vendor-described; star count is a snapshot, not a trend rank.",
-   "label": "Notable open-source / editorial pick"
-  },
-  {
-   "id": "pixel-agents-2026-10-23",
-   "date": "2026-10-23",
-   "name": "pixel-agents-hq/pixel-agents",
-   "summary": "An agent-office interface for coordinating Claude Code workers, with an embedded browser terminal as of v1.5.0.",
-   "stars": 9865,
-   "checked": "2026-10-23",
-   "why": "The agent-office genre's most visibly shipping project this month; v1.5.0 details are in the notes above.",
-   "url": "https://github.com/pixel-agents-hq/pixel-agents",
-   "caveat": "MIT. Feature claims are the project's own; an agent terminal warrants the same caution as any agent runner.",
-   "label": "Notable open-source / editorial pick"
-  },
-  {
-   "id": "open-multi-agent-2026-10-23",
-   "date": "2026-10-23",
-   "name": "open-multi-agent/open-multi-agent",
-   "summary": "A self-hosted TypeScript multi-agent runtime with durable approvals and verifiable run records.",
-   "stars": 7019,
-   "checked": "2026-10-23",
-   "why": "Durable approvals and verifiable run records match how supervised agent work should be audited.",
-   "url": "https://github.com/open-multi-agent/open-multi-agent",
-   "caveat": "MIT. Created March 31, 2026. Fork count is unusually high versus stars, so treat the popularity signal cautiously.",
-   "label": "Notable open-source / editorial pick"
-  },
-  {
-   "id": "agent-office-2026-10-15",
-   "date": "2026-10-15",
-   "name": "AgentSystemLabs/agent-office",
-   "summary": "A cartoon 3D shared office for agent workers, live terminals and GitHub issues and pull requests.",
-   "stars": 792,
-   "checked": "2026-10-23",
-   "why": "A direct bridge between the agent-office interface genre and coordinated software work.",
-   "url": "https://github.com/AgentSystemLabs/agent-office",
-   "caveat": "MIT. Created September 26, 2026. A young project; listing it is not a security or reliability review.",
-   "label": "Notable open-source / editorial pick"
-  },
-  {
-   "id": "scion-2026-10-15",
-   "date": "2026-10-15",
-   "name": "GoogleCloudPlatform/scion",
-   "summary": "Orchestration for agent teams, with delegation, identity, separate workspaces and a CLI and web interface.",
-   "stars": 2018,
-   "checked": "2026-10-23",
-   "why": "A multi-agent orchestration project in the GoogleCloudPlatform organization, with frequent nightly development releases.",
-   "url": "https://github.com/GoogleCloudPlatform/scion",
-   "caveat": "Apache-2.0. Nightly pre-releases need their own stability and permission checks.",
-   "label": "Notable open-source / editorial pick"
-  },
-  {
-   "id": "mirofish-2026-10-15",
-   "date": "2026-10-15",
-   "name": "666ghj/MiroFish",
-   "summary": "A self-described swarm-intelligence engine using multi-agent social simulation for forecasting.",
-   "stars": 81488,
-   "checked": "2026-10-23",
-   "why": "A widely starred example of the prediction-simulation genre. Its claims make evaluation evidence worth following.",
-   "url": "https://github.com/666ghj/MiroFish",
-   "caveat": "AGPL-3.0. Popularity does not demonstrate forecasting accuracy. Predictions and marketing claims are not validated here.",
-   "label": "Notable open-source / editorial pick"
-  },
-  {
-   "id": "cubicle-2026-10-15",
-   "date": "2026-10-15",
-   "name": "caglarutkuguler/cubicle",
-   "summary": "A read-only live pixel-art office for agents, with a KPI board and Telegram alerts.",
-   "stars": 39,
-   "checked": "2026-10-15",
-   "why": "A small project squarely in the agent-office genre, including Paperclip, Claude Code, Codex and Gemini CLI integrations.",
-   "url": "https://github.com/caglarutkuguler/cubicle",
-   "caveat": "MIT. Created September 27, 2026. The README describes zero dependencies and read-only behavior; those are project claims, not a code audit.",
-   "label": "Notable open-source / editorial pick"
-  },
-  {
-   "id": "paracosm-2026-10-15",
-   "date": "2026-10-15",
-   "name": "framerslab/paracosm",
-   "summary": "Agent swarm simulation for structured world modeling with language models.",
-   "stars": 35,
-   "checked": "2026-10-15",
-   "why": "A world-modeling take on multi-agent simulation, distinct from a dashboard of coding workers.",
-   "url": "https://github.com/framerslab/paracosm",
-   "caveat": "Apache-2.0. Canonical repository now resolves under framerslab; earlier references use framersai. Simulation output is not validated forecasting.",
-   "label": "Notable open-source / editorial pick"
-  },
-  {
-   "id": "seahaven-2026-10-15",
-   "date": "2026-10-15",
-   "name": "Kiln-AI/Seahaven",
-   "summary": "Synthetic, stateful worlds for agent evaluation and reinforcement learning.",
-   "stars": 61,
-   "checked": "2026-10-15",
-   "why": "The new Kiln framework brings repeatable test environments to the broader multi-agent research watchlist.",
-   "url": "https://github.com/Kiln-AI/Seahaven",
-   "caveat": "MIT. Created September 11, 2026. Early evaluation infrastructure, not a graphical agent town or independently benchmarked result here.",
-   "label": "Notable open-source / editorial pick"
-  }
- ]
+  ],
+  "repoPicks": [
+    {
+      "id": "terralingua-2026-11-04",
+      "date": "2026-11-04",
+      "name": "cognizant-ai-lab/terralingua",
+      "summary": "Persona-driven agents in a shared persistent world: decisions affect each other and the environment, and public artifacts (signs, records) can be read and rewritten by later agents.",
+      "stars": 75,
+      "checked": "2026-11-04",
+      "why": "The framework behind the Haunted Hollow run - a maintained, lab-backed simulacra framework whose public experiment write-up makes trust, reputation and mutable shared records concrete.",
+      "url": "https://github.com/cognizant-ai-lab/terralingua",
+      "caveat": "Apache-2.0, created February 27, 2026. Small community so far (75 stars, 16 forks at check time - a popularity snapshot, not a trend rank). Not installed or tested.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "t3code-2026-10-23",
+      "date": "2026-10-23",
+      "name": "pingdotgg/t3code",
+      "summary": "T3 Code Orchestrator V2: cross-provider agent delegation, thread forking and multi-harness support.",
+      "stars": 46065,
+      "checked": "2026-11-04",
+      "why": "delegate_task is a concrete, shipped take on cross-harness child agents rather than a design sketch.",
+      "url": "https://github.com/pingdotgg/t3code",
+      "caveat": "MIT. v0.1.0 is a first stable and nightlies continue. Features are vendor-described; star count is a snapshot, not a trend rank.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "pixel-agents-2026-10-23",
+      "date": "2026-10-23",
+      "name": "pixel-agents-hq/pixel-agents",
+      "summary": "An agent-office interface for coordinating Claude Code workers, with an embedded browser terminal as of v1.5.0.",
+      "stars": 10057,
+      "checked": "2026-11-04",
+      "why": "The agent-office genre's most visibly shipping project this month; v1.5.0 details are in the notes above.",
+      "url": "https://github.com/pixel-agents-hq/pixel-agents",
+      "caveat": "MIT. Feature claims are the project's own; an agent terminal warrants the same caution as any agent runner.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "open-multi-agent-2026-10-23",
+      "date": "2026-10-23",
+      "name": "open-multi-agent/open-multi-agent",
+      "summary": "A self-hosted TypeScript multi-agent runtime with durable approvals and verifiable run records.",
+      "stars": 7019,
+      "checked": "2026-10-23",
+      "why": "Durable approvals and verifiable run records match how supervised agent work should be audited.",
+      "url": "https://github.com/open-multi-agent/open-multi-agent",
+      "caveat": "MIT. Created March 31, 2026. Fork count is unusually high versus stars, so treat the popularity signal cautiously.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "agent-office-2026-10-15",
+      "date": "2026-10-15",
+      "name": "AgentSystemLabs/agent-office",
+      "summary": "A cartoon 3D shared office for agent workers, live terminals and GitHub issues and pull requests.",
+      "stars": 792,
+      "checked": "2026-10-23",
+      "why": "A direct bridge between the agent-office interface genre and coordinated software work.",
+      "url": "https://github.com/AgentSystemLabs/agent-office",
+      "caveat": "MIT. Created September 26, 2026. A young project; listing it is not a security or reliability review.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "scion-2026-10-15",
+      "date": "2026-10-15",
+      "name": "GoogleCloudPlatform/scion",
+      "summary": "Orchestration for agent teams, with delegation, identity, separate workspaces and a CLI and web interface.",
+      "stars": 2018,
+      "checked": "2026-10-23",
+      "why": "A multi-agent orchestration project in the GoogleCloudPlatform organization, with frequent nightly development releases.",
+      "url": "https://github.com/GoogleCloudPlatform/scion",
+      "caveat": "Apache-2.0. Nightly pre-releases need their own stability and permission checks.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "mirofish-2026-10-15",
+      "date": "2026-10-15",
+      "name": "666ghj/MiroFish",
+      "summary": "A self-described swarm-intelligence engine using multi-agent social simulation for forecasting.",
+      "stars": 81488,
+      "checked": "2026-10-23",
+      "why": "A widely starred example of the prediction-simulation genre. Its claims make evaluation evidence worth following.",
+      "url": "https://github.com/666ghj/MiroFish",
+      "caveat": "AGPL-3.0. Popularity does not demonstrate forecasting accuracy. Predictions and marketing claims are not validated here.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "cubicle-2026-10-15",
+      "date": "2026-10-15",
+      "name": "caglarutkuguler/cubicle",
+      "summary": "A read-only live pixel-art office for agents, with a KPI board and Telegram alerts.",
+      "stars": 39,
+      "checked": "2026-10-15",
+      "why": "A small project squarely in the agent-office genre, including Paperclip, Claude Code, Codex and Gemini CLI integrations.",
+      "url": "https://github.com/caglarutkuguler/cubicle",
+      "caveat": "MIT. Created September 27, 2026. The README describes zero dependencies and read-only behavior; those are project claims, not a code audit.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "paracosm-2026-10-15",
+      "date": "2026-10-15",
+      "name": "framerslab/paracosm",
+      "summary": "Agent swarm simulation for structured world modeling with language models.",
+      "stars": 35,
+      "checked": "2026-10-15",
+      "why": "A world-modeling take on multi-agent simulation, distinct from a dashboard of coding workers.",
+      "url": "https://github.com/framerslab/paracosm",
+      "caveat": "Apache-2.0. Canonical repository now resolves under framerslab; earlier references use framersai. Simulation output is not validated forecasting.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
+      "id": "seahaven-2026-10-15",
+      "date": "2026-10-15",
+      "name": "Kiln-AI/Seahaven",
+      "summary": "Synthetic, stateful worlds for agent evaluation and reinforcement learning.",
+      "stars": 61,
+      "checked": "2026-10-15",
+      "why": "The new Kiln framework brings repeatable test environments to the broader multi-agent research watchlist.",
+      "url": "https://github.com/Kiln-AI/Seahaven",
+      "caveat": "MIT. Created September 11, 2026. Early evaluation infrastructure, not a graphical agent town or independently benchmarked result here.",
+      "label": "Notable open-source / editorial pick"
+    }
+  ]
 }
