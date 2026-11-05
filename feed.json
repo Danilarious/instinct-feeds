@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "topics": [
     {
       "id": "blockchain",
@@ -1009,6 +1009,65 @@
         {
           "label": "Kraken ticker API",
           "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+        }
+      ]
+    },
+    {
+      "id": "mkt-broad-downside-2026-11-05",
+      "date": "2026-11-05",
+      "topic": "blockchain",
+      "project": "ecosystem",
+      "type": "Market structure",
+      "status": "Price alert / live API snapshot",
+      "title": "Morning downside alert: BTC, ZEC and ADA all through the -5% rule",
+      "summary": "Broad downside cross at about 8:09am PT: BTC traded at $75,664, down 5.96% over the trailing 24-hour window, ZEC at $1,239.82, down 5.33%, and ADA at $0.182517, down 8.19% - all fresh downside threshold crossings since the 6:53am readings. A recheck at 8:11am still showed all three beyond the rule (BTC -5.94%, ZEC -5.33%, ADA -8.16%), and Kraken printed BTC $75,840.50, ZEC $1,249.55 and ADA $0.183516, corroborating the levels as differing venue quotes. NIGHT's deeper overnight leg is recorded in its own card. No verified single cause.",
+      "detail": "Snapshot anchored to the 8:09am PT readings on November 5 from the CoinGecko and Kraken APIs, with a same-source recheck minutes later; prices move fast and this note is a record of the alert, not live data. The two sources are different things: CoinGecko is an aggregated quote, Kraken is a single-venue last trade, and a direct pair cross-check across venues was not verified. Trailing-24h returns compare against a changing price from 24 hours earlier. Market reporting points to tech-stock selling and leveraged-long liquidations alongside the crypto drop - an attributed line of reporting, not a proven cause - and Bitcoin ETFs saw a net inflow of about $74.6 million on November 4, which did not prevent the selloff. Earlier alert history stays unchanged. Not investment advice.",
+      "sources": [
+        {
+          "label": "CoinGecko simple price API",
+          "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+        },
+        {
+          "label": "Kraken ticker API",
+          "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+        }
+      ]
+    },
+    {
+      "id": "mkt-night-downside-leg-2026-11-05",
+      "date": "2026-11-05",
+      "topic": "blockchain",
+      "project": "cardano",
+      "type": "Market structure",
+      "status": "Price alert / live API snapshot",
+      "title": "NIGHT downside leg: overnight -5% cross, a break of $0.0415 support, and new lows into the morning",
+      "summary": "An overnight leg in three readings. 3:54am PT: NIGHT $0.0415684, down 5.61% over 24h, with NIGHT/BTC down 7.64% - the first fresh downside crossings of this leg. 6:53am: $0.03999111, down 9.06%, verifying an intraday break of the named ~$0.0415 support and a new low 3.99% below the 3:54am anchor. 8:09am: $0.0390554, down 11.62%, with the pair down 6.60%; Kraken has recorded a $0.03841 low. The next named support, around $0.0378, had not broken in these checks.",
+      "detail": "The first crossing is partly rolling-window math - spot fell 1.95% between the 12:53am and 3:54am readings while the 24h return moved from -2.27% to -5.61% - but the extension since is a real price move: spot fell another 3.79% between 3:54am and 6:53am, and Kraken's 24h low of $0.03841 sat 3.78% below the 6:53am low of $0.03992. The support break is an intraday trade-level observation, not a candle-close claim. Snapshots from the CoinGecko and Kraken APIs on November 5; CoinGecko is an aggregated quote, Kraken a single-venue last trade, and a direct pair cross-check across venues was not verified. A recheck at 8:11am PT showed NIGHT at $0.0392, down 11.29% over 24h. Earlier alert history stays unchanged. Not investment advice.",
+      "sources": [
+        {
+          "label": "CoinGecko simple price API",
+          "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+        },
+        {
+          "label": "Kraken ticker API",
+          "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+        }
+      ]
+    },
+    {
+      "id": "midnight-ledger-9-1-2026-11-05",
+      "date": "2026-11-05",
+      "topic": "blockchain",
+      "project": "cardano",
+      "type": "Upgrade",
+      "status": "Shipped software / not a live network upgrade",
+      "title": "Midnight ships Ledger 9.1.0.0, the first full ledger-9 release, ahead of its next hardfork",
+      "summary": "Midnight published Ledger 9.1.0.0 on November 4 at 11:49am PT: the first full release of the ledger-9 line, promoted from release candidate 7 after QA approval, and intended as the ledger for the next Midnight hardfork. The headline change moves proving and verification to midnight-zk-stdlib v2 and midnight-circuits v7, with proofs and verifier keys made on v1 remaining verifiable. The release also adds ECDSA signature support and updated fee and cost parameters.",
+      "detail": "Read in full from the official release notes. Developer caveats: contracts affected by the zkir v3 key-encoding change need their verifier keys regenerated, and known defects remain - a contract call paid with exactly one DUST spend can fail the time-to-dismiss check (#838), and certain shielded-change calls can be rejected on gas budget (#839). The security fixes here were already released to mainnet as 8.1.2 and 8.1.3, so this carries them forward rather than patching a new emergency. The release gives no hardfork activation date and does not establish that ledger-9 is live on mainnet - this is shipped software in preparation, not a network upgrade that has happened.",
+      "sources": [
+        {
+          "label": "Midnight Ledger 9.1.0.0 release notes - GitHub",
+          "url": "https://github.com/midnightntwrk/midnight-ledger/releases/tag/ledger-9.1.0.0"
         }
       ]
     }
