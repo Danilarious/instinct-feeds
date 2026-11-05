@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "topics": [
     {
       "id": "blockchain",
@@ -980,6 +980,27 @@
       "title": "ZEC upside alert: +10.7% over 24h to $1,252, a fresh leg after the evening reset below +5%",
       "summary": "Evening threshold cross at about 9:52pm PT: ZEC traded at $1,252.08, up 10.67% over the trailing 24-hour window, and ZEC/BTC read 0.01610641, up 9.06% - both back through the +5% rules after sitting below them at 6:52pm (+4.44% USD, +4.73% pair). Unlike the midday cross, spot itself is up 5.43% and the pair value up 3.80% since that 6:52pm reading, so this is a fresh rebound, not only a rolling-comparison effect. Kraken printed $1,249.98, corroborating the USD vicinity as a differing venue quote. No verified catalyst or new protocol milestone.",
       "detail": "Snapshot taken about 9:52pm PT on November 3 from the CoinGecko and Kraken APIs; prices move fast and this note is a record of the alert, not live data. The two sources are different things: CoinGecko is an aggregated quote, Kraken is a single-venue last trade, and a direct pair cross-check across venues was not verified. Trailing-24h returns compare against a changing price from 24 hours earlier; the 6:52pm and 9:52pm readings are same-source snapshots, and the spot and pair moves between them are observed changes, not attributions - no protocol news or other catalyst is verified as the cause. Bitcoin sat at $77,955, up 1.75% over 24h. This is the third ZEC threshold note in two days (downside on November 2, midday upside cross, now a fresh leg); that earlier history stays unchanged. Not investment advice.",
+      "sources": [
+        {
+          "label": "CoinGecko simple price API",
+          "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+        },
+        {
+          "label": "Kraken ticker API",
+          "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+        }
+      ]
+    },
+    {
+      "id": "mkt-btc-ada-zecpair-5pct-recross-2026-11-04",
+      "date": "2026-11-04",
+      "topic": "blockchain",
+      "project": "ecosystem",
+      "type": "Market structure",
+      "status": "Price alert / live API snapshot",
+      "title": "Evening threshold re-cross: BTC, ADA and the ZEC/BTC pair back above +5% on rolling 24h windows",
+      "summary": "Threshold re-cross at about 6:53pm PT: BTC traded at $80,525, up 5.22% over the trailing 24-hour window, ADA at $0.198203, up 6.43%, and ZEC/BTC read 0.01636383, up 5.90% - all three back through the +5% rules after reading +3.72% (BTC), +3.90% (ADA) and +1.52% (pair) at 3:53pm. Actual moves since that 3:53pm reading are BTC -0.005%, ADA +0.035% and the pair +1.67%, so these are rolling 24h comparisons re-crossing the thresholds, not fresh evening rallies. Kraken printed BTC $80,500.30, ZEC $1,317.50 and ADA $0.198178, corroborating the levels as differing venue quotes. No verified catalyst.",
+      "detail": "Snapshot taken about 6:53pm PT on November 4 from the CoinGecko and Kraken APIs; prices move fast and this note is a record of the alert, not live data. The two sources are different things: CoinGecko is an aggregated quote, Kraken is a single-venue last trade, and a direct pair cross-check across venues was not verified. Trailing-24h returns compare against a changing price from 24 hours earlier; the near-flat spot readings since 3:53pm mean the re-crosses reflect that changing comparison baseline, not three new rallies. ZEC/USD sat at $1,318.25, up 11.47% over 24h - a continuation of the leg already recorded on November 3, not a new USD threshold event. Earlier alert history stays unchanged. Not investment advice.",
       "sources": [
         {
           "label": "CoinGecko simple price API",
