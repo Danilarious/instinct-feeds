@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "topics": [
     {
       "id": "blockchain",
@@ -1097,6 +1097,23 @@
         {
           "label": "CoinGecko simple price API",
           "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+        }
+      ]
+    },
+    {
+      "id": "zec-zcg-devfund-polling-2026-11-06",
+      "date": "2026-11-06",
+      "topic": "blockchain",
+      "project": "zcash",
+      "type": "Governance",
+      "status": "Announced timeline / proposal stage, nothing decided",
+      "title": "ZCG Dev Fund: proposals due November 8, community polling November 16-30",
+      "summary": "The community groups steering Zcash's Dev Fund decision have posted a timeline: proposals for the ZCG share are due Sunday, November 8 at 11:59pm UTC; proposed poll questions and answer choices open for public feedback November 9-15; and coinholder and community-panel polls run November 16-30, closing at 11:59pm UTC. Only if rough consensus emerges would the groups back a network upgrade, NU7.1, to implement it.",
+      "detail": "Nothing is decided at this stage: NU7.1 implementation is conditional on rough consensus from the polls, there is no agreed activation date and no approved change to any allocation, and major features or transaction formats sit outside the announced scope - this is not a ZSA or Tachyon schedule. The same post floats activating ZIP 68 and clarifying ZIP 203 (toward Zcash Lightning and programmable locks) as candidates for a potential NU7.1, which is likewise conditional. Dates come from the groups' own forum post, published and pinned on November 5; treat them as an announced plan, not chain state.",
+      "sources": [
+        {
+          "label": "ZCG and the Dev Fund: Timeline for Proposals and Polling - Zcash Community Forum",
+          "url": "https://forum.zcashcommunity.com/t/zcg-and-the-dev-fund-timeline-for-proposals-and-polling/58906"
         }
       ]
     }
