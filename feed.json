@@ -1070,6 +1070,35 @@
           "url": "https://github.com/midnightntwrk/midnight-ledger/releases/tag/ledger-9.1.0.0"
         }
       ]
+    },
+    {
+      "id": "zec-nu7-activation-2026-11-05",
+      "date": "2026-11-05",
+      "topic": "blockchain",
+      "project": "zcash",
+      "type": "Upgrade",
+      "status": "Network upgrade / node-tracker confirmed",
+      "title": "NU7 is live: Zcash activates its seventh network upgrade at block 3,543,405",
+      "summary": "Activation block 3,543,405 was mined at 6:34:02pm PT on November 5 (02:34:02 UTC on November 6), hash 0000000000246a2b1fecb3f465770894d146f6b7044e46b13ffb65e57e4ccd4a. The node-backed ZecStats tracker reports NU7 active on consensus branch 77190ad9, with 25 confirmations by 6:53pm and no stall or schedule mismatch. The new rules now apply: 25-second target blocks, down from 75; unchanged scheduled issuance through the Network Sustainability Mechanism; 60% of transaction fees removed from circulation; and rejection of all v4 transactions - which makes funds remaining in the Sprout pool unspendable under current rules, not burned.",
+      "detail": "Confirmation rests on the live node-backed network tracker plus ZIP-259's activation height and rules: no fresh Foundation or ECC completion announcement had appeared at publication time, and one cross-check explorer (Blockchair) still lagged at height 3,543,404 in the tracker's own snapshot, so one explorer behind reads as normal catch-up, not a fork signal. The upgrade carries no ZSA, smart-contract or Tachyon activation, and no approved recovery activation for frozen Sprout funds is established - the tracker shows 12,224 ZEC in the frozen Sprout pool. Price context, not causation: ZEC traded at $1,315.04, roughly flat over 24h (-0.23%), while ZEC/BTC read 0.01728025, up 5.62% over 24h - a fresh +5% pair crossing with a real rebound since mid-afternoon (pair +3.01% and spot +3.18% since the 3:54pm reading) alongside rolling-window effects. The rebound coincides with the activation but is not established as caused by it. Not investment advice.",
+      "sources": [
+        {
+          "label": "ZecStats NU7 tracker",
+          "url": "https://zecstats.org/nu7"
+        },
+        {
+          "label": "ZecStats upgrade API",
+          "url": "https://zecstats.org/api/zec/upgrade"
+        },
+        {
+          "label": "ZIP-259: NU7 deployment",
+          "url": "https://zips.z.cash/zip-0259"
+        },
+        {
+          "label": "CoinGecko simple price API",
+          "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+        }
+      ]
     }
   ],
   "timeline": [
