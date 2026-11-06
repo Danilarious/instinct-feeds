@@ -1,7 +1,52 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-06",
  "editorial": "A checked collection, not a live trend chart. Dates on notes are publication dates when known; repository metrics are snapshots. Older essays are marked as archive. Inclusion is not endorsement.",
  "entries": [
+  {
+   "id": "elevenlabs-soundcloud-publish-20261105",
+   "date": "2026-11-05",
+   "kind": "Platform update / vendor announcement",
+   "lens": "Music & sound",
+   "title": "ElevenLabs users can now publish ElevenMusic tracks directly to SoundCloud",
+   "summary": "ElevenLabs says ElevenMusic users can publish AI-generated tracks directly to SoundCloud, and SoundCloud Artist Pro subscribers get three months of ElevenMusic Pro. ElevenLabs claims more than 25 million tracks have been created with its models; the figure is the company's own.",
+   "detail": "Announced November 5 per TechCrunch. The ElevenMusic Pro offer covers up to 1,000 generated songs per month, 500 stem splits and five custom styles or vocals. ElevenLabs released its first music model in 2025, a consumer prompt-based app in April 2026, and a model that switches genres mid-track a month later. SoundCloud CEO Eliah Seton framed the integration as making SoundCloud 'the first platform to bring ElevenMusic creations directly to fans beyond its own ecosystem' - a vendor statement. SoundCloud separately partnered with AI music tool Moises in October and integrates Google's Flow Music and the remix platform Hook; ElevenLabs also has a Spotify partnership for AI-narrated audiobooks. The 25-million-tracks figure and partnership framing are company claims, not independently verified. How SoundCloud will label or treat AI-generated uploads against its own policies is not addressed in the announcement.",
+   "sources": [
+    {
+     "label": "TechCrunch reporting",
+     "url": "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/"
+    }
+   ]
+  },
+  {
+   "id": "suno-isbell-dismissal-motion-20261104",
+   "date": "2026-11-04",
+   "kind": "Legal motion / defense filing",
+   "lens": "Rights & labor",
+   "title": "Suno moves to dismiss musicians' right-of-publicity class action, calling artist names 'shorthand' for genres",
+   "summary": "Suno filed a motion in Boston federal court to dismiss the class action brought by Jason Isbell and three other musicians, arguing that using an artist's name in a prompt is shorthand for a musical style, not commercial exploitation of their identity. The musicians' reply is due December 15; this is a defense motion, not a ruling.",
+   "detail": "Filed November 3, per Music Business Worldwide, in the right-of-publicity class action over prompts like 'a song in the style of' a named artist. Suno's motion argues that 'when people describe styles of music, they often use artists' names' as shorthand, and that the plaintiffs' theory would effectively confer ownership of a genre or style, which copyright does not protect. The musicians counter that their claim is narrower: 'no one may commercially exploit another's right of publicity in their name and identity.' US District Judge Angel Kelley approved a schedule with the plaintiffs' reply due December 15. The arguments quoted are the parties' own positions; no decision has been made.",
+   "sources": [
+    {
+     "label": "Music Business Worldwide reporting",
+     "url": "https://www.musicbusinessworldwide.com/suno-asks-court-to-dismiss-jason-isbells-right-of-publicity-class-action-it-claims-artist-names-are-shorthand-for-musical-genres/"
+    }
+   ]
+  },
+  {
+   "id": "anthropic-lyrics-claims-briefing-20261104",
+   "date": "2026-11-04",
+   "kind": "Court hearing / reported, no decision yet",
+   "lens": "Rights & labor",
+   "title": "Judge questions music publishers' lyric-infringement claims against Anthropic, orders more briefing",
+   "summary": "After tentatively ruling from the bench to deny Anthropic's motion to dismiss, US District Judge Eumi Lee said she was not fully convinced the publishers had adequately pleaded their claim and asked both sides for additional briefing. No decision has issued either way.",
+   "detail": "At a November 4 hearing in San Jose, per Courthouse News, Lee questioned the publishers' allegation that more than 20,000 works - their complaint cites 20,517 - were copied, calling the figure 'oddly specific, yet oddly not' and saying she could not proceed on 'information and belief' alone. Anthropic counsel Sonal Mehta argued the second amended complaint ignores 'enhanced guardrails' that stop Claude from reproducing copyrighted lyrics, and gives no basis for how the works were chosen. The publishers' attorney Nicholas Hailey argued plaintiffs need not prove facts at the motion-to-dismiss stage and lack access to Anthropic's internal processes. The publisher group includes Concord Music Group, Capitol CMG, Universal Music entities and ABKCO; the case runs alongside a 2024 suit over Claude's training on copyrighted lyrics. The tentative denial, the skepticism and the call for more briefing are procedural - the infringement claims remain unresolved.",
+   "sources": [
+    {
+     "label": "Courthouse News reporting",
+     "url": "https://www.courthousenews.com/music-publishers-suffer-setback-in-copyright-case-against-anthropic/"
+    }
+   ]
+  },
   {
    "id": "meta-commercial-terms-backlash-20261030",
    "date": "2026-10-30",
