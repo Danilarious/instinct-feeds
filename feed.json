@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "topics": [
   {
    "id": "blockchain",
@@ -1135,6 +1135,27 @@
     {
      "label": "Midnight Ledger 9.1.0.0 release notes - GitHub",
      "url": "https://github.com/midnightntwrk/midnight-ledger/releases/tag/ledger-9.1.0.0"
+    }
+   ]
+  },
+  {
+   "id": "mkt-zec-5pct-downside-2026-11-07",
+   "date": "2026-11-07",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market",
+   "status": "Observed snapshot / fresh downside leg",
+   "title": "ZEC turns down: -5.84% over 24h, -6.23% against BTC",
+   "summary": "At 8:20am PST on November 7, CoinGecko showed ZEC at $1,262.88, down 5.84% over 24 hours, and ZEC/BTC at 0.01668722, down 6.23%. Against the same source's 3:56am reading of $1,293.16, the observed spot decline is 2.34%, not a fresh 6% morning plunge. The rolling 24-hour comparison against yesterday's rally makes the headline loss larger than the move between those two morning snapshots.",
+   "detail": "The 3:56am ZEC/BTC reading was 0.01703482, up 0.46% over its then-current 24-hour window. These changing 24-hour baselines should not be read as a continuous intraday return. CoinGecko supplies the aggregate spot and pair readings; no direct-venue BTC-pair cross-check is claimed. The contemporaneous node-backed ZecStats upgrade API still reports NU7 active, with 5,273 confirmations and no stall or schedule mismatch. There is no verified new causal catalyst for this price move, and the readings do not establish an upgrade failure. This is a dated market observation, not a live quote or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "ZecStats live upgrade status API",
+     "url": "https://zecstats.org/api/zec/upgrade"
     }
    ]
   }
