@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "topics": [
   {
    "id": "blockchain",
@@ -1125,8 +1125,8 @@
    "type": "Upgrade",
    "status": "Live on mainnet / issuer-confirmed",
    "title": "Midnight executes the Ledger 9 hard fork on mainnet",
-   "summary": "Midnight's official blog, dated November 6, confirms the network has executed a hard fork upgrading mainnet from Ledger 8 to Ledger 9. This supersedes yesterday's shipped-software status: Ledger 9.1.0.0 is now the live mainnet ledger. The upgrade adds native Keccak-256 and ECDSA primitives, Schnorr and ECDSA transaction authorization, BIP-44 address derivation, cross-contract calls with caller identity, and contract events. Balances, deployed contracts and mainnet cNIGHT DUST registrations migrate automatically; builders need Midnight.js 5 and the updated Compact toolchain for new deployments.",
-   "detail": "Read in full from the official blog and release notes. The post gives no exact activation height or time. These are infrastructure capabilities: the blog frames stablecoin movement, institutional custody (naming BitGo as an example of a custodian that could integrate) and private DeFi as things Ledger 9 makes possible - it does not establish that any named custodian, stablecoin, bridge or SigNetwork service is live on mainnet. Process caveats, all from Midnight itself: Ledger 9 was deployed directly to mainnet, bypassing the standard Preprod deployment and soak period, an approach the blog says is used when security fixes require a more controlled release path; technical documentation for some of the newest features is still being written; and the 9.1.0.0 release notes carry two known defects - a contract call paid with exactly one DUST spend can fail the time-to-dismiss check (#838), and certain shielded-change calls can be rejected on gas budget (#839). Builders on Preview and Preprod must re-register tNIGHT there to resume DUST generation. The November 5 card's 'not a live network upgrade' status was accurate as of that date and is now historical.",
+   "summary": "Midnight's November 6 blog confirms the hard fork from Ledger 8 to Ledger 9 on mainnet, superseding the earlier software-release-only status. Precision update checked November 8 against the official technical guide: first-phase cross-contract calls and contract events are UNSHIELDED ONLY. Ledger 9 does not enable the mainnet cNIGHT-to-mNIGHT protocol token bridge, which needs a separate governance action and rollout; block-production rewards are not part of Ledger 9. Signature/hash support and wallet infrastructure are capabilities, not evidence that a particular bridge, stablecoin, custodian or SigNetwork service is live.",
+   "detail": "Historical announcement: the November 6 blog reported mainnet activation without an exact height or time, native Keccak-256/ECDSA primitives, Schnorr/ECDSA transaction authorization, BIP-44 derivation, cross-contract calls with caller identity and events. It said the direct-to-mainnet rollout bypassed the usual Preprod soak for security fixes, with some technical documentation still being completed. Clarification checked November 8: the official Ledger 9 guide lists Mainnet at ledger 9.1.0.1 / node 2.1.101, not the earlier 9.1.0.0 software-release version. It explicitly limits first-phase calls to unshielded data and events to unshielded events. The cNIGHT-to-mNIGHT protocol bridge is NOT enabled; separate governance and a separately announced rollout are required. Block-production rewards are outside this upgrade. Mainnet DApps need Midnight.js 5.0.0, wallet SDK 2.0.0 and indexer 4.4.101; new contracts use Compact toolchain 0.36.0. Existing contract compatibility depends on original artifacts/toolchain, so automatic state migration is not blanket app compatibility. Mainnet cNIGHT-backed DUST registrations replay automatically. Preview is a reset Ledger 9 chain; Preprod remains Ledger 8 until a later upgrade, not already upgraded. Known issues remain: certain held-shielded-coin writeCoin change calls fail on gas budget, single-DUST-spend fees can be rejected, and the guide additionally flags verifier-key removal with older client packages plus unified-storage migration hazards. Consult the technical guide before operating or upgrading. The November 5 software-release card remains a historical record of what its release source established then; this dated clarification is not another activation announcement.",
    "sources": [
     {
      "label": "Ledger 9 upgrade unlocks signature support and composable contracts on mainnet - Midnight blog",
@@ -1135,6 +1135,14 @@
     {
      "label": "Midnight Ledger 9.1.0.0 release notes - GitHub",
      "url": "https://github.com/midnightntwrk/midnight-ledger/releases/tag/ledger-9.1.0.0"
+    },
+    {
+     "label": "Ledger 9 technical upgrade guide - precision checked November 8",
+     "url": "https://docs.midnight.network/relnotes/ledger-9"
+    },
+    {
+     "label": "Midnight.js 5.0.0 official release notes",
+     "url": "https://docs.midnight.network/relnotes/midnight-js/midnight-js-5-0-0.md"
     }
    ]
   },
