@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "topics": [
   {
    "id": "blockchain",
@@ -1164,6 +1164,44 @@
     {
      "label": "ZecStats live upgrade status API",
      "url": "https://zecstats.org/api/zec/upgrade"
+    }
+   ]
+  },
+  {
+   "id": "mkt-night-overnight-break-recovery-2026-11-09",
+   "date": "2026-11-09",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Market",
+   "status": "Historical venue low / recovered by morning",
+   "title": "NIGHT breaks $0.0378 overnight on Kraken, then recovers by morning",
+   "summary": "Kraken recorded a NIGHT/USD low of $0.03710 during the Sunday, November 8, 11pm to Monday midnight PST hourly candle, which closed at $0.03777. The low broke the watched $0.0378 level and was 3.41% below the previously reported $0.03841 low. By the November 9 8:20am PST snapshot, CoinGecko showed $0.04005419. The dip and recovery belong together: this is not a still-available entry price or evidence of a continuing selloff.",
+   "detail": "The low and close come from a completed Kraken hourly candle beginning at Unix timestamp 1794207600, converted to America/Los_Angeles time. They describe that venue, not a universal market low or guaranteed executable price. The morning recovery quote is CoinGecko aggregate spot, a different source; no precise venue-to-aggregate rebound return is claimed. A wick through a watched level is an observation, not proof of a lasting support failure or a verified causal catalyst. No order or recommendation to buy is implied. Not investment advice.",
+   "sources": [
+    {
+     "label": "Kraken NIGHT/USD hourly OHLC",
+     "url": "https://api.kraken.com/0/public/OHLC?pair=NIGHTUSD&interval=60&since=1794200400"
+    },
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    }
+   ]
+  },
+  {
+   "id": "zec-20s-block-spacing-draft-2026-11-08",
+   "date": "2026-11-08",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Governance",
+   "status": "Draft proposal / not approved or activated",
+   "title": "Draft proposes 20-second Zcash blocks: lower latency, unchanged daily shielded capacity",
+   "summary": "A November 8 Zcash forum draft proposes lowering target block spacing from 25 to 20 seconds and asks for the next poll and possible NU7.1 inclusion. It would cut per-block shielded-action limits by 20% to preserve daily shielded capacity, while scaling subsidy and halving intervals to preserve daily issuance and expected halving timing. It is a latency proposal, not an approved upgrade or a daily shielded-throughput increase.",
+   "detail": "The proposal posted by the ValarDragon forum account, co-written with evan-forbes, retains the 2 MB block-size limit and scales the global, Orchard and Ironwood action budgets from 330 to 264 and Sapling inputs plus outputs from 300 to 240. Faster blocks with proportionally lower per-block shielded budgets keep the same daily maxima, apart from extra header overhead. Orphan-rate stress-test results and safety claims are the authors' own, not independent validation by this hub. No approval, activation height or activation date is established in the checked thread; NU7.1 inclusion remains requested, not scheduled. This does not activate ZSAs, Tachyon or a new smart-contract system. The proposal date remains November 8; this hub checked it November 9.",
+   "sources": [
+    {
+     "label": "Zcash forum: draft 25s-to-20s block-spacing proposal",
+     "url": "https://forum.zcashcommunity.com/t/proposal-lower-zcash-block-target-spacing-from-25s-to-20s/59035"
     }
    ]
   }
