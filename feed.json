@@ -1204,6 +1204,31 @@
      "url": "https://forum.zcashcommunity.com/t/proposal-lower-zcash-block-target-spacing-from-25s-to-20s/59035"
     }
    ]
+  },
+  {
+   "id": "mkt-zec-downside-followthrough-2026-11-09",
+   "date": "2026-11-09",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market",
+   "status": "Observed follow-through / aggregate and venue snapshots",
+   "title": "ZEC extends its downside leg: $1,169.82, another 2.29% below the morning snapshot",
+   "summary": "At the November 9 9:59am PST check, CoinGecko showed ZEC at $1,169.82, down 6.33% over 24 hours, and ZEC/BTC at 0.01565502, down 5.13% over 24 hours. Spot was 2.29% below the same source's 8:20am reading of $1,197.29. This is actual follow-through in the existing downside leg, not a fresh 6.33% drop since the morning check.",
+   "detail": "Kraken separately recorded a new trailing-24-hour ZEC/USD low of $1,162.27, below the previously observed $1,180.84 low. The Kraken low is venue-specific and is not the CoinGecko aggregate spot price; no directly verified Kraken BTC-pair return is claimed. Rolling 24-hour percentage changes compare against moving baselines, whereas the 2.29% figure compares the two named spot snapshots. The checked node-backed ZecStats API still reports NU7 active, with 12,418 confirmations, no stall and no schedule mismatch. No verified new causal catalyst or protocol failure is established by these readings. Historical snapshots, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: ZEC/USD venue low",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    },
+    {
+     "label": "ZecStats upgrade status API",
+     "url": "https://zecstats.org/api/zec/upgrade"
+    }
+   ]
   }
  ],
  "timeline": [
