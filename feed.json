@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "topics": [
   {
    "id": "blockchain",
@@ -1227,6 +1227,35 @@
     {
      "label": "ZecStats upgrade status API",
      "url": "https://zecstats.org/api/zec/upgrade"
+    }
+   ]
+  },
+  {
+   "id": "ordinals-field-guide-2026-11-10",
+   "date": "2026-11-10",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Weekly field guide",
+   "status": "Published edition / source-linked research",
+   "title": "Ordinals field guide: Bitcoin Amsterdam art week and cross-chain cards",
+   "summary": "The November 10 edition covers Bitcoin art at Bitcoin Amsterdam (BMAG room and auction, Mosaic on the main stage), a project's claim that its Bitcoin-inscribed card collections now trade on OpenSea via another chain, and an unconfirmed OpenSea-Ordinals rumor.",
+   "detail": "Amsterdam details come from a CATALOGUE report; the BMAG auction closed November 7 and its results were not verified. The cross-chain card setup is the project's own claim relayed by KuCoin, and the tradable cards are a separate token from the inscriptions. The OpenSea Ordinals post is a social comment, not an announcement. No market-wide ranking or sales total was verified. The separate field guide preserves the September 29 to November 3 editions and all original cards.",
+   "sources": [
+    {
+     "label": "November 10 field guide and archive",
+     "url": "https://danilarious-ordinals-field-guide.netlify.app/"
+    },
+    {
+     "label": "Bitcoin Amsterdam art report (CATALOGUE)",
+     "url": "https://catalogue.gallery/blog/bitcoin-amsterdam-2026-bmag-burst-bitcoin-art-society/"
+    },
+    {
+     "label": "Cross-chain Ordinals cards post (KuCoin)",
+     "url": "https://www.kucoin.com/news/trends/BTC/6aecd759bbcb52000745fb4b"
+    },
+    {
+     "label": "OpenSea Ordinals post (KuCoin)",
+     "url": "https://www.kucoin.com/news/community/BTC/6aea5078bbcb52000745b566"
     }
    ]
   }
