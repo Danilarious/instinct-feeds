@@ -1,7 +1,105 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-11",
   "editorial": "Dated research and source-linked updates on multi-agent systems. Publication dates belong to the source; repository metrics are checked snapshots, not live trending ranks.",
   "entries": [
+    {
+      "id": "mas-t3code-v0-1-9-2026-11-11",
+      "date": "2026-11-11",
+      "type": "Release",
+      "status": "Stable release / vendor-described features",
+      "title": "T3 Code v0.1.9: agent sign-in approval and session-scoped MCP grants",
+      "summary": "Version 0.1.9 (MIT) landed November 11 with 198 changes from 31 contributors. T3 Connect lets a user approve an agent sign-in instead of copying a pairing code, and Claude session approvals can allow an MCP app for a whole session rather than action by action. The release also sends messages while attachments upload, announces agent messages and steps to screen readers, reverts merged GitLab merge requests, syncs OpenCode goals and links PRs directly to a comment, diff line, check or commit.",
+      "detail": "The delegation change is scoped approval: the release notes describe a person approving agent sign-ins through T3 Connect and allowing an MCP app for one Claude session, moving away from repeated per-action prompts. That still depends on the client making the granted scope and revocation path clear; these are vendor-described release notes, not an installed or tested workflow. GitHub API snapshot at publish check November 11: 56,689 stars and 10,472 forks, a popularity snapshot rather than a trend rank. T3 Code was this chapter's October 23 repo pick, and its v0.1.7 child-approvals release was logged November 4.",
+      "sources": [
+        {
+          "label": "T3 Code v0.1.9 release - GitHub",
+          "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.9"
+        },
+        {
+          "label": "GitHub API repository snapshot",
+          "url": "https://api.github.com/repos/pingdotgg/t3code"
+        }
+      ]
+    },
+    {
+      "id": "mas-pixel-agents-v1-6-2026-11-10",
+      "date": "2026-11-10",
+      "type": "Release",
+      "status": "Stable release / vendor-described features",
+      "title": "Pixel Agents v1.6.0 turns the office roster into designed characters",
+      "summary": "Pixel Agents v1.6.0 adds a Characters view: design a cast with body, hair, eyes, clothes and accessories, edit pixels, save custom items, use undo/redo with explicit Save, and export a character as PNG or config, or the roster as a zip. The shared roster in ~/.pixel-agents/characters.json works across VS Code and the browser, and new agents can launch as a roster character with per-Directory defaults.",
+      "detail": "For the visual-agent-office thread, the release makes orchestration state more legible rather than hiding it behind a chat list: recent conversations can resume with their character and seat, usage bars show Claude Code plan limits, per-agent context health bars drain as context fills, idle agents rest in chairs, and each seat gets one PC while sub-agents stay near their lead. It also adds procedural office radio and a pixel UI. All behavior is vendor-described from the release notes; not installed or tested. GitHub API snapshot at publish check November 11: 10,160 stars, 1,733 forks and 101 open issues, a popularity snapshot rather than a trend rank.",
+      "sources": [
+        {
+          "label": "Pixel Agents v1.6.0 release - GitHub",
+          "url": "https://github.com/pixel-agents-hq/pixel-agents/releases/tag/v1.6.0"
+        },
+        {
+          "label": "GitHub API repository snapshot",
+          "url": "https://api.github.com/repos/pixel-agents-hq/pixel-agents"
+        }
+      ]
+    },
+    {
+      "id": "mas-information-networks-2026-11-09",
+      "date": "2026-11-09",
+      "type": "Paper",
+      "status": "Preprint / controlled simulation",
+      "title": "Information networks: who observes whom changes agent-group behavior",
+      "summary": "This paper separates the information network - who can observe whom - from the interaction network where agents act. Ten identical LLM agents play repeated group-decision games while a manager with a fixed budget adds observation links. Across 1,080 episodes and six games, more peer information helps when individual incentives align with collective welfare but can amplify harmful behavior under free-riding or congestion.",
+      "detail": "Sepehr Ilami and Babak Heydari report that a public-goods game did best with no peer information, and that wiring topology matters mainly when behavioral coupling is harmful: a modular barbell that lets sub-populations entrench harmful behavior was reliably worst. The finding argues against default full transparency for agent collectives, but keep the authors' boundary attached: a cross-game empirical regularity in one controlled LLM population, not a model-invariant law. Preprint posted November 9.",
+      "sources": [
+        {
+          "label": "arXiv:2611.11714",
+          "url": "https://arxiv.org/abs/2611.11714"
+        }
+      ]
+    },
+    {
+      "id": "mas-shared-memory-coordination-2026-11-09",
+      "date": "2026-11-09",
+      "type": "Paper",
+      "status": "Preprint / locked replication",
+      "title": "Shared memory alone can switch on unprompted agent coordination",
+      "summary": "Four agents each received a key-value store presented as private scratch space; two held complementary halves of one arithmetic computation, and no prompt mentioned other agents. Coordination arose through the shared store - and only through it. In private-store controls, joint success fell from 49 and 47 of 50 worlds to 0 of 50 in both implementations.",
+      "detail": "Abrahamsson, Waseem, Karjalainen, Jussila, Hansen, Rasku, Silverajan and Kemell used a locked two-implementation replication with hashed protocols, across nine models from three providers. One ordinary instruction - \"check your workspace again before submitting\" - switched the second look at the store on and off, moving coordination from 50 of 50 to 1 of 50 when removed in the reported manipulation. The practice takeaway is narrow and useful: state shared between agents is a communication channel, so separate it, namespace it and log it. Results are author-reported in a controlled setting, not evidence that arbitrary agents will coordinate safely. Preprint posted November 9.",
+      "sources": [
+        {
+          "label": "arXiv:2611.12412",
+          "url": "https://arxiv.org/abs/2611.12412"
+        }
+      ]
+    },
+    {
+      "id": "mas-s3-cooperative-swarms-2026-11-05",
+      "date": "2026-11-05",
+      "type": "Paper",
+      "status": "Preprint / author-reported results",
+      "title": "s3: swarms learn when to work alone and when to share",
+      "summary": "s3 (Simple Scaling of Swarms) uses cooperative multi-agent reinforcement learning instead of a hand-designed orchestrator: copies of one model learn when to work alone, share findings or read teammates' messages, with no fixed roles or turn order. The authors report that complementary roles emerge and that swarms generalize to teams twice the size seen in training.",
+      "detail": "Jha, Faria, Li, Geng, Brahman, Smith, Tsvetkov, Kleiman-Weiner and Jaques. With matched training and inference budgets, the paper reports swarms solving over 25x more coordination problems than the strongest baseline; in exploration, communication cuts repeated work by nearly 50% and beats best-of-N by up to 9.4 percentage points. The matched-compute comparison is the useful part because it addresses the usual confound in swarm claims. Results remain author-reported and not independently reproduced. Preprint posted November 5.",
+      "sources": [
+        {
+          "label": "arXiv:2611.08615",
+          "url": "https://arxiv.org/abs/2611.08615"
+        }
+      ]
+    },
+    {
+      "id": "mas-plan-changes-testbed-2026-11-04",
+      "date": "2026-11-04",
+      "type": "Paper",
+      "status": "Preprint / simulation testbed / boundary item",
+      "title": "When the Plan Changes tests whether agents notice obsolete delegated work",
+      "summary": "This Strategic World testbed separates authoritative objectives, local plans, notice receipt and consequential action: changing an objective does not automatically revise earlier delegated tasks. Identical completion summaries can conceal uninformed obsolete work, obsolete work after notice, or blocked unsafe intent.",
+      "detail": "Boundary item: submitted November 4, just outside the strict November 5-11 window, and surfaced only in this week's scan. In the reported comparison, an engineered guard that prioritizes pending notices completed 4 of 4 held-out settings versus 1 of 4 for a calibrated assisted baseline, across 16 episodes with one LLM actor and two fixed peers. The authors are explicit that these are diagnostic distinctions and bounded policy feasibility under simulation assumptions, not frontier-model reliability or autonomous team adaptation. A GitHub repo is promised on acceptance, so no code was available to inspect. Preprint posted November 4.",
+      "sources": [
+        {
+          "label": "arXiv:2611.10011",
+          "url": "https://arxiv.org/abs/2611.10011"
+        }
+      ]
+    },
     {
       "id": "mas-t3code-v0-1-7-2026-11-04",
       "date": "2026-11-04",
@@ -144,7 +242,7 @@
       "status": "Open-source release / author-reported results",
       "title": "Microsoft Research open-sources Agensh, a multi-agent harness with no central orchestrator",
       "summary": "Agensh workers gather context, claim sub-tasks, act, verify and merge asynchronously through a shared Git workspace (Gitea), a message interface (Mattermost) and shared context. Author-reported ProgramBench results: mean final test-pass on the five hardest tasks rose from 19.31% with 1 agent to 28.78% with 128 agents; on the single pandoc task, 33.89% (1 agent) to 50.94% (128) to 55.06% (1,024).",
-      "detail": "Checked October 28 against the paper abstract and the repo README, which agree. Keep the limits visible: the 1,024-agent figure is one task (pandoc); the five-task figure stops at 128 agents; all results are self-reported by the authors and not independently reproduced; the repo ships a single-node Docker Compose setup, not the full 1,024-agent deployment; the harness builds on the Copilot per-agent loop. Repo: MIT license, created August 27, 64 stars at check time - a popularity snapshot, not a trend rank. Code released October 24; preprint September 22 (Zhan, Song, Dong, Huang, Lian, Xia, Wei).",
+      "detail": "Checked October 28 against the paper abstract and the repo README, which agree. Keep the limits visible: the 1,024-agent figure is one task (pandoc); the five-task figure stops at 128 agents; all results are self-reported by the authors and not independently reproduced; the repo ships a single-node Docker Compose setup, not the full 1,024-agent deployment; the harness builds on the Copilot per-agent loop. Repo: MIT license, created August 27. The original October 28 star line came from a stale cached GitHub render; a fresh November 4 publisher read found 876 stars, 102 forks and 4 open issues. On November 11 the tracker's browser-page read again stayed stale, so its roughly 909-star / 104-fork fallback was tracker-sourced only; a separate GitHub API read at publish check returned 912 stars, 104 forks and 4 open issues. Counts are popularity snapshots, not trend ranks. Code released October 24; preprint September 22 (Zhan, Song, Dong, Huang, Lian, Xia, Wei).",
       "sources": [
         {
           "label": "GitHub repository",
@@ -153,6 +251,10 @@
         {
           "label": "arXiv preprint",
           "url": "https://arxiv.org/abs/2609.26781"
+        },
+        {
+          "label": "GitHub API repository snapshot",
+          "url": "https://api.github.com/repos/microsoft/agensh"
         }
       ]
     },
@@ -332,24 +434,24 @@
       "id": "t3code-2026-10-23",
       "date": "2026-10-23",
       "name": "pingdotgg/t3code",
-      "summary": "T3 Code Orchestrator V2: cross-provider agent delegation, thread forking and multi-harness support.",
-      "stars": 46065,
-      "checked": "2026-11-04",
-      "why": "delegate_task is a concrete, shipped take on cross-harness child agents rather than a design sketch.",
+      "summary": "T3 Code Orchestrator V2: cross-provider agent delegation, thread forking, multi-harness support, agent sign-in approval and session-scoped MCP approvals.",
+      "stars": 56689,
+      "checked": "2026-11-11",
+      "why": "delegate_task remains a concrete shipped take on cross-harness child agents; v0.1.9 adds approval patterns that move trust prompts toward scoped grants.",
       "url": "https://github.com/pingdotgg/t3code",
-      "caveat": "MIT. v0.1.0 is a first stable and nightlies continue. Features are vendor-described; star count is a snapshot, not a trend rank.",
+      "caveat": "MIT. Features are vendor-described; not installed or tested. Star count is a snapshot, not a trend rank or proof that an approval grant is scoped correctly.",
       "label": "Notable open-source / editorial pick"
     },
     {
       "id": "pixel-agents-2026-10-23",
       "date": "2026-10-23",
       "name": "pixel-agents-hq/pixel-agents",
-      "summary": "An agent-office interface for coordinating Claude Code workers, with an embedded browser terminal as of v1.5.0.",
-      "stars": 10057,
-      "checked": "2026-11-04",
-      "why": "The agent-office genre's most visibly shipping project this month; v1.5.0 details are in the notes above.",
+      "summary": "An agent-office interface for coordinating Claude Code workers, with designed characters, recent-conversation resume, usage and context bars, and an embedded browser terminal as of v1.6.0.",
+      "stars": 10160,
+      "checked": "2026-11-11",
+      "why": "The most visibly shipping project in the agent-office genre this month; v1.6.0 turns the roster into a designed cast while keeping orchestration state visible.",
       "url": "https://github.com/pixel-agents-hq/pixel-agents",
-      "caveat": "MIT. Feature claims are the project's own; an agent terminal warrants the same caution as any agent runner.",
+      "caveat": "MIT. Feature claims are the project's own; not installed or tested. Star, fork and issue counts are checked snapshots, not trend ranks or a security review.",
       "label": "Notable open-source / editorial pick"
     },
     {
