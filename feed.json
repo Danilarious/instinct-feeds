@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-12",
  "topics": [
   {
    "id": "blockchain",
@@ -1256,6 +1256,27 @@
     {
      "label": "OpenSea Ordinals post (KuCoin)",
      "url": "https://www.kucoin.com/news/community/BTC/6aea5078bbcb52000745b566"
+    }
+   ]
+  },
+  {
+   "id": "mkt-night-downside-threshold-2026-11-12",
+   "date": "2026-11-12",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Market structure",
+   "status": "Price alert / observed downside threshold",
+   "title": "NIGHT downside alert: -6.82% over 24h to $0.04431 after the +15% guardrail",
+   "summary": "At 7:02pm PST on November 12, CoinGecko showed NIGHT at $0.04431103, down 6.82% over the trailing 24 hours - a fresh downside threshold cross after the November 11 +15% FOMO guardrail. Kraken's NIGHT/USD last trade was $0.04433, with a trailing-24-hour low of $0.04398. NIGHT/BTC read 0.000000630451, down 2.25%; ZEC/BTC read 0.01344728, down 0.11%.",
+   "detail": "The previous delivered guardrail was November 11 at 10:01am PST: NIGHT $0.04790079, up 15.12% over 24 hours. From that spot to the November 12 7:02pm snapshot is a 7.49% decline; the -6.82% figure is a trailing-window return against a moving baseline, not the exact move since the guardrail. CoinGecko is an aggregate quote, Kraken is a single venue, and no direct BTC-pair cross-check is claimed. The Kraken low remained above the previously watched $0.0415 support, so this alert does not record a watched support break. No verified causal catalyst or protocol issue is established by these readings, and no buy recommendation is implied. Historical snapshots, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD venue quote and low",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
     }
    ]
   }
