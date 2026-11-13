@@ -1,7 +1,75 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-13",
  "editorial": "A checked collection, not a live trend chart. Dates on notes are publication dates when known; repository metrics are snapshots. Older essays are marked as archive. Inclusion is not endorsement.",
  "entries": [
+  {
+   "id": "nectar-creator-agent-20261112",
+   "date": "2026-11-12",
+   "kind": "Platform update / reported launch",
+   "lens": "Creative agents",
+   "title": "Nectar's Creator Agent automates influencer discovery, outreach and campaign tracking",
+   "summary": "Nectar launched a Creator Agent that searches more than 300 million creator profiles, reviews content and past brand partnerships, drafts and sends outreach in a brand's voice, coordinates collaborations and tracks results. It is available globally for Instagram and TikTok creators, with MCP access planned.",
+   "detail": "Reported by TechCrunch on November 12. Nectar says the agent ranks potential partners, checks brand safety in context, remembers prior interactions, creates landing pages, and can help manage contracts, gifting and shipping. The company also says it can spot creator milestones and suggest personalized messages or gifts. Those are vendor claims, not independently tested. The launch is aimed at brands rather than creators themselves, but it changes the outreach creators may receive: automated brand-voice messages and lifecycle tracking can scale both useful matches and unwanted or overly personal contact. Nectar says MCP access for Claude, ChatGPT, Gemini, Copilot and custom agents is planned, not live. The cited $44 billion US creator-ad spend estimate comes from the Interactive Advertising Bureau as quoted by TechCrunch.",
+   "sources": [
+    {
+     "label": "TechCrunch reporting",
+     "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
+    }
+   ]
+  },
+  {
+   "id": "adobe-creative-agent-mcp-20261110",
+   "date": "2026-11-10",
+   "kind": "Platform update / vendor announcement",
+   "lens": "Creative agents",
+   "title": "Adobe expands Creative Agent and previews local MCP control of Photoshop, Illustrator, Premiere and After Effects",
+   "summary": "At Adobe MAX on November 10, Adobe expanded its Creative Agent across Creative Cloud and Firefly and previewed local MCP integrations that would let third-party agents edit native Photoshop, Illustrator, Premiere and After Effects project files while keeping layers, vectors, bins and sequences editable.",
+   "detail": "Availability matters. Adobe says Creative Agent-powered AI Assistants are in beta in Premiere, Illustrator, InDesign, After Effects and Frame.io, with Photoshop's assistant in the Photoshop beta app. Firefly Design and Firefly Graph are beta, Firefly Builder is private beta, and the local MCP integrations are a preview scheduled for private beta in early 2027, not a current release. Adobe's examples include an agent pulling a brief from Google Docs, editing an Adobe project and sharing the result in Slack. That is a vendor roadmap and security model, not an independent test: an agent with local project access still needs file-scope, review and rollback discipline, and 'local MCP' does not mean the model itself runs locally. New editing claims such as Relight, Color Mode, Open Eyes and Topaz models are Adobe's own unless separately verified.",
+   "sources": [
+    {
+     "label": "Adobe announcement",
+     "url": "https://news.adobe.com/news/2026/11/adobe-transforms-creative-cloud-tools"
+    },
+    {
+     "label": "TechCrunch reporting",
+     "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/"
+    }
+   ]
+  },
+  {
+   "id": "suno-elvis-eight-mile-suits-20261110",
+   "date": "2026-11-10",
+   "kind": "Lawsuits filed / allegations, no ruling",
+   "lens": "Rights & labor",
+   "title": "Elvis Presley rightsholders and Eminem publisher sue Suno over training, outputs, voice and likeness",
+   "summary": "Two November 6 complaints in the Northern District of California put new pressure on Suno: Presley rightsholders plead just over $202 million across copyright, access-control, credit-removal and Tennessee ELVIS Act claims, while Eight Mile Style pleads just over $47.7 million over 269 Eminem compositions.",
+   "detail": "These are allegations, not findings. The Presley plaintiffs, including Elvis Presley Enterprises and Authentic Brands Group entities, claim Suno trained on protected recordings and generated synthetic outputs using Presley's voice or likeness; they cite 17 alleged song reproductions and 38 alleged voice or likeness outputs. Eight Mile Style and Martin Affiliated claim Suno copied 269 compositions for training and generated infringing outputs, and they ask for unauthorized copies, including training datasets and model weights, to be impounded or destroyed. Suno said it exists to help people create original music, prohibits unauthorized artist use and specific artist or song prompts, and uses third-party screening. The pleaded dollar figures are maximum statutory claims before any tripling or punitive damages, not a judgment. The Presley case is an early test of how Tennessee's ELVIS Act applies to a general-purpose AI music generator.",
+   "sources": [
+    {
+     "label": "Music Business Worldwide reporting",
+     "url": "https://www.musicbusinessworldwide.com/elvis-presleys-rightsholders-and-other-song-owners-sue-suno-for-more-than-202m-alleging-its-ai-imitates-the-kings-voice-eight-mile-style-has-filed-a-separate-47-7m-suit-over-269/"
+    }
+   ]
+  },
+  {
+   "id": "tiktok-symphony-seedance-30s-20261108",
+   "date": "2026-11-08",
+   "kind": "Platform update / official announcement",
+   "lens": "Art & image",
+   "title": "TikTok Symphony doubles AI ad videos to 30 seconds and opens paid Seedance access outside North America",
+   "summary": "TikTok says Symphony Agent, now integrated with Dreamina Seedance 2.5, can generate up to 30 seconds of video from as many as 50 image, video and audio references, up from 15 seconds and nine references. The Symphony API now bundles Seedance models, the agent, Trends Library and editing tools.",
+   "detail": "The official TikTok For Business post is dated November 8. Starting November 9, advertisers outside North America can buy BytePlus tokens inside Symphony to access Dreamina Seedance models; the post's availability note says all countries where TikTok Ads Manager and BytePlus are available, excluding the United States. TikTok claims sharper imagery and better lighting, motion, character and product consistency, but provides no independent test results. The company says real face uploads are blocked, prompts and references are moderated, and outputs carry AI labels, invisible watermarking and C2PA Content Credentials. This is an advertiser-focused suite, not a general creator release, and its API expansion matters most to agencies and brands building AI ad pipelines.",
+   "sources": [
+    {
+     "label": "TikTok For Business announcement",
+     "url": "https://ads.tiktok.com/business/en/blog/tiktok-symphony-ai-creative-suite"
+    },
+    {
+     "label": "The SEM Dispatch analysis",
+     "url": "https://semdispatch.com/paid-media/news/tiktok-symphony-agent-now-makes-30-second-videos-from-50-references"
+    }
+   ]
+  },
   {
    "id": "elevenlabs-soundcloud-publish-20261105",
    "date": "2026-11-05",
@@ -537,6 +605,54 @@
   }
  ],
  "repoPicks": [
+  {
+   "id": "creator-repo-premiere-pro-mcp-20261113",
+   "date": "2026-11-13",
+   "name": "leancoderkavy/premiere-pro-mcp",
+   "summary": "An independent, local-first MCP server for Adobe Premiere Pro, connecting Claude, Cursor, Codex and other MCP clients through Adobe's documented UXP and CEP/ExtendScript APIs.",
+   "stars": 527,
+   "checked": "2026-11-13",
+   "why": "Adobe has only previewed official local MCP integrations for early 2027. This community server is a current look at the reviewable, local editing workflow agents may bring to Premiere projects.",
+   "url": "https://github.com/leancoderkavy/premiere-pro-mcp",
+   "label": "Editorial pick / active project, not an Adobe release",
+   "caveat": "MIT code. Independent community software, not an Adobe product. A connected agent can organize or modify project files, so test on copies and keep approvals tight; model providers, npm packages and Premiere host APIs have separate terms."
+  },
+  {
+   "id": "creator-repo-hyperflow-h3-flash-20261113",
+   "date": "2026-11-13",
+   "name": "Video-Rebirth/hyperflow-h3-flash",
+   "summary": "A compressed 13.7B-parameter MiniMax-H3 variant for few-step video generation with synchronized stereo audio, distributed in INT8 and GGUF forms.",
+   "stars": 210,
+   "checked": "2026-11-13",
+   "why": "A local, open-weight route to joint video and audio generation, with documented 24 GB and 32 GB GPU paths, stands out against this week's hosted video-suite announcements.",
+   "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+   "label": "Editorial pick / new active project, not a quality benchmark",
+   "caveat": "Apache-2.0 code on GitHub; model weights, training data and generated-output rights need separate review. The documented setup is still hardware-heavy, including a 15.7 GB text encoder, and no output quality claims were independently tested."
+  },
+  {
+   "id": "creator-repo-article2media-20261113",
+   "date": "2026-11-13",
+   "name": "threerocks/article2media",
+   "summary": "Open Claude Code and Codex skills that turn articles or videos into Chinese social cards, long images, WeChat layouts and vertical AI-voice videos, with automated layout and content checks.",
+   "stars": 304,
+   "checked": "2026-11-13",
+   "why": "A concrete repurposing pipeline for creators: one source becomes multiple platform-native artifacts while preserving attribution, AI labeling and validation steps.",
+   "url": "https://github.com/threerocks/article2media",
+   "label": "Editorial pick / new active project, not installed or tested",
+   "caveat": "MIT code. Chinese-platform focused. Model providers, scraped source rights, music or voice assets, and each destination platform's rules remain separate checks; local voice and rendering features need their own review."
+  },
+  {
+   "id": "creator-repo-comfyui-h3-editor-20261113",
+   "date": "2026-11-13",
+   "name": "igorls/comfyui-h3-editor",
+   "summary": "A timeline video editor for MiniMax H3 inside ComfyUI: write shots, manage cast and sound, trim and join clips, and let an agent drive the same workflow over HTTP.",
+   "stars": 40,
+   "checked": "2026-11-13",
+   "why": "It moves local AI video from a node graph toward a familiar shot-and-timeline edit, which is the shape many creators already know how to direct.",
+   "url": "https://github.com/igorls/comfyui-h3-editor",
+   "label": "Editorial pick / very young project, not installed or tested",
+   "caveat": "GPL-3.0 code. Very new and low-star. A first setup needs about 54 GB of model files, and the optional language-model workflow can send cast or project images to the endpoint the user configures."
+  },
   {
    "id": "creator-repo-kandinsky6-20261023",
    "date": "2026-10-23",
