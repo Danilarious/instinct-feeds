@@ -1363,6 +1363,27 @@
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
     }
    ]
+  },
+  {
+   "id": "mkt-broad-afternoon-downside-2026-11-14",
+   "date": "2026-11-14",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Downside snapshot / new ZEC venue low and renewed BTC -5% cross",
+   "title": "Afternoon downside: ZEC prints an $813.78 Kraken low as BTC crosses -5% again",
+   "summary": "At 1:05pm PST on November 14, CoinGecko showed ZEC at $826.68, down 12.82% over the trailing 24 hours. Kraken's ZEC/USD trailing-24-hour low was $813.78, 4.37% below the last delivered $851 low, while Kraken's current last was $828.95. ZEC/BTC read 0.01273424, down 7.56% and 3.14% below its 10:05am pair price - a new relative-downside leg. BTC was $64,652, down 5.79%, a renewed trailing-24-hour -5% cross, not a new 3% low claim. ADA was $0.148570, down 12.16% and 4.39% below the digest's $0.155381 current quote. NIGHT was $0.04617234, down 0.54%; NIGHT/BTC read 0.000000711242, up 5.46% in the same existing recovery leg, with the relative gain narrowed and no fresh NIGHT trigger.",
+   "detail": "Keep the quote types separate: CoinGecko supplies aggregate quotes, while Kraken supplies single-venue current and trailing-extreme data. The $813.78 Kraken low is a trailing-24-hour low, not the current price; Kraken's $828.95 is the current venue last. The 4.37% figure compares the new low with the previously delivered $851 low. The 3.14% ZEC/BTC figure compares the current pair price with the 10:05am pair price, and the 4.39% ADA figure compares current CoinGecko snapshots. BTC's move is a renewed rolling-24-hour -5% cross, not a claim of a new 3% low. NIGHT/BTC's +5.46% is a rolling relative move within the existing recovery leg, with the gain narrowed; it is not a fresh NIGHT trigger. No candle-close support, verified causal catalyst or protocol issue is claimed. Historical snapshot, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
   }
  ],
  "timeline": [
