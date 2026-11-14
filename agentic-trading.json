@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-14",
  "editorial": "A weekly rundown of the agentic trading space: agents and LLMs managing deterministic trading systems and strategies, agent wallets, on-chain automation and native swaps. The SatStacker beat leads. Dates belong to the news; stars and versions are checked snapshots, not live ranks. Nothing here is investment advice.",
  "stack": [
   {
@@ -9,41 +9,41 @@
    "note": "Latest stable GitHub release remains v2.17.0; active repository pushes are not new releases.",
    "latest": "v2.17.0",
    "latestDate": "2026-09-22",
-   "stars": 20981,
-   "checked": "2026-11-07",
+   "stars": 21207,
+   "checked": "2026-11-14",
    "url": "https://github.com/hummingbot/hummingbot"
   },
   {
    "id": "condor",
    "name": "Condor",
    "role": "Agent harness",
-   "note": "Hummingbot API trading harness with optional agents and dry-run support. Current README recommends a private network for production: API access controls orders, balances and stored exchange keys. No new tagged release.",
+   "note": "Hummingbot API trading harness with optional agents and dry-run support. No tagged releases; repository pushed November 14. Current README still recommends private-network access because the API controls orders, balances and stored exchange keys.",
    "latest": "No tagged releases",
-   "latestDate": "2026-11-06",
-   "stars": 253,
-   "checked": "2026-11-07",
+   "latestDate": "2026-11-14",
+   "stars": 259,
+   "checked": "2026-11-14",
    "url": "https://github.com/hummingbot/condor"
   },
   {
    "id": "nautilus",
    "name": "Nautilus Trader",
    "role": "Execution engine",
-   "note": "Stable remains v1.231.0 (August 2). The separate 2.0 prerelease line reached rc8 on October 29 per GitHub publication metadata; do not read stable-only tracking as no development.",
-   "latest": "v1.231.0 stable / v2.0.0rc8 prerelease",
-   "latestDate": "2026-10-29",
-   "stars": 31333,
-   "checked": "2026-11-07",
+   "note": "Stable remains v1.231.0. The separate 2.0 prerelease line reached rc9 November 10 with Python 3.15 support, an initial Kalshi adapter and FinFeedAPI prediction-market data support; rc9 is not a stable upgrade recommendation.",
+   "latest": "v1.231.0 stable / v2.0.0rc9 prerelease",
+   "latestDate": "2026-11-10",
+   "stars": 31520,
+   "checked": "2026-11-14",
    "url": "https://github.com/nautechsystems/nautilus_trader"
   },
   {
    "id": "jesse",
    "name": "Jesse",
    "role": "Strategy research + live",
-   "note": "Jesse 3.6.0 published to PyPI November 3. Package record verified; release behavior not tested.",
-   "latest": "3.6.0",
-   "latestDate": "2026-11-03",
-   "stars": 8777,
-   "checked": "2026-11-07",
+   "note": "Jesse 3.6.1 published to PyPI November 10 and tagged in GitHub. Package record verified; release behavior not tested.",
+   "latest": "3.6.1",
+   "latestDate": "2026-11-10",
+   "stars": 8803,
+   "checked": "2026-11-14",
    "url": "https://github.com/jesse-ai/jesse"
   },
   {
@@ -53,41 +53,41 @@
    "note": "Latest tagged release remains 2026.10. Rule-based bot plus FreqAI machine-learning module; no new release this week.",
    "latest": "2026.10",
    "latestDate": "2026-10-30",
-   "stars": 56589,
-   "checked": "2026-11-07",
+   "stars": 56876,
+   "checked": "2026-11-14",
    "url": "https://github.com/freqtrade/freqtrade"
   },
   {
    "id": "wavelength",
    "name": "Wavelength / Lightning agent tools",
    "role": "Agent payments (BTC)",
-   "note": "Wavelength and lightning-agent-tools are separate repositories. Wavelength v0.2.1 adds validation, expiry and recovery fixes; the companion lightning-agent-tools repository remains at 61 stars, last pushed May 29.",
+   "note": "Wavelength and lightning-agent-tools are separate repositories. Wavelength remains v0.2.1; a v0.2.2-rc1 tag exists but no published GitHub release at check time. The companion lightning-agent-tools repository remains at 61 stars, last pushed May 29.",
    "latest": "Wavelength v0.2.1",
    "latestDate": "2026-10-31",
-   "stars": 58,
-   "checked": "2026-11-07",
+   "stars": 60,
+   "checked": "2026-11-14",
    "url": "https://github.com/lightninglabs/wavelength"
   },
   {
    "id": "agentkit",
    "name": "Coinbase AgentKit",
    "role": "Agent wallets",
-   "note": "Wallet/onchain toolkit. Last repository push October 14; GitHub has old March 2025 nightly release records, not a current weekly release.",
+   "note": "Wallet/onchain toolkit. Repository pushed November 10; GitHub still has old March 2025 nightly release records, not a current weekly release.",
    "latest": "No new GitHub release this week",
-   "latestDate": "2026-10-14",
-   "stars": 1354,
-   "checked": "2026-11-07",
+   "latestDate": "2026-11-10",
+   "stars": 1356,
+   "checked": "2026-11-14",
    "url": "https://github.com/coinbase/agentkit"
   },
   {
    "id": "turnkey",
    "name": "Turnkey",
    "role": "Wallet infrastructure",
-   "note": "SDK release updates executeSwap to V4, on/off-ramp flows, per-login stampers and dependencies. SDK changes do not establish a complete agent trading strategy.",
-   "latest": "v2026.11.1",
-   "latestDate": "2026-11-02",
+   "note": "SDK v2026.11.2 fixes pollTransactionStatus error handling and cleans up transaction-management and DIY DeFi examples. SDK changes do not establish a complete agent trading strategy.",
+   "latest": "v2026.11.2",
+   "latestDate": "2026-11-13",
    "stars": 104,
-   "checked": "2026-11-07",
+   "checked": "2026-11-14",
    "url": "https://github.com/tkhq/sdk"
   }
  ],
@@ -338,6 +338,105 @@
      "url": "https://github.com/hummingbot/condor"
     }
    ]
+  },
+  {
+   "id": "at-coinbase-agent-controls-2026-11-11",
+   "date": "2026-11-11",
+   "type": "Exchange agents / Guardrails / rolling out, with one feature marked coming soon",
+   "status": "Official announcement / server-side controls, not an agent-side promise",
+   "title": "Coinbase adds server-side Agent Controls for agentic trading",
+   "summary": "Coinbase says Agent Controls are rolling out for Coinbase for Agents: maximum trade size, 24-hour volume limits and an auto-stop tied to a portfolio loss threshold. Product permissions for crypto, equities, derivatives and more are marked coming soon. Coinbase says the controls run on its servers and can be changed only from the logged-in app or web account, so the agent cannot rewrite its own limits.",
+   "detail": "This is the right trust boundary for exchange-connected agents: policy lives with the venue account, not in prompt text. The announced controls still do not make a model's thesis reliable, and a 24-hour volume cap or portfolio auto-stop does not guarantee execution quality, stop fills or protection from gaps. Coinbase's own risk note says agents may make mistakes or fail and that users direct and assume risk for agent transactions and third-party AI provider data use. Availability was not tested in an account. Not investment advice.",
+   "sources": [
+    {
+     "label": "Coinbase announcement",
+     "url": "https://www.coinbase.com/blog/agent-controls"
+    }
+   ]
+  },
+  {
+   "id": "at-ledger-agent-intent-04-2026-11-09",
+   "date": "2026-11-09",
+   "type": "Agent wallets / Hardware approval / beta update",
+   "status": "Reported release with public SDK evidence; setup and app behavior not tested",
+   "title": "Ledger Agent Intent 0.4.0 adds token approvals for agent-prepared swaps",
+   "summary": "Exchange.news reports that Ledger Agent Intent 0.4.0 adds template prompts, a smoother first-agent flow and token-approval support on swaps. The model remains proposal-first: an agent prepares an intent, and the owner approves or rejects it on a Ledger signer. Ledger's public agent-intent-sdk repository now has v0.2.0 code for parsing and constraining ERC-20 swap approvals.",
+   "detail": "Token approvals are the sensitive part of a swap: they authorize a spender contract, often before the swap itself. Ledger's SDK code exposes checks for the sold token, spender, allowance amount, Permit2 and zero-address cases, which is useful evidence that approval handling is explicit rather than hidden. The beta still requires device review and does not prove that a third-party swap quote, provider or agent description is safe. This card intentionally links the report and code, not an enrollment flow; verify the current official Ledger app and domain before connecting an agent. No wallet, signer or transaction was tested.",
+   "sources": [
+    {
+     "label": "Exchange.news report",
+     "url": "https://exchange.news/news/ledger-agent-intent-0-4-0-token-approvals-swaps-template-prompts/"
+    },
+    {
+     "label": "Ledger Agent Intent overview",
+     "url": "https://www.ledger.com/academy/topics/ledgersolutions/introducing-ledger-agent-intent"
+    },
+    {
+     "label": "Ledger agent-intent-sdk",
+     "url": "https://github.com/LedgerHQ/agent-intent-sdk"
+    }
+   ]
+  },
+  {
+   "id": "at-origami-ai-portfolio-2026-11-11",
+   "date": "2026-11-11",
+   "type": "Trading bots / Vendor launch / reported, not tested",
+   "status": "Press coverage of vendor claims; no live account check",
+   "title": "Origami Tech says its AI Portfolio Manager can coordinate user-selected trading bots",
+   "summary": "BlockchainReporter coverage says Origami Tech launched an AI Portfolio Manager that coordinates crypto strategies selected by the user. The agent can switch between strategies, adjust permitted bot parameters and stop a bot when a user-set risk threshold is reached. Earlier stages answer portfolio questions and turn natural-language strategy descriptions into Lua code shown for review.",
+   "detail": "The useful pattern is bounded orchestration around deterministic bots: the agent does not have to invent order math if the selected strategies and Lua templates define execution. The claims come from vendor-facing coverage, not an independent account test. Strategy switching can still amplify losses, generated Lua needs code review, exchange API scopes and bot permissions were not checked, and a balance stop does not guarantee a fill during gaps or illiquid markets. Not investment advice.",
+   "sources": [
+    {
+     "label": "BlockchainReporter coverage",
+     "url": "https://blockchainreporter.net/origami-tech-launches-ai-agent-to-manage-crypto-trading-portfolios/"
+    },
+    {
+     "label": "Origami documentation",
+     "url": "https://docs.origami.tech/analytics/portfolio"
+    }
+   ]
+  },
+  {
+   "id": "at-trading-loop-llm-agents-2026-11-08",
+   "date": "2026-11-08",
+   "type": "Research / Paper / hybrid LLM and rules",
+   "status": "arXiv preprint / paper-account evidence, not live-market proof",
+   "title": "Paper tests a hybrid loop: LLM analysts, momentum sizing and rule-based execution",
+   "summary": "A November 8 arXiv preprint describes company-news and macro agents feeding structured reports to a coordinator, while momentum-based portfolio construction and rule-based execution handle the trading loop. In a broker-recorded paper account from March 11 to August 28, the authors report 34.5% versus 14.4% for SPY, with a larger maximum drawdown.",
+   "detail": "This is directly relevant to the deterministic-core question: the LLMs analyze and report, while the portfolio engine and execution keep explicit rules and fallbacks. It is not proof that an LLM has a durable edge. The paper uses a paper account plus retrospective policy replays, raw return came with larger drawdown, code and supporting materials are available on request rather than linked, and the study is equities, not crypto or bitcoin accumulation. Treat the result as a design case to test against rule-only twins, not as a strategy recommendation.",
+   "sources": [
+    {
+     "label": "arXiv preprint",
+     "url": "https://arxiv.org/abs/2611.11657"
+    }
+   ]
+  },
+  {
+   "id": "at-stack-releases-2026-11-14",
+   "date": "2026-11-14",
+   "type": "Stack update / Checked snapshots / release records",
+   "status": "GitHub and PyPI checked November 14 / stable and prerelease separated",
+   "title": "Stack watch: Turnkey v2026.11.2, Jesse 3.6.1 and Nautilus 2.0 rc9",
+   "summary": "Turnkey published SDK v2026.11.2 November 13 with a pollTransactionStatus error-handling fix, demo and transaction-management cleanup, and reorganized DIY DeFi examples. Jesse 3.6.1 reached PyPI November 10. Nautilus Trader's stable line remains v1.231.0, while the separate 2.0 prerelease line reached rc9 November 10 with Python 3.15 support, an initial Kalshi adapter and FinFeedAPI prediction-market data support.",
+   "detail": "Hummingbot remains v2.17.0 and Freqtrade remains 2026.10. Condor still has no tagged releases, but its repository was actively pushed November 14. AgentKit was pushed November 10 without a new current release; old nightly records are not weekly releases. Wavelength remains v0.2.1, with a v0.2.2-rc1 tag visible but no published GitHub release at check time; lightning-agent-tools remains the separate companion repo. All eight stack rows now carry November 14 checked dates and fresh GitHub star snapshots. Releases were read from GitHub or PyPI records; no software was installed and no trading was performed.",
+   "sources": [
+    {
+     "label": "Turnkey v2026.11.2 release",
+     "url": "https://github.com/tkhq/sdk/releases/tag/v2026.11.2"
+    },
+    {
+     "label": "Jesse on PyPI",
+     "url": "https://pypi.org/project/jesse/"
+    },
+    {
+     "label": "Nautilus 2.0.0rc9 prerelease",
+     "url": "https://github.com/nautechsystems/nautilus_trader/releases/tag/v2.0.0rc9"
+    },
+    {
+     "label": "Wavelength releases",
+     "url": "https://github.com/lightninglabs/wavelength/releases"
+    }
+   ]
   }
  ],
  "repoPicks": [
@@ -484,6 +583,66 @@
    "checked": "2026-11-07",
    "url": "https://github.com/jesse-ai/jesse",
    "label": "Notable open-source / editorial pick, not a new-launch claim"
+  },
+  {
+   "id": "ledger-agent-intent-sdk-2026-11-14",
+   "date": "2026-11-14",
+   "name": "LedgerHQ/agent-intent-sdk",
+   "summary": "Headless TypeScript SDK for Ledger Agent Intent enrollment, authentication and signed intent submission; v0.2.0 exports shared ERC-20 swap-approval checks.",
+   "why": "A direct code view of the hardware-approval model: agents propose signed intents, the owner approves on the signer, and swap token approvals get explicit parsing and refusal rules.",
+   "caveat": "Apache-2.0. Official LedgerHQ repository, but the checked star count was 0, so treat it as new infrastructure rather than community validation. The service is beta; no setup was performed or tested, and any enrollment link should be verified from current official Ledger surfaces.",
+   "stars": 0,
+   "checked": "2026-11-14",
+   "url": "https://github.com/LedgerHQ/agent-intent-sdk",
+   "label": "Official SDK / very new, not a production-readiness signal"
+  },
+  {
+   "id": "okx-agent-skills-2026-11-14",
+   "date": "2026-11-14",
+   "name": "okx/agent-skills",
+   "summary": "Official Markdown agent skills for the OKX CLI, covering public market data, spot and derivatives orders, portfolio operations, grid and DCA bots, earn products and smart-money data.",
+   "why": "A concrete exchange-skill pattern: unauthenticated market reads sit beside clearly marked credentialed skills for orders, transfers and bots, so an agent's activation boundary is visible in files.",
+   "caveat": "MIT. Official OKX organization, but no skill was installed or run. OAuth or API credentials, real order permissions, bot settings and exchange jurisdiction remain separate checks; review skill text before loading it into an agent.",
+   "stars": 200,
+   "checked": "2026-11-14",
+   "url": "https://github.com/okx/agent-skills",
+   "label": "Official exchange skills / active repo, not an execution endorsement"
+  },
+  {
+   "id": "alpaca-mcp-server-2026-11-14",
+   "date": "2026-11-14",
+   "name": "alpacahq/alpaca-mcp-server",
+   "summary": "Alpaca's official MCP server for stocks, ETFs, crypto, options, portfolio management and market data through Claude, Cursor, VS Code and other MCP clients.",
+   "why": "A broker-backed MCP example with a free paper-trading account, useful for testing the boundary between natural-language tool calls and deterministic order APIs before any live trading.",
+   "caveat": "MIT. Version 2 is a breaking rewrite of v1 tool names. Use paper trading first; real orders are possible. The README recommends local stdio and warns not to expose a remote server configured with Alpaca keys.",
+   "stars": 1084,
+   "checked": "2026-11-14",
+   "url": "https://github.com/alpacahq/alpaca-mcp-server",
+   "label": "Official broker MCP / paper-test candidate, not a live-trading recommendation"
+  },
+  {
+   "id": "hkuds-vibe-trading-2026-11-14",
+   "date": "2026-11-14",
+   "name": "HKUDS/Vibe-Trading",
+   "summary": "Personal trading agent for market research, backtests, paper portfolios and optional broker execution within user-set limits, with multi-source data and quant-research workflows.",
+   "why": "A broad example of the architecture this lane watches: LLM research and planning feed explicit backtests, paper fills, broker permissions and haltable mandates instead of a free-form model placing trades.",
+   "caveat": "MIT. The README says live broker execution is experimental and not verified by the maintainers against a real broker account. Star count is a snapshot, not a quality score. Model providers, data sources, broker permissions and live limits need separate review.",
+   "stars": 38210,
+   "checked": "2026-11-14",
+   "url": "https://github.com/HKUDS/Vibe-Trading",
+   "label": "Active agent-trading stack / high-star snapshot, live mode experimental"
+  },
+  {
+   "id": "hypurrquant-perp-cli-2026-11-14",
+   "date": "2026-11-14",
+   "name": "hypurrquant/perp-cli",
+   "summary": "CLI, MCP server and agent skill for perpetual futures across multiple DEXs, with JSON output, dry-run, testnet, funding-arb tooling, portfolio views, bots and an OWS signing guardrail.",
+   "why": "A crypto-native, agent-first CLI: structured output, pre-trade validation, slippage bounds, client-order IDs and a policy executable give an agent clearer stop points than an improvised browser flow.",
+   "caveat": "MIT. Very low-star and young. Perpetuals can liquidate quickly, venue and mainnet support varies, and bridge or withdrawal permissions need separate review. No install, keys, order or venue account was tested.",
+   "stars": 42,
+   "checked": "2026-11-14",
+   "url": "https://github.com/hypurrquant/perp-cli",
+   "label": "Editorial pick / very young low-star repo, high-risk venue category"
   }
  ]
 }
