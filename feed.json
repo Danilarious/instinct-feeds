@@ -1342,6 +1342,27 @@
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
     }
    ]
+  },
+  {
+   "id": "mkt-zec-downside-extension-2026-11-14",
+   "date": "2026-11-14",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Downside extension / new venue low, then observed bounce",
+   "title": "ZEC extends downside: Kraken prints an $851 trailing low, then bounces to $862.01",
+   "summary": "At 10:05am PST on November 14, Kraken's ZEC/USD trailing-24-hour low was $851, 3.30% below the last delivered $880 low. Kraken's current last trade had bounced to $862.01, while CoinGecko's aggregate quote was $865.29, down 8.30% over the trailing 24 hours. CoinGecko's ZEC/BTC reading was 0.01314730, down 4.06%; NIGHT/BTC read 0.000000735102, up 9.46% in the existing recovery leg but still below the morning digest pair price.",
+   "detail": "Keep the three quotes separate: Kraken's $851 is a trailing-24-hour venue low, Kraken's $862.01 is the current single-venue last trade, and CoinGecko's $865.29 is the current aggregate quote. The 3.30% figure compares the new trailing low with the previously delivered $880 low; it is not a fresh 3.30% move from the current price. The move from $851 to $862.01 is an observed bounce from the trailing low, not proof of candle-close support. NIGHT/BTC's +9.46% is a rolling 24-hour relative move within the existing recovery leg, not a fresh uninterrupted rally. No direct Kraken BTC-pair cross-check, verified causal catalyst or protocol issue is claimed. Historical snapshot, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
   }
  ],
  "timeline": [
@@ -1370,4 +1391,4 @@
    "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets"
   }
  ]
-}
+    }
