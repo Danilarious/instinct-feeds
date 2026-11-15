@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "topics": [
   {
    "id": "blockchain",
@@ -1403,6 +1403,60 @@
     {
      "label": "CoinGecko aggregate USD/BTC snapshot API",
      "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    }
+   ]
+  },
+  {
+   "id": "mkt-sunday-digest-2026-11-15",
+   "date": "2026-11-15",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Market snapshot / Sunday digest, no new overnight threshold",
+   "title": "Sunday digest: BTC $64,504 with ZEC and NIGHT outperforming BTC; no new downside threshold",
+   "summary": "At 8:20am PST on November 15, CoinGecko showed BTC at $64,504, down 1.58% over the trailing 24 hours; ZEC at $893.55, up 2.25%; ADA at $0.152673, down 1.75%; and NIGHT at $0.04950515, up 2.08%. ZEC/BTC read 0.01383814, up 3.55%, and NIGHT/BTC read 0.000000766668, up 3.38% - both outperforming BTC over the trailing 24 hours. Kraken's cross-check last quotes were BTC $64,508.80, ZEC $893.72, ADA $0.152545 and NIGHT $0.04965. No new downside threshold was crossed overnight.",
+   "detail": "NIGHT's small positive 24-hour print is not a smooth recovery or an all-clear: Kraken's trailing-24-hour NIGHT/USD range was $0.04550-$0.05300, and NIGHT/BTC briefly turned negative at 7:05am before recovering, sitting about 1.76% below the November 14 7:04am peak snapshot rather than at a new high. Kraken's BTC-pair API again returned Unknown asset pair, so the pair readings are CoinGecko-only. Macro context is unchanged rather than fresh: Farside's latest ETF flow row remains Friday November 13 at -$185.4m, with November 9-13 totaling -$1,065.3m across seven consecutive negative trading sessions - not new weekend flows. The next macro checkpoint is the Federal Reserve's November 18 release of minutes from the October 27-28 meeting; that is minutes, not a new rate decision, and the official upcoming-dates page gives the date only, no exact release time. On Zcash governance, the official coordination thread keeps proposal discussion open through today, November 15, with polling November 16-30 closing 23:59 UTC; a rough-consensus poll outcome would still need engineering and miner coordination toward a NU7.1 target and does not itself activate any funding change. Overnight searches surfaced no newly verified ZSA activation or Tachyon deployment, and no newly verified BTC DCA or execution-tooling launch. Historical snapshots, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    },
+    {
+     "label": "Farside BTC ETF flow table",
+     "url": "https://farside.co.uk/btc/"
+    },
+    {
+     "label": "Federal Reserve monetary policy upcoming dates",
+     "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+     "label": "Zcash governance: dev fund proposal and polling timeline thread",
+     "url": "https://forum.zcashcommunity.com/t/zcg-and-the-dev-fund-timeline-for-proposals-and-polling/58906"
+    }
+   ]
+  },
+  {
+   "id": "lightsout-near-midnight-testnet-2026-11-15",
+   "date": "2026-11-15",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Tools",
+   "status": "Testnet prototype / unaudited, operation not verified",
+   "title": "LIGHTSOUT: open-source NEAR-to-Midnight prototype for shielded payments to AI agents",
+   "summary": "ODATANO has published LIGHTSOUT, an open-source hackathon prototype bridging NEAR and Midnight with light clients, using shielded-wNEAR bounties to pay for NEAR AI answers. The issuer's own README states NEAR testnet plus Midnight preview, explicitly not mainnet, unaudited, test funds only; a CLI, SDK and MCP are published. The publication and its stated design are verified; deployments, working transactions and a functioning demo are not.",
+   "detail": "The bridge's no-enclave claim does not extend to the AI-answer component: answer payment relies on NEAR AI TEE signatures. Questions, model and reward are public; member and payment shielding is not total anonymity, with IP/gateway visibility and small-set linkability limits, and the hosted demo server holds demo-agent keys. The README also documents payout-interruption risks at runtime or validator changes. The design relevance for agent tooling is proof-gated payments with deadline refunds - it pays for inference in wNEAR and is neither a BTC accumulator nor a trading strategy. No installation, funding or transaction test was performed; the demo site's static fallback did not establish a working sandbox, and no official Midnight or NEAR partnership is claimed. Treat as published design research, not verified operation.",
+   "sources": [
+    {
+     "label": "ODATANO/LIGHTSOUT repository (issuer README)",
+     "url": "https://github.com/ODATANO/LIGHTSOUT"
+    },
+    {
+     "label": "LIGHTSOUT demo site",
+     "url": "https://lightsout.odatano.dev/"
     }
    ]
   }
