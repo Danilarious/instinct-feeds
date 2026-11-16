@@ -1501,6 +1501,64 @@
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
     }
    ]
+  },
+  {
+   "id": "mkt-monday-digest-2026-11-16",
+   "date": "2026-11-16",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Market snapshot / Monday digest, same NIGHT downswing",
+   "title": "Monday digest: BTC $64,464 flat; NIGHT still in its downswing, no new leg or break",
+   "summary": "At 8:21am PST on November 16, CoinGecko showed BTC at $64,464, down 0.05% over the trailing 24 hours; ZEC at $872.00, down 2.39%; ADA at $0.151961, down 0.47%; and NIGHT at $0.04477308, down 9.85%. ZEC/BTC read 0.01352414, down 2.40%, and NIGHT/BTC read 0.000000694401, down 9.86% - both underperforming BTC. Kraken's cross-check last quotes were NIGHT $0.04478, BTC $64,499.70, ZEC $880.18 and ADA $0.152112. NIGHT is roughly 3.23% above the 1:07am alert quote but still nearly 10% down over 24 hours, so it remains the same alerted downswing.",
+   "detail": "Kraken's trailing-24-hour NIGHT low of $0.04296 is only 0.49% below this leg's delivered low of $0.04317, so no new 3%-lower leg has printed; the historical $0.04235 low and the named $0.0415 support remain unbroken, and the overnight lift is not a qualifying recovery. ZEC's aggregate and venue quotes differ about 0.94% and should not be blended into a single price. Strategy disclosed - a completed purchase, not a plan - 485 BTC acquired at an average $68,887, bringing holdings to 850,849 BTC; the issuer's press title also cites $228m of STRC repurchased. A disclosed purchase above current spot is not proof of a price floor or a profit. On ETF flows, Farside's November 16 row shows dashes across funds - an unreported placeholder, not verified flat flows; the latest completed data remains Friday November 13 at -$185.4m. The Federal Reserve's November 18 release is minutes of the October 27-28 meeting, not a new rate decision. On Zcash, the published schedule opens the funding-proposal polling window today through November 30; no independently confirmed live ballot was verified, and polling is not network activation. No newly verified ZSA activation, Tachyon deployment or BTC sat-stacker execution tool was found. Historical snapshots, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    },
+    {
+     "label": "Strategy press release: 485 BTC acquired",
+     "url": "https://www.strategy.com/press/strategy-acquires-485-btc-and-repurchases-228-million-of-strc_11-16-2026"
+    },
+    {
+     "label": "Strategy BTC holdings ledger",
+     "url": "https://www.strategy.com/ledger"
+    },
+    {
+     "label": "Farside BTC ETF flow table",
+     "url": "https://farside.co.uk/btc/"
+    },
+    {
+     "label": "Federal Reserve monetary policy upcoming dates",
+     "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+    },
+    {
+     "label": "Zcash governance: dev fund proposal and polling timeline thread",
+     "url": "https://forum.zcashcommunity.com/t/zcg-and-the-dev-fund-timeline-for-proposals-and-polling/58906"
+    }
+   ]
+  },
+  {
+   "id": "night-staking-pr419-draft-2026-11-16",
+   "date": "2026-11-16",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Governance",
+   "status": "Draft proposal / open, not adopted or live",
+   "title": "NIGHT staking on Cardano: draft MIP proposes locked-cNIGHT committee stake, still an open PR",
+   "summary": "Pull request 419, \"NIGHT Staking on Cardano\", in Midnight's official improvement-proposals repository remains open as of November 16 - a draft MIP created November 11 and last updated November 14. It proposes that holders lock cNIGHT for a Cardano pool, combining NIGHT and ADA stake in Midnight committee selection. The proposed unlock wait is four Cardano epochs, and locked cNIGHT would generate no DUST. The reward split is a separate proposal (PR406), and the primary description lists three open questions.",
+   "detail": "This is not merged, adopted or live staking: there is no verified activation date and no verified yield. GitHub's displayed \"merge commit\" field does not mean the pull request is merged; its state is open. A secondary recap repeats withdrawn rc1 cap changes, so it should not be read as current production release notes. The design matters for stake-pool-operator and committee security; it is not a staking product to fund today and not a source of native-BTC yield. Treat as a published draft under discussion, not an announced launch.",
+   "sources": [
+    {
+     "label": "PR419: NIGHT Staking on Cardano (midnight-improvement-proposals)",
+     "url": "https://github.com/midnightntwrk/midnight-improvement-proposals/pull/419"
+    }
+   ]
   }
  ],
  "timeline": [
