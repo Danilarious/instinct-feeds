@@ -1459,6 +1459,27 @@
      "url": "https://lightsout.odatano.dev/"
     }
    ]
+  },
+  {
+   "id": "mkt-night-downside-cross-2026-11-15",
+   "date": "2026-11-15",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Market structure",
+   "status": "Price alert / observed fresh downside crossing",
+   "title": "NIGHT crosses -5% again: $0.04631714, down 7.09% over 24 hours in a fresh downswing",
+   "summary": "At 10:06pm PST on November 15, CoinGecko showed NIGHT at $0.04631714, down 7.09% over the trailing 24 hours - versus -0.77% at 7:06pm - and 6.44% below the delivered 8:20am digest quote of $0.04950515 (7.08% below the 4:06pm reading), so this is not only rolling-window math. Kraken's NIGHT/USD last was $0.04627 with a trailing-24-hour low of $0.04612. NIGHT/BTC read 0.000000718919, down 7.06% over 24 hours and 6.23% below the morning digest pair, a fresh relative downside leg. ZEC/BTC read 0.01369447, down 1.01%. Other CoinGecko quotes: BTC $64,500, up 0.30%; ZEC $880.84, down 1.21%; ADA $0.152824, up 2.26%.",
+   "detail": "This is a fresh -5% trailing-24-hour crossing after an intervening recovery, not a new multiday low: NIGHT remains above the earlier delivered low of $0.04235 and the named $0.0415 support. Keep the new leg's observed Kraken 24-hour low of $0.04612 separate from that historical low. The -7.09% is a trailing-24-hour CoinGecko aggregate move; the 6.44% and 6.23% figures compare current snapshots with this morning's delivered digest snapshots. No verified new catalyst or official launch was found in news searches. Historical snapshot, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
   }
  ],
  "timeline": [
