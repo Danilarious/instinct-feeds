@@ -1672,6 +1672,35 @@
      "url": "https://www.kucoin.com/news/community/BTC/6af81a2b40903b0007adfd65"
     }
    ]
+  },
+  {
+   "id": "midnight-monument-tokenised-saver-2026-11-17",
+   "date": "2026-11-17",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Ecosystem",
+   "status": "Bank-listed / customer offer on the bank's live pages, not independently executed",
+   "title": "Monument lists Tokenised Saver, a GBP bank deposit with a record on Midnight",
+   "summary": "Monument's live savings pages now market the Tokenised Saver at 5.20% AER fixed for 12 months, and the bank's savings FAQs describe opening and managing it in the Monument app like a standard fixed-term deposit, with a digital record of the deposit on the Midnight Network blockchain. The bank's news index dates the launch headline November 16. This moves the offering beyond the March partnership announcement and coming-months plan, superseding the earlier launch-not-yet-verified caveat. It is a GBP bank deposit, not NIGHT staking or yield and not a NIGHT purchase: the FAQ says the token record cannot be traded or transferred, the customer does not hold the wallet (Monument owns and controls it), and Monument's own records in the app remain the official record. The comparison page flags it as an existing-client offer with a 12-month lock and no early withdrawal.",
+   "detail": "Bank-listed means the bank's own pages currently market the customer offer; no account was opened, the app was not tested and on-chain balances were not verified, so this is not an independently executed deposit or confirmation of any amount already tokenised. Per the FAQ, the Tokenised Saver has a maximum deposit of £100,000 and FSCS protection of £120,000 across a person's total eligible deposits with Monument - the bank's stated terms, not independently regulator-checked. The bank's pages conflict on interest timing: the savings card and FAQ say interest is paid monthly, while the page's general fixed-account text says interest is paid at maturity, so the full consumer terms are not settled here. Snapshot of the bank's current pages, not financial advice or a recommendation to deposit.",
+   "sources": [
+    {
+     "label": "Monument savings catalogue: Tokenised Saver at 5.20% AER",
+     "url": "https://www.monument.co/savings"
+    },
+    {
+     "label": "Monument savings-account FAQs: token record on Midnight",
+     "url": "https://www.monument.co/faq/savings-accounts"
+    },
+    {
+     "label": "Monument news index",
+     "url": "https://www.monument.co/news"
+    },
+    {
+     "label": "Monument savings comparison",
+     "url": "https://www.monument.co/savings/compare-savings"
+    }
+   ]
   }
  ],
  "timeline": [
@@ -1700,4 +1729,4 @@
    "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets"
   }
  ]
-    }
+}
