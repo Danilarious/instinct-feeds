@@ -1639,6 +1639,39 @@
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
     }
    ]
+  },
+  {
+   "id": "ordinals-field-guide-2026-11-17",
+   "date": "2026-11-17",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Weekly field guide",
+   "status": "Published edition / source-linked research",
+   "title": "Ordinals field guide: a thin market, a block-drawing explorer and a fashion-tools collection",
+   "summary": "The November 17 edition covers press descriptions of a quiet Ordinals market alongside a growing inscription count, a free explorer that draws Bitcoin blocks as artwork, and a 10K collection whose creator says holders get fashion-design tools.",
+   "detail": "Market figures come from a German-language HOGE Wire explainer citing an Ordiscan snapshot and were not independently checked; inscription counts measure records, not demand. The block explorer is described in one TokenPost report. Fashionistas details are creator posts relayed by KuCoin, and supply, sales and delivery were not verified. Ethereum-based art launches were left out as off-scope. The separate field guide preserves all earlier editions and original cards.",
+   "sources": [
+    {
+     "label": "November 17 field guide and archive",
+     "url": "https://danilarious-ordinals-field-guide.netlify.app/"
+    },
+    {
+     "label": "Drawing Bitcoin report (TokenPost)",
+     "url": "https://www.tokenpost.com/news/technology/55971"
+    },
+    {
+     "label": "Ordinals market explainer (HOGE Wire, German)",
+     "url": "https://hoge.gg/de/ordinals-2026-128-millionen-inschriften-leerer-markt/"
+    },
+    {
+     "label": "Fashionistas Atelier post (KuCoin)",
+     "url": "https://www.kucoin.com/ms/news/community/BTC/6af221cf4fd70f00078e94f0"
+    },
+    {
+     "label": "Fashionistas mint post (KuCoin)",
+     "url": "https://www.kucoin.com/news/community/BTC/6af81a2b40903b0007adfd65"
+    }
+   ]
   }
  ],
  "timeline": [
@@ -1667,4 +1700,4 @@
    "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets"
   }
  ]
-}
+    }
