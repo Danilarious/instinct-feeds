@@ -1576,6 +1576,27 @@
      "url": "https://zfnd.org/zebra-7-1-0-security-fixes-for-sync-and-memory-exhaustion/"
     }
    ]
+  },
+  {
+   "id": "mkt-night-recovery-2026-11-16",
+   "date": "2026-11-16",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Market structure",
+   "status": "Recovery alert / observed bounce",
+   "title": "NIGHT bounces back above -2%: $0.04792838, up 1.57% over 24 hours",
+   "summary": "At 7:07pm PST on November 16, CoinGecko showed NIGHT at $0.04792838, up 1.57% over the trailing 24 hours - back above the -2% marker after reading -5.68% at 4:07pm. The actual price is up 1.86% since 4:07pm and 11.02% from this downswing's delivered Kraken low of $0.04317, so the bounce is not purely rolling-window math, though much of the 24-hour percentage improvement can reflect that window. Kraken's cross-check last was $0.04806. NIGHT/BTC read 0.000000743402, up 2.68%, and ZEC/BTC read 0.01401747, up 1.91% - both outperforming BTC over 24 hours. Other CoinGecko quotes: BTC $64,463, down 0.96%; ZEC $903.73, up 0.82%; ADA $0.152711, down 0.95%.",
+   "detail": "This is the current leg's one recovery note against the -2% marker - not the +2% rule, not the +15% upside alert, and not a buy signal or a prediction. Keep the quote types separate: CoinGecko's $0.04792838 is the current aggregate and Kraken's $0.04806 the current venue last; the +11.02% rebound is measured from this leg's delivered Kraken low of $0.04317, and the historical $0.04235 low and $0.0415 support context is unchanged. Historical snapshot, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
   }
  ],
  "timeline": [
