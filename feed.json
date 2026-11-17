@@ -1559,6 +1559,23 @@
      "url": "https://github.com/midnightntwrk/midnight-improvement-proposals/pull/419"
     }
    ]
+  },
+  {
+   "id": "zebra-7-1-0-security-release-2026-11-16",
+   "date": "2026-11-16",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Security",
+   "status": "Security release / operators asked to upgrade",
+   "title": "Zebra 7.1.0: Zcash Foundation security release fixes 10 advisories",
+   "summary": "On November 16, the Zcash Foundation announced Zebra 7.1.0, a security release fixing 10 advisories - mainly malicious-peer sync stalls and memory exhaustion, plus a concurrent address-balance/lightwalletd memory issue. The Foundation asks node, mining-pool, wallet-service, exchange and lightwalletd operators to upgrade now, and explicitly says ZEC holders and wallet end users have nothing to do. The notice does not report an exploit or lost funds.",
+   "detail": "This is a live release (GitHub, crates.io, Docker), not an alpha. Upgrading from 7.0.0 needs no migration or resync; 6.x users should read the 7.0.0 notes first. Rust library APIs break in this release, and self-built experimental Elasticsearch configurations need removal, so bespoke stacks should not be upgraded blind. Release support ends around December 10, when zebrad self-stops. This is a client security and availability patch, not a ZSA activation, mainnet consensus upgrade or new smart-contract launch. Whether to act depends on operating infrastructure: holders have no action; operators should review the release notes before upgrading.",
+   "sources": [
+    {
+     "label": "Zcash Foundation: Zebra 7.1.0 security release announcement",
+     "url": "https://zfnd.org/zebra-7-1-0-security-fixes-for-sync-and-memory-exhaustion/"
+    }
+   ]
   }
  ],
  "timeline": [
