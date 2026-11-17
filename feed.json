@@ -1597,6 +1597,27 @@
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
     }
    ]
+  },
+  {
+   "id": "mkt-night-btc-threshold-2026-11-16",
+   "date": "2026-11-16",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Market structure",
+   "status": "Price alert / observed upside threshold cross",
+   "title": "NIGHT/BTC crosses +5%: pair up 5.20% over 24 hours",
+   "summary": "At 10:07pm PST on November 16, CoinGecko showed NIGHT/BTC at 0.000000755382, up 5.20% over the trailing 24 hours - versus +2.68% at 7:07pm - crossing the +5% pair threshold. NIGHT's dollar price was $0.04888289, up 5.67% over 24 hours but only 1.99% higher than at 7:07pm: this is further outperformance against BTC with some rolling-window effect, not a 5% spot jump in three hours. Kraken's cross-check last was $0.04880. ZEC/BTC read 0.01421163, up 4.17%, and ZEC was $919.67, up 4.63% - both below their 5% alert levels. BTC was $64,776, up 0.61%; ADA was $0.153932, up 0.89%.",
+   "detail": "This is a BTC-pair threshold alert, not NIGHT's +15% dollar-price alert and not a second recovery note - the current leg's recovery note was already used at 7:08pm. Keep the measures separate: the +5.20% is a trailing-24-hour pair move on the CoinGecko aggregate; the +1.99% compares the current and 7:07pm snapshots; Kraken's $0.04880 is the single-venue last. No attributed catalyst was verified. Historical snapshot, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
   }
  ],
  "timeline": [
