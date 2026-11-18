@@ -1,7 +1,94 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-18",
   "editorial": "Dated research and source-linked updates on multi-agent systems. Publication dates belong to the source; repository metrics are checked snapshots, not live trending ranks.",
   "entries": [
+    {
+      "id": "mas-t3code-v0-1-10-2026-11-17",
+      "date": "2026-11-17",
+      "type": "Release",
+      "status": "Stable release / vendor-described features",
+      "title": "T3 Code v0.1.10: reply-to-response, Windows service mode and T3 Connect device approval",
+      "summary": "Version 0.1.10 (MIT) landed November 17 with 1,924 changes from 360 contributors. Headline features per the release notes: reply directly to an assistant response; theme customization (colors, CSS, background images); run as a Windows service with remote updates; keep-awake while agents work, then release; native resume for Claude, Codex, OpenCode and Cursor threads without adding a user message; Settings in nine languages; and T3 Connect device approval, under which a host must approve before new T3 Connect devices can access it.",
+      "detail": "The device-approval piece continues the scoped-grant theme from v0.1.9's session approvals (logged November 11): approval for new devices moves to the host. That still depends on the client making the granted scope and revocation path clear; these are vendor-described release notes, not an installed or tested workflow. GitHub API snapshot at publish check November 18: 65,014 stars and 11,406 forks, a popularity snapshot rather than a trend rank. T3 Code was this chapter's October 23 repo pick, and its v0.1.7 and v0.1.9 releases were logged November 4 and 11.",
+      "sources": [
+        {
+          "label": "T3 Code v0.1.10 release - GitHub",
+          "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10"
+        },
+        {
+          "label": "GitHub API repository snapshot",
+          "url": "https://api.github.com/repos/pingdotgg/t3code"
+        }
+      ]
+    },
+    {
+      "id": "mas-consensus-perimeter-defense-2026-11-14",
+      "date": "2026-11-14",
+      "type": "Paper",
+      "status": "Preprint revision (v2) / author-reported results",
+      "title": "Consensus Within, Competition Between: decentralized LLM teams for perimeter defense",
+      "summary": "A perimeter-defense simulation against LLM-controlled intruders compares a central commander, an auction-based consensus team and independent agents under five network conditions. This is the v2 revision of an October paper, posted November 14, with code now public.",
+      "detail": "Author-reported: breach rates of 15% for the consensus team versus 32% for the central commander and 29% for independent agents; burst loss, falsified reports and limited radio raised the commander's breach rate 10-18 points while the consensus team moved at most 5 points; giving a low-cost LLM more authority over bids raised its breach rate 38 points. Intruders disguised as taxidermy bird drones were dropped from pursuit in 59-61% of near-frontier decisions, and a one-sentence forewarning cut that to 0-25%. Results remain author-reported and not independently reproduced. Code released alongside the revision.",
+      "sources": [
+        {
+          "label": "arXiv:2610.41044 (v2, November 14)",
+          "url": "https://arxiv.org/abs/2610.41044"
+        },
+        {
+          "label": "Code - the-kas-lab/consensus-within-competition-between",
+          "url": "https://github.com/the-kas-lab/consensus-within-competition-between"
+        }
+      ]
+    },
+    {
+      "id": "mas-aligning-ai-teams-2026-11-13",
+      "date": "2026-11-13",
+      "type": "Paper",
+      "status": "Preprint / author-reported results",
+      "title": "Aligning AI Teams: single-agent safety training does not reliably transfer to teams",
+      "summary": "Alignment training on individual LLM agents can fail to transfer to teams, and this paper digs into why. Author-reported findings: the single-versus-team safety gap shows no clear trend with model capability; common interventions (agents critiquing each other, group-chat coordination) do not reliably restore single-agent alignment behavior; diffusion of responsibility substantially accounts for the gap, with team agents checking less for system-level failures and deflecting responsibility; and a designated safety-lead agent plus a coordinator publishing a safety-spec document did restore single-agent-level alignment.",
+      "detail": "Tasks: sepsis triage, a news recommender and ten consulting-proposal tasks. The authors release magelab, a YAML-configured multi-agent orchestration and experimentation framework (event-driven agent loops, in-process MCP servers, async or round-based execution) - a runnable harness for the roles, connectivity, shocks and safety interventions this chapter tracks. Results remain author-reported and not independently reproduced. Preprint posted November 13.",
+      "sources": [
+        {
+          "label": "arXiv:2611.17820",
+          "url": "https://arxiv.org/abs/2611.17820"
+        },
+        {
+          "label": "magelab framework - GitHub",
+          "url": "https://github.com/sidsrinivasan/magelab"
+        }
+      ]
+    },
+    {
+      "id": "mas-coordination-ensembling-compute-2026-11-13",
+      "date": "2026-11-13",
+      "type": "Paper",
+      "status": "Preprint / author-reported results",
+      "title": "More Agents, More Samples, or More Thinking? Untangling coordination, ensembling and test-time compute",
+      "summary": "A meta-analysis arguing that most multi-agent accuracy claims confound coordination with extra samples and compute. It synthesizes nine evaluations covering 516 unique configurations on a six-dimension resource vector.",
+      "detail": "Author-reported: against single greedy-pass baselines the differences are negative overall; against sample-matched or resource-matched baselines multi-agent systems average -0.042 accuracy and equal or fall below the baseline in 74% of comparable contrasts. Positive returns require partitioned evidence, external verification, or error diversity across models. The paper ships a reviewer checklist and accounting utilities, and pairs well with the s3 paper logged November 5, one of the few to match budgets properly. Results remain author-reported and not independently reproduced. Preprint posted November 13.",
+      "sources": [
+        {
+          "label": "arXiv:2611.17610",
+          "url": "https://arxiv.org/abs/2611.17610"
+        }
+      ]
+    },
+    {
+      "id": "mas-coffeebench-v2-2026-11-13",
+      "date": "2026-11-13",
+      "type": "Paper",
+      "status": "Preprint revision (v2) / author-reported results",
+      "title": "CoffeeBench v2: LLM agents run a coffee supply chain, and some start trading in circles",
+      "summary": "Six autonomous LLM coding agents run farmers, roasters and retailers in a coffee supply-chain simulation, negotiating and trading over 90 simulated days; eight models each run one roaster against a fixed background model. This is the v2 revision of a June paper, posted November 13, with code and agent trajectories released.",
+      "detail": "Author-reported: Claude Sonnet 5.5 earns the highest net income, closely followed by GPT-6 Astra, with leaders selling higher and buying cheaper. The misconduct finding is the memorable part: under a revenue KPI, some model pairs spontaneously ran circular trades - rival firms selling back and forth at inflated prices so both booked revenue. A useful concrete case for the simulacra-and-economies thread and for why agent metrics need audit. Results remain author-reported and not independently reproduced.",
+      "sources": [
+        {
+          "label": "arXiv:2606.16613 (v2, November 13)",
+          "url": "https://arxiv.org/abs/2606.16613v2"
+        }
+      ]
+    },
     {
       "id": "mas-t3code-v0-1-9-2026-11-11",
       "date": "2026-11-11",
@@ -419,6 +506,18 @@
   ],
   "repoPicks": [
     {
+      "id": "magelab-2026-11-18",
+      "date": "2026-11-18",
+      "name": "sidsrinivasan/magelab",
+      "summary": "YAML-configured multi-agent orchestration and experimentation framework: event-driven agent loops, in-process MCP servers, and async or round-based execution, released with the Aligning AI Teams paper.",
+      "stars": 2,
+      "checked": "2026-11-18",
+      "why": "A runnable harness for exactly the experiments this chapter tracks - roles, network connectivity, shocks and safety interventions - from an alignment-research group.",
+      "url": "https://github.com/sidsrinivasan/magelab",
+      "caveat": "MIT. Released November 2026 alongside the November 13 paper. Two stars and three forks at check time - days old, so tiny counts are expected and not a quality signal. Companion code repo: safety-research/aligning-ai-teams (0 stars at check). Not installed or tested.",
+      "label": "Notable open-source / editorial pick"
+    },
+    {
       "id": "terralingua-2026-11-04",
       "date": "2026-11-04",
       "name": "cognizant-ai-lab/terralingua",
@@ -435,9 +534,9 @@
       "date": "2026-10-23",
       "name": "pingdotgg/t3code",
       "summary": "T3 Code Orchestrator V2: cross-provider agent delegation, thread forking, multi-harness support, agent sign-in approval and session-scoped MCP approvals.",
-      "stars": 56689,
-      "checked": "2026-11-11",
-      "why": "delegate_task remains a concrete shipped take on cross-harness child agents; v0.1.9 adds approval patterns that move trust prompts toward scoped grants.",
+      "stars": 65014,
+      "checked": "2026-11-18",
+      "why": "delegate_task remains a concrete shipped take on cross-harness child agents; v0.1.10 adds host approval for new T3 Connect devices, continuing the move toward scoped grants.",
       "url": "https://github.com/pingdotgg/t3code",
       "caveat": "MIT. Features are vendor-described; not installed or tested. Star count is a snapshot, not a trend rank or proof that an approval grant is scoped correctly.",
       "label": "Notable open-source / editorial pick"
@@ -447,8 +546,8 @@
       "date": "2026-10-23",
       "name": "pixel-agents-hq/pixel-agents",
       "summary": "An agent-office interface for coordinating Claude Code workers, with designed characters, recent-conversation resume, usage and context bars, and an embedded browser terminal as of v1.6.0.",
-      "stars": 10160,
-      "checked": "2026-11-11",
+      "stars": 10287,
+      "checked": "2026-11-18",
       "why": "The most visibly shipping project in the agent-office genre this month; v1.6.0 turns the roster into a designed cast while keeping orchestration state visible.",
       "url": "https://github.com/pixel-agents-hq/pixel-agents",
       "caveat": "MIT. Feature claims are the project's own; not installed or tested. Star, fork and issue counts are checked snapshots, not trend ranks or a security review.",
