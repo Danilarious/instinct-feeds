@@ -1701,6 +1701,27 @@
      "url": "https://www.monument.co/savings/compare-savings"
     }
    ]
+  },
+  {
+   "id": "mkt-night-zec-crossings-2026-11-17",
+   "date": "2026-11-17",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Price alert / fresh NIGHT -5% and renewed ZEC +5% crossings, largely rolling-window",
+   "title": "NIGHT crosses -5% and ZEC renews +5%: $0.04466287 and $964.54 at 4:08pm",
+   "summary": "At 4:08pm PST on November 17, CoinGecko showed NIGHT at $0.04466287, down 5.25% over the trailing 24 hours, with NIGHT/BTC at 0.000000689599, down 5.27% - a fresh -5% crossing after the November 16 recovery. The actual spot decline is only 1.17% since 1:08pm, so the crossing is largely rolling-window change, not a new low or a support break. ZEC was $964.54, up 7.14% over 24 hours, and ZEC/BTC read 0.01489259, up 7.11% - renewed +5% crossings after both sat below 5% at 1:08pm. ZEC's actual spot is up 4.61% since 1:08pm and 2.10% above the $944.66 quote at the 4:08am alert. BTC was $64,828, up 0.18%; ADA was $0.155096, up 1.35%. The CoinGecko figures were cross-checked against Kraken's ticker.",
+   "detail": "Keep the measures separate: the -5.25% NIGHT and the +7.14% / +7.11% ZEC figures are trailing-24-hour moves on the CoinGecko aggregate; the -1.17% NIGHT and +4.61% ZEC figures compare the current and 1:08pm snapshots. NIGHT's crossing is largely rolling-window change - not a new low and not a support break - and ZEC's is a renewed crossing, 2.10% above its 4:08am alert quote. No catalyst was assigned for either move. Historical snapshot, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
   }
  ],
  "timeline": [
