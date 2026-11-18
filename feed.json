@@ -1722,6 +1722,31 @@
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
     }
    ]
+  },
+  {
+   "id": "bitwise-zcash-etf-s1-2026-11-17",
+   "date": "2026-11-17",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Policy",
+   "status": "SEC filing / preliminary registration, not effective",
+   "title": "Bitwise files an initial S-1 for a Zcash ETF that would hold ZEC",
+   "summary": "On November 17, Bitwise filed an initial registration statement on Form S-1 with the SEC for the Bitwise Zcash ETF, an exchange-traded product that would hold Zcash and seek exposure to its value less the trust's expenses, with shares anticipated to list on the Texas Stock Exchange (TXSE) under the ticker ZEC. The filing is a preliminary prospectus and expressly not yet effective: there is no approved, listed or live fund and no public sale until the registration becomes effective. The sponsor fee is a placeholder (0.___%) and not final, and the affiliate's expected $500,000 purchase of initial seed baskets is a future expectation, not confirmed money already in. This is a new filing, distinct from the earlier Winklevoss-filed product and Grayscale's existing product. At 7:08pm PST, CoinGecko showed ZEC at $949.21, up 4.46% over the trailing 24 hours, and ZEC/BTC at 0.01474735, up 4.63% - outperforming BTC but below the +5% alert level. BTC was $64,334, down 0.35%; ADA was $0.15308, down 0.13%; NIGHT was $0.04415971, down 8.26%, with NIGHT/BTC down 8.11% - the same downside leg delivered at 4:08pm, not a new low.",
+   "detail": "A filed S-1 starts a review process; it is not approval, a listing, or evidence that an ETF will launch, and no price catalyst is assigned to today's moves. Do not quote a fee rate or launch timing: neither is final in the preliminary prospectus. The $500,000 seed-basket purchase is expected future activity by a Bitwise affiliate, not a confirmed current inflow. The 7:08pm prices are context, not a new threshold alert: NIGHT's pair move belongs to the same leg already reported at 4:08pm, and no new low or support break was recorded. Historical snapshot, not investment advice.",
+   "sources": [
+    {
+     "label": "SEC EDGAR: Bitwise Zcash ETF initial S-1, filed Nov 17",
+     "url": "https://www.sec.gov/Archives/edgar/data/2152975/000119312526465692/ck0002152975-20261117.htm"
+    },
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
   }
  ],
  "timeline": [
