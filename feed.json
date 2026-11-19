@@ -1768,6 +1768,27 @@
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
     }
    ]
+  },
+  {
+   "id": "mkt-zec-downside-crossing-2026-11-18",
+   "date": "2026-11-18",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Price alert / fresh ZEC -5% crossing, mostly rolling-window",
+   "title": "ZEC crosses back below -5%: $908.33 at 4:09pm, down 6.04% over 24 hours",
+   "summary": "At 4:09pm PST on November 18, CoinGecko showed ZEC at $908.33, down 6.04% over the trailing 24 hours - a fresh downside crossing of the -5% threshold, after the 1:09pm quote of $911.10 was down just 0.99%. The actual spot decline is only 0.30% since 1:09pm, so the crossing is mostly yesterday's rebound moving out of the comparison window, not a 5% crash in three hours and not a new low. ZEC/BTC read 0.0144548, down 3.16%. NIGHT/BTC read 0.000000724693, up 4.83% - outperforming BTC but strictly below its 5% alert threshold. BTC was $62,797, down 3.27%; ADA was $0.1511, down 2.58%; NIGHT was $0.04553937, up 1.71%. The CoinGecko figures were cross-checked against Kraken's ticker, which showed ZEC last at $907.26 with a 24-hour low of $890.66.",
+   "detail": "Keep the measures separate: the -6.04% is a trailing-24-hour move on the CoinGecko aggregate; the -0.30% compares the 4:09pm and 1:09pm snapshots. The crossing is mostly rolling-window change - not a new low and not a new downside extension: the retained low of $813.78 from the earlier November leg still stands below today's quotes. Kraken's last and 24-hour-low figures are the venue cross-check, not the aggregate. NIGHT/BTC's +4.83% does not cross its 5% pair threshold, and no new BTC, ADA or NIGHT USD threshold fired. No catalyst was assigned for the move. Historical snapshot, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
   }
  ],
  "timeline": [
