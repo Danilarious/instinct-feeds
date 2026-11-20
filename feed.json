@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-20",
  "topics": [
   {
    "id": "blockchain",
@@ -1787,6 +1787,31 @@
     {
      "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "mkt-btc-zec-night-new-lows-2026-11-20",
+   "date": "2026-11-20",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Price alert / new alerted lows across BTC, ZEC and NIGHT",
+   "title": "BTC, ZEC and NIGHT extend the selloff: $59,413, $782.68 and $0.04143053 at 8:20am",
+   "summary": "At 8:20am PST on November 20, CoinGecko showed BTC at $59,413, down 5.80% over the trailing 24 hours; ZEC at $782.68, down 14.92%; ADA at $0.140627, down 7.73%; and NIGHT at $0.04143053, down 5.48%. ZEC/BTC read 0.01312659, down 10.02%; NIGHT/BTC read 0.000000694843, down 0.03%. Kraken's 24-hour lows - BTC $58,702, ZEC $755.97 and NIGHT $0.04018 - each sit more than 3% below the previously alerted lows of $61,970.30, $813.78 and $0.04317, making these genuine new downside extensions rather than rolling-window crossings. NIGHT traded through $0.0415 intraday, but Kraken's latest quote of $0.04163 had rebounded back above it while CoinGecko's aggregate sat slightly below: an intraday break, not a confirmed close. November 19 spot Bitcoin ETF outflows of $582.3m, including $541.1m from IBIT, are context, not a proven cause; Friday's flow data is incomplete. The CoinGecko figures were cross-checked against Kraken's ticker.",
+   "detail": "Keep the quote types separate: CoinGecko's figures are the aggregate; Kraken's lows and latest quotes are the single-venue cross-check. The new-low comparison is per asset: BTC, ZEC and NIGHT are each measured against their own prior alerted low ($61,970.30, $813.78 and $0.04317), and each broke it by more than 3%. The NIGHT move through $0.0415 is an intraday break only - Kraken's latest quote was back above the level while the aggregate remained slightly below, so no confirmed close through it is claimed. The ETF outflow figure is background context, not an established cause of the move, and Friday's session flows are not yet complete. Historical snapshot, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    },
+    {
+     "label": "Farside: Bitcoin ETF daily flows",
+     "url": "https://farside.co.uk/btc/"
     }
    ]
   }
