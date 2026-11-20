@@ -1,7 +1,86 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-20",
  "editorial": "A checked collection, not a live trend chart. Dates on notes are publication dates when known; repository metrics are snapshots. Older essays are marked as archive. Inclusion is not endorsement.",
  "entries": [
+  {
+   "id": "sonilo-symphonic-opt-in-20261118",
+   "date": "2026-11-18",
+   "kind": "Licensing / announced agreement",
+   "lens": "Rights & labor",
+   "title": "Sonilo and Symphonic announce opt-in training licenses for independent recordings",
+   "summary": "Music Business Worldwide reports that Sonilo and independent distributor Symphonic announced a training-license agreement on November 18. Only artists and labels that opt in are covered. The companies describe paid participation and attribution reporting, offering a concrete consent-based model alongside the lawsuits in this archive.",
+   "detail": "Financial terms and the number of participating artists or labels were not disclosed. Attribution and compensation are company-described promises, not an independent audit of payouts or training provenance. The agreement does not mean the entire Symphonic catalog opted in, or that all recording and publishing rights for every possible use are cleared. No account action or enrollment is implied.",
+   "sources": [
+    {
+     "label": "Music Business Worldwide, November 18",
+     "url": "https://www.musicbusinessworldwide.com/11m-backed-ai-startup-sonilo-founded-by-tiktok-veterans-inks-licensing-deal-with-symphonic-to-train-its-model-on-opted-in-indie-recordings/"
+    }
+   ]
+  },
+  {
+   "id": "suno-visuals-20261117",
+   "date": "2026-11-17",
+   "kind": "Tool / vendor announcement",
+   "lens": "Art & image",
+   "title": "Suno adds Visuals: album art and short music-linked video clips",
+   "summary": "Suno announced Visuals on November 17 for images, album art, lyric videos and clips up to 15 seconds. Songs from the library can seed clips that users extend, edit and re-prompt. Suno says the model responds to song structure and lyrics, including lip sync. Visual credits are purchased separately from song credits.",
+   "detail": "The first-party announcement says web, iOS and Android launched together. Quality, synchronization and artist-likeness safeguards are vendor claims, not tested here. This is not a finished-music-video guarantee or a clearance of music, likeness or visual rights. The existing Suno litigation coverage remains relevant; announcing filters does not settle those disputes.",
+   "sources": [
+    {
+     "label": "Suno product announcement, November 17",
+     "url": "https://suno.com/blog/introducing-visuals"
+    }
+   ]
+  },
+  {
+   "id": "spotify-profile-protection-20261117",
+   "date": "2026-11-17",
+   "kind": "Platform / identity controls",
+   "lens": "Music & sound",
+   "title": "Spotify broadens Artist Profile Protection, but default review is not automatic blocking",
+   "summary": "TechCrunch reports the November 17 rollout of Artist Profile Protection to all artists. Spotify support describes alerts and review of releases delivered under an artist name, with removal from eligible incorrect releases before launch or up to 28 days afterward. In the default Review mode, doing nothing still lets the release go live with the artist listed.",
+   "detail": "Important limit: Spotify support says the stronger Block releases setting is still being tested with a limited group, so it should not be promised to every artist despite broader launch coverage. Admins and Editors can turn protection on; some providers or releases may not be eligible. This manages profile association and recommendations, not ownership disputes, a universal deepfake filter, or removal of a recording from the whole service. No artist account was inspected or changed.",
+   "sources": [
+    {
+     "label": "Spotify support: settings and eligibility limits",
+     "url": "https://support.spotify.com/us/artists/article/artist-profile-protection/"
+    },
+    {
+     "label": "TechCrunch rollout report, November 17",
+     "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/"
+    }
+   ]
+  },
+  {
+   "id": "goodman-creativity-value-20261117",
+   "date": "2026-11-17",
+   "kind": "Opinion / critical",
+   "lens": "Rights & labor",
+   "title": "Composer Joel Goodman: cheaper generation can devalue the work that supports creative careers",
+   "summary": "In a November 17 Music Business Worldwide essay, composer and publisher Joel Goodman distinguishes assistive studio technology from systems trained on creative work that can then compete for its licensing income. His concern is not that humans stop making art, but that fewer can earn a living doing it, especially through the early commercial work that builds a career.",
+   "detail": "This is a working composer and publisher arguing a position, not a neutral forecast or a court ruling. He also considers a possible countereffect: abundant interchangeable music could make a distinctive human voice more valuable, but says that outcome is not guaranteed. His views on consent, compensation and economic substitution stand on their own rather than serving as a disclaimer beneath a tool recommendation.",
+   "sources": [
+    {
+     "label": "Joel Goodman, MBW Views, November 17",
+     "url": "https://www.musicbusinessworldwide.com/ai-threatens-the-value-we-put-on-creativity/"
+    }
+   ]
+  },
+  {
+   "id": "shokin-copyright-enforcement-20261116",
+   "date": "2026-11-16",
+   "kind": "Investigation / creator experience",
+   "lens": "Rights & labor",
+   "title": "404 Media: a musician gets her recording restored after a disputed automated copyright claim",
+   "summary": "404 Media documents Samantha Shokin losing access to her own folk-song performance on YouTube after a claim from Media Nov Records. Her attempts to contest it failed before the outlet intervened. The claimant withdrew the removal request, and YouTube confirmed the video was reinstated. The report connects the dispute to a company that says it runs 500 channels and markets automated rights-management tools.",
+   "detail": "The withdrawal and restoration are reported outcomes, not a court finding on all underlying rights. Keep the musical composition, a particular arrangement and the performer's sound recording distinct; a folk-song origin does not erase every possible arrangement right. 404 Media investigated the company and interviewed Shokin, the claimant, YouTube and a copyright lawyer. The case illustrates the cost of contesting automated enforcement, not proof that AI caused every step or that every channel is unlawful.",
+   "sources": [
+    {
+     "label": "404 Media investigation, November 16",
+     "url": "https://www.404media.co/how-an-ai-content-mill-put-a-real-musician-through-copyright-hell/"
+    }
+   ]
+  },
   {
    "id": "nectar-creator-agent-20261112",
    "date": "2026-11-12",
@@ -605,6 +684,30 @@
   }
  ],
  "repoPicks": [
+  {
+   "id": "creator-repo-dreamverse-harness-20261120",
+   "date": "2026-11-20",
+   "name": "fastvideo-project/dreamverse-harness",
+   "summary": "A research-preview filmmaking workspace connecting an agent, an asset canvas and an editable timeline to FastVideo or other model providers.",
+   "stars": 31,
+   "checked": "2026-11-20",
+   "why": "Moves beyond generating isolated clips: references, takes and edits remain in a shared project history. Announced by the FastVideo team on November 19.",
+   "url": "https://github.com/fastvideo-project/dreamverse-harness",
+   "label": "Notable open-source / editorial pick, not a trend rank",
+   "caveat": "MIT code, not blanket rights to models or generated media. Hardware demands depend on the model and serving recipe; some documented setups require multiple large GPUs. Local rendering does not make a configured cloud agent or provider local. README still contains a private-repository note, while the live API reports a public repo. Not installed, rendered or benchmarked here."
+  },
+  {
+   "id": "creator-repo-audio-studio-mcp-20261120",
+   "date": "2026-11-20",
+   "name": "kanaworksai-hue/audio-studio-mcp",
+   "summary": "A local Stable Audio 3 generation and editing server with looping, loudness processing and export; v1.2 adds an in-chat comparison player in MCP Apps clients.",
+   "stars": 692,
+   "checked": "2026-11-20",
+   "why": "A practical sound-design workflow: compare takes and loop seams without leaving the conversation. Developer announced v1.2 on November 17.",
+   "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+   "label": "Notable open-source / editorial pick, not a trend rank",
+   "caveat": "MIT server code; model weights and generated-audio usage have separate Stability AI terms, and brand assets are excluded from MIT. Developer documents Apple Silicon and Windows/NVIDIA paths with model downloads and hardware requirements. In-chat playback requires a compatible MCP Apps client. Local generation is not a privacy guarantee for every connected assistant. Not installed or tested here."
+  },
   {
    "id": "creator-repo-premiere-pro-mcp-20261113",
    "date": "2026-11-13",
