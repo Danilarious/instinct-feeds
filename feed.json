@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "topics": [
   {
    "id": "blockchain",
@@ -1825,6 +1825,27 @@
    "title": "ZEC extends the selloff: $727.72 at 1:12pm, down 7.02% since the morning snapshot",
    "summary": "At 1:12pm PST on November 20, CoinGecko showed ZEC at $727.72, down 17.69% over the trailing 24 hours. The aggregate spot quote was 7.02% below the 8:20am snapshot of $782.68. Separately, Kraken recorded a 24-hour low of $724.27, 4.19% below its last alerted low of $755.97, passing the 3% extension marker. ZEC/BTC read 0.01247787, down 12.60% over 24 hours. NIGHT/BTC read 0.000000708525, down 1.46% over 24 hours: modest underperformance, not a new NIGHT alert.",
    "detail": "Keep the comparisons separate: CoinGecko provides the aggregate spot and trailing-24-hour changes; the 7.02% spot decline compares the 1:12pm and 8:20am snapshots. Kraken provides the single-venue intraday low, compared with its own previously alerted low, not with the aggregate spot. This is a further downside extension, not just a rolling-window threshold crossing. No new verified catalyst, bottom prediction or confirmed closing-price claim is attached. Historical snapshot, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "mkt-overnight-lows-night-recovery-2026-11-21",
+   "date": "2026-11-21",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Overnight downside extensions / observed NIGHT recovery, not bottom confirmation",
+   "title": "BTC and ZEC rebound from overnight lows; NIGHT records one recovery for its November 20 leg",
+   "summary": "At 8:20am PST on November 21, CoinGecko showed BTC at $59,895, up 0.95% over the trailing 24 hours; ZEC at $787.42, up 0.65%; ADA at $0.144, up 2.44%; and NIGHT at $0.04279742, up 2.96%. Kraken recorded overnight lows of $55,100 for BTC and $677.61 for ZEC, respectively 6.14% and 6.44% below the previously delivered lows of $58,702 and $724.27. Prices had since rebounded: those were overnight downside extensions, not fresh lows printing at 8:20am. NIGHT had an actual spot gain of 6.85% between the 4:12am and 7:12am checks, qualifying one recovery note for the November 20 downside leg, not confirmation of a bottom.",
+   "detail": "Keep the measures and times separate: CoinGecko aggregate quotes and direct BTC-pair changes are the 8:20am snapshot; Kraken lows are single-venue overnight observations. The 6.85% NIGHT gain compares two earlier spot snapshots, 4:12am and 7:12am, not the trailing-24-hour change. At 8:20am ZEC/BTC read 0.01318685, up 0.16% over 24 hours, and NIGHT/BTC read 0.000000716722, up 2.46%. NIGHT's $0.03904 venue low was only 2.84% below the prior $0.04018 low, so it did not meet the 3% downside-extension marker. The NIGHT recovery is one note for this leg, not a repeated alert, trend confirmation or a prediction. Historical snapshot, not live quotes or investment advice.",
    "sources": [
     {
      "label": "CoinGecko aggregate USD/BTC snapshot API",
