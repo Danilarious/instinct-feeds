@@ -1,93 +1,93 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-21",
  "editorial": "A weekly rundown of the agentic trading space: agents and LLMs managing deterministic trading systems and strategies, agent wallets, on-chain automation and native swaps. The SatStacker beat leads. Dates belong to the news; stars and versions are checked snapshots, not live ranks. Nothing here is investment advice.",
  "stack": [
   {
    "id": "hummingbot",
    "name": "Hummingbot",
    "role": "Execution framework",
-   "note": "Latest stable GitHub release remains v2.17.0; active repository pushes are not new releases.",
-   "latest": "v2.17.0",
-   "latestDate": "2026-09-22",
-   "stars": 21207,
-   "checked": "2026-11-14",
+   "note": "New stable release. Includes connector and backtest fixes plus removal of the remote order-book source that deserialized remote HTTP data with pickle; see the specific security note below. Not installed or tested.",
+   "latest": "v2.18.0",
+   "latestDate": "2026-11-18",
+   "stars": 21331,
+   "checked": "2026-11-21",
    "url": "https://github.com/hummingbot/hummingbot"
   },
   {
    "id": "condor",
    "name": "Condor",
    "role": "Agent harness",
-   "note": "Hummingbot API trading harness with optional agents and dry-run support. No tagged releases; repository pushed November 14. Current README still recommends private-network access because the API controls orders, balances and stored exchange keys.",
+   "note": "No published GitHub releases or tags at check. Repository pushed November 20. Agent harness with dry-run support; README still recommends private-network access and strong credentials for the trading API. A push is not a release.",
    "latest": "No tagged releases",
-   "latestDate": "2026-11-14",
-   "stars": 259,
-   "checked": "2026-11-14",
+   "latestDate": "2026-11-20",
+   "stars": 266,
+   "checked": "2026-11-21",
    "url": "https://github.com/hummingbot/condor"
   },
   {
    "id": "nautilus",
    "name": "Nautilus Trader",
    "role": "Execution engine",
-   "note": "Stable remains v1.231.0. The separate 2.0 prerelease line reached rc9 November 10 with Python 3.15 support, an initial Kalshi adapter and FinFeedAPI prediction-market data support; rc9 is not a stable upgrade recommendation.",
+   "note": "Unchanged release split: GitHub latest stable and PyPI remain 1.231.0; 2.0.0rc9 is a separate prerelease from November 10, not a stable upgrade recommendation.",
    "latest": "v1.231.0 stable / v2.0.0rc9 prerelease",
    "latestDate": "2026-11-10",
-   "stars": 31520,
-   "checked": "2026-11-14",
+   "stars": 31723,
+   "checked": "2026-11-21",
    "url": "https://github.com/nautechsystems/nautilus_trader"
   },
   {
    "id": "jesse",
    "name": "Jesse",
    "role": "Strategy research + live",
-   "note": "Jesse 3.6.1 published to PyPI November 10 and tagged in GitHub. Package record verified; release behavior not tested.",
+   "note": "PyPI remains 3.6.1, uploaded November 10, matching the GitHub tag. No published GitHub release records at check. Later discussion of this version is not a new package release.",
    "latest": "3.6.1",
    "latestDate": "2026-11-10",
-   "stars": 8803,
-   "checked": "2026-11-14",
+   "stars": 8827,
+   "checked": "2026-11-21",
    "url": "https://github.com/jesse-ai/jesse"
   },
   {
    "id": "freqtrade",
    "name": "Freqtrade + FreqAI",
    "role": "Bot + ML loop",
-   "note": "Latest tagged release remains 2026.10. Rule-based bot plus FreqAI machine-learning module; no new release this week.",
+   "note": "GitHub stable and PyPI both remain 2026.10. No new release this week; simulated performance still does not establish live fills or profitability.",
    "latest": "2026.10",
    "latestDate": "2026-10-30",
-   "stars": 56876,
-   "checked": "2026-11-14",
+   "stars": 57122,
+   "checked": "2026-11-21",
    "url": "https://github.com/freqtrade/freqtrade"
   },
   {
    "id": "wavelength",
    "name": "Wavelength / Lightning agent tools",
    "role": "Agent payments (BTC)",
-   "note": "Wavelength and lightning-agent-tools are separate repositories. Wavelength remains v0.2.1; a v0.2.2-rc1 tag exists but no published GitHub release at check time. The companion lightning-agent-tools repository remains at 61 stars, last pushed May 29.",
-   "latest": "Wavelength v0.2.1",
+   "note": "Separate projects: Wavelength stable remains v0.2.1 (62 stars); v0.2.2-rc1 is a tag, not a published release. lightning-agent-tools remains v0.2.5, released February 11 (61 stars, last pushed May 29). No new stable BTC-payment release found this week.",
+   "latest": "Wavelength v0.2.1 / agent-tools v0.2.5",
    "latestDate": "2026-10-31",
-   "stars": 60,
-   "checked": "2026-11-14",
+   "stars": 62,
+   "checked": "2026-11-21",
    "url": "https://github.com/lightninglabs/wavelength"
   },
   {
    "id": "agentkit",
    "name": "Coinbase AgentKit",
    "role": "Agent wallets",
-   "note": "Wallet/onchain toolkit. Repository pushed November 10; GitHub still has old March 2025 nightly release records, not a current weekly release.",
-   "latest": "No new GitHub release this week",
-   "latestDate": "2026-11-10",
-   "stars": 1356,
-   "checked": "2026-11-14",
+   "note": "PyPI coinbase-agentkit remains 0.7.4 from October 2025; GitHub release records still show March 2025 nightlies. Repository last pushed November 10, 2026. No fresh release inferred from Coinbase product announcements.",
+   "latest": "PyPI 0.7.4 / old GitHub nightlies",
+   "latestDate": "2025-10-03",
+   "stars": 1359,
+   "checked": "2026-11-21",
    "url": "https://github.com/coinbase/agentkit"
   },
   {
    "id": "turnkey",
    "name": "Turnkey",
    "role": "Wallet infrastructure",
-   "note": "SDK v2026.11.2 fixes pollTransactionStatus error handling and cleans up transaction-management and DIY DeFi examples. SDK changes do not establish a complete agent trading strategy.",
-   "latest": "v2026.11.2",
-   "latestDate": "2026-11-13",
+   "note": "Latest SDK release published November 21 at 00:46 UTC (November 20 PST). v2026.11.3 added checked remote signers and encryption/import changes; v2026.11.4 bumps vulnerable dependencies and removes SDK-server proxies. Release descriptions do not establish exploitation or a complete trading strategy.",
+   "latest": "v2026.11.4",
+   "latestDate": "2026-11-21",
    "stars": 104,
-   "checked": "2026-11-14",
+   "checked": "2026-11-21",
    "url": "https://github.com/tkhq/sdk"
   }
  ],
@@ -437,6 +437,125 @@
      "url": "https://github.com/lightninglabs/wavelength/releases"
     }
    ]
+  },
+  {
+   "id": "at-hummingbot-218-security-2026-11-18",
+   "date": "2026-11-18",
+   "type": "Stack release / security",
+   "status": "Stable release / specific remote-data code path removed",
+   "title": "Hummingbot v2.18.0 fixes execution details and removes an unsafe remote order-book source",
+   "summary": "The November 18 stable release replaces v2.17.0. Its changelog includes fixes to API throttling, stop-loss pricing in backtests, Kraken fill timestamps and exchange connectors. Security PR8561 removes the remote order-book data source that deserialized a remote HTTP response with pickle; the maintainer identifies that path as allowing remote code execution.",
+   "detail": "This is specific to the removed remote-data path, not proof that every connector or installation was exploitable. The reviewed release and PR do not establish observed exploitation, a complete affected-version range, or whether any user ran that component. No installation was inspected or upgraded. For the SatStacker research lane, execution correctness and external data handling belong in the review before comparing strategy results. Release notes are not a completed code audit or a profitability claim.",
+   "sources": [
+    {
+     "label": "Hummingbot v2.18.0 release",
+     "url": "https://github.com/hummingbot/hummingbot/releases/tag/v2.18.0"
+    },
+    {
+     "label": "Merged security fix PR8561",
+     "url": "https://github.com/hummingbot/hummingbot/pull/8561"
+    }
+   ]
+  },
+  {
+   "id": "at-walletconnect-agents-2026-11-19",
+   "date": "2026-11-19",
+   "type": "Agent wallets / swaps",
+   "status": "Vendor announcement / progressive waitlist rollout",
+   "title": "WalletConnect for Agents prepares transfers and swaps, while the existing wallet still signs",
+   "summary": "WalletConnect announced an MCP and HTTP interface for balance checks, transfers and supported Uniswap V3 swaps. The vendor says every transaction still needs the owner to approve in their wallet; the assistant prepares the action rather than taking possession of signing keys. Access is rolling out progressively from a waitlist, not guaranteed general availability.",
+   "detail": "Vendor-described safeguards include per-transaction caps, listed tokens only, exact-amount rather than unlimited token approvals, and plans that expire after five minutes. These are not tested here. A wallet signature still requires checking recipient, token, chain and contract, and does not make a malicious connection safe. This is an owner-signed execution pattern, not autonomous trading, a return forecast or a recommendation to connect a wallet.",
+   "sources": [
+    {
+     "label": "WalletConnect launch announcement, November 19",
+     "url": "https://walletconnect.com/blog/announcing-walletconnect-for-agents"
+    }
+   ]
+  },
+  {
+   "id": "at-olas-ocb-beta-2026-11-19",
+   "date": "2026-11-19",
+   "type": "On-chain agents / security limits",
+   "status": "Beta / maker-reported benchmark, not independently reproduced",
+   "title": "Olas launches an on-chain beta agent, with important limits on token caps and sandboxing",
+   "summary": "Olas introduced olas-ocb-agent in Pearl Connect for payments, swaps, lending and research. The default is to ask before value-moving calls. Its README makes a narrower promise than a universal wallet budget: the native-token cap does not cap ERC-20 transfers or approvals, and auto-approval mode can let those pass without a prompt. Native Windows lacks the documented OS sandbox.",
+   "detail": "Olas reports zero fund losses in 263 hidden-attack attempts, 89.9% task completion and about $0.05 per completed task. These are maker-reported benchmark results, not a guarantee: Valory builds the agent and runs OnchainBench. The launch describes Gnosis, Polygon and Robinhood Chain through Pearl Connect; the CLI supports broader configurations, which should not be conflated with that product rollout. Not installed, funded or tested here. The token-cap and platform limits matter more than a headline safety score; this is not a recommendation to use auto-approval or commit funds.",
+   "sources": [
+    {
+     "label": "Olas beta announcement, November 19",
+     "url": "https://olas.network/blog/ocb"
+    },
+    {
+     "label": "Agent README: approval, caps and sandbox limits",
+     "url": "https://github.com/valory-xyz/olas-ocb-agent"
+    }
+   ]
+  },
+  {
+   "id": "at-signed-unbound-paper-2026-11-19",
+   "date": "2026-11-19",
+   "type": "Research / payment authority",
+   "status": "Preprint / author-reported experiments",
+   "title": "Signed but Unbound asks which payment limits the wallet signature actually enforces",
+   "summary": "A November 19 preprint distinguishes an agent-commerce mandate from the fields enforced by the signed token authorization. The authors analyze 12 configurations and report 31,800 local trials on deployed contract code. In a sample of 26,653 redeemed USDC authorizations on Base, 98.7% used a path that any holder of the signature could redeem.",
+   "detail": "Bearer redemption is exposure, not observed theft: the paper explicitly says it did not observe preemption or misattribution. Results come from the authors, who also wrote the derivation, attacks and checking logic; the sampled Base windows do not represent all payments. Their MandateLock prototype rejects modified mandates in the reported tests at extra gas cost, but is not a production endorsement. For bounded agents, a permission described in a chat or commerce layer is not automatically enforced by the wallet or settlement contract. Not independently reproduced.",
+   "sources": [
+    {
+     "label": "arXiv:2611.25821, November 19",
+     "url": "https://arxiv.org/abs/2611.25821"
+    }
+   ]
+  },
+  {
+   "id": "at-stack-watch-2026-11-21",
+   "date": "2026-11-21",
+   "type": "Stack watch",
+   "status": "GitHub/PyPI snapshots checked November 21 / no installs",
+   "title": "Stack watch: Hummingbot v2.18.0 and Turnkey v2026.11.4; BTC-payment and strategy releases otherwise hold",
+   "summary": "Hummingbot moved to stable v2.18.0 on November 18. Turnkey SDK v2026.11.3 added checked remote signers and import/encryption changes; v2026.11.4 bumps vulnerable dependencies and removes SDK-server proxies. The latter was published at 00:46 UTC November 21, still November 20 PST. Jesse remains PyPI 3.6.1; Freqtrade remains 2026.10; Nautilus remains stable 1.231.0 with the separate 2.0.0rc9 prerelease.",
+   "detail": "BTC lane: Wavelength remains stable v0.2.1, with v0.2.2-rc1 only a tag; the separate lightning-agent-tools remains v0.2.5. Condor has no tagged or published releases, despite fresh repository activity. AgentKit PyPI remains 0.7.4 from October 2025 and GitHub has old nightly records, so Coinbase account-product news is not counted as a new SDK release. All eight stack cards have fresh November 21 checks and star snapshots. No strategies, accounts or software were changed. These are release records, not proof of execution quality or returns.",
+   "sources": [
+    {
+     "label": "Hummingbot release API",
+     "url": "https://api.github.com/repos/hummingbot/hummingbot/releases"
+    },
+    {
+     "label": "Turnkey v2026.11.4",
+     "url": "https://github.com/tkhq/sdk/releases/tag/v2026.11.4"
+    },
+    {
+     "label": "Turnkey v2026.11.3",
+     "url": "https://github.com/tkhq/sdk/releases/tag/v2026.11.3"
+    },
+    {
+     "label": "Jesse PyPI record",
+     "url": "https://pypi.org/pypi/jesse/json"
+    },
+    {
+     "label": "Nautilus PyPI record",
+     "url": "https://pypi.org/pypi/nautilus_trader/json"
+    },
+    {
+     "label": "Freqtrade PyPI record",
+     "url": "https://pypi.org/pypi/freqtrade/json"
+    },
+    {
+     "label": "Wavelength release API",
+     "url": "https://api.github.com/repos/lightninglabs/wavelength/releases"
+    },
+    {
+     "label": "Lightning agent-tools release API",
+     "url": "https://api.github.com/repos/lightninglabs/lightning-agent-tools/releases"
+    },
+    {
+     "label": "Condor release API",
+     "url": "https://api.github.com/repos/hummingbot/condor/releases"
+    },
+    {
+     "label": "AgentKit PyPI record",
+     "url": "https://pypi.org/pypi/coinbase-agentkit/json"
+    }
+   ]
   }
  ],
  "repoPicks": [
@@ -643,6 +762,54 @@
    "checked": "2026-11-14",
    "url": "https://github.com/hypurrquant/perp-cli",
    "label": "Editorial pick / very young low-star repo, high-risk venue category"
+  },
+  {
+   "id": "hummingbot-2026-11-21",
+   "date": "2026-11-21",
+   "name": "hummingbot/hummingbot",
+   "summary": "Open-source execution framework for exchange connectivity, market making and systematic strategies.",
+   "stars": 21331,
+   "checked": "2026-11-21",
+   "why": "Revisited for stable v2.18.0: execution and backtest fixes plus removal of the unsafe remote-data deserialization path, rather than a generic popularity pick.",
+   "url": "https://github.com/hummingbot/hummingbot",
+   "caveat": "Apache-2.0. See the specific release/security note. Paper-mode support depends on the strategy path; do not assume every controller can run without live accounts. No install, code audit or performance test.",
+   "label": "Notable open-source / editorial revisit"
+  },
+  {
+   "id": "condor-2026-11-21",
+   "date": "2026-11-21",
+   "name": "hummingbot/condor",
+   "summary": "Agent harness around Hummingbot API, including domain agents, custom tick strategies and dry-run support.",
+   "stars": 266,
+   "checked": "2026-11-21",
+   "why": "A direct fit for the SatStacker split between an agent layer and deterministic execution. Revisited with a fresh checked snapshot, not a new release claim.",
+   "url": "https://github.com/hummingbot/condor",
+   "caveat": "MIT. No tagged releases. API can control orders, balances and stored exchange credentials; README recommends private networking plus strong credentials. Dry-run is a software feature, not proof of live safety or profits.",
+   "label": "Notable open-source / editorial revisit"
+  },
+  {
+   "id": "olas-ocb-agent-2026-11-21",
+   "date": "2026-11-21",
+   "name": "valory-xyz/olas-ocb-agent",
+   "summary": "Small open-source CLI agent and Pearl Connect beta for on-chain payments, swaps, lending and research.",
+   "stars": 0,
+   "checked": "2026-11-21",
+   "why": "The approval broker and explicit security limits make this more useful to inspect than a headline benchmark alone.",
+   "url": "https://github.com/valory-xyz/olas-ocb-agent",
+   "caveat": "Apache-2.0. Zero stars at check is a fresh snapshot, not a quality verdict. Native-value cap excludes ERC-20 transfers/approvals, which can pass in auto mode; native Windows has no documented OS sandbox. Maker runs the benchmark too. Not installed or funded.",
+   "label": "Notable open-source / editorial pick"
+  },
+  {
+   "id": "wavelength-2026-11-21",
+   "date": "2026-11-21",
+   "name": "lightninglabs/wavelength",
+   "summary": "Bitcoin/Lightning payment tooling for agent-accessible services, with wallet and MCP interfaces.",
+   "stars": 62,
+   "checked": "2026-11-21",
+   "why": "Keeps the BTC payment rail visible in this edition while the week's new launches mostly target EVM wallets. Revisited, not a new stable release.",
+   "url": "https://github.com/lightninglabs/wavelength",
+   "caveat": "MIT. Stable remains v0.2.1; v0.2.2-rc1 is only a tag. Separate from lightning-agent-tools. Wallet operation carries fees, expiry/recovery and custody risks; no funds moved and no software tested.",
+   "label": "Notable open-source / editorial revisit"
   }
  ]
 }
