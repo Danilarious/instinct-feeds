@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "topics": [
   {
    "id": "blockchain",
@@ -1896,6 +1896,65 @@
     {
      "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "mkt-zec-ada-bounce-2026-11-23",
+   "date": "2026-11-23",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Price alert / genuine ZEC and ADA bounce, not bottom confirmation",
+   "title": "ZEC and ADA bounce: $849.24 and $0.153787, up 7.35% and 5.75% since 4:17am",
+   "summary": "At 8:21am PST on November 23, CoinGecko showed ZEC at $849.24, up 6.99% over the trailing 24 hours, and ADA at $0.153787, up 6.01%. Both are genuine upward legs, not only rolling-window math: ZEC is up 7.35% since the 4:17am reading of $791.10 and ADA 5.75% since $0.145421. ZEC/BTC read 0.01357503, up 4.21% and outperforming BTC; the pair held a +5.57% cross at 7:17am but currently sits back below +5%. BTC was $62,652, up 2.80%; NIGHT was $0.04999763, up 2.94%, with NIGHT/BTC at 0.000000799209, up 0.27%. Kraken's last trades of $62,697.80 for BTC, $850.48 for ZEC, $0.153896 for ADA and $0.05009 for NIGHT confirm the bounce.",
+   "detail": "Both assets have cooled from the 7:17am check of $866.26 for ZEC and $0.154096 for ADA, so these are not new session highs, and the earlier intraday extremes of $906.96 ZEC, $64,520.30 BTC and $0.05237 NIGHT were not sustained levels. Keep the measures separate: the 24-hour percentages are trailing CoinGecko changes against a moving baseline, while the since-4:17am figures compare spot snapshots. ZEC's pair crossed +5% at 7:17am but is back below it at 8:21am, so no sustained pair threshold holds. NIGHT remains below its +15% USD rule with no new pair cross, the November 21 recovery note stays consumed, and the low anchors of $55,100 BTC, $677.61 ZEC and $0.04018 NIGHT are unchanged. No verified causal catalyst: the move is not attributed to the issuer-announced ZECX launch, which is not yet confirmed flows. This is an observed bounce, not confirmation of a lasting bottom. Historical snapshots, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "zecx-grayscale-launch-2026-11-23",
+   "date": "2026-11-23",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Issuer-announced trading launch / exchange volume and flows unverified",
+   "title": "Grayscale's 2x ZCSH ETF ZECX begins trading on NYSE Arca",
+   "summary": "On November 23, Grayscale announced that its 2x ZCSH ETF, ticker ZECX, has begun trading on NYSE Arca, and the issuer product page confirms a November 23, 2026 inception. ZECX seeks 200% of the daily return of ZCSH, Grayscale's existing ZEC-holding fund, before fees, primarily through total return swaps linked to ZCSH. ZECX does not hold ZEC or private keys, and the daily reset means it is not a 2x ZEC buy-and-hold: compounding can produce losses over longer periods even when ZCSH rises.",
+   "detail": "This is an issuer-announced trading launch: the official release and product page confirm the product, inception date and listing venue, but exchange executions, volume and new money flows are not independently verified, so no confirmed spot ZEC buying or flow impact is claimed and no direct cause is established for this morning's ZEC bounce. ZECX is distinct from Bitwise's November 17 preliminary S-1 proposal for a spot Zcash ETF, which is not yet effective. The launch does not change the watched low anchors. Historical snapshot, not investment advice.",
+   "sources": [
+    {
+     "label": "Grayscale announcement: 2x ZCSH ETF (ZECX) begins trading on NYSE Arca",
+     "url": "https://www.globenewswire.com/news-release/2026/11/23/3408438/0/en/2x-zcsh-etf-ticker-zecx-built-by-grayscale-begins-trading-on-nyse-arca.html"
+    },
+    {
+     "label": "Grayscale ZECX product page",
+     "url": "https://etfs.grayscale.com/zecx"
+    }
+   ]
+  },
+  {
+   "id": "btc-etf-outflows-2026-11-20",
+   "date": "2026-11-20",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Market structure",
+   "status": "Verified data / Farside",
+   "title": "US spot bitcoin ETFs post $669.2M of Friday outflows, IBIT $544.7M",
+   "summary": "Farside's completed November 20 table records $669.2 million of net outflows from US spot bitcoin ETFs, including $544.7 million from IBIT. The completed figure replaces the earlier partial tally of $124.5 million, which omitted IBIT; it is the same session's total, not an additional outflow on top.",
+   "detail": "Rounded aggregator data checked November 23; revisions remain possible. The Monday row currently shows placeholder dashes, meaning flows are not yet available, not that flows were zero. A completed daily outflow is context for the recent drawdown, not proof of a sole price cause, and the completed figure supersedes the preliminary partial tally without implying a single session proves a lasting trend.",
+   "sources": [
+    {
+     "label": "Farside daily flow table",
+     "url": "https://farside.co.uk/btc/"
     }
    ]
   }
