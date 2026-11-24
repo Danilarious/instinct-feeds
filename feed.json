@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "topics": [
   {
    "id": "blockchain",
@@ -1955,6 +1955,35 @@
     {
      "label": "Farside daily flow table",
      "url": "https://farside.co.uk/btc/"
+    }
+   ]
+  },
+  {
+   "id": "ordinals-field-guide-2026-11-24",
+   "date": "2026-11-24",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Weekly field guide",
+   "status": "Published edition / source-linked research",
+   "title": "Ordinals field guide: soft markets, two token trades and announced mints",
+   "summary": "The November 24 edition covers a press report that Bitcoin NFT sales rose on two large BRC-20 token sales, a newsletter read of a soft market, and two announced mints: The Eyes and Shielded Wizards.",
+   "detail": "The sales figure comes from IndustryLink citing CryptoSlam via crypto.news, covers the week to November 14, and is token trading rather than art sales. The Eyes details are from a promotional article and Shielded Wizards timing is from a newsletter listing of a social post; neither mint's outcome was verified. No market-wide ranking or sales total was verified. The separate field guide preserves all earlier editions and original cards.",
+   "sources": [
+    {
+     "label": "November 24 field guide and archive",
+     "url": "https://danilarious-ordinals-field-guide.netlify.app/"
+    },
+    {
+     "label": "Bitcoin NFT sales report (IndustryLink)",
+     "url": "https://industrylink.online/news/nft-sales-slip-bitcoin-nfts-gain-gaming-cools/"
+    },
+    {
+     "label": "ExtraOrdinal Weekly #459",
+     "url": "https://xo-daily.beehiiv.com/p/extraordinal-weekly-459-builders-keep-shipping"
+    },
+    {
+     "label": "The Eyes mint article (Bored Ape Gazette)",
+     "url": "https://www.theboredapegazette.com/post/a-thanksgiving-to-remember-three-years-after-a-life-changing-spiritual-experience-mr-black-is-bri"
     }
    ]
   }
