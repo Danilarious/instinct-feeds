@@ -1965,17 +1965,21 @@
    "project": "bitcoin",
    "type": "Weekly field guide",
    "status": "Published edition / source-linked research",
-   "title": "Ordinals field guide: soft markets, two token trades and announced mints",
-   "summary": "The November 24 edition covers a press report that Bitcoin NFT sales rose on two large BRC-20 token sales, a newsletter read of a soft market, and two announced mints: The Eyes and Shielded Wizards.",
-   "detail": "The sales figure comes from IndustryLink citing CryptoSlam via crypto.news, covers the week to November 14, and is token trading rather than art sales. The Eyes details are from a promotional article and Shielded Wizards timing is from a newsletter listing of a social post; neither mint's outcome was verified. No market-wide ranking or sales total was verified. The separate field guide preserves all earlier editions and original cards.",
+   "title": "Ordinals field guide: soft markets, token-led sales and announced mints",
+   "summary": "The November 24 edition covers press reports of CryptoSlam data showing Bitcoin NFT sales down and led by BRC-20 token trades, a newsletter read of a soft market, and two announced mints, The Eyes and Shielded Wizards, whose outcomes are not confirmed.",
+   "detail": "Market figures are press reports (crypto.news, TokenPost) of a CryptoSlam snapshot and were not checked against CryptoSlam directly; BRC-20 sales are token trades, not art sales. The Eyes details come from a promotional article and Shielded Wizards timing from a newsletter listing; no project announcement was found for either, and neither mint is confirmed. No market-wide ranking or sales total was verified. The separate field guide preserves all earlier editions and original cards.",
    "sources": [
     {
      "label": "November 24 field guide and archive",
      "url": "https://danilarious-ordinals-field-guide.netlify.app/"
     },
     {
-     "label": "Bitcoin NFT sales report (IndustryLink)",
-     "url": "https://industrylink.online/news/nft-sales-slip-bitcoin-nfts-gain-gaming-cools/"
+     "label": "Weekly NFT sales report (crypto.news)",
+     "url": "https://crypto.news/nft-sales-rise-33m-ethereum-volume-jumps/"
+    },
+    {
+     "label": "Weekly NFT sales report (TokenPost)",
+     "url": "https://www.tokenpost.com/news/investing/62472"
     },
     {
      "label": "ExtraOrdinal Weekly #459",
@@ -2014,4 +2018,4 @@
    "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets"
   }
  ]
-}
+    }
