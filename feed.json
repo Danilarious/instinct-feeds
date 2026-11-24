@@ -1990,6 +1990,112 @@
      "url": "https://www.theboredapegazette.com/post/a-thanksgiving-to-remember-three-years-after-a-life-changing-spiritual-experience-mr-black-is-bri"
     }
    ]
+  },
+  {
+   "id": "mkt-overnight-downside-2026-11-24",
+   "date": "2026-11-24",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Downside snapshot / real overnight leg against yesterday's rally base",
+   "title": "Bounce fades: BTC $59,533, ZEC $712.14 and ADA $0.143040, ZEC/BTC down 11.93%",
+   "summary": "At 8:20am PST on November 24, CoinGecko showed BTC at $59,533, down 5.06% over the trailing 24 hours; ZEC at $712.14, down 16.25%; ADA at $0.143040, down 7.08%; and NIGHT at $0.04792467, down 4.15%. ZEC/BTC read 0.01196998, down 11.93% and underperforming BTC; NIGHT/BTC read 0.000000805536, up 0.79% and outperforming BTC despite falling in dollars. The selling is real, but the rolling windows also compare against yesterday morning's rally: since 4:20am the actual spot moves were about BTC -1.07%, ZEC -3.16%, ADA -2.02%, NIGHT -0.84% and ZEC/BTC -2.03%. Kraken's last trades of $59,524.20 for BTC, $714.74 for ZEC, $0.143131 for ADA and $0.04787 for NIGHT confirm the move.",
+   "detail": "BTC and ADA recorded fresh morning downside threshold crossings, first seen at 7:20am at -5.22% and -7.26%; ZEC's USD and pair declines are the same overnight leg, now deeper, not a separate event. NIGHT's -4.15% is not a new -5% crossing. Kraken's venue lows of $59,314.10 for BTC, $707.52 for ZEC and $0.04742 for NIGHT remain above the delivered anchors of $55,100, $677.61 and $0.04018, so no anchor revision or 3% extension is recorded, and the NIGHT recovery note stays consumed. Keep the measures separate: the 24-hour percentages are trailing CoinGecko changes against a moving baseline; the since-4:20am figures compare spot snapshots. Kraken lists no NIGHT/BTC or ZEC/BTC pair, so pair figures are CoinGecko-only; the ZEC cross-source difference was about 0.4% and CoinGecko is used consistently. No verified causal catalyst: Monday's ETF flows and the ZECX launch do not establish cause. Historical snapshots, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "btc-etf-outflows-2026-11-23",
+   "date": "2026-11-23",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Market structure",
+   "status": "Verified data / Farside",
+   "title": "US spot bitcoin ETFs post $569.7M of Monday outflows, IBIT $509.3M",
+   "summary": "Farside's completed November 23 table records $569.7 million of net outflows from US spot bitcoin ETFs, including $509.3 million from IBIT.",
+   "detail": "Rounded aggregator data checked November 24; revisions remain possible. The Monday outflow follows Friday's completed $669.2 million and is context for the recent drawdown, not proof of a sole price cause; a single session does not establish a lasting trend.",
+   "sources": [
+    {
+     "label": "Farside daily flow table",
+     "url": "https://farside.co.uk/btc/"
+    }
+   ]
+  },
+  {
+   "id": "zcsh-inflow-2026-11-23",
+   "date": "2026-11-23",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Verified data / Farside",
+   "title": "ZCSH records a $4.6M Monday inflow",
+   "summary": "Farside's November 23 ZEC table records $4.6 million of net inflows into ZCSH, the Grayscale fund that holds ZEC.",
+   "detail": "ZCSH is the spot ZEC-holding product, distinct from ZECX, the leveraged derivatives fund Grayscale launched the same day targeting twice ZCSH's daily return. A single day's inflow does not establish a trend, sustained new demand or the cause of price moves. Rounded aggregator data checked November 24; revisions remain possible.",
+   "sources": [
+    {
+     "label": "Farside daily ZEC flow table",
+     "url": "https://farside.co.uk/zec/"
+    }
+   ]
+  },
+  {
+   "id": "cf-benchmarks-zcash-rates-2026-11-23",
+   "date": "2026-11-23",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Scheduled pricing infrastructure / not a futures launch or new buying",
+   "title": "CF Benchmarks adds Zcash reference rates and a real-time index from November 30",
+   "summary": "On November 23, CF Benchmarks announced the addition of the CME CF Zcash-Dollar Reference Rate, its New York and Asia Pacific variants, and a real-time index to the CME CF Cryptocurrency Pricing Products family, with publication commencing November 30, 2026. Each reference rate will publish the US dollar price of one ZEC once daily at 16:00 London, New York or Hong Kong time.",
+   "detail": "This is regulated pricing infrastructure that other products can reference; it is not a CME futures launch, not an ETF approval and not confirmed new ZEC buying. The announced November 30 start is a schedule, not evidence the indices are live today. Historical snapshot, not investment advice.",
+   "sources": [
+    {
+     "label": "CF Benchmarks announcement: Zcash reference rates and real-time index",
+     "url": "https://www.cfbenchmarks.com/blog/expansion-of-the-cme-cf-cryptocurrency-pricing-products-family-to-include-zcash-reference-rates-and-real-time-index"
+    }
+   ]
+  },
+  {
+   "id": "midnight-policy-responses-2026-11-24",
+   "date": "2026-11-24",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Policy",
+   "status": "Foundation advocacy / not regulatory approval or legal change",
+   "title": "Midnight Foundation files three policy responses advocating privacy and selective disclosure",
+   "summary": "On November 24, the Midnight Foundation described three recent formal submissions to regulators: a contribution to the UK FCA and Bank of England call for input on wholesale market tokenisation, a response to the European Commission's DG FISMA consultation on standards for digital-asset service providers, and a comment to the US Treasury on proposed GENIUS Act rules for payment stablecoins. Each advocates technology-neutral rules that accommodate selective disclosure.",
+   "detail": "These are advocacy positions in open consultations, not regulatory approval, adopted rules or a change in law. Claims inside the submissions, including the Foundation's argument that Midnight's selective-disclosure architecture does not qualify as an anonymity-enhancing technology under AMLR Article 79, are the Foundation's positions, not regulator findings. No production network change is established by this post.",
+   "sources": [
+    {
+     "label": "Midnight Foundation blog: privacy and compliance are not opposites",
+     "url": "https://midnight.network/blog/global-regulators-privacy-and-compliance-are-not-opposites"
+    }
+   ]
+  },
+  {
+   "id": "cryptocom-veles-bots-2026-11-23",
+   "date": "2026-11-23",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Vendor announcement / bots live, AI strategy generation upcoming",
+   "title": "Crypto.com Exchange adds Veles DCA and grid bots; AI strategy generation still upcoming",
+   "summary": "On November 23, Crypto.com announced that eligible Exchange users can now connect their accounts to Veles via API keys for algorithmic trading: DCA and grid bots across spot and futures accounts, with historical backtesting, running on the exchange without moving funds off it. Veles's AI-powered strategy generation remains upcoming, not live.",
+   "detail": "Vendor claims, including Veles's performance-based fee model, five years without a security incident and more than 100,000 traders, are the companies' own statements, not independently verified. This is not a verified new AI accumulation tool, and this note is not a recommendation to connect or fund any bot: grid and futures trading carry different risks than simple spot accumulation, and any future AI strategy suggestions would remain separate from execution rules. Eligibility limits apply per Crypto.com.",
+   "sources": [
+    {
+     "label": "Crypto.com company news: Veles algorithmic bots partnership",
+     "url": "https://crypto.com/us/company-news/cryptocom-exchange-and-veles-partner-to-enhance-trading-experience-with-turnkey-algorithmic-bots"
+    }
+   ]
   }
  ],
  "timeline": [
@@ -2018,4 +2124,4 @@
    "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets"
   }
  ]
-    }
+}
