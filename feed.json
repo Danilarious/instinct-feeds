@@ -2096,6 +2096,27 @@
      "url": "https://crypto.com/us/company-news/cryptocom-exchange-and-veles-partner-to-enhance-trading-experience-with-turnkey-algorithmic-bots"
     }
    ]
+  },
+  {
+   "id": "gemini-shielded-zec-deposits-2026-11-24",
+   "date": "2026-11-24",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Exchange-announced launch / help docs conflict, not account-tested",
+   "title": "Gemini says shielded ZEC deposits are live, Unified Addresses the default",
+   "summary": "On November 24, Gemini announced that customers can now deposit ZEC to a Gemini-issued shielded Unified Address on Gemini Exchange, with shielded the default and transparent addresses still optional. Gemini describes this as closing the loop with the shielded withdrawals it launched earlier this year, and claims that makes it the first major exchange globally with both - Gemini's own framing, not an independent ranking.",
+   "detail": "This is Gemini's announcement, not an independently tested account feature: Gemini's own help article still says the Zcash deposit addresses it issues are transparent t-addresses, so the documentation is inconsistent and the default behavior is unconfirmed outside the launch post. The capability covers receiving into an exchange account; it provides privacy on the public blockchain for the transfer, not anonymity from Gemini, and account and compliance requirements are unchanged. For technical readers, the post says the shielded component of a Unified Address is an Orchard receiver. Historical snapshot, not investment advice.",
+   "sources": [
+    {
+     "label": "Gemini blog: Shielded Zcash Deposits Are Now Available on Gemini",
+     "url": "https://www.gemini.com/blog/shielded-zcash-deposits-are-now-available-on-gemini"
+    },
+    {
+     "label": "Gemini help: What type of Zcash deposit address does Gemini issue (conflicting)",
+     "url": "https://support.gemini.com/hc/en-us/articles/31670107364891-What-type-of-Zcash-deposit-address-does-Gemini-issue"
+    }
+   ]
   }
  ],
  "timeline": [
