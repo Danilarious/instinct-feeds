@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "topics": [
   {
    "id": "blockchain",
@@ -2115,6 +2115,99 @@
     {
      "label": "Gemini help: What type of Zcash deposit address does Gemini issue (conflicting)",
      "url": "https://support.gemini.com/hc/en-us/articles/31670107364891-What-type-of-Zcash-deposit-address-does-Gemini-issue"
+    }
+   ]
+  },
+  {
+   "id": "mkt-wednesday-digest-2026-11-25",
+   "date": "2026-11-25",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Morning snapshot / no new threshold alerts",
+   "title": "Wednesday digest: BTC $58,436; ZEC slides to $687.16 overnight, no new threshold",
+   "summary": "At 8:20am PST on November 25, CoinGecko showed BTC at $58,436, down 1.79% over the trailing 24 hours; ZEC at $687.16, down 3.68%; ADA at $0.138888, down 2.81%; and NIGHT at $0.04628499, down 3.32%. ZEC/BTC read 0.01177671, down 1.83%, and NIGHT/BTC 0.000000793241, down 1.46% - both underperforming BTC. ZEC's smaller rolling-24-hour loss does not mean it recovered: it fell from about $716.82 at 4:23am to $687.16, a real overnight decline of about 4.1%. Kraken's lasts of $58,602.20 for BTC, $691.45 for ZEC, $0.139049 for ADA and $0.04639 for NIGHT differ about 0.1% to 0.6%; CoinGecko is used consistently.",
+   "detail": "No qualifying new threshold alert: Kraken's ZEC low of $673.36 sits only 0.63% below the delivered $677.61 anchor, not a qualifying 3% extension, so the anchor stands; Kraken's BTC low of $57,210.70 and NIGHT low of $0.04554 remain above the $55,100 and $0.04018 anchors. No named support break is recorded and the NIGHT recovery note stays consumed. Keep the measures separate: the 24-hour percentages are trailing CoinGecko changes against a moving baseline; the overnight move compares spot snapshots. Kraken lists no NIGHT/BTC or ZEC/BTC pair, so pair figures are CoinGecko-only; no independent market-wide NIGHT liquidity assessment was made. Historical snapshots, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "macro-pce-october-2026-11-25",
+   "date": "2026-11-25",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Official data / released November 25",
+   "title": "October PCE inflation runs 3.8% year over year, core 3.3%",
+   "summary": "On November 25, the BEA released October personal income and outlays: the PCE price index rose 0.3% on the month and 3.8% from a year earlier, and the core index excluding food and energy also rose 0.3% on the month, up 3.3% year over year.",
+   "detail": "This is released official data, not a scheduled future release. An interpretation, not a causal finding: inflation at these levels remains a headwind for rate-sensitive risk assets, crypto included, and this note does not attribute any specific price move to the release. Personal income rose 0.7% on the month and real PCE edged down less than 0.1%.",
+   "sources": [
+    {
+     "label": "BEA: Personal Income and Outlays, October 2026",
+     "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
+    }
+   ]
+  },
+  {
+   "id": "btc-etf-outflows-2026-11-24",
+   "date": "2026-11-24",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Market structure",
+   "status": "Verified data / Farside",
+   "title": "US spot bitcoin ETFs post $231.4M of Tuesday outflows, sixth straight outflow day",
+   "summary": "Farside's completed November 24 table records $231.4 million of net outflows from US spot bitcoin ETFs, a sixth consecutive outflow day, though smaller than Monday's $569.7 million.",
+   "detail": "Rounded aggregator data checked November 25; revisions remain possible. Farside's ZEC table shows ZCSH flat on the same day after Monday's $4.6 million inflow. The streak is context for the drawdown, not proof of a sole price cause.",
+   "sources": [
+    {
+     "label": "Farside daily flow table",
+     "url": "https://farside.co.uk/btc/"
+    },
+    {
+     "label": "Farside daily ZEC flow table",
+     "url": "https://farside.co.uk/zec/"
+    }
+   ]
+  },
+  {
+   "id": "bitcoincom-explorer-api-2026-11-25",
+   "date": "2026-11-25",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Market structure",
+   "status": "Documented tooling / not independently tested",
+   "title": "Bitcoin.com Explorer documents a free, keyless read-only API and MCP server",
+   "summary": "Bitcoin.com's Explorer now documents a free JSON API and MCP server for reading Bitcoin blocks, transactions and addresses, requiring no API key, with a 60-requests-per-minute per-IP uncached limit and an OpenAPI document.",
+   "detail": "Checked November 25 against the vendor's documentation page; the service itself was not independently tested and nothing was connected. For accumulation tooling this reads as a possible independent receipt checker, not a trading engine. The privacy caveat stands: querying specific wallet addresses links that activity to the requester's IP, so no wallet addresses have been shared. Vendor documentation, not an endorsement.",
+   "sources": [
+    {
+     "label": "Bitcoin.com Explorer API documentation",
+     "url": "https://www.bitcoin.com/explorer/api/"
+    }
+   ]
+  },
+  {
+   "id": "cardano-x402-sdk-2026-11-25",
+   "date": "2026-11-25",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Market structure",
+   "status": "Documented SDK / production settlement not verified",
+   "title": "Cardano documents x402 support for agents paying APIs per request",
+   "summary": "The Cardano Developer Portal documents x402 agentic commerce support: the open payment standard, governed by the x402 Foundation under the Linux Foundation, lets services charge per HTTP request and lets agents pay on chain without accounts or API keys. Cardano's own scheme is published on npm as @x402/cardano.",
+   "detail": "This is documented infrastructure, checked November 25; production settlement volume, real-world usage and any fresh mainnet launch are not verified, and this is not a Midnight release. Useful rails for agent-paid tooling, recorded without a recommendation to build on or fund anything.",
+   "sources": [
+    {
+     "label": "Cardano Developer Portal: Agentic Commerce (x402)",
+     "url": "https://developers.cardano.org/x402/"
     }
    ]
   }
