@@ -1,7 +1,102 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-25",
   "editorial": "Dated research and source-linked updates on multi-agent systems. Publication dates belong to the source; repository metrics are checked snapshots, not live trending ranks.",
   "entries": [
+    {
+      "id": "mas-t3code-v0-1-12-2026-11-25",
+      "date": "2026-11-25",
+      "type": "Release",
+      "status": "Stable release / vendor-described features",
+      "title": "T3 Code v0.1.12: multi-repository projects, Workflows with human approvals and linked threads",
+      "summary": "Version 0.1.12 (MIT) landed November 25 with 1,092 changes from 226 contributors. Headline features per the release notes: multi-repository projects across several repositories in one project and thread, including isolated worktrees; Workflows (beta), durable workflows with agents, schedules, webhooks and human approvals; Linked threads (beta) for reading threads on linked machines and connecting without pairing each machine first; a Connections map (beta); MCP server sign-in directly from a thread warning, including on remote environments; local dictation via Apple Speech on macOS 26 or later; and large file previews.",
+      "detail": "Workflows-with-approvals extends the scoped-grant delegation arc this chapter has tracked from v0.1.9's session approvals (logged November 11) and v0.1.10's T3 Connect device approval (logged November 17): durable agent runs now carry human approval steps as a first-class primitive. That still depends on the client making the granted scope and revocation path clear; these are vendor-described release notes, not an installed or tested workflow. A v0.1.11 stable shipped November 20 between weekly scans and was not logged separately. GitHub API snapshot at publish check November 25: 79,148 stars and 13,927 forks, a popularity snapshot rather than a trend rank. T3 Code was this chapter's October 23 repo pick.",
+      "sources": [
+        {
+          "label": "T3 Code v0.1.12 release - GitHub",
+          "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.12"
+        },
+        {
+          "label": "GitHub API repository snapshot",
+          "url": "https://api.github.com/repos/pingdotgg/t3code"
+        }
+      ]
+    },
+    {
+      "id": "mas-alem-v2-2026-11-24",
+      "date": "2026-11-24",
+      "type": "Paper",
+      "status": "Preprint revision (v2) / author-reported results",
+      "title": "alem v2: an open-ended benchmark that separates base competence from coordination competence",
+      "summary": "The v2 revision of a June paper, posted November 24 with substantially new results. alem is a JAX-based open-ended survival world (Craftax-like) with procedurally generated coordination structure: synchronous joint action and handover tasks, 2-to-N agent requirements, and a controllable difficulty scalar that isolates coordination from world variation. Thirteen LLMs run zero-shot in homogeneous teams, with MARL references for comparison.",
+      "detail": "Author-reported: the Hard-set average is only about 6% normalized return; Gemini-3.1-Pro-High reaches 17.5% coordination on Hard, comparable to MARL agents trained for 1B steps (17.6%); GPT-5.4-High shows the split between base competence and coordination, with the second-highest base reward but much lower coordination and non-overlapping confidence intervals against smaller models; communication is the largest coordination contributor; and heterogeneous teams improve base progress but lower coordination. The split echoes the November 13 meta-analysis logged here: task competence does not imply coordination competence. Results remain author-reported and not independently reproduced. Code and a public leaderboard accompany the revision.",
+      "sources": [
+        {
+          "label": "arXiv:2606.08340 (v2, November 24)",
+          "url": "https://arxiv.org/abs/2606.08340"
+        },
+        {
+          "label": "Code - alem-world/alem-env",
+          "url": "https://github.com/alem-world/alem-env"
+        },
+        {
+          "label": "Leaderboard",
+          "url": "https://alem-world.github.io"
+        }
+      ]
+    },
+    {
+      "id": "mas-inside-the-company-25-agents-2026-11-19",
+      "date": "2026-11-19",
+      "type": "News",
+      "status": "Practitioner write-up / self-described system",
+      "title": "Inside the Company: a read-only public export of a running 25-agent software org",
+      "summary": "James Shen published a read-only public export of a running 25-agent software company: 219 of 4,034 threads from the last 24 hours, with metrics across the org, run logs and credentials withheld, and secret-shaped strings masked.",
+      "detail": "The piece is notable for its own stated epistemics, which match this chapter's reading rules: messages are what the agents say, not independent evidence; reviews must be written by someone other than the author; receipts name commits and test counts; nothing in the export proves the output beats one careful agent; and a human still owns deploys, logins and rule changes. A spectator view over a real agent org with the caveats built in. Self-described export, not an independent audit.",
+      "sources": [
+        {
+          "label": "Inside the Company - James Shen",
+          "url": "https://guidebee.github.io/posts/2026/11/inside-the-company-how-ai-agents-work-together/"
+        }
+      ]
+    },
+    {
+      "id": "mas-two-agent-teams-same-files-2026-11-19",
+      "date": "2026-11-19",
+      "type": "News",
+      "status": "Practitioner post-mortem / honest-failure report",
+      "title": "Two agent teams, the same files: an overlap gate and merge train, with one plain failure",
+      "summary": "A measured real run, posted November 19 on the author's public product Verikora, of parallel agent teams sharing one repository: an overlap gate compares a team's files with open PRs before it opens its own, then a merge train lands PRs serially with replay for stacked PRs.",
+      "detail": "Scenario 1 worked: the overlap was spotted pre-PR and both PRs landed with zero conflicts. Scenario 2, a stacked PR, failed: the base moved after a reformat, replay refused, and a manual merge was needed. The author says so plainly: \"S2 failed... we stopped the run there, without retrying the case until it passed.\" A rare honest-failure write-up of orchestration infrastructure, fitting this chapter's what-changed-what-runs thread. Single-run report on the author's own setup, not a replicated result.",
+      "sources": [
+        {
+          "label": "Two agent teams, the same files: a real run - krizaka",
+          "url": "https://blog.krizaka.com/story/two-agent-teams-on-the-same-files/"
+        }
+      ]
+    },
+    {
+      "id": "mas-agentenv-catchup-2026-10-05",
+      "date": "2026-10-05",
+      "type": "Release",
+      "status": "Out-of-window catch-up / open-source release",
+      "title": "Catch-up: Scale Labs open-sources AgentEnv for building RL environments",
+      "summary": "An out-of-window catch-up logged November 25: Scale Labs open-sourced AgentEnv in early October (blog dated October 5), a framework for building RL environments with Environment Cards published at /.well-known/agent-env.json, A2A Agent Card pairing, and MCP, REST and CLI tool surfaces.",
+      "detail": "The item predates this chapter's weekly scan window; a search engine dated it November 22, which could not be confirmed, so it is logged as a labeled catch-up rather than this week's news. GitHub API snapshot at publish check November 25: 449 stars and 67 forks, Apache-2.0, repository created September 24. Vendor-described; not installed or tested.",
+      "sources": [
+        {
+          "label": "Introducing AgentEnv - Scale Labs",
+          "url": "https://labs.scale.com/blog/introducing-agentenv"
+        },
+        {
+          "label": "Code - scaleapi/agentenv-framework",
+          "url": "https://github.com/scaleapi/agentenv-framework"
+        },
+        {
+          "label": "GitHub API repository snapshot",
+          "url": "https://api.github.com/repos/scaleapi/agentenv-framework"
+        }
+      ]
+    },
     {
       "id": "mas-t3code-v0-1-10-2026-11-17",
       "date": "2026-11-17",
@@ -534,9 +629,9 @@
       "date": "2026-10-23",
       "name": "pingdotgg/t3code",
       "summary": "T3 Code Orchestrator V2: cross-provider agent delegation, thread forking, multi-harness support, agent sign-in approval and session-scoped MCP approvals.",
-      "stars": 65014,
-      "checked": "2026-11-18",
-      "why": "delegate_task remains a concrete shipped take on cross-harness child agents; v0.1.10 adds host approval for new T3 Connect devices, continuing the move toward scoped grants.",
+      "stars": 79148,
+      "checked": "2026-11-25",
+      "why": "delegate_task remains a concrete shipped take on cross-harness child agents; v0.1.12's Workflows beta adds durable agent runs with human approval steps, continuing the move toward scoped grants.",
       "url": "https://github.com/pingdotgg/t3code",
       "caveat": "MIT. Features are vendor-described; not installed or tested. Star count is a snapshot, not a trend rank or proof that an approval grant is scoped correctly.",
       "label": "Notable open-source / editorial pick"
@@ -546,8 +641,8 @@
       "date": "2026-10-23",
       "name": "pixel-agents-hq/pixel-agents",
       "summary": "An agent-office interface for coordinating Claude Code workers, with designed characters, recent-conversation resume, usage and context bars, and an embedded browser terminal as of v1.6.0.",
-      "stars": 10287,
-      "checked": "2026-11-18",
+      "stars": 10387,
+      "checked": "2026-11-25",
       "why": "The most visibly shipping project in the agent-office genre this month; v1.6.0 turns the roster into a designed cast while keeping orchestration state visible.",
       "url": "https://github.com/pixel-agents-hq/pixel-agents",
       "caveat": "MIT. Feature claims are the project's own; not installed or tested. Star, fork and issue counts are checked snapshots, not trend ranks or a security review.",
