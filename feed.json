@@ -2336,6 +2336,27 @@
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
     }
    ]
+  },
+  {
+   "id": "mkt-zec-usd-5pct-downside-2026-11-26",
+   "date": "2026-11-26",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "ZEC dollar downside alert: -6.5% over 24h at $718.02, but spot rose since the last check",
+   "summary": "Afternoon dollar threshold cross at about 1:28pm PT: ZEC traded at $718.02, down 6.47% over the trailing 24-hour window, versus $705.18 and -4.53% at 10:28am. The crossing is rolling-window-driven, not a fresh three-hour selloff: actual spot rose about 1.82% between the two checks, and Kraken's $717.79 confirms. ZEC/BTC read 0.01181841, down 7.34% - the same negative pair leg already alerted at 10:29am, so no repeat pair trigger; NIGHT/BTC read 0.000000800861, down 1.46%.",
+   "detail": "Snapshot taken about 1:28pm PT on November 26 from the CoinGecko API; a record of the alert, not live data. The rest of the board at the same check: BTC $60,803, up 0.68%; ADA $0.150855, up 2.46%; NIGHT $0.04865547, down 0.53%. No NIGHT rule, support or low extension: Kraken's ZEC 24-hour low remains $662 and the delivered $677.61 anchor is unchanged, so anchors stay at $55,100, $677.61 and $0.04018. Keep the measures separate: the 24-hour percentages compare against a changing price from 24 hours earlier, while the between-check figures compare spot snapshots; this morning's real overnight decline remains a distinct, already-recorded move. No verified fresh news sits behind the cross. Not investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
   }
  ],
  "timeline": [
