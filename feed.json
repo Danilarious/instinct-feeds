@@ -2315,6 +2315,27 @@
      "url": "https://docs.kaleidoswap.com/ai-tools/kaleido-agent"
     }
    ]
+  },
+  {
+   "id": "mkt-zecbtc-5pct-downside-2026-11-26",
+   "date": "2026-11-26",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "ZEC/BTC downside alert: -5.9% over 24h, but the pair is flat since the morning digest",
+   "summary": "Late-morning pair threshold cross at about 10:28am PT: ZEC/BTC read 0.01166273 BTC, down 5.92% over the trailing 24-hour window. The crossing is mostly rolling-window math, not a fresh post-digest plunge: the pair itself is up 0.32% against the 8:20am digest's 0.01162589, and ZEC spot at $705.18 is nearly unchanged, up 0.04%. NIGHT/BTC read 0.000000788212, down 2.51% - no pair threshold there.",
+   "detail": "Snapshot taken about 10:28am PT on November 26 from the CoinGecko API; a record of the alert, not live data. The rest of the board at the same check: BTC $60,542, up 1.56%; ZEC $705.18, down 4.53% over 24 hours in USD terms; ADA $0.149794, up 4.15% - back inside 5%, so the delivered positive leg has ended; NIGHT $0.04765856, down 1.08%. Kraken quoted ZEC at $708.31, a timing difference. No NIGHT trigger and no low or support extension: Kraken's ZEC 24-hour low remains $662, less than 3% below the delivered $677.61 anchor, so anchors stay unchanged at $55,100, $677.61 and $0.04018. Keep the measures separate: the 24-hour percentages compare against a changing price from 24 hours earlier, while the post-digest figures compare spot snapshots. Not investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
   }
  ],
  "timeline": [
