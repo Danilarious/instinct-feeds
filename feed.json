@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "topics": [
   {
    "id": "blockchain",
@@ -2229,6 +2229,90 @@
     {
      "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "mkt-thursday-digest-2026-11-26",
+   "date": "2026-11-26",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Morning snapshot / no new threshold alerts",
+   "title": "Thursday digest: BTC $60,553; ADA's green 24h is window math, ZEC down overnight",
+   "summary": "At 8:20am PST on November 26, CoinGecko showed BTC at $60,553, up 3.48% over the trailing 24 hours; ZEC at $704.87, up 2.21%; ADA at $0.148635, up 6.91%; and NIGHT at $0.04742643, up 2.43%. ZEC/BTC read 0.01162589, down 1.50%, and NIGHT/BTC 0.000000782239, down 1.29% - both underperforming BTC. Kraken's lasts of $60,539 for BTC, $705.69 for ZEC, $0.148632 for ADA and $0.04745 for NIGHT are close; CoinGecko is used consistently.",
+   "detail": "The green 24-hour numbers hide a softer overnight picture, so keep the measures separate: ADA is effectively flat since 1:27am PT ($0.148745 then, $0.148635 now), and its held +5% threshold crossing is mostly the lower comparison base entering the rolling window, not a fresh surge. ZEC is up 2.21% on 24 hours but down 5.42% since 1:27am's $745.24, with Kraken printing $662 intraday; that low is only 2.30% below the delivered $677.61 anchor, short of the 3% extension threshold at $657.2817, so the anchor stands and no fresh ZEC rally should be implied. No NIGHT trigger or recovery repeat; anchors unchanged at $55,100, $677.61 and $0.04018. Kraken lists no NIGHT/BTC or ZEC/BTC pair, so pair figures are CoinGecko-only. Historical snapshots, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "btc-etf-outflows-2026-11-25",
+   "date": "2026-11-25",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Market structure",
+   "status": "Verified data / Farside",
+   "title": "US spot bitcoin ETFs post $453.0M of Wednesday outflows, seventh straight negative session",
+   "summary": "Farside's completed November 25 table records $453.0 million of net outflows from US spot bitcoin ETFs, including $329.7 million from IBIT - a seventh consecutive negative session, running November 17 through 25.",
+   "detail": "Table figures checked November 26. The ZEC table shows ZCSH down $2.2 million the same day, after zero on November 24. Thanksgiving's US cash-session holiday and Friday's early close are context for thin trading, not a new crypto catalyst. The streak is context for positioning, not proof of a sole price cause.",
+   "sources": [
+    {
+     "label": "Farside daily flow table",
+     "url": "https://farside.co.uk/btc/"
+    },
+    {
+     "label": "Farside daily ZEC flow table",
+     "url": "https://farside.co.uk/zec/"
+    },
+    {
+     "label": "NYSE hours and calendars",
+     "url": "https://www.nyse.com/markets/hours-calendars"
+    }
+   ]
+  },
+  {
+   "id": "cardano-brale-stablecoin-live-2026-11-24",
+   "date": "2026-11-24",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Market structure",
+   "status": "Shipped infrastructure / vendor announcement",
+   "title": "Brale brings custom USD stablecoin issuance to Cardano mainnet",
+   "summary": "Brale's custom fiat-backed USD stablecoin issuance is live on Cardano mainnet and testnet through its app and API, built on CIP-113, Cardano's programmable-token standard. Announced November 24, following the 2025 partnership reveal.",
+   "detail": "This is shipped infrastructure, not proof of issuance volume or demand. The controls matter for framing: CIP-113 builds the rules into the token itself - a CIP-113 token only changes hands when the scripts that define its rules approve the transfer - and issuers retain freeze and seize powers, so this is regulated, programmable money rather than permissionless cash. Brale runs minting, redemption, custody, reserve management, compliance and the bank connections behind one API. The Cardano Foundation's November 25 digest independently confirms the launch and reports five node implementations have now produced mainnet blocks (cardano-node, Amaru, Dingo, cardano-bean and TSUNAGI). Vendor-described; not independently tested.",
+   "sources": [
+    {
+     "label": "Cardano is live on Brale",
+     "url": "https://brale.xyz/blog/cardano-is-live-on-brale"
+    },
+    {
+     "label": "Cardano Foundation digest, November 25",
+     "url": "https://forum.cardano.org/t/digest-november-25-five-nodes-on-mainnet-brale-brings-custom-stablecoin-issuance-spo-table-talk-on-minmargin-developer-spo-surveys-new-cip-updates-and-more/158526"
+    }
+   ]
+  },
+  {
+   "id": "kaleidoagent-docs-2026-11-26",
+   "date": "2026-11-26",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Market structure",
+   "status": "Documented tooling / not independently tested",
+   "title": "KaleidoAgent documents LLM-driven Lightning and RGB swaps, DCA and rebalancing",
+   "summary": "KaleidoAgent's documentation describes a self-hosted, non-custodial Bitcoin L2 agent: keys stay in the local WDK wallet and the RGB Lightning Node, every trade settles as an atomic HTLC swap on the KaleidoSwap DEX, and an LLM (Claude or OpenAI) drives portfolio rebalancing, scheduled DCA with optional EMA dip/pump sizing, channel-liquidity management and a wallet-assistant chat over KaleidoCLI and MCP tool calls.",
+   "detail": "The decisive caveat is in the docs themselves: dry_run is enforced in code and defaults to true - the swap executor refuses before any tool is called - but the max trade size, BTC reserve and stop-loss values are passed to the model as operating rules in the prompt and skill files. The docs say plainly they are not an independent ceiling: a model that ignores them is not currently stopped by anything else. For agent stacks that spend, the takeaway is to enforce spend caps and reserves outside the model before live funds touch it. Documented, available software rather than a verified new-today launch; nothing installed, no keys or trades tested, not an audited recommendation.",
+   "sources": [
+    {
+     "label": "KaleidoAgent documentation",
+     "url": "https://docs.kaleidoswap.com/ai-tools/kaleido-agent"
     }
    ]
   }
