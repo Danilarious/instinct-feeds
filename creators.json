@@ -1,7 +1,98 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-27",
  "editorial": "A checked collection, not a live trend chart. Dates on notes are publication dates when known; repository metrics are snapshots. Older essays are marked as archive. Inclusion is not endorsement.",
  "entries": [
+  {
+   "id": "suno-class-action-amended-20261125",
+   "date": "2026-11-25",
+   "kind": "Lawsuit / amended complaint",
+   "lens": "Rights & labor",
+   "title": "The Chicks, Carl Craig and 14 more plaintiffs join the right-of-publicity class action against Suno",
+   "summary": "Music Business Worldwide reports that an amended complaint filed November 24 in Boston federal court adds 16 plaintiffs to Jason Isbell and David Lowery's proposed class action against Suno, including The Chicks, Dirty Projectors founder David Longstreth, Carl Craig, Phil Elverum, Ezra Furman and the heirs of Willie Colon and Sam Moore. The case contains no copyright claims: it argues Suno's models answer musicians' names with songs, text descriptions and cover images that evoke them, without consent, brought under right-of-publicity laws in 14 US states and Puerto Rico plus Illinois' Biometric Information Privacy Act.",
+   "detail": "The amended filing adds demonstrations on Suno's v6 models and disputes the company's statement that v6 was trained only on licensed music, citing plaintiff Franz Nicolay, who gave no such consent. Suno's November 3 motion to dismiss argued people often use artist names as shorthand for a genre and challenged the original plaintiffs' standing; the amendment, filed on the last day allowed without the court's permission, adds residents of ten states and two estates. In a separate copyright case, Eminem co-publisher Eight Mile Style added 108 allegedly infringing AI-made tracks to its $47.7 million suit against Suno on November 23. Allegations in a complaint are claims, not established fact, and Suno has denied wrongdoing.",
+   "sources": [
+    {
+     "label": "Music Business Worldwide, November 25",
+     "url": "https://www.musicbusinessworldwide.com/the-chicks-join-jason-isbells-class-action-against-suno-as-amended-complaint-adds-16-plaintiffs-and-targets-v6/"
+    },
+    {
+     "label": "Billboard, November 25",
+     "url": "https://www.billboard.com/pro/the-chicks-willie-colon-join-ai-music-lawsuit-against-suno/"
+    },
+    {
+     "label": "Music Business Worldwide, November 23",
+     "url": "https://www.musicbusinessworldwide.com/eminem-co-publisher-eight-mile-style-adds-108-allegedly-infringing-ai-tracks-to-47-7m-suno-lawsuit-calling-sunos-denials-false/"
+    }
+   ]
+  },
+  {
+   "id": "bumastemra-yourneurotune-20261124",
+   "date": "2026-11-24",
+   "kind": "Rights enforcement / ultimatum",
+   "lens": "Rights & labor",
+   "title": "Dutch society BumaStemra threatens court over a background-music supplier it says runs on Suno",
+   "summary": "BumaStemra gave Netherlands-based YourNeuroTune until noon CET on November 25 to confirm it will stop commercially supplying AI background music the society says is made with Suno, a model it describes as trained on creators' work without permission, or face legal action. Music Business Worldwide reports the company markets its catalog to gyms, hospitality venues and retailers with the pitch that customers no longer need to pay the collecting society.",
+   "detail": "BumaStemra's position is that anyone earning money from music pays the creators, even when an AI model is behind it; the society says it is not against AI, but against the use of members' work without permission or payment. YourNeuroTune told Dutch current affairs program Nieuwsuur it was aware of the ultimatum but would respond on substance only if the matter reaches court. The society's account of how YourNeuroTune's music is made is its own allegation, not an independent technical finding.",
+   "sources": [
+    {
+     "label": "Music Business Worldwide, November 24",
+     "url": "https://www.musicbusinessworldwide.com/dutch-collecting-society-bumastemra-threatens-legal-action-against-ai-background-music-supplier-yourneurotune-alleging-it-uses-suno/"
+    }
+   ]
+  },
+  {
+   "id": "tidal-ai-music-removal-20261125",
+   "date": "2026-11-25",
+   "kind": "Platform policy / announced removal",
+   "lens": "Music & sound",
+   "title": "TIDAL says it will remove about 29 million wholly AI-generated recordings, a harder line than Spotify's",
+   "summary": "TIDAL has announced it intends to remove roughly 29 million fully AI-generated recordings from its platform, per an ecoustics analysis published November 25. The move contrasts with Spotify's expanded Artist Profile Protection, widened to all artists on November 17, which lets musicians review or block releases delivered under their names but leaves AI-generated music on the service under disclosure and verification rules.",
+   "detail": "The 29 million figure and the removal plan are TIDAL's own statements; how 'wholly AI-generated' is detected, and where the line falls for partially generated work, is not yet independently verifiable. Spotify reported in October that it excluded more than 50 million spam and low-quality recordings from recommendations during 2026 and removed over 75 million spam tracks for serious or repeated policy violations. Neither approach is an industry standard, and other services sit elsewhere on this line.",
+   "sources": [
+    {
+     "label": "TIDAL Magazine, November",
+     "url": "https://tidal.com/magazine/article/ai-music-is-banned/1-99745"
+    },
+    {
+     "label": "ecoustics, November 25",
+     "url": "https://www.ecoustics.com/news/spotify-tidal-ai-music-artist-protection/"
+    }
+   ]
+  },
+  {
+   "id": "garyvee-heygen-avatar-20261124",
+   "date": "2026-11-24",
+   "kind": "Likeness licensing / announced deal",
+   "lens": "Creative agents",
+   "title": "Gary Vaynerchuk licenses his likeness to HeyGen for an avatar-run social channel",
+   "summary": "Vaynerchuk has partnered with HeyGen to launch a social channel run by his official AI avatar, announced by press release on November 24. The HeyGaryVee avatar answers audience questions in his voice and style, a high-profile example of a creator licensing their likeness to an AI vendor rather than fighting unauthorized clones.",
+   "detail": "Financial terms, the license's scope and its revocation terms were not disclosed; the announcement is the companies' own description of the deal. An authorized avatar is a consent-and-compensation model, but it also normalizes audiences talking to a synthetic stand-in whose answers are generated, not Vaynerchuk's own words. Inclusion is a deal record, not an endorsement of the product.",
+   "sources": [
+    {
+     "label": "PR Newswire, November 24",
+     "url": "https://www.prnewswire.com/news-releases/gary-vaynerchuk-partners-with-heygen-to-launch-ai-avatar-powered-social-channel-302948881.html"
+    },
+    {
+     "label": "The Next Web, November 24",
+     "url": "https://thenextweb.com/news/gary-vaynerchuk-heygen-ai-avatar-channel"
+    }
+   ]
+  },
+  {
+   "id": "heer-infinite-production-20261123",
+   "date": "2026-11-23",
+   "kind": "Essay / criticism",
+   "lens": "Art & image",
+   "title": "Nick Heer: 'The Work of Art in the Age of Infinite Production'",
+   "summary": "In a nearly 7,000-word Pixel Envy essay, Heer starts from a conversation with Calgary Central Library's creative-in-residence, who built a custom AI image tool without ever opening a terminal, and asks what kind of art we value and why. He shows how closely today's AI-art criticism repeats earlier arguments against photography, sound recording and computers, and lands on what he calls a pro-artist rather than pro-AI position: assess works on their merits instead of treating generative work as inherently illegitimate.",
+   "detail": "Heer does not wave off the ethics of training or the environmental cost; he asks that they be argued as the real differences rather than smuggled into taste. His conclusion, that sufficiently considered AI-made work is still justifiably art, is one critic's reasoned position that many working artists in this archive would contest. Included under this chapter's brief to carry strong opinions in both directions.",
+   "sources": [
+    {
+     "label": "Pixel Envy, November 23",
+     "url": "https://pxlnv.com/blog/the-work-of-art-in-the-age-of-infinite-production/"
+    }
+   ]
+  },
   {
    "id": "sonilo-symphonic-opt-in-20261118",
    "date": "2026-11-18",
@@ -684,6 +775,42 @@
   }
  ],
  "repoPicks": [
+  {
+   "id": "creator-repo-chimera-vocal-synth-20261127",
+   "date": "2026-11-27",
+   "name": "jamesondh/chimera-vocal-synth",
+   "summary": "A physical-modeling voice synthesizer that runs in the browser: every sound comes from a simulated airway, lungs, vocal folds, tract, lips and nose, rather than from samples, with a Rust engine compiled to WebAssembly.",
+   "stars": 3337,
+   "checked": "2026-11-27",
+   "why": "Created November 5 and spreading quickly among musicians and creative coders; you sing, speak and beatbox through a playable vocal tract, and the same engine runs natively for tests and a CLI. A synthesis-first counterpoint to this archive's training-data fights.",
+   "url": "https://github.com/jamesondh/chimera-vocal-synth",
+   "label": "Notable open-source / editorial pick, not a trend rank",
+   "caveat": "MIT-licensed code, not installed or benchmarked here; browser AudioWorklets need a reasonably current machine. Physical modeling sidesteps the recording-training question for the engine itself, which says nothing about how performances captured with it are later used."
+  },
+  {
+   "id": "creator-repo-openmotion-20261127",
+   "date": "2026-11-27",
+   "name": "nexu-io/openmotion",
+   "summary": "A full-stack agentic video studio that turns a reference video into editable motion graphics with your own brand kit, exporting MP4s for YouTube, Shorts, Reels and TikTok.",
+   "stars": 16827,
+   "checked": "2026-11-27",
+   "why": "Ships 300-plus Motion.md guides and support for 22 coding agents, Claude Code and Codex among them, so an agent can run the editing pass. Tagged v0.1.0 this week despite an already large following, a snapshot of agent-driven video tooling converging on the editor workflow.",
+   "url": "https://github.com/nexu-io/openmotion",
+   "label": "Notable open-source / editorial pick, not a trend rank",
+   "caveat": "Apache-2.0 code; the 0.1.0 tag signals early stability expectations regardless of the star count. Not installed or tested here. Giving an agent edit access to footage and brand assets is a trust decision, and output rights depend on the models and assets you feed it."
+  },
+  {
+   "id": "creator-repo-yue2-studio-20261127",
+   "date": "2026-11-27",
+   "name": "timoncool/YuE2-Studio",
+   "summary": "A local AI song generator with an editable score: full songs with vocals, sheet music, covers and exact replay, packaged as a native Windows app with no Python setup.",
+   "stars": 2568,
+   "checked": "2026-11-27",
+   "why": "Version 4.1.0 landed this month with a fine-tune and decoder workflow. The editable score keeps composition decisions in the user's hands instead of prompt-and-pray, and everything renders on your own GPU.",
+   "url": "https://github.com/timoncool/YuE2-Studio",
+   "label": "Notable open-source / editorial pick, not a trend rank",
+   "caveat": "MIT-licensed code; model weights and generated-output rights are separate questions, and local rendering leaves the underlying model's training provenance unresolved. Not installed or tested here."
+  },
   {
    "id": "creator-repo-dreamverse-harness-20261120",
    "date": "2026-11-20",
