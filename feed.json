@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "topics": [
   {
    "id": "blockchain",
@@ -2347,6 +2347,161 @@
    "title": "ZEC dollar downside alert: -6.5% over 24h at $718.02, but spot rose since the last check",
    "summary": "Afternoon dollar threshold cross at about 1:28pm PT: ZEC traded at $718.02, down 6.47% over the trailing 24-hour window, versus $705.18 and -4.53% at 10:28am. The crossing is rolling-window-driven, not a fresh three-hour selloff: actual spot rose about 1.82% between the two checks, and Kraken's $717.79 confirms. ZEC/BTC read 0.01181841, down 7.34% - the same negative pair leg already alerted at 10:29am, so no repeat pair trigger; NIGHT/BTC read 0.000000800861, down 1.46%.",
    "detail": "Snapshot taken about 1:28pm PT on November 26 from the CoinGecko API; a record of the alert, not live data. The rest of the board at the same check: BTC $60,803, up 0.68%; ADA $0.150855, up 2.46%; NIGHT $0.04865547, down 0.53%. No NIGHT rule, support or low extension: Kraken's ZEC 24-hour low remains $662 and the delivered $677.61 anchor is unchanged, so anchors stay at $55,100, $677.61 and $0.04018. Keep the measures separate: the 24-hour percentages compare against a changing price from 24 hours earlier, while the between-check figures compare spot snapshots; this morning's real overnight decline remains a distinct, already-recorded move. No verified fresh news sits behind the cross. Not investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "mkt-friday-digest-2026-11-27",
+   "date": "2026-11-27",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Morning snapshot / no new threshold alerts",
+   "title": "Friday digest: BTC $59,875; ZEC/BTC leads while ZEC's 24h dollar sign flips on window math",
+   "summary": "At 8:20am PST on November 27, CoinGecko showed BTC at $59,875, down 1.14% over the trailing 24 hours; ZEC at $739.57, up 4.79%; ADA at $0.148660, effectively flat (raw -0.00179%); and NIGHT at $0.04852584, up 2.44%. ZEC/BTC read 0.01232839, up 5.73%, and NIGHT/BTC 0.000000808913, up 3.36%, both outperforming BTC. Kraken's lasts of $59,916.30 for BTC, $742.42 for ZEC, $0.148779 for ADA and $0.04851 for NIGHT are close; CoinGecko is used consistently.",
+   "detail": "ZEC's dollar gain was already back below 5% by 8:20am even though spot rose from $736.91 to $739.57 after the 7:34am crossing, another example of the rolling comparison window changing the sign without a fresh move; the pair remains the same delivered positive leg, so no new threshold alert. US cash markets close early today at 1:00pm ET / 10:00am PT per the NYSE calendar, and yesterday was Thanksgiving, so there is no new completed ETF flow report: Farside's November 27 rows show dashes with a 0.0 placeholder, not confirmed zero flows, and the latest completed figures remain November 25's BTC -$453.0M and ZCSH -$2.2M, already delivered. Options-expiry press describes an 08:00 UTC November 27 settlement already past; its size and results are not independently verified, so no headline expiry figure is carried. Kraken lists no NIGHT/BTC or ZEC/BTC pair, so pair figures are CoinGecko-only. Anchors unchanged at $55,100, $677.61 and $0.04018. Historical snapshots, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    },
+    {
+     "label": "NYSE trading hours and calendars",
+     "url": "https://www.nyse.com/markets/hours-calendars"
+    },
+    {
+     "label": "Farside Investors: bitcoin ETF flow table",
+     "url": "https://farside.co.uk/btc/"
+    }
+   ]
+  },
+  {
+   "id": "midnight-netstars-wea-mou-2026-11-27",
+   "date": "2026-11-27",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Ecosystem",
+   "status": "MOU / exploratory study, no launch commitments",
+   "title": "Midnight Foundation, WEA Japan and Netstars sign an MOU to explore private stablecoin payments",
+   "summary": "A November 27 issuer release says the Midnight Foundation, WEA JAPAN and Japanese payment processor Netstars signed a memorandum of understanding to explore privacy-preserving stablecoin payments: confidential merchant balances and records with automatic reconciliation, key protection, and privacy connections to Ethereum and Solana. Tight translation: studying the plumbing, not rolling out payments.",
+   "detail": "The MOU establishes no commercial launch date, participating-merchant rollout or eligible-asset list, and Netstars' existing merchant scale is not Midnight adoption. A memorandum is a statement of exploration, not a shipped product, revenue or network usage. This is an issuer announcement with English press corroboration; no deployed system was independently confirmed. Not investment advice.",
+   "sources": [
+    {
+     "label": "Midnight Foundation via PR Times, November 27 (Japanese)",
+     "url": "https://prtimes.jp/main/html/rd/p/000000004.000189466.html"
+    },
+    {
+     "label": "crypto.news, English corroboration",
+     "url": "https://crypto.news/midnight-foundation-wea-japan-netstars-payments/"
+    }
+   ]
+  },
+  {
+   "id": "kucoin-xmr-delisting-2026-11-27",
+   "date": "2026-11-27",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Policy",
+   "status": "Exchange notice / XMR only, withdrawals scheduled until Dec 31",
+   "title": "KuCoin will delist Monero on November 30, with withdrawals scheduled to stay open until December 31",
+   "summary": "A KuCoin notice says XMR deposits are closed, spot trading delists November 30 at 08:00 UTC, and withdrawals are scheduled to close December 31 at 08:00 UTC. The notice is XMR-only: it names no ZEC or NIGHT action, and the exchange cites platform policies, not a legal ruling.",
+   "detail": "Worth one privacy-sector context bullet for the coins this chapter tracks, no more: this is one venue's policy notice with no legal explanation given, not evidence of a coordinated move against privacy coins, and no reader's exposure should be inferred from it. The withdrawal window is the exchange's stated schedule and can change at its discretion. Not investment advice.",
+   "sources": [
+    {
+     "label": "KuCoin announcement",
+     "url": "https://www.kucoin.com/announcement/en-kucoin-will-delist-xmr-on-2026-11-30"
+    }
+   ]
+  },
+  {
+   "id": "pakt-anchorage-pilot-open-beta-2026-11-27",
+   "date": "2026-11-27",
+   "topic": "blockchain",
+   "project": "bitcoin",
+   "type": "Tools",
+   "status": "Live pilot + open beta / vendor-reported, not audited",
+   "title": "Pakt documents an Anchorage Digital pilot and open beta for policy-controlled agent BTC trading",
+   "summary": "Pakt's own documentation describes a public Anchorage Digital institutional pilot and an open beta in which an agent researches BTC, buys data and inference over x402, and trades BTC perpetuals on Hyperliquid mainnet. Documented policies cover trade size, leverage and slippage plus allowed data, model and research spend, with allow and refuse receipts. This is a vendor-reported live pilot, not audited performance, and perpetuals trading is not native BTC accumulation.",
+   "detail": "Material limit from Pakt's own x402 page: the institutional pilot's payment requests currently rely on the agent's application asking Pakt before Anchorage pays, and making the custodian payment service itself require approval is future work, so this is not universal or non-bypassable custody enforcement. Trading uses its signing path, distinct from payment approval. Open-beta caveats: the browser agent stops when its tab closes, and withdrawals from the USDC-on-Base payment account are unavailable during beta, so casual funding is not advisable. No live agent or receipt execution was tested here. Control-design takeaway for agent trading stacks: separate the data-service budget from trading permission, record refusals as well as fills, and enforce authorization at the signer or payment rail rather than trusting an agent to request checks. Documents dated November 23-24, verified November 27.",
+   "sources": [
+    {
+     "label": "Pakt: Anchorage Digital pilot",
+     "url": "https://usepakt.ai/learn/anchorage-digital-pilot"
+    },
+    {
+     "label": "Pakt: open beta",
+     "url": "https://usepakt.ai/learn/pakt-open-beta"
+    },
+    {
+     "label": "Pakt: x402 agent payments",
+     "url": "https://usepakt.ai/learn/x402-agent-payments"
+    }
+   ]
+  },
+  {
+   "id": "mkt-zec-5pct-upcross-2026-11-27-0734",
+   "date": "2026-11-27",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "ZEC upside alert: +7.2% over 24h at $736.91, mostly rolling-window math",
+   "summary": "Early-morning threshold cross at about 7:34am PT: ZEC traded at $736.91, up 7.21% over the trailing 24 hours, and ZEC/BTC read 0.01234459, up 8.16%. Both were below 5% at 4:34am ($758.76 and +4.65%; pair 0.01233483 and +3.01%). Actual USD spot is down 2.88% since 4:34am and the pair is almost flat at +0.08%, so these positive crossings are mostly a lower comparison base entering the rolling window, not a new three-hour rally.",
+   "detail": "Snapshot taken about 7:34am PT on November 27 from the CoinGecko API; a record of the alert, not live data. The rest of the board at the same check: BTC $59,816, down 0.80%; ADA $0.148373, up 0.66%; NIGHT $0.04859985, up 3.40%; NIGHT/BTC 0.000000814138, up 4.32%, below its 5% pair threshold, with no NIGHT dollar trigger. Kraken's ZEC last was $736.65 with a 24-hour low of $676.35, no 3% extension below the delivered $677.61 anchor, so anchors stay at $55,100, $677.61 and $0.04018. Keep the measures separate: the 24-hour percentages compare against a moving base, while the since-4:34am figures compare spot snapshots. Not investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "mkt-night-btc-5pct-upcross-2026-11-27",
+   "date": "2026-11-27",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "NIGHT/BTC upside alert: +5.1% over 24h, and this crossing includes a real rise",
+   "summary": "Afternoon pair threshold cross at about 1:34pm PT: NIGHT/BTC read 0.000000840563, up 5.09% over the trailing 24 hours, versus 0.000000808913 and +3.36% at the morning digest. Unlike the recent window-only ZEC crossings, the pair itself rose 3.91% since 8:20am and NIGHT rose 3.52% to $0.050235, so this crossing includes a genuine post-digest move. NIGHT's 24-hour dollar gain of 3.31% stays below the +15% trigger; ZEC/BTC read 0.01234098, up 3.89%, back below 5%.",
+   "detail": "Snapshot taken about 1:34pm PT on November 27 from the CoinGecko API; a record of the alert, not live data. The rest of the board at the same check: BTC $59,771, down 1.85%; ZEC $737.55, up 2.14%; ADA $0.149082, down 1.21%. Kraken's NIGHT last of $0.05024 confirms the dollar level; no support or low extension, anchors unchanged at $55,100, $677.61 and $0.04018. Kraken lists no NIGHT/BTC pair, so the pair figure is CoinGecko-only. Keep the measures separate: the 24-hour percentage compares against a moving base, while the since-digest figures compare spot snapshots. Not investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "mkt-zec-recross-5pct-2026-11-27-1634",
+   "date": "2026-11-27",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "ZEC re-crosses +5% on the dollar and the BTC pair at 4:34pm, a window move with spot slightly down",
+   "summary": "Late-afternoon re-crossing at about 4:34pm PT: ZEC traded at $734.08, up 6.09% over the trailing 24 hours, and ZEC/BTC read 0.01225915, up 7.09%, after both were back below 5% at 1:34pm. Actual spot is down 0.47% and the pair down 0.66% since that check, so these are comparison-window changes, not a fresh rally. The morning's positive legs had already ended, the dollar leg by 8:20am and the pair leg by 1:34pm, making these literal new legs under the standing thresholds.",
+   "detail": "Snapshot taken about 4:34pm PT on November 27 from the CoinGecko API; a record of the alert, not live data. The rest of the board at the same check: NIGHT/BTC 0.000000837079, up 4.78%, back below 5% and ending the 1:34pm delivered positive pair leg; NIGHT $0.050125, up 3.80% over 24 hours, no 15% dollar trigger; BTC $59,949, down 1.06%; ADA $0.148139, down 0.43%. Kraken lasts of $734.89 for ZEC and $0.05021 for NIGHT confirm levels; no low or support extension, anchors unchanged at $55,100, $677.61 and $0.04018. Pair figures are CoinGecko-only. Not investment advice.",
    "sources": [
     {
      "label": "CoinGecko aggregate USD/BTC snapshot API",
