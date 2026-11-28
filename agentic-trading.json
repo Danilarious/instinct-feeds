@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-28",
  "editorial": "A weekly rundown of the agentic trading space: agents and LLMs managing deterministic trading systems and strategies, agent wallets, on-chain automation and native swaps. The SatStacker beat leads. Dates belong to the news; stars and versions are checked snapshots, not live ranks. Nothing here is investment advice.",
  "stack": [
   {
@@ -9,19 +9,19 @@
    "note": "New stable release. Includes connector and backtest fixes plus removal of the remote order-book source that deserialized remote HTTP data with pickle; see the specific security note below. Not installed or tested.",
    "latest": "v2.18.0",
    "latestDate": "2026-11-18",
-   "stars": 21331,
-   "checked": "2026-11-21",
+   "stars": 21418,
+   "checked": "2026-11-28",
    "url": "https://github.com/hummingbot/hummingbot"
   },
   {
    "id": "condor",
    "name": "Condor",
    "role": "Agent harness",
-   "note": "No published GitHub releases or tags at check. Repository pushed November 20. Agent harness with dry-run support; README still recommends private-network access and strong credentials for the trading API. A push is not a release.",
+   "note": "Still no tagged or published releases, though repository commits continued through November 26. Not installed or tested.",
    "latest": "No tagged releases",
-   "latestDate": "2026-11-20",
-   "stars": 266,
-   "checked": "2026-11-21",
+   "latestDate": "2026-11-26",
+   "stars": 270,
+   "checked": "2026-11-28",
    "url": "https://github.com/hummingbot/condor"
   },
   {
@@ -31,19 +31,19 @@
    "note": "Unchanged release split: GitHub latest stable and PyPI remain 1.231.0; 2.0.0rc9 is a separate prerelease from November 10, not a stable upgrade recommendation.",
    "latest": "v1.231.0 stable / v2.0.0rc9 prerelease",
    "latestDate": "2026-11-10",
-   "stars": 31723,
-   "checked": "2026-11-21",
+   "stars": 31877,
+   "checked": "2026-11-28",
    "url": "https://github.com/nautechsystems/nautilus_trader"
   },
   {
    "id": "jesse",
    "name": "Jesse",
    "role": "Strategy research + live",
-   "note": "PyPI remains 3.6.1, uploaded November 10, matching the GitHub tag. No published GitHub release records at check. Later discussion of this version is not a new package release.",
-   "latest": "3.6.1",
-   "latestDate": "2026-11-10",
-   "stars": 8827,
-   "checked": "2026-11-21",
+   "note": "Two releases inside the week: 3.7.0 on November 23, then 3.7.1 on November 28. Not installed or tested.",
+   "latest": "3.7.1",
+   "latestDate": "2026-11-28",
+   "stars": 8842,
+   "checked": "2026-11-28",
    "url": "https://github.com/jesse-ai/jesse"
   },
   {
@@ -53,8 +53,8 @@
    "note": "GitHub stable and PyPI both remain 2026.10. No new release this week; simulated performance still does not establish live fills or profitability.",
    "latest": "2026.10",
    "latestDate": "2026-10-30",
-   "stars": 57122,
-   "checked": "2026-11-21",
+   "stars": 57353,
+   "checked": "2026-11-28",
    "url": "https://github.com/freqtrade/freqtrade"
   },
   {
@@ -64,8 +64,8 @@
    "note": "Separate projects: Wavelength stable remains v0.2.1 (62 stars); v0.2.2-rc1 is a tag, not a published release. lightning-agent-tools remains v0.2.5, released February 11 (61 stars, last pushed May 29). No new stable BTC-payment release found this week.",
    "latest": "Wavelength v0.2.1 / agent-tools v0.2.5",
    "latestDate": "2026-10-31",
-   "stars": 62,
-   "checked": "2026-11-21",
+   "stars": 63,
+   "checked": "2026-11-28",
    "url": "https://github.com/lightninglabs/wavelength"
   },
   {
@@ -75,8 +75,8 @@
    "note": "PyPI coinbase-agentkit remains 0.7.4 from October 2025; GitHub release records still show March 2025 nightlies. Repository last pushed November 10, 2026. No fresh release inferred from Coinbase product announcements.",
    "latest": "PyPI 0.7.4 / old GitHub nightlies",
    "latestDate": "2025-10-03",
-   "stars": 1359,
-   "checked": "2026-11-21",
+   "stars": 1364,
+   "checked": "2026-11-28",
    "url": "https://github.com/coinbase/agentkit"
   },
   {
@@ -87,7 +87,7 @@
    "latest": "v2026.11.4",
    "latestDate": "2026-11-21",
    "stars": 104,
-   "checked": "2026-11-21",
+   "checked": "2026-11-28",
    "url": "https://github.com/tkhq/sdk"
   }
  ],
@@ -556,6 +556,120 @@
      "url": "https://pypi.org/pypi/coinbase-agentkit/json"
     }
    ]
+  },
+  {
+   "id": "at-visa-agent-wallet-taskmarket-2026-11-23",
+   "date": "2026-11-23",
+   "type": "Agent wallets",
+   "status": "Experimental launch / approved US users only",
+   "title": "Visa Crypto Labs opens an experimental agent wallet that pays OUSD for completed tasks",
+   "summary": "The Block reports Visa Crypto Labs launched an experimental version of its Visa CLI agent wallet on November 23: approved US users with an eligible Visa card verify an AI agent with that credential, register it in Visa's Agent Directory, and earn OUSD when the agent's task submissions are accepted. The wallet is built on Tempo using the Machine Payments Protocol, and the first integration, Taskmarket, pays in OUSD or USDC on Tempo and Base; its site showed 25-plus open tasks at 10 to 50 OUSD.",
+   "detail": "This extends Visa's Trusted Agent Protocol from e-commerce into agent wallets and task marketplaces, per Cuy Sheffield's statement. Keep the scope tight: experimental, approved and eligible US users only, rewards depend on buyers accepting work, and OUSD earnings are a task marketplace mechanic, not trading yield. Visa's framing, that agents extend rather than replace a person's productive capacity, is the vendor's own positioning. Not investment advice.",
+   "sources": [
+    {
+     "label": "The Block, November 23",
+     "url": "https://www.theblock.co/news/business/2026-11-23-visa-launches-experimental-ai-agent-wallet-for-eligible-us-users-to-earn-ousd-from-paid-tasks-444903"
+    }
+   ]
+  },
+  {
+   "id": "at-solana-ai-platform-2026-11-23",
+   "date": "2026-11-23",
+   "type": "Platforms",
+   "status": "Launched / vendor performance claims unverified",
+   "title": "Solana launches solana.ai, bundling an agent kit, payments and a 24/7 trading agent",
+   "summary": "crypto.news reports Solana introduced solana.ai on November 23, a platform for autonomous agents to trade, manage wallets and pay for services on its chain. It bundles the Solana Agent Kit, the pay.sh payments tool and Milo, a trading agent described as operating around the clock without human approval per transaction, plus Confidential Compute in devnet beta, with Alibaba Cloud named as a launch partner for agent payments.",
+   "detail": "The headline performance number, more than 1 million payment-channel updates per second, is Solana's own testing claim, not an independent benchmark. An agent that trades without per-transaction approval shifts the entire control burden to whatever limits were configured up front; the coverage does not describe what those limits are for Milo. Platform launch, not an endorsement; not investment advice.",
+   "sources": [
+    {
+     "label": "crypto.news, November 23",
+     "url": "https://crypto.news/solana-launches-solana-ai-platform-for-autonomous-ai-agents-and-payments/"
+    }
+   ]
+  },
+  {
+   "id": "at-aws-x402-marketplace-2026-11-23",
+   "date": "2026-11-23",
+   "type": "Agent payments",
+   "status": "Live feature / terms set by AWS",
+   "title": "AI agents can now pay AWS Marketplace sellers per request, in dollars on the AWS bill",
+   "summary": "PPC Land reports AWS Marketplace now supports agentic payments: a developer's agent gets a five-minute payment token and can pay sellers per request in dollars, capped at $10,000 per payment, with charges landing on the ordinary AWS bill and no crypto wallet involved. Tavily is among the first sellers.",
+   "detail": "Notable because it is the x402-style pay-per-request pattern running entirely in dollars inside a cloud bill, rather than in stablecoins on-chain. The guardrails that exist are AWS's: token lifetime and the per-payment cap. How much AWS keeps per sale is not published. Agent spending limits still sit with the developer's own configuration, as this lane's wallet-safety notes keep stressing.",
+   "sources": [
+    {
+     "label": "PPC Land, November 23",
+     "url": "https://ppc.land/ai-agents-can-now-pay-aws-marketplace-sellers-per-request-in-dollars/"
+    }
+   ]
+  },
+  {
+   "id": "at-valory-onchainbench-2026-11-26",
+   "date": "2026-11-26",
+   "type": "Security / evaluation",
+   "status": "Open benchmark / first release, self-published methodology",
+   "title": "Valory unveils OnchainBench, an open benchmark for how safely agents use crypto wallets",
+   "summary": "Valory, the company behind Olas, announced OnchainBench on November 26: an open benchmark that tests how safely and reliably AI agents operate crypto wallets. The benchmark site and an Apache-2.0 repository are public.",
+   "detail": "A benchmark for wallet behavior lands directly on this lane's recurring question, which payment limits a wallet signature actually enforces. Caveats: the methodology is self-published, results are vendor-reported, and the repository is days old with minimal third-party adoption so far, so treat any leaderboard as a starting point rather than an industry verdict.",
+   "sources": [
+    {
+     "label": "OnchainBench site",
+     "url": "https://onchainbench.ai/"
+    },
+    {
+     "label": "Chainwire announcement, November 26",
+     "url": "https://chainwire.org/2026/11/26/valory-unveils-onchainbench-first-open-benchmark-to-test-how-safely-and-reliably-ai-agents-use-crypto-wallets/"
+    }
+   ]
+  },
+  {
+   "id": "at-pakt-anchorage-pilot-2026-11-26",
+   "date": "2026-11-26",
+   "type": "Agentic trading",
+   "status": "Live pilot + open beta / vendor-reported, custody enforcement limited",
+   "title": "Pakt and Anchorage Digital run a public pilot of an agent trading BTC perpetuals under policy limits",
+   "summary": "Pakt's documentation describes a public Anchorage Digital institutional pilot and an open beta in which an agent researches BTC, buys data and inference over x402, and trades BTC perpetuals on Hyperliquid mainnet, with documented policies for trade size, leverage, slippage and research spend plus allow and refuse receipts. Also recorded on this hub's main feed.",
+   "detail": "The material limit, from Pakt's own x402 page: the pilot's payment requests currently rely on the agent's application asking Pakt before Anchorage pays, so custodian-side enforcement is future work, not a shipped guarantee. Open beta caveats: the browser agent stops when its tab closes, and withdrawals from the USDC-on-Base payment account are unavailable during beta. Vendor-reported pilot, not audited performance; perpetuals are not native BTC accumulation. Not investment advice.",
+   "sources": [
+    {
+     "label": "Pakt: Anchorage Digital pilot",
+     "url": "https://usepakt.ai/learn/anchorage-digital-pilot"
+    },
+    {
+     "label": "Pakt: open beta",
+     "url": "https://usepakt.ai/learn/pakt-open-beta"
+    }
+   ]
+  },
+  {
+   "id": "at-stack-watch-2026-11-28",
+   "date": "2026-11-28",
+   "type": "Stack watch",
+   "status": "GitHub/PyPI snapshots checked November 28 / no installs",
+   "title": "Stack watch: Jesse ships 3.7.0 and 3.7.1 within the week; the rest of the stack holds",
+   "summary": "Jesse published 3.7.0 to PyPI on November 23 and 3.7.1 on November 28, hours before this check. Hummingbot remains v2.18.0 from November 18, Freqtrade remains 2026.10, Nautilus Trader remains 1.231.0 stable with the separate 2.0.0rc9 prerelease, and Turnkey remains v2026.11.4 from November 21 UTC.",
+   "detail": "BTC lane: Wavelength remains v0.2.1 with only the older rc2 tag, and lightning-agent-tools remains v0.2.5. Condor still has no tagged or published releases, though repository commits continued through November 26. AgentKit's PyPI package remains 0.7.4 from October 2025. All eight stack cards carry fresh November 28 checks and star snapshots. No strategies, accounts or software were changed. Release records, not proof of execution quality or returns.",
+   "sources": [
+    {
+     "label": "Jesse on PyPI",
+     "url": "https://pypi.org/pypi/jesse/json"
+    },
+    {
+     "label": "Hummingbot releases API",
+     "url": "https://api.github.com/repos/hummingbot/hummingbot/releases"
+    },
+    {
+     "label": "Nautilus Trader on PyPI",
+     "url": "https://pypi.org/pypi/nautilus_trader/json"
+    },
+    {
+     "label": "Freqtrade releases API",
+     "url": "https://api.github.com/repos/freqtrade/freqtrade/releases"
+    },
+    {
+     "label": "Turnkey SDK releases",
+     "url": "https://api.github.com/repos/tkhq/sdk/releases"
+    }
+   ]
   }
  ],
  "repoPicks": [
@@ -810,6 +924,42 @@
    "url": "https://github.com/lightninglabs/wavelength",
    "caveat": "MIT. Stable remains v0.2.1; v0.2.2-rc1 is only a tag. Separate from lightning-agent-tools. Wallet operation carries fees, expiry/recovery and custody risks; no funds moved and no software tested.",
    "label": "Notable open-source / editorial revisit"
+  },
+  {
+   "id": "tradingagents-2026-11-28",
+   "date": "2026-11-28",
+   "name": "TauricResearch/TradingAgents",
+   "summary": "A multi-agent LLM framework for trading research: analyst, researcher, trader and risk roles debate and decide, paper-trading oriented.",
+   "stars": 123999,
+   "checked": "2026-11-28",
+   "why": "Tagged its first stable release this week, v1.0.0 on November 24 followed by v1.0.1 on November 25, after nearly a year as a research preview. The most-starred repo this lane has tracked.",
+   "url": "https://github.com/TauricResearch/TradingAgents",
+   "caveat": "Apache-2.0. A research framework, not a live trading system with enforceable limits; star count is a checked snapshot, not a trend rank or evidence of returns. Not installed or tested.",
+   "label": "Notable open-source / editorial pick"
+  },
+  {
+   "id": "vapi-network-2026-11-28",
+   "date": "2026-11-28",
+   "name": "vAPI-Network/vapi-network",
+   "summary": "A buyer-controlled client for x402 API payments in USDC on Base, giving an agent one wallet per paid call.",
+   "stars": 5967,
+   "checked": "2026-11-28",
+   "why": "Created in October and still committing through November 27; buyer-side control of x402 payments is the half of the protocol this lane's security notes keep pointing at.",
+   "url": "https://github.com/vAPI-Network/vapi-network",
+   "caveat": "Apache-2.0. Client-side control helps the buyer but is not custodian-side enforcement, the limit called out in this week's Pakt entry. Not installed or tested.",
+   "label": "Notable open-source / editorial pick"
+  },
+  {
+   "id": "onchainbench-2026-11-28",
+   "date": "2026-11-28",
+   "name": "valory-xyz/onchainbench",
+   "summary": "The open benchmark behind this week's Valory announcement: tasks that test how safely and reliably AI agents operate crypto wallets.",
+   "stars": 3,
+   "checked": "2026-11-28",
+   "why": "Included because the artifact matters more than the count: the benchmark's tasks and methodology are worth reading alongside its announcement, and the honest snapshot is three stars as of this check.",
+   "url": "https://github.com/valory-xyz/onchainbench",
+   "caveat": "Apache-2.0, created November 19. Methodology is self-published and results are vendor-reported; near-zero adoption so far. Not installed or tested.",
+   "label": "Notable open-source / editorial pick"
   }
  ]
 }
