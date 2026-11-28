@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "topics": [
   {
    "id": "blockchain",
@@ -2510,6 +2510,94 @@
     {
      "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
      "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "mkt-night-btc-5pct-upcross-2026-11-28",
+   "date": "2026-11-28",
+   "topic": "blockchain",
+   "project": "cardano",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "NIGHT/BTC upside alert: +9.5% over 24h at 1:35am, a real rise that held above threshold into morning",
+   "summary": "Overnight pair threshold cross at about 1:35am PT on November 28: NIGHT/BTC read 0.000000888388, up 9.50% over the trailing 24 hours, versus +3.49% at 10:34pm, where the prior leg had already ended below threshold, making this a literal new leg. The pair itself rose 5.74% since 10:34pm and NIGHT rose 5.42% to $0.05291, so this crossing includes a genuine overnight rise rather than pure window math. The leg extended to 0.000000920286, up 18.05%, at 4:35am and remained above 5% at +6.53% in the 8:20am digest.",
+   "detail": "Snapshot taken about 1:35am PT on November 28 from the CoinGecko API; a record of the alert, not live data. Keep the measures separate: the 18.05% figure is the BTC-denominated pair's 24-hour comparison, while NIGHT's dollar gain peaked at +13.72% at the same 4:35am check and was never observed at the +15% dollar trigger; this is a pair notification, not the dollar FOMO threshold. The rest of the board at 1:35am: BTC $59,590, down 3.51%; ZEC $732.61, down 3.40%; ADA $0.146454, down 4.13%; ZEC/BTC 0.01230107, down 0.0018%. Kraken's NIGHT last of $0.05443 with a 24-hour high of $0.05534 corroborated the level at 4:35am with venue and timing differences. No low or support extension; anchors unchanged at $55,100, $677.61 and $0.04018. Kraken lists no NIGHT/BTC pair, so pair figures are CoinGecko-only. Not investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "mkt-zec-5pct-downcross-2026-11-28",
+   "date": "2026-11-28",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Market structure",
+   "status": "Price alert / live API snapshot",
+   "title": "ZEC downside alert: -5.1% over 24h at 4:35am, back inside threshold by morning",
+   "summary": "Overnight dollar threshold cross at about 4:35am PT on November 28: ZEC traded at $720.17, down 5.08% over the trailing 24 hours, versus $732.61 and -3.40% at 1:35am, with actual spot down 1.70% between the checks. Both of November 27's positive legs had ended the prior evening, so this was a new negative leg under the standing thresholds. By the 8:20am digest the 24-hour reading was back inside at -2.57% with spot at $722.96, so the exit came mostly from the rolling comparison window, not a spot bounce.",
+   "detail": "Snapshot taken about 4:35am PT on November 28 from the CoinGecko API; a record of the alert, not live data. The rest of the board at the same check: BTC $59,241, down 3.69%; ADA $0.146445, down 4.06%; NIGHT $0.054491, up 13.72% over 24 hours and still below the +15% dollar trigger; NIGHT/BTC 0.000000920286, up 18.05%, the same held positive pair leg; ZEC/BTC 0.01216267, down 1.47%. No low or support extension, so anchors stay at $55,100, $677.61 and $0.04018. Keep the measures separate: the 24-hour percentages compare against a moving base, while between-check figures compare spot snapshots. Pair figures are CoinGecko-only. Not investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    }
+   ]
+  },
+  {
+   "id": "zec-epoch-pq-pool-circuit-design-2026-11-28",
+   "date": "2026-11-28",
+   "topic": "blockchain",
+   "project": "zcash",
+   "type": "Research",
+   "status": "Research update / early design phase, no deployment",
+   "title": "Shielded Labs begins circuit design for Epoch's post-quantum shielded pool",
+   "summary": "A first technical Epoch update from Shielded Labs, dated November 25 and verified in full on November 28, describes early circuit design for a post-quantum shielded pool. The team is evaluating hash-based STARKs against lattice-based SNARKs and has started on hash, lattice and bitwise circuits, aiming to estimate proof sizes before choosing a commitment scheme. Tight read: Epoch has moved from concept into concrete circuit and proof-system design.",
+   "detail": "This is a research progress note, not a product event: no deployed post-quantum pool, testnet or completed cryptographic upgrade exists. The issuer states a conditional aim to select a candidate proof system by the end of January; that is the team's own target, not a confirmed date, and its reference to a Tachyon upgrade expected in January is the issuer's expectation, not an independently confirmed consensus event. Not investment advice.",
+   "sources": [
+    {
+     "label": "Shielded Labs: Epoch post-quantum shielded pool update, November 25",
+     "url": "https://shieldedlabs.net/epoch-post-quantum-shielded-pool/"
+    }
+   ]
+  },
+  {
+   "id": "mkt-saturday-digest-2026-11-28",
+   "date": "2026-11-28",
+   "topic": "blockchain",
+   "project": "ecosystem",
+   "type": "Market structure",
+   "status": "Morning snapshot / overnight threshold legs delivered",
+   "title": "Saturday digest: BTC $59,394; overnight NIGHT/BTC cross still above 5%, ZEC's -5% cross has ended",
+   "summary": "At 8:20am PST on November 28, CoinGecko showed BTC at $59,394, down 0.82% over the trailing 24 hours; ZEC at $722.96, down 2.57%; ADA at $0.145188, down 2.45%; and NIGHT at $0.051396, up 5.93%. ZEC/BTC read 0.01216007, down 2.03% and underperforming BTC, while NIGHT/BTC read 0.000000864477, up 6.53% and outperforming. Kraken's lasts of $59,394.60 for BTC, $722.65 for ZEC, $0.145084 for ADA and $0.05136 for NIGHT are close; CoinGecko is used consistently.",
+   "detail": "Two held overnight threshold legs were delivered with this digest. NIGHT/BTC crossed +5% at about 1:35am PT and still held above it at +6.53% at 8:20am; that is a BTC-pair event, since NIGHT's 24-hour dollar gain peaked at 13.72% at 4:35am and was never observed at the +15% trigger. ZEC's 4:35am dollar crossing to -5.08% ($720.17) has already ended: the trailing window read -2.57% at 8:20am with spot little changed, so the exit is mostly rolling-window math, not a spot bounce. Farside's completed Friday rows show bitcoin ETF outflows of $389.0M, including IBIT at -$327.2M, the eighth consecutive negative cash session since November 17; ZCSH shows an actual issuer-reported 0.0 rather than Thursday's placeholder dash. These are flows, not evidence of what caused prices. Anchors unchanged at $55,100, $677.61 and $0.04018. Kraken lists no NIGHT/BTC or ZEC/BTC pair, so pair figures are CoinGecko-only. Historical snapshots, not live quotes or investment advice.",
+   "sources": [
+    {
+     "label": "CoinGecko aggregate USD/BTC snapshot API",
+     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Czcash%2Ccardano%2Cmidnight-3&vs_currencies=usd%2Cbtc&include_24hr_change=true"
+    },
+    {
+     "label": "Kraken ticker: NIGHT/USD, ZEC/USD, BTC/USD and ADA/USD venue quotes",
+     "url": "https://api.kraken.com/0/public/Ticker?pair=NIGHTUSD%2CZECUSD%2CXBTUSD%2CADAUSD"
+    },
+    {
+     "label": "Farside Investors: bitcoin ETF flow table",
+     "url": "https://farside.co.uk/btc/"
+    },
+    {
+     "label": "Farside Investors: Zcash ETF flow table",
+     "url": "https://farside.co.uk/zec/"
     }
    ]
   }
